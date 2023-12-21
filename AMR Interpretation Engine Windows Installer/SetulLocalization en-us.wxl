@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+	<String Id="LCID" Localizable="no">1033</String>
+	<String Id="ApplicationTitle">AMR Interpretation Engine</String>
+	<String Id="ManufacturerName">Brigham and Women's Hospital</String>
+	<String Id="DowngradeError">A more recent version of this tool is currently installed. To downgrade versions, please first uninstall the application in "Add/Remove Programs".</String>
+	<String Id="AMR_EngineFeatureDescription">A utility to determine antimicrobial test interpretations.</String>
+</WixLocalization>

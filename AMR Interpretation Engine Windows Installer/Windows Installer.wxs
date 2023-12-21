@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"
+	 xmlns:ui="http://schemas.microsoft.com/wix/UIExtension"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+
+	<Product Id="*" Name="!(loc.ApplicationTitle)" Language="!(loc.LCID)" Version="$(var.Version)"
+			 Manufacturer="!(loc.ManufacturerName)" UpgradeCode="1a6ff147-1163-4cc4-baa8-0719a40ceb05">
+
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<!-- Needs to check for presence of .NET 6.0. This isn't built into WiX yet, so it must be done manually through a registry search. -->
+
+		<!-- Prevent downgrades. To downgrade, the software must be uninstalled through Add/Remove programs first. -->
+		<MajorUpgrade Schedule="afterInstallInitialize" DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+		<!-- Embed all resources into the installer package. -->
+		<MediaTemplate EmbedCab="yes" />
+
+		<!-- Perform an upgrade for new releases. -->
+		<Upgrade Id="1a6ff147-1163-4cc4-baa8-0719a40ceb05">
+			<UpgradeVersion Minimum="0.0.0" Property="PREVIOUSFOUND" IncludeMinimum="yes" OnlyDetect="no" Maximum="$(var.Version)" IncludeMaximum="no" />
+		</Upgrade>
+
+		<!-- Custom dialog ordering. -->
+		<Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+		<UIRef Id="WixUI_Mondo_Custom" />
+		<UIRef Id="WixUI_ErrorProgressText" />
+
+		<Icon Id="microscope.ico" SourceFile="$(var.Interpretation Interface.TargetDir)microscope.ico" />
+
+		<!-- Replaces the default EULA text and background images -->
+		<WixVariable Id="WixUILicenseRtf" Value="eula.rtf" />
+		<WixVariable Id="WixUIDialogBmp" Value="Dialog.bmp" />
+		<WixVariable Id="WixUIBannerBmp" Value="Banner.bmp" />
+
+		<?if $(var.Platform) = x64 ?>
+		<?define Win64 = "yes" ?>
+		<?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
+		<?else ?>
+		<?define Win64 = "no" ?>
+		<?define PlatformProgramFilesFolder = "ProgramFilesFolder" ?>
+		<?endif ?>
+
+		<!-- Configure installation features. -->
+		<Feature Id="AMR_Engine" Title="!(loc.ApplicationTitle)" Level="1" Display="collapse"
+				 ConfigurableDirectory="INSTALLFOLDER" Description="!(loc.AMR_EngineFeatureDescription)" Absent="disallow">
+
+			<ComponentRef Id="ProgramMenuDir" />
+			<ComponentGroupRef Id="RootDirectoryComponents" />
+			<ComponentGroupRef Id="ResourceComponents" />
+			<ComponentGroupRef Id="CLI_Components" />
+		</Feature>
+	</Product>
+
+	<!-- Define AMR Engine components. -->
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="$(var.Title)">
+					<!-- Language folders are disabled until we have support for them. -->
+					<!-- 
+					<Directory Id="ES_LANGUAGEFOLDER" Name="es" />
+					<Directory Id="FR_LANGUAGEFOLDER" Name="fr" />
+					<Directory Id="ZH_HANS_LANGUAGEFOLDER" Name="zh-Hans" />
+					-->
+
+					<Directory Id="RESOURCESFOLDER" Name="Resources" />
+				</Directory>
+			</Directory>
+
+			<!-- Adds a program menu shortcut -->
+			<Directory Id="ProgramMenuFolder" Name="Programs">
+				<Directory Id="ProgramMenuDir" Name="$(var.Title)">
+					<Component Id="ProgramMenuDir" Guid="EEF3E328-7F17-414A-A308-3BA5E7806766">
+						<RemoveFolder Id="ProgramMenuDir" On="uninstall" />
+						<RegistryValue Root="HKCU" Key="Software\$(var.Title)" Type="string" Value="" KeyPath="yes" />
+					</Component>
+				</Directory>
+			</Directory>
+
+			<Directory Id="DesktopFolder" Name="Desktop" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="RootDirectoryComponents" Directory="INSTALLFOLDER">
+
+			<!-- Main executable and libraries. -->
+			<Component Id="InterpretationInterface" Guid="E4C90ED0-25B2-4C01-97A0-ACD5C83553CA">
+				<File Id="InterpretationInterface.exe" Name="Interpretation Interface.exe"
+					  Source="$(var.Interpretation Interface.TargetDir)Interpretation Interface.exe" KeyPath="yes">
+
+					<Shortcut Id="StartMenuShortcut" Directory="ProgramMenuDir" Name="$(var.Title)"
+					          WorkingDirectory="INSTALLDIR" Icon="microscope.ico" IconIndex="0" Advertise="yes" />
+					<Shortcut Id="DesktopShortcut" Directory="DesktopFolder" Name="$(var.Title)"
+										WorkingDirectory="INSTALLDIR" Icon="microscope.ico" IconIndex="0" Advertise="yes" />
+				</File>
+			</Component>
+
+			<Component Id="InterpretationInterfaceLibrary" Guid="DBD65948-0FE9-4588-BD0A-131B4FEB64A6">
+				<File Id="InterpretationInterface.dll" Name="Interpretation Interface.dll"
+					  Source="$(var.Interpretation Interface.TargetDir)Interpretation Interface.dll" KeyPath="yes" />
+			</Component>
+
+			<Component Id="InterpretationEngine" Guid="2F0220D4-6FC5-4328-9D99-1F41C72D8560">
+				<File Id="InterpretationEngine.dll" Name="Interpretation Engine.dll"
+					  Source="$(var.Interpretation Interface.TargetDir)Interpretation Engine.dll" KeyPath="yes" />
+			</Component>
+
+			<Component Id="InterpretationInterfaceConfig" Guid="21E6781F-D585-42A7-8AA2-1257CBDBD014">
+				<File Id="InterpretationInterfaceRuntimeconfig.json" Name="Interpretation Interface.runtimeconfig.json"
+					  Source="$(var.Interpretation Interface.TargetDir)Interpretation Interface.runtimeconfig.json" KeyPath="yes" />
+			</Component>
+
+			
+		</ComponentGroup>
+
+		<ComponentGroup Id="CLI_Components" Directory="INSTALLFOLDER">
+			<!-- CLI components. -->
+			<Component Id="InterpretationCLI.exe" Guid="220A63D9-027E-4134-93A9-E8245002DDA6">
+				<File Id="InterpretationCLI.exe" Name="Interpretation CLI.exe"
+					  Source="$(var.Interpretation CLI.TargetPath)" KeyPath="yes" />
+			</Component>
+
+			<Component Id="InterpretationCLIdll" Guid="ECAC5873-9C2A-4C03-8127-64A388BC624F">
+				<File Id="InterpretationCLIdll" Name="Interpretation CLI.dll"
+					  Source="$(var.Interpretation CLI.TargetDir)Interpretation CLI.dll" KeyPath="yes" />
+			</Component>
+		</ComponentGroup>
+
+		<!-- Resource files. -->
+		<ComponentGroup Id="ResourceComponents" Directory="RESOURCESFOLDER">
+			<Component Id="Antibiotics.txt" Guid="8F3E7CCA-CEF5-410B-B3A3-CEBB1E721BE5">
+				<File Id="Antibiotics.txt" Name="Antibiotics.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\Antibiotics.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="Breakpoints.sql" Guid="7FE3B04D-97C8-4231-BF5F-A757D35DB273">
+				<File Id="Breakpoints.sql" Name="Breakpoints.sql"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\Breakpoints.sql" KeyPath="yes" />
+			</Component>
+
+			<Component Id="Breakpoints.txt" Guid="416619B2-4D18-4013-ACB8-206B5BE3791B">
+				<File Id="Breakpoints.txt" Name="Breakpoints.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\Breakpoints.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="ExpectedResistancePhenotypes.sql" Guid="EADE66E0-2037-4650-95BF-D63011E03C21">
+				<File Id="ExpectedResistancePhenotypes.sql" Name="ExpectedResistancePhenotypes.sql"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\ExpectedResistancePhenotypes.sql" KeyPath="yes" />
+			</Component>
+
+			<Component Id="ExpectedResistancePhenotypes.txt" Guid="21372A31-E6C4-4D9E-96B0-382CA236323C">
+				<File Id="ExpectedResistancePhenotypes.txt" Name="ExpectedResistancePhenotypes.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\ExpectedResistancePhenotypes.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="ExpertInterpretationRules.txt" Guid="8230B967-35E7-4620-9E3D-3AE9E63EAEA9">
+				<File Id="ExpertInterpretationRules.txt" Name="ExpertInterpretationRules.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\ExpertInterpretationRules.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="Organisms.txt" Guid="600629F9-229D-47AF-8584-F63CFDFA0B8A">
+				<File Id="Organisms.txt" Name="Organisms.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\Organisms.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="QC_Ranges.txt" Guid="9738F122-4CD9-466A-975E-E4212AFF0971">
+				<File Id="QC_Ranges.txt" Name="QC_Ranges.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\QC_Ranges.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="SampleConfig.json" Guid="7AFE14B4-9771-438A-87C2-4C1C206B2A1B">
+				<File Id="SampleConfig.json" Name="SampleConfig.json"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\SampleConfig.json" KeyPath="yes" />
+			</Component>
+
+			<Component Id="SampleInputFile.txt" Guid="111329B8-B7B5-4786-AFC5-A37765F80207">
+				<File Id="SampleInputFile.txt" Name="SampleInputFile.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\SampleInputFile.txt" KeyPath="yes" />
+			</Component>
+
+			<Component Id="SampleUserDefinedBreakpoints.txt" Guid="E84B8049-CA83-4854-A312-0583C19DAC35">
+				<File Id="SampleUserDefinedBreakpoints.txt" Name="SampleUserDefinedBreakpoints.txt"
+					  Source="$(var.Interpretation Interface.TargetDir)Resources\SampleUserDefinedBreakpoints.txt" KeyPath="yes" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

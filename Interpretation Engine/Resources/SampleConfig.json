@@ -1,0 +1,28 @@
+{
+	"RoundHalfDilutions": true,
+	"IncludeInterpretationComments": false,
+	"EnabledExpertInterpretationRules": [
+		"BLNAR-HFLU",
+		"MRS",
+		"ICR"
+	],
+	"_Comment_IgnoredExpertInterpretationRules": [
+		"ESBL-CONFIRMED",
+		"ESBL-AMPC-PROBABLE"
+	],
+	"GuidelineYear": 2023,
+	"PrioritizedBreakpointTypes": [ "Human", "Animal", "ECOFF" ],
+	"PrioritizedSitesOfInfection": [
+		"Non-meningitis",
+		"Parenteral",
+		"",
+		"Uncomplicated urinary tract infection",
+		"Meningitis",
+		"Oral",
+		"Intravenous",
+		"Extraintestinal"
+	],
+	"DisabledSitesOfInfection": [],
+	"HorizontalAntibioticResults": true,
+	"DISABLED_UserDefinedBreakpointsFile": "Resources\\SampleUserDefinedBreakpoints.txt"
+}

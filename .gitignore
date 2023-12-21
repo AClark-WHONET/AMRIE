@@ -1,0 +1,6 @@
+﻿/.vs
+bin/
+obj/
+*.csproj.user
+/Interpretation Interface/Properties/launchSettings.json
+/Interpretation CLI/Properties/launchSettings.json
