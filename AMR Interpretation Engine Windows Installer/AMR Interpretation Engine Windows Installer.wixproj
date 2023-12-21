@@ -73,7 +73,8 @@
     <Error Text="The WiX Toolset v3.11 (or newer) build tools must be installed to build this project. To download the WiX Toolset, see http://wixtoolset.org/releases/" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent />
+    <PostBuildEvent>echo Attempting to sign installation package...
+"C:\Program Files (x86)\Windows Kits\10\App Certification Kit\signtool.exe" sign /tr http://timestamp.sectigo.com /td sha256 /fd sha256 /d "AMRIE" /a "$(TargetDir)en-us\$(TargetName).msi"</PostBuildEvent>
   </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.
