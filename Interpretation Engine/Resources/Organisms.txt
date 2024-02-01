@@ -2933,3 +2933,5 @@ srh		Streptococcus phocae	C		+			+			STR				113992005	Streptococcus phocae	32270
 pbi		Parabacteroides spp.	C		a	X					PBI									Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Parabacteroides
 bvu		Phocaeicola vulgatus	C		a	X		-			PHL	BFX													
 phl		Phocaeicola spp.	C		a	X		-			PHL														
+acg		Acinetobacter guillouiae	C		-			-		NFR	AC-				700397005	Acinetobacter guillouiae	7699834		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter
+anl		Acinetobacter lactucae	C		-			-		NFR	AC-				787183008	Acinetobacter lactucae	9407395		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter
