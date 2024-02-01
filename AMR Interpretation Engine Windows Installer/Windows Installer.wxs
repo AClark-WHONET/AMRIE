@@ -10,7 +10,10 @@
 
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
-		<!-- Needs to check for presence of .NET 6.0. This isn't built into WiX yet, so it must be done manually through a registry search. -->
+		<!--
+			Needs to check for presence of .NET 8.0. This isn't built into WiX 3.x yet, so it must be done manually through a registry search.
+			Not implemented! WiX 4.x supports this.
+		-->
 
 		<!-- Prevent downgrades. To downgrade, the software must be uninstalled through Add/Remove programs first. -->
 		<MajorUpgrade Schedule="afterInstallInitialize" DowngradeErrorMessage="!(loc.DowngradeError)" />

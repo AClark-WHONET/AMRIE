@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Interpretation_CLI</RootNamespace>
     <Version>$(VersionPrefix)23.12.21</Version>
   </PropertyGroup>

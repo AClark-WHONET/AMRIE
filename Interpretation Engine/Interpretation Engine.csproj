@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>AMR_Engine</RootNamespace>
     <Version>$(VersionPrefix)23.12.21</Version>
   </PropertyGroup>
