@@ -89,7 +89,7 @@ namespace AMR_Engine
 		/// List of breakpoints loaded from the text file resource.
 		/// </summary>
 		public static readonly List<Breakpoint> Breakpoints = 
-			LoadBreakpoints(string.Format("{0}{1}", Constants.SystemRootPath, "Resources\\Breakpoints.txt"));
+			LoadBreakpoints(Path.Join(Constants.SystemRootPath, "Resources", "Breakpoints.txt"));
 
 		#endregion
 

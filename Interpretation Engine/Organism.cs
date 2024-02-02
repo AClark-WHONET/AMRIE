@@ -126,11 +126,11 @@ namespace AMR_Engine
 		private static Dictionary<string, Organism> LoadCurrentOrganisms()
 		{
 			string organismsTableFile;
-			const string relativePath = "Resources\\Organisms.txt";
+			string relativePath = System.IO.Path.Join("Resources", "Organisms.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				organismsTableFile = relativePath;
 			else
-				organismsTableFile = Constants.SystemRootPath + relativePath;
+				organismsTableFile = System.IO.Path.Join(Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(organismsTableFile))
 			{
@@ -193,11 +193,11 @@ namespace AMR_Engine
 		private static Dictionary<string, string> LoadMergedOrganisms()
 		{
 			string organismsTableFile;
-			const string relativePath = "Resources\\Organisms.txt";
+			string relativePath = Path.Join("Resources", "Organisms.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				organismsTableFile = relativePath;
 			else
-				organismsTableFile = Constants.SystemRootPath + relativePath;
+				organismsTableFile = Path.Join(Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(organismsTableFile))
 			{
