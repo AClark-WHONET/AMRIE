@@ -307,11 +307,11 @@ namespace AMR_Engine
 		private static List<Antibiotic> LoadAntibiotics()
 		{
 			string antibioticsTableFile;
-			const string relativePath = "Resources\\Antibiotics.txt";
+			string relativePath = Path.Join("Resources", "Antibiotics.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				antibioticsTableFile = relativePath;
 			else
-				antibioticsTableFile = Constants.SystemRootPath + relativePath;
+				antibioticsTableFile = Path.Join(Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(antibioticsTableFile))
 			{

@@ -177,11 +177,11 @@ namespace AMR_Engine
 		private static List<QualityControlRange> LoadQualityControlRanges()
 		{
 			string qualityControlTableFile;
-			const string relativePath = "Resources\\QC_Ranges.txt";
+			string relativePath = Path.Join("Resources", "QC_Ranges.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				qualityControlTableFile = relativePath;
 			else
-				qualityControlTableFile = Constants.SystemRootPath + relativePath;
+				qualityControlTableFile = Path.Join(Constants.SystemRootPath, relativePath);
 
 			if (!string.IsNullOrWhiteSpace(qualityControlTableFile) && File.Exists(qualityControlTableFile))
 			{
