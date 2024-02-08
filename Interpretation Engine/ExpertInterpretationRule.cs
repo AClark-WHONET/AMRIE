@@ -279,11 +279,11 @@ namespace AMR_Engine
 		private static List<ExpertInterpretationRule> LoadExpertInterpretationRules()
 		{
 			string expertRulesTableFile;
-			string relativePath = Path.Join("Resources", "ExpertInterpretationRules.txt");
+			string relativePath = string.Join(Path.DirectorySeparatorChar.ToString(), "Resources", "ExpertInterpretationRules.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				expertRulesTableFile = relativePath;
 			else
-				expertRulesTableFile = Path.Join(Constants.SystemRootPath, relativePath);
+				expertRulesTableFile = string.Join(Path.DirectorySeparatorChar.ToString(), Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(expertRulesTableFile))
 			{

@@ -265,11 +265,11 @@ namespace AMR_Engine
 		private static List<ExpectedResistancePhenotypeRule> LoadExpectedResistancePhenotypeRules()
 		{
 			string expectedResistancePhenotypesTableFile;
-			string relativePath = Path.Join("Resources", "ExpectedResistancePhenotypes.txt");
+			string relativePath = string.Join(Path.DirectorySeparatorChar.ToString(), "Resources", "ExpectedResistancePhenotypes.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				expectedResistancePhenotypesTableFile = relativePath;
 			else
-				expectedResistancePhenotypesTableFile = Path.Join(Constants.SystemRootPath, relativePath);
+				expectedResistancePhenotypesTableFile = string.Join(Path.DirectorySeparatorChar.ToString(), Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(expectedResistancePhenotypesTableFile))
 			{
