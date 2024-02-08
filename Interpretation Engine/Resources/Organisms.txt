@@ -785,7 +785,7 @@ cbc		Conidiobolus coronatus	C		f						COD				15684003	Conidiobolus coronatus	255
 cod		Conidiobolus sp.	C		f						COD				42178002	Conidiobolus	2559620	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Zygomycota	Entomophthoromycetes	Entomophthorales	Ancylistaceae	Conidiobolus
 lho		Coniochaeta hoffmannii	C		f						CON						7819054	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Coniochaetales	Coniochaetaceae	Coniochaeta
 lmu		Coniochaeta mutabilis	C		f						CON						8206918	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Coniochaetales	Coniochaetaceae	Coniochaeta
-con		Contaminated specimen	C		o																				
+con		Contaminated specimen	C		o							XXX													
 cot		Contracaecum sp.	C		w						COT				372392008	Contracaecum sp.	5188697	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Animalia	Nematoda	Secernentea	Ascaridida	Anisakidae	Contracaecum
 cpc		Coprococcus sp.	C		+			+			CPC			OTH	417561001	Coprococcus species	3226800	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus
 cov		Coronavirus	C		v										84101006	Human coronavirus	10347353	1ec61203-14fa-4fbd-8ee5-a4a80257b45a	doubtful	Viruses			Nidovirales	Coronaviridae	Coronavirus
@@ -1053,13 +1053,13 @@ o26		Escherichia coli O26	C		-			-	EBC		ESC		ECO	ESCO	131260002	"""Escherichia c
 o2k		Escherichia coli O2K2	C		-			-	EBC		ESC		ECO	ESCO			6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 788		Escherichia coli O78:K80	C		-			-	EBC		ESC		ECO	ESCO	407178005	"""Escherichia coli, serotype O78"""	6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 o78		Escherichia coli O78K80	C		-			-	EBC		ESC		ECO	ESCO			6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
-aee		Escherichia coli, attaching and effacing (AEEC)	C		-			-	EBC		ESC														
+aee		Escherichia coli, attaching and effacing (AEEC)	C		-			-	EBC		ESC		ECO	ESCO											
 eaa		Escherichia coli, enteroaggregative (EAEC)	C		-			-	EBC		ESC		ECO	ESCO	116397003	Enteroaggregative Escherichia coli	6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 eeh		Escherichia coli, enterohemorrhagic (EHEC)	C		-			-	EBC		ESC		ECO	ESCO	407248007	"""EHEC, serotype O not typeable:nonmotile"""	6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 eei		Escherichia coli, enteroinvasive (EIEC)	C		-			-	EBC		ESC		ECO	ESCO	116396007	Enteroinvasive Escherichia coli	6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 eep		Escherichia coli, enteropathogenic (EPEC)	C		-			-	EBC		ESC		ECO	ESCO	407207009	"""EPEC, serotype O111:nonmotile"""	6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 eet		Escherichia coli, enterotoxigenic (ETEC)	C		-			-	EBC		ESC		ECO	ESCO	116394005	Enterotoxigenic Escherichia coli	6110934	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
-vec		Escherichia coli, verocytotoxigenic (VTEC)	C		-			-	EBC		ESC														
+vec		Escherichia coli, verocytotoxigenic (VTEC)	C		-			-	EBC		ESC		ECO	ESCO											
 efe		Escherichia fergusonii	C		-			-	EBC		ESC			OTH	72461005	Escherichia fergusonii	5427571	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 ehe		Escherichia hermannii	C		-			-	EBC		ESC			OTH	85786000	Escherichia hermannii	5427572	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
 esc		Escherichia sp.	C		-			-	EBC		ESC			OTH	131259007	Escherichia species	3221780	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia
@@ -1823,32 +1823,32 @@ nro		Neotestudina rosatii	C		f						NEO				47066009	Neotestudina rosatii	2619080
 neo		Neotestudina sp.	C		f						NEO				29688006	Neotestudina	2619079	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Testudinaceae	Neotestudina
 mst		Neurospora sitophila	C		f						NEU						5253985	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Sordariales	Sordariaceae	Neurospora
 nig		Nigrospora sp.	C		f						NIG				41278006	Nigrospora	8324240	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Trichosphaeriales	Trichosphaeriaceae	Nigrospora
-xcd		No C. difficile found	C		o										9338005	No living organism identified (organism)									
+xcd		No C. difficile found	C		o							XXX			9338005	No living organism identified (organism)									
 x19		No COVID-19 found	O		v																				
-xca		No Campylobacter found	C		o										9338005	No living organism identified (organism)									
-xch		No Chlamydia found	C		o										9338005	No living organism identified (organism)									
+xca		No Campylobacter found	C		o							XXX			9338005	No living organism identified (organism)									
+xch		No Chlamydia found	C		o							XXX			9338005	No living organism identified (organism)									
 xcv		No Coronavirus found	C		v																				
 xia		No Influenza A virus found	C		v																				
 xib		No Influenza B virus found	C		v																				
 xic		No Influenza C virus found	C		v																				
 xiv		No Influenza virus found	C		v																				
-xle		No Legionalla found	C		o										9338005	No living organism identified (organism)									
-xmr		No MRSA found	C		o										9338005	No living organism identified (organism)									
-xgo		No N. gonorrhoeae found	C		o										9338005	No living organism identified (organism)									
-xgc		No N. gonorrhoeae or Chlamydia found	C		o										9338005	No living organism identified (organism)									
-xpl		No Plasmodium found	C		o										9338005	No living organism identified (organism)									
+xle		No Legionella found	C		o							XXX			9338005	No living organism identified (organism)									
+xmr		No MRSA found	C		o							XXX			9338005	No living organism identified (organism)									
+xgo		No N. gonorrhoeae found	C		o							XXX			9338005	No living organism identified (organism)									
+xgc		No N. gonorrhoeae or Chlamydia found	C		o							XXX			9338005	No living organism identified (organism)									
+xpl		No Plasmodium found	C		o							XXX			9338005	No living organism identified (organism)									
 x19		No SARS-CoV-2 found	C		v																				
-xsa		No Salmonella found	C		o										9338005	No living organism identified (organism)									
-xvr		No VRE were found	C		o										9338005	No living organism identified (organism)									
-xaf		No acid-fast bacilli found	C		o										9338005	No living organism identified (organism)									
-xab		No anaerobes found	C		o										9338005	No living organism identified (organism)									
-xep		No enteric pathogens found	C		o										9338005	No living organism identified (organism)									
-xfu		No fungi found	C		o										9338005	No living organism identified (organism)									
-xxx		No growth	C	X	o										9338005	No living organism identified									
-xmy		No mycobacteria found	C		o										9338005	No living organism identified (organism)									
-xop		No parasites found	C		o										9338005	No living organism identified (organism)									
-xpa		No pathogens found	C		o										9338005	No living organism identified (organism)									
-xsg		No significant growth found	C		o										9338005	No living organism identified (organism)									
+xsa		No Salmonella found	C		o							XXX			9338005	No living organism identified (organism)									
+xvr		No VRE were found	C		o							XXX			9338005	No living organism identified (organism)									
+xaf		No acid-fast bacilli found	C		o							XXX			9338005	No living organism identified (organism)									
+xab		No anaerobes found	C		o							XXX			9338005	No living organism identified (organism)									
+xep		No enteric pathogens found	C		o							XXX			9338005	No living organism identified (organism)									
+xfu		No fungi found	C		o							XXX			9338005	No living organism identified (organism)									
+xxx		No growth	C	X	o							XXX			9338005	No living organism identified									
+xmy		No mycobacteria found	C		o							XXX			9338005	No living organism identified (organism)									
+xop		No parasites found	C		o							XXX			9338005	No living organism identified (organism)									
+xpa		No pathogens found	C		o							XXX			9338005	No living organism identified (organism)									
+xsg		No significant growth found	C		o							XXX			9338005	No living organism identified (organism)									
 nas		Nocardia asteroides	C		+			+			NOC			OTH	30092002	Nocardia asteroides	3224379	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Nocardia
 nbr		Nocardia brasiliensis	C		+			+			NOC			OTH	58970008	Nocardia brasiliensis	3224429	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Nocardia
 ncr		Nocardia carnea	C		+			+			NOC			OTH	61208001	Nocardia carnea	3224367	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Nocardia
@@ -1863,9 +1863,9 @@ ntr		Nocardia transvalensis	C		+			+			NOC			OTH	80379008	Nocardia transvalensis
 nda		Nocardiopsis dassonvillei	C		+			+			NOD			OTH	15526005	Nocardiopsis dassonvillei	3225042	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiopsaceae	Nocardiopsis
 nod		Nocardiopsis sp.	C		+			+			NOD			OTH	131343005	Nocardiopsis species	3225023	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiopsaceae	Nocardiopsis
 nfr		Non-fermenting Gram negative rods	C		-			-		NFR				OTH	243328000	Non-fermentative Gram-negative bacillus									
-nor		Normal flora	C	X	o										23506009	Normal flora (finding)									
-ora		Normal oral flora	O		o										23506009	Normal flora (finding)									
-vag		Normal vaginal flora	O		o										23506009	Normal flora (finding)									
+nor		Normal flora	C	X	o							XXX			23506009	Normal flora (finding)									
+ora		Normal oral flora	O		o							XXX			23506009	Normal flora (finding)									
+vag		Normal vaginal flora	O		o							XXX			23506009	Normal flora (finding)									
 nov		Norovirus	C		v												10465126	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Caliciviridae	Norovirus
 nos		Nosema sp.	C		w						NOS				25348004	Genus Nosema	7990470	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Protozoa	Microsporidia	Microsporea	Dissociodihaplophasida	Nosematidae	Nosema
 oan		Ochrobactrum anthropi	C		-			-		NFR	OCH			OTH	116490002	Ochrobactrum anthropi	3220815	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum
@@ -1891,7 +1891,7 @@ ost		Ophiostoma stenoceras	O		f						OPH				23496000	Fungus (organism)	5252366	7
 ofe		Opisthorchis felineus	C		w						OPI				1846000	Opisthorchis felineus	7652316	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Animalia	Platyhelminthes	Trematoda	Plagiorchiida	Opisthorchiidae	Opisthorchis
 opi		Opisthorchis sp.	C		w						OPI				419799003	Opisthorchis sp.	2505610	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Animalia	Platyhelminthes	Trematoda	Plagiorchiida	Opisthorchiidae	Opisthorchis
 ovi		Opisthorchis viverrini	C		w						OPI				71650008	Opisthorchis viverrini	2505611	9ca92552-f23a-41a8-a140-01abaa31c931	accepted	Animalia	Platyhelminthes	Trematoda	Plagiorchiida	Opisthorchiidae	Opisthorchis
-ora		Oral flora	C	X	o										23506009	Normal flora (finding)									
+ora		Oral flora	C	X	o							XXX			23506009	Normal flora (finding)									
 orv		Orf virus	C		v										64753004	Orf virus	10375466	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Poxviridae	Parapoxvirus
 oca		Oribaculum catoniae	O		a	X					POR				114159005	Porphyromonas catoniae	3228331	7ddf754f-d193-4cc9-b351-99906754a03b	synonym	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas
 por		Oribaculum sp.	O		a	X					POR				131398000	Porphyromonas species	3228340	52a423d2-0486-4e77-bcee-6350d708d6ff	synonym	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas
@@ -1900,7 +1900,7 @@ ots		Orientia tsutsugamushi	C		-			-			ORI			OTH	114233001	Orientia tsutsugamush
 orh		Ornithobacterium rhinotracheale	C		-			-			ORN			OTH			3228679	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Ornithobacterium
 orn		Ornithobacterium sp.	C		-			-			ORN			OTH			3228678	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Ornithobacterium
 hvi		Orthohantavirus	C		v												10216207	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Hantaviridae	Orthohantavirus
-oth		Other	C		o																				
+oth		Other	C		o							XXX													
 pli		Paecilomyces lilacinus	O		f						PAC				243514005	Paecilomyces lilacinus	2598161	7ddf754f-d193-4cc9-b351-99906754a03b	homotypic synonym	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Ophiocordycipitaceae	Purpureocillium
 pac		Paecilomyces sp.	C		f						PAC				372326000	Paecilomyces species	2560478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Paecilomyces
 bal		Paenibacillus alvei	C		+			+			PAB			OTH	114088008	Paenibacillus alvei	3227606	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
@@ -2837,11 +2837,11 @@ tsk		Tsukamurella sp.	C		+			+			TSK			OTH	131226009	Tsukamurella species	322447
 tot		Turicella otitidis	C		+			+			TUR	COF		OTH	415763004	Turicella otitidis	3223542	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Turicella
 tur		Turicella sp.	C		+			+			TUR	COF		OTH	415762009	Turicella	3223541	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Turicella
 ulo		Ulocladium sp.	C		f						ULO				65789000	Ulocladium	2616487	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Ulocladium
-unk		Unknown	C		o										89088004	Unknown living organism									
+unk		Unknown	C		o							XXX			89088004	Unknown living organism									
 ure		Ureaplasma sp.	C		b			+			URE			OTH	131371004	Ureaplasma species	3226071	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Tenericutes		Mycoplasmatales	Mycoplasmataceae	Ureaplasma
 uur		Ureaplasma urealyticum	C		b			+			URE			OTH	12006007	Ureaplasma urealyticum	3226072	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Tenericutes		Mycoplasmatales	Mycoplasmataceae	Ureaplasma
 vvi		Vaccinia virus	C		v										13126002	Vaccinia virus	10343237	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Poxviridae	Orthopoxvirus
-vag		Vaginal flora	C		o										23506009	Normal flora (finding)									
+vag		Vaginal flora	C		o							XXX			23506009	Normal flora (finding)									
 chu		Vanrija humicola	C		f						VAN						2518521	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Tremellomycetes	Trichosporonales	Trichosporonaceae	Vanrija
 van		Vanrija sp.	C		f						VAN						2518396	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Tremellomycetes	Trichosporonales	Trichosporonaceae	Vanrija
 vzv		Varicella zoster virus	C		v										80298008	Genus Varicellovirus									
@@ -2923,7 +2923,7 @@ yer		Yersinia sp.	C		-			-	EBC		YER			OTH	131295004	Yersinia species	3221889	7dd
 yre		Yokenella regensburgei (Kos. trabulsii)	C		-			-	EBC		YOK			OTH	89477001	89477001	3222023	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Yokenella
 yok		Yokenella sp.	C		-			-	EBC		YOK			OTH	131296003	Yokenella species	3222022	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Yokenella
 zik		Zika virus	C		v										50471002	Zika virus	9884175	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Flaviviridae	Flavivirus
-xga		No Group A streptococci found	C		o																				
+xga		No Group A streptococci found	C		o							XXX													
 nrc		Anaerococcus sp.	C		a	X		+			ANC			OTH			3226863	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales		Anaerococcus
 noa		Nocardia abscessus	C		+			+			NOC			OTH	414863003	Nocardia abscessus	3224399		accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Nocardia
 noy		Nocardia cyriacigeorgica	C		+			+			NOC			OTH	414866006	Nocardia cyriacigeorgica	10840120		accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Nocardia
