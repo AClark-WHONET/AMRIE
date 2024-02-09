@@ -138,12 +138,12 @@ namespace AMR_Engine
 				using (StreamReader reader = new StreamReader(organismsTableFile))
 				{
 					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetHeaders(headerLine);
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
 					while (!reader.EndOfStream)
 					{
 						string thisLine = reader.ReadLine();
-						string[] values = thisLine.Split(Constants.Delimiters.TabChar);
+						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
 						string taxonomicStatus = values[headerMap[nameof(TAXONOMIC_STATUS)]];
 
 						if (taxonomicStatus == CurrentOrgCode)
@@ -205,12 +205,12 @@ namespace AMR_Engine
 				using (StreamReader reader = new StreamReader(organismsTableFile))
 				{
 					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetHeaders(headerLine);
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
 					while (!reader.EndOfStream)
 					{
 						string thisLine = reader.ReadLine();
-						string[] values = thisLine.Split(Constants.Delimiters.TabChar);
+						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
 						string taxonomicStatus = values[headerMap[nameof(TAXONOMIC_STATUS)]];
 
 						string oldOrgCode = values[headerMap[nameof(WHONET_ORG_CODE)]];

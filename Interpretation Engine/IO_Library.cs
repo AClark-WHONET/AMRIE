@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace AMR_Engine
@@ -58,16 +59,103 @@ namespace AMR_Engine
 		/// </summary>
 		/// <param name="headerLine"></param>
 		/// <returns></returns>
-		public static Dictionary<string, int> GetHeaders(string headerLine)
+		public static Dictionary<string, int> GetResourceHeaders(string headerLine)
 		{
 			Dictionary<string, int> headerMap = new Dictionary<string, int>();
-			string[] headerValues = headerLine.Split(Constants.Delimiters.TabChar);
+			string[] headerValues = SplitLine(headerLine, Constants.Delimiters.TabChar);
 			for (int i = 0; i < headerValues.Length; i++)
 			{
 				headerMap.Add(headerValues[i], i);
 			}
 
 			return headerMap;
+		}
+
+		public static string[] SplitLine(string record, char delimiter)
+		{
+			var results = new List<string>();
+			var result = new StringBuilder();
+			var inQualifier = false;
+			var inField = false;
+
+			var row = $"{record}{delimiter}";
+
+			for (var idx = 0; idx < row.Length; idx++)
+			{
+				if (row[idx] == delimiter)
+				{
+					if (!inQualifier)
+					{
+						results.Add(result.ToString().Trim());
+						result.Clear();
+						inField = false;
+					}
+					else
+					{
+						result.Append(row[idx]);
+					}
+				}
+				else
+				{
+					if (row[idx] != ' ')
+					{
+						if (row[idx] == Constants.Quote)
+						{
+							if (inQualifier && row[IndexOfNextNonWhiteSpaceChar(row, idx + 1)] == delimiter)
+							{
+								inQualifier = false;
+								continue;
+							}
+
+							else
+							{
+								if (!inQualifier)
+								{
+									inQualifier = true;
+								}
+								else
+								{
+									inField = true;
+									result.Append(row[idx]);
+								}
+							}
+						}
+						else
+						{
+							result.Append(row[idx]);
+							inField = true;
+						}
+					}
+					else
+					{
+						if (inQualifier || inField)
+						{
+							result.Append(row[idx]);
+						}
+					}
+				}
+			}
+
+			return results.ToArray<string>();
+		}
+
+		public static string ToLine(IEnumerable<string> values, char delimiter)
+		{
+			return string.Join(delimiter, values.Select(v => 
+			{
+				if (string.IsNullOrEmpty(v) || (!v.Contains(delimiter) && !v.Contains(Constants.Quote)))
+					// This string doesn't need to be quoted.
+					return v;
+
+				else
+				{
+					// Escape any existing quotes in the string.
+					if (v.Contains(Constants.Quote))
+						v = v.Replace(Constants.Quote.ToString(), Constants.TwoQuotes);
+
+					return Constants.Quote + v + Constants.Quote;
+				}
+			}));
 		}
 
 		#endregion
@@ -106,7 +194,7 @@ namespace AMR_Engine
 					if (!string.IsNullOrWhiteSpace(thisLine))
 					{
 						// Process header row.
-						string[] headerValues = thisLine.Split(arguments.Delimiter);
+						string[] headerValues = SplitLine(thisLine, arguments.Delimiter);
 
 						for (int x = 0; x < headerValues.Length; x++)
 							headers.Add(x, headerValues[x]);
@@ -134,7 +222,7 @@ namespace AMR_Engine
 
 					if (!string.IsNullOrWhiteSpace(thisLine))
 					{
-						string[] values = thisLine.Split(arguments.Delimiter);
+						string[] values = SplitLine(thisLine, arguments.Delimiter);
 
 						// Transfer the value array into a row dictionary.
 						Dictionary<string, string> rowValues = new Dictionary<string, string>();
@@ -263,7 +351,7 @@ namespace AMR_Engine
 
 			using (StreamWriter writer = new StreamWriter(arguments.OutputFile))
 			{
-				writer.WriteLine(string.Join(Constants.Delimiters.TabChar.ToString(), outputHeaders));
+				writer.WriteLine(ToLine(outputHeaders, Constants.Delimiters.TabChar));
 
 				foreach (Tuple<Dictionary<string, string>, Dictionary<string, string>> row in interpretationResults)
 				{
@@ -301,7 +389,7 @@ namespace AMR_Engine
 							else thisRow.Add(string.Empty);
 						}
 
-						writer.WriteLine(string.Join(Constants.Delimiters.TabChar.ToString(), thisRow));
+						writer.WriteLine(ToLine(thisRow, Constants.Delimiters.TabChar));
 					}
 					else
 					{
@@ -317,13 +405,13 @@ namespace AMR_Engine
 								repeatedValueList.Add(string.Empty);
 						}
 
-						string repeatedOutputString = string.Join(Constants.Delimiters.TabChar.ToString(), repeatedValueList);
+						string repeatedOutputString = ToLine(repeatedValueList, Constants.Delimiters.TabChar);
 
 						if (!antibioticFields.Any(a => row.Item1.ContainsKey(a)))
 						{
 							// This row didn't have any measurements.
 							// We will still write 1 row to the output with blanks for the final three fields.
-							writer.WriteLine(string.Join(Constants.Delimiters.TabChar.ToString(), repeatedOutputString, string.Empty, string.Empty, string.Empty));
+							writer.WriteLine(string.Join(Constants.Delimiters.TabChar, repeatedOutputString, ToLine([string.Empty, string.Empty, string.Empty], Constants.Delimiters.TabChar)));
 						}
 						else
 						{
@@ -346,9 +434,7 @@ namespace AMR_Engine
 									else
 										antibioticRowValues.Add(string.Empty);
 
-									string outputLine = string.Join(Constants.Delimiters.TabChar.ToString(),
-										repeatedOutputString,
-										string.Join(Constants.Delimiters.TabChar.ToString(), antibioticRowValues));
+									string outputLine = string.Join(Constants.Delimiters.TabChar, repeatedOutputString, ToLine(antibioticRowValues, Constants.Delimiters.TabChar));
 
 									writer.WriteLine(outputLine);
 								}
@@ -358,6 +444,25 @@ namespace AMR_Engine
 				}
 			}
 		}
+
+		static Func<string, int, int> IndexOfNextNonWhiteSpaceChar = delegate (string source, int startIndex)
+		{
+			if (startIndex >= 0)
+			{
+				if (source != null)
+				{
+					for (int i = startIndex; i < source.Length; i++)
+					{
+						if (!char.IsWhiteSpace(source[i]))
+						{
+							return i;
+						}
+					}
+				}
+			}
+
+			return -1;
+		};
 
 		#endregion
 

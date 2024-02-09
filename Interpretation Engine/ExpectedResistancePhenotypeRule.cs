@@ -107,46 +107,46 @@ namespace AMR_Engine
 						 (
 							 !string.IsNullOrWhiteSpace(o.SEROVAR_GROUP)
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.SEROVAR_GROUP)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.SEROVAR_GROUP)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.SEROVAR_GROUP)
 						 ) || (
 							 thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.WHONET_ORG_CODE)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.WHONET_ORG_CODE)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.WHONET_ORG_CODE)
 						 ) || (
 							 !string.IsNullOrWhiteSpace(o.SPECIES_GROUP)
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.SPECIES_GROUP)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.SPECIES_GROUP)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.SPECIES_GROUP)
 						 ) || (
 							 !string.IsNullOrWhiteSpace(o.GENUS_CODE)
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.GENUS_CODE)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.GENUS_CODE)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.GENUS_CODE)
 						 ) || (
 							 !string.IsNullOrWhiteSpace(o.GENUS_GROUP)
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.GENUS_GROUP)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.GENUS_GROUP)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.GENUS_GROUP)
 						 ) || (
 							 !string.IsNullOrWhiteSpace(o.FAMILY_CODE)
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.FAMILY_CODE)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.FAMILY_CODE)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.FAMILY_CODE)
 						 ) || (
 							 !string.IsNullOrWhiteSpace(o.SUBKINGDOM_CODE)
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.SUBKINGDOM_CODE)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.SUBKINGDOM_CODE)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(o.SUBKINGDOM_CODE)
 						 )|| (
 							 o.ANAEROBE
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == Constants.OrganismGroups.AnaerobePlusSubkingdomCode
 							 && (
 								 (
 									 o.SUBKINGDOM_CODE == Constants.TestResultCodes.Positive
-									 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(Constants.OrganismGroups.GramPositiveAnaerobes)
+									 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(Constants.OrganismGroups.GramPositiveAnaerobes)
 								 ) || (
 									 o.SUBKINGDOM_CODE == Constants.TestResultCodes.Negative
-									 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(Constants.OrganismGroups.GramNegativeAnaerobes)
+									 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(Constants.OrganismGroups.GramNegativeAnaerobes)
 								 )
 							 )
 						 ) || (
 							 o.ANAEROBE
 							 && thisRule.EXCEPTION_ORGANISM_CODE_TYPE == nameof(Organism.ANAEROBE)
-							 && thisRule.EXCEPTION_ORGANISM_CODE.Split(Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(Constants.OrganismGroups.Anaerobes)
+							 && IO_Library.SplitLine(thisRule.EXCEPTION_ORGANISM_CODE, Constants.Delimiters.CommaChar).Select(s => s.Trim()).Contains(Constants.OrganismGroups.Anaerobes)
 						 )
 					 )
 				where (
@@ -277,16 +277,16 @@ namespace AMR_Engine
 				using (StreamReader reader = new StreamReader(expectedResistancePhenotypesTableFile))
 				{
 					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetHeaders(headerLine);
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
 					while (!reader.EndOfStream)
 					{
 						string thisLine = reader.ReadLine();
-						string[] values = thisLine.Split(Constants.Delimiters.TabChar);
+						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
 
 						// Exeptions to the affected antibiotics, if any.
-						List<string> antibioticExceptions = 
-							values[headerMap[nameof(ANTIBIOTIC_EXCEPTIONS)]].Split(Constants.Delimiters.CommaChar).ToList();
+						List<string> antibioticExceptions =
+							IO_Library.SplitLine(values[headerMap[nameof(ANTIBIOTIC_EXCEPTIONS)]], Constants.Delimiters.CommaChar).ToList();
 
 						DateTime tempEntered = DateTime.MinValue;
 						if (!string.IsNullOrWhiteSpace(values[headerMap[nameof(DATE_ENTERED)]]))

@@ -27,13 +27,13 @@
 		public AntibioticComponents(string whonetAntibioticFullCode)
 		{
 			char guidelineCode;
-			string[] abxComponents = whonetAntibioticFullCode.Split(Constants.Delimiters.Underscore);
+			string[] abxComponents = IO_Library.SplitLine(whonetAntibioticFullCode, Constants.Delimiters.Underscore);
 			Code = abxComponents[0];
 
 			if (Code == UserDefinedAntibiotic)
 			{
 				// User-defined antibiotic.
-				Code = string.Join(Constants.Delimiters.Underscore.ToString(), abxComponents[0], abxComponents[1]);
+				Code = IO_Library.ToLine([abxComponents[0], abxComponents[1]], Constants.Delimiters.Underscore);
 				guidelineCode = abxComponents[2][0];
 				TestMethod = Antibiotic.TestMethods.GetTestMethodFromCode(abxComponents[2][1]);
 			}
