@@ -291,12 +291,12 @@ namespace AMR_Engine
 				using (StreamReader reader = new StreamReader(expertRulesTableFile))
 				{
 					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetHeaders(headerLine);
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
 					while (!reader.EndOfStream)
 					{
 						string thisLine = reader.ReadLine();
-						string[] values = thisLine.Split(Constants.Delimiters.TabChar);
+						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
 
 						List<ExpertRuleCriterion> ruleCriteria = new List<ExpertRuleCriterion>();
 
@@ -304,12 +304,12 @@ namespace AMR_Engine
 						string ruleOp = RuleOperators.And;
 
 						// Rule criteria
-						foreach (string token in values[headerMap[nameof(RULE_CRITERIA)]].Split(Constants.Delimiters.Space))
+						foreach (string token in IO_Library.SplitLine(values[headerMap[nameof(RULE_CRITERIA)]], Constants.Delimiters.Space))
 						{
 							if (token.Contains(Constants.Delimiters.EqualsSign))
 							{
 								// This token represents a test.
-								string[] testComponents = token.Split(Constants.Delimiters.EqualsSign);
+								string[] testComponents = IO_Library.SplitLine(token, Constants.Delimiters.EqualsSign);
 								ExpertRuleCriterion thisCriterion = new ExpertRuleCriterion(testComponents[0], testComponents[1]);
 								ruleCriteria.Add(thisCriterion);
 							}
@@ -334,12 +334,12 @@ namespace AMR_Engine
 								break;
 
 							default:
-								affectedAntibiotics = values[headerMap[nameof(AFFECTED_ANTIBIOTICS)]].Split(Constants.Delimiters.CommaChar).ToList();
+								affectedAntibiotics = IO_Library.SplitLine(values[headerMap[nameof(AFFECTED_ANTIBIOTICS)]], Constants.Delimiters.CommaChar).ToList();
 								break;
 						};
 
 						// Exeptions to the affected antibiotics, if any.
-						List<string> antibioticExceptions = values[headerMap[nameof(ANTIBIOTIC_EXCEPTIONS)]].Split(Constants.Delimiters.CommaChar).ToList();
+						List<string> antibioticExceptions = IO_Library.SplitLine(values[headerMap[nameof(ANTIBIOTIC_EXCEPTIONS)]], Constants.Delimiters.CommaChar).ToList();
 
 						ExpertInterpretationRule newRule = new ExpertInterpretationRule(ruleCode, values[headerMap[nameof(DESCRIPTION)]],
 							values[headerMap[nameof(ORGANISM_CODE)]], values[headerMap[nameof(ORGANISM_CODE_TYPE)]],

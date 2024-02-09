@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AMR_Engine
 {
@@ -190,12 +188,12 @@ namespace AMR_Engine
 				using (StreamReader reader = new StreamReader(qualityControlTableFile))
 				{
 					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetHeaders(headerLine);
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
 					while (!reader.EndOfStream)
 					{
 						string thisLine = reader.ReadLine();
-						string[] values = thisLine.Split(Constants.Delimiters.TabChar);
+						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
 
 						int tempYear = 0;
 						if (!string.IsNullOrWhiteSpace(values[headerMap[nameof(YEAR)]]))

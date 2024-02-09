@@ -18,6 +18,10 @@ namespace AMR_Engine
 		public static string SystemRootPath = 
 			Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + System.IO.Path.DirectorySeparatorChar;
 
+		public static readonly char Quote = '"';
+
+		public static readonly string TwoQuotes = "\"\"";
+
 		public class Disk
 		{
 			public static readonly decimal MinimumDiskMeasurement = 6M;
