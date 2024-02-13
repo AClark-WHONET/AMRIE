@@ -18,11 +18,11 @@ namespace AMR_Engine
 			public const string AntibioticMeasurement = "ANTIBIOTIC_MEASUREMENT";
 			public const string AntibioticInterpretation = "ANTIBIOTIC_INTERPRETATION";
 
-			public static readonly string[] VerticalAntibioticFields = [
+			public static readonly string[] VerticalAntibioticFields = {
 				AntibioticCode,
 				AntibioticMeasurement,
 				AntibioticInterpretation
-			];
+			};
 		}
 
 		#endregion
@@ -353,7 +353,7 @@ namespace AMR_Engine
 			{
 				writer.WriteLine(ToLine(outputHeaders, Constants.Delimiters.TabChar));
 
-				string[] emptyAbxColumns = [string.Empty, string.Empty, string.Empty];
+				string[] emptyAbxColumns = { string.Empty, string.Empty, string.Empty };
 				string emptyAbxText = ToLine(emptyAbxColumns, Constants.Delimiters.TabChar);
 
 				foreach (Tuple<Dictionary<string, string>, Dictionary<string, string>> row in interpretationResults)

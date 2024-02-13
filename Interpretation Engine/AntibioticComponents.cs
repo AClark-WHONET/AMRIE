@@ -33,7 +33,7 @@
 			if (Code == UserDefinedAntibiotic)
 			{
 				// User-defined antibiotic.
-				string[] components = [abxComponents[0], abxComponents[1]];
+				string[] components = { abxComponents[0], abxComponents[1] };
 				Code = IO_Library.ToLine(components, Constants.Delimiters.Underscore);
 				guidelineCode = abxComponents[2][0];
 				TestMethod = Antibiotic.TestMethods.GetTestMethodFromCode(abxComponents[2][1]);
