@@ -74,7 +74,10 @@ namespace AMR_Engine
 		public static string[] SplitLine(string record, char delimiter)
 		{
 			if (string.IsNullOrEmpty(record) || !record.Contains(delimiter))
-				return [record];
+			{
+				string[] value = { record };
+				return value;
+			}
 
 			var results = new List<string>();
 			var result = new StringBuilder();
@@ -270,7 +273,7 @@ namespace AMR_Engine
 			List<Tuple<string, string, string>> distinctInterpretationKeys = 
 				rowValueSets.SelectMany(row =>
 				{
-					List<Tuple<string, string, string>> combinationsForRow = new();
+					List<Tuple<string, string, string>> combinationsForRow = new List<Tuple<string, string, string>>();
 
 					IEnumerable<string> antibioticFields = row.Keys.Where(k => IsolateInterpretation.ValidAntibioticFieldNameRegex.IsMatch(k));
 
