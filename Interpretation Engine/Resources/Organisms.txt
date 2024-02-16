@@ -343,8 +343,8 @@ bav		Bordetella avium	C		-			-			BD-			OTH	43354005	Bordetella avium	3219831	7dd
 bbr		Bordetella bronchiseptica	C		-			-			BD-			OTH	10620008	Bordetella bronchiseptica	3219832	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
 bhz		Bordetella hinzii	C		-			-			BD-			OTH	113495004	Bordetella hinzii	3219834	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
 bhm		Bordetella holmesii	C		-			-			BD-			OTH	116035000	Bordetella holmesii	3219835	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
-bpa		Bordetella parapertussis	C		-			-			BD-			OTH	26183002	Bordetella parapertussis	3219836	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
-bpe		Bordetella pertussis	C		-			-			BD-			OTH	5247005	Bordetella pertussis	3219833	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
+bpa		Bordetella parapertussis	C	X	-			-			BD-			OTH	26183002	Bordetella parapertussis	3219836	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
+bpe		Bordetella pertussis	C	X	-			-			BD-			OTH	5247005	Bordetella pertussis	3219833	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
 bd-		Bordetella sp.	C		-			-			BD-			OTH	131220003	Bordetella species	3219828	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Bordetella
 e26		Bordetella-like species	C		-			-			BD-				131220003	Bordetella species									
 baf		Borrelia afzelii	C		b			-			BOL			OTH	416551001	Borrelia afzelii	3228160	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Spirochaetae	Spirochaetes	Spirochaetales	Spirochaetaceae	Borrelia
