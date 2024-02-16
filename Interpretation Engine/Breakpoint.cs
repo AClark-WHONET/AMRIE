@@ -104,6 +104,7 @@ namespace AMR_Engine
 		public readonly string BREAKPOINT_TYPE;
 		public readonly string HOST;
 		public readonly string SITE_OF_INFECTION;
+		public readonly string[] SITES_OF_INFECTION;
 		public readonly string REFERENCE_TABLE;
 		public readonly string WHONET_ABX_CODE;
 		public readonly string WHONET_TEST;
@@ -162,6 +163,20 @@ namespace AMR_Engine
 			BREAKPOINT_TYPE = BREAKPOINT_TYPE_;
 			HOST = HOST_;
 			SITE_OF_INFECTION = SITE_OF_INFECTION_;
+
+			SITES_OF_INFECTION = IO_Library.SplitLine(
+				SITE_OF_INFECTION_, 
+				Constants.Delimiters.CommaChar).
+				Select(s => {
+					string nonBlankSite = s.Trim();
+
+					// Process (Blank) as the empty string.
+					if (nonBlankSite == Constants.SitesOfInfection.Blank)
+						nonBlankSite = string.Empty;
+
+					return nonBlankSite;
+				}).ToArray();
+
 			REFERENCE_TABLE = REFERENCE_TABLE_;
 			WHONET_ABX_CODE = WHONET_ABX_CODE_;
 			WHONET_TEST = WHONET_TEST_;
@@ -197,6 +212,9 @@ namespace AMR_Engine
 			List<string> prioritizedSitesOfInfection = null, List<string> prioritizedWhonetAbxFullDrugCodes = null,
 			bool returnFirstBreakpointOnly = false)
 		{
+			if (prioritizedWhonetAbxFullDrugCodes != null && prioritizedWhonetAbxFullDrugCodes.Count() > 1 && returnFirstBreakpointOnly)
+				throw new ArgumentException("There must be exactly one drug specified when only the first breakpoint is requested.");
+
 			if (!Organism.CurrentOrganisms.ContainsKey(whonetOrganismCode))
 			{
 				if (Organism.MergedOrganisms.ContainsKey(whonetOrganismCode) && Organism.CurrentOrganisms.ContainsKey(Organism.MergedOrganisms[whonetOrganismCode]))
@@ -224,23 +242,14 @@ namespace AMR_Engine
 			// Returns an ordered list of breakpoints according to a default order (most specific first),
 			// or one that the caller specified through prioritized parameters.
 			// Find all matches on ORGANISM_CODE_TYPE, but sort them by specificity.
-
 			IEnumerable<Breakpoint> relevantBreakpoints =
 				from Breakpoint thisBreakpoint in Breakpoints.Concat(userDefinedBreakpoints)
 				where prioritizedGuidelineYears is null || prioritizedGuidelineYears.Contains(thisBreakpoint.YEAR)
 				where prioritizedGuidelines is null || prioritizedGuidelines.Contains(thisBreakpoint.GUIDELINES) || thisBreakpoint.GUIDELINES == UserDefinedGuidelineCode
 				where prioritizedBreakpointTypes is null || prioritizedBreakpointTypes.Contains(thisBreakpoint.BREAKPOINT_TYPE)
 				where prioritizedSitesOfInfection.Any((requestedSite) =>
-							 IO_Library.SplitLine(thisBreakpoint.SITE_OF_INFECTION, Constants.Delimiters.CommaChar).
-							 Select((sitesFromBP) => sitesFromBP.Trim()).
-							 Any((sitesFromBP) =>
-							 {
-								 // Process (Blank) as the empty string.
-								 if (requestedSite == Constants.SitesOfInfection.Blank)
-									 requestedSite = string.Empty;
-
-								 return requestedSite.Equals(sitesFromBP, StringComparison.InvariantCultureIgnoreCase);
-							 }))
+							 thisBreakpoint.SITES_OF_INFECTION.
+							 Any(sitesFromBP => requestedSite.Equals(sitesFromBP, StringComparison.InvariantCultureIgnoreCase)))
 				where recodedDrugCodes is null || recodedDrugCodes.Contains(thisBreakpoint.WHONET_TEST)
 				where (
 						// This section restricts to only those breakpoints which match our organism at some level.
@@ -295,6 +304,19 @@ namespace AMR_Engine
 			// We have found the relevant breakpoints. We must now filter them down to only the applicable breakpoints.
 			List<Breakpoint> applicableBreakpoints = new List<Breakpoint>();
 
+			if (returnFirstBreakpointOnly)
+			{
+				Breakpoint top = relevantBreakpoints.FirstOrDefault();
+
+				// No breakpoints available.
+				if (top == null)
+					return applicableBreakpoints;
+				
+				// No need to put the breakpoints into groups prior to selecting the top breakpoint.
+				applicableBreakpoints.Add(top);
+				return applicableBreakpoints;
+			}
+
 			// Group the relevant breakpoints by the following fields.
 			// We want to take the most specific breakpoints for each set.
 			var groups = relevantBreakpoints.GroupBy(
@@ -329,14 +351,7 @@ namespace AMR_Engine
 				}
 			}
 
-			if (returnFirstBreakpointOnly && applicableBreakpoints.Count > 1)
-			{
-				// Get the "default" breakpoint only.
-				applicableBreakpoints.RemoveRange(1, applicableBreakpoints.Count - 1);
-				return applicableBreakpoints;
-			}
-			else
-				return applicableBreakpoints;
+			return applicableBreakpoints;
 		}
 
 		/// <summary>

@@ -73,6 +73,9 @@ namespace AMR_Engine
 
 		public static string[] SplitLine(string record, char delimiter)
 		{
+			if (string.IsNullOrEmpty(record) || !record.Contains(delimiter))
+				return [record];
+
 			var results = new List<string>();
 			var result = new StringBuilder();
 			var inQualifier = false;
@@ -254,7 +257,7 @@ namespace AMR_Engine
 			List<Dictionary<string, string>> rowValueSets)
 		{
 			int remainingLines = rowValueSets.Count;
-			int blockSize = Math.Max(1, remainingLines / (Environment.ProcessorCount * 4));
+			int blockSize = Math.Max(1, remainingLines / Environment.ProcessorCount);
 			int totalBlocks = (remainingLines / blockSize) + (remainingLines % blockSize == 0 ? 0 : 1);
 			Tuple<Dictionary<string, string>, Dictionary<string, string>>[] interpretationResults =
 				new Tuple<Dictionary<string, string>, Dictionary<string, string>>[remainingLines];
@@ -262,6 +265,39 @@ namespace AMR_Engine
 			object countSyncObject = new object();
 			int rowCount = 0;
 			int previousProgressReport = 0;
+
+			// Determine the set of breakpoints needed for the data.
+			List<Tuple<string, string, string>> distinctInterpretationKeys = 
+				rowValueSets.SelectMany(row =>
+				{
+					List<Tuple<string, string, string>> combinationsForRow = new();
+
+					IEnumerable<string> antibioticFields = row.Keys.Where(k => IsolateInterpretation.ValidAntibioticFieldNameRegex.IsMatch(k));
+
+					if (row.ContainsKey(Constants.KeyFields.ORGANISM) && antibioticFields.Count() > 0)
+					{
+						foreach (string drug in antibioticFields)
+						{
+							// Determine the set of drug-bug combinations for this data row.
+							AntibioticComponents thisAntibiotic = new AntibioticComponents(drug);
+							combinationsForRow.Add(new Tuple<string, string, string>(row[Constants.KeyFields.ORGANISM].Trim(), thisAntibiotic.Guideline, drug));
+						}
+					}
+
+					return combinationsForRow;
+				}).Distinct().ToList();
+
+			// Preheat breakpoint cache.
+			AntibioticSpecificInterpretationRules.PreheatBreakpointCache(
+				interpretationConfig.UserDefinedBreakpoints,
+				arguments.GuidelineYear,
+				interpretationConfig.PrioritizedBreakpointTypes, 
+				interpretationConfig.PrioritizedSitesOfInfection, 
+				distinctInterpretationKeys, 
+				arguments.Worker);
+
+			if (arguments.Worker != null)
+				arguments.Worker.ReportProgress(0);
 
 			Parallel.For(0, totalBlocks, (blockNumber, state) =>
 			{
