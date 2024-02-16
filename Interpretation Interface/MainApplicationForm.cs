@@ -51,73 +51,80 @@ namespace AMR_InterpretationInterface
 		{
 			ToggleUI(false);
 
-			string inputFile = InputFileTextBox.Text.Trim();
-			if (!Path.IsPathFullyQualified(inputFile))
-				inputFile = Path.GetFullPath(Constants.SystemRootPath + inputFile);
-
-			string configFile = ConfigFileTextBox.Text.Trim();
-			if (!Path.IsPathFullyQualified(configFile))
-				configFile = Path.GetFullPath(Constants.SystemRootPath + configFile);
-
-			// Keep this one relative to the current working dir.
-			// We don't have permission to put data in the install location usually.
-			string outputFile = OutputFileTextBox.Text.Trim();
-			if (!Path.IsPathFullyQualified(outputFile))
-				outputFile = Path.GetFullPath(outputFile);
-
-			if (!string.IsNullOrWhiteSpace(inputFile)
-				&& File.Exists(inputFile)
-				&& YearCheckbox.Checked
-				&& !string.IsNullOrWhiteSpace(configFile)
-				&& File.Exists(configFile)
-				&& !string.IsNullOrWhiteSpace(outputFile))
+			try
 			{
-				char delimiter;
-				if (FieldDelimiterComboBox.SelectedItem.ToString() == "TAB")
-					delimiter = Constants.Delimiters.TabChar;
-				else
-					delimiter = FieldDelimiterComboBox.SelectedItem.ToString().First();
+				string inputFile = InputFileTextBox.Text.Trim();
+				if (!Path.IsPathFullyQualified(inputFile))
+					inputFile = Path.GetFullPath(Constants.SystemRootPath + inputFile);
 
-				int guidelineYear = Convert.ToInt32(GuidelineYearUpDown.Value);
+				string configFile = ConfigFileTextBox.Text.Trim();
+				if (!Path.IsPathFullyQualified(configFile))
+					configFile = Path.GetFullPath(Constants.SystemRootPath + configFile);
 
-				if (Worker == null)
+				// Keep this one relative to the current working dir.
+				// We don't have permission to put data in the install location usually.
+				string outputFile = OutputFileTextBox.Text.Trim();
+				if (!Path.IsPathFullyQualified(outputFile))
+					outputFile = Path.GetFullPath(outputFile);
+
+				if (!string.IsNullOrWhiteSpace(inputFile)
+					&& File.Exists(inputFile)
+					&& YearCheckbox.Checked
+					&& !string.IsNullOrWhiteSpace(configFile)
+					&& File.Exists(configFile)
+					&& !string.IsNullOrWhiteSpace(outputFile))
 				{
-					// Setup for first use.
-					Worker = new BackgroundWorker
+					char delimiter;
+					if (FieldDelimiterComboBox.SelectedItem.ToString() == "TAB")
+						delimiter = Constants.Delimiters.TabChar;
+					else
+						delimiter = FieldDelimiterComboBox.SelectedItem.ToString().First();
+
+					int guidelineYear = Convert.ToInt32(GuidelineYearUpDown.Value);
+
+					if (Worker == null)
 					{
-						WorkerReportsProgress = true,
-						WorkerSupportsCancellation = true
-					};
-					Worker.DoWork += IO_Library.InterpretDataFile;
-					Worker.RunWorkerCompleted += HandlerInterpretationCompletion;
-					Worker.ProgressChanged += ProgressMeterEventHandler;
+						// Setup for first use.
+						Worker = new BackgroundWorker
+						{
+							WorkerReportsProgress = true,
+							WorkerSupportsCancellation = true
+						};
+						Worker.DoWork += IO_Library.InterpretDataFile;
+						Worker.RunWorkerCompleted += HandlerInterpretationCompletion;
+						Worker.ProgressChanged += ProgressMeterEventHandler;
+					}
+
+					FileInterpretationParameters args =
+						new(inputFile, delimiter, guidelineYear, configFile,
+						outputFile, Worker);
+
+					Worker.RunWorkerAsync(args);
 				}
-
-				FileInterpretationParameters args =
-					new(inputFile, delimiter, guidelineYear, configFile,
-					outputFile, Worker);
-
-				Worker.RunWorkerAsync(args);
+				else
+				{
+					MessageBox.Show("Please check the file names or guideline year selection.");
+					ToggleUI(true);
+				}
 			}
-			else
+			catch
 			{
-				MessageBox.Show("Please check the file names or guideline year selection.");
+				// Ensure that user control returns if there's an exception.
 				ToggleUI(true);
-			}
+				throw;
+			}			
 		}
 
 		private void HandlerInterpretationCompletion(object s, RunWorkerCompletedEventArgs e)
 		{
-			if (e.Cancelled)
+			// No message is required if the user cancelled the operation.
+			if (!e.Cancelled)
 			{
-				// No message.
-			}
-			else if (e.Error != null)
-				MessageBox.Show(e.Error.Message);
+				if (e.Error != null)
+					MessageBox.Show(e.Error.Message);
 
-			else
-			{
-				MessageBox.Show("Interpretation completed.");
+				else
+					MessageBox.Show("Interpretation completed.");
 			}
 
 			ToggleUI(true);
