@@ -9,6 +9,4 @@ jobs:
       - uses: vedantmgoyal2009/winget-releaser@v2
         with:
           identifier: WHONET.AMRIE
-          installers-regex: '\.msi$' # Only .msi files
-          max-versions-to-keep: 1 # keep only latest 1 version
           token: ${{ secrets.WINGET_TOKEN }}
