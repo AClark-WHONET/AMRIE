@@ -3,7 +3,7 @@ name: Submit WHONET.AMRIE package to Windows Package Manager Community Repositor
 on:
   workflow_dispatch:
   release:
-    types: [published]
+    types: [released]
 
 jobs:
   winget:
@@ -19,9 +19,9 @@ jobs:
           $github = Invoke-RestMethod -uri "https://api.github.com/repos/AClark-WHONET/AMRIE/releases" 
 
           $targetRelease = $github | Where-Object -Property name -match 'Release'| Select -First 1
-          $installerUrl = $targetRelease | Select -ExpandProperty assets -First 1 | Where-Object -Property name -match 'AMR_Interpretation_Engine.msi' | Select -ExpandProperty browser_download_url
-          # $targetRelease.tag_name
-          $ver = ${{ github.event.release.tag_name }}
+          $installerUrl = $targetRelease | Select -ExpandProperty assets -First 1 | Where-Object -Property name -match 'AMR_Interpretation_Engine_*.msi' | Select -ExpandProperty browser_download_url
+
+          $ver = $targetRelease.tag_name
           echo $ver
           $ver = $ver.Trim("v")
 
