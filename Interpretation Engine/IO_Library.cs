@@ -296,7 +296,7 @@ namespace AMR_Engine
 				arguments.GuidelineYear,
 				interpretationConfig.PrioritizedBreakpointTypes, 
 				interpretationConfig.PrioritizedSitesOfInfection, 
-				distinctInterpretationKeys, 
+				distinctInterpretationKeys,
 				arguments.Worker);
 
 			if (arguments.Worker != null)
