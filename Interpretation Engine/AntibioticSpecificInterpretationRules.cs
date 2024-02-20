@@ -171,7 +171,7 @@ namespace AMR_Engine
 				&& BreakpointLookup[k.Item1][k.Item2][guidelineYear].ContainsKey(k.Item3))).
 				ToList();
 
-			object syncObject = new();
+			object syncObject = new object();
 			int totalKeys = distinctInterpretationKeys.Count();
 			int lastReportedProgress = 0;
 			int completedKeys = 0;
