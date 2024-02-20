@@ -19,7 +19,7 @@ jobs:
           $github = Invoke-RestMethod -uri "https://api.github.com/repos/AClark-WHONET/AMRIE/releases" 
 
           $targetRelease = $github | Select -First 1
-          $installerUrl = $targetRelease | Select -ExpandProperty assets -First 1 | Where-Object -Property name -match 'AMR_Interpretation_Engine_*.msi' | Select -ExpandProperty browser_download_url
+          $installerUrl = $targetRelease | Select -ExpandProperty assets -First 1 | Select -ExpandProperty browser_download_url
 
           $ver = $targetRelease.tag_name
           $ver = $ver.Trim("v")
