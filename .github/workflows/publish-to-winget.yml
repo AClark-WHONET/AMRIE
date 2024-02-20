@@ -1,27 +1,12 @@
-name: Submit WHONET.AMRIE package to Windows Package Manager Community Repository
-
+name: Publish to WinGet
 on:
-  workflow_dispatch:
   release:
-    types: [published]
-
+    types: [released]
 jobs:
-  winget:
-    name: Publish winget package
+  publish:
     runs-on: windows-latest
     steps:
-      - name: Submit package to Windows Package Manager Community Repository
-        run: |
-
-          $wingetPackage = "WHONET.AMRIE"
-          $gitToken = "${{ secrets.WINGET_TOKEN }}"
-
-          $github = Invoke-RestMethod -uri "https://api.github.com/repos/AClark-WHONET/AMRIE/releases" 
-
-          $targetRelease = $github | Where-Object -Property name -match 'Release'| Select -First 1
-          $installerUrl = $targetRelease | Select -ExpandProperty assets -First 1 | Where-Object -Property name -match 'AMR_Interpretation_Engine.msi' | Select -ExpandProperty browser_download_url
-          $ver = $targetRelease.tag_name.Trim("v")
-
-          # getting latest wingetcreate file
-          iwr https://aka.ms/wingetcreate/latest -OutFile wingetcreate.exe
-          .\wingetcreate.exe update $wingetPackage -s -v $ver -u "$installerUrl|x86" "$installerUrl|x64" -t $gitToken
+      - uses: vedantmgoyal2009/winget-releaser@v2
+        with:
+          identifier: WHONET.AMRIE
+          token: ${{ secrets.WINGET_TOKEN }}
