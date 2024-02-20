@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace AMR_Engine
 {
@@ -170,34 +171,39 @@ namespace AMR_Engine
 				&& BreakpointLookup[k.Item1][k.Item2][guidelineYear].ContainsKey(k.Item3))).
 				ToList();
 
-			int lastReportedProgress = 0;
-			int currentProgress = 0;
+			object syncObject = new();
 			int totalKeys = distinctInterpretationKeys.Count();
+			int lastReportedProgress = 0;
+			int completedKeys = 0;
 
-			lock (BreakpointLookup)
+			// We don't need a sync lock here because the BreakpointLookup keys are distinct.
+			Parallel.ForEach(
+				distinctInterpretationKeys,
+				key =>
 			{
-				for (int x = 0; x < totalKeys; x++)
+				DetermineMostApplicableBreakpoint(
+					userDefinedBreakpoints,
+					guidelineYear,
+					prioritizedBreakpointTypes,
+					prioritizedSitesOfInfection,
+					key.Item1, key.Item2, key.Item3);
+
+				// Update the UI's progress
+				if (worker != null)
 				{
-					Tuple<string, string, string> k = distinctInterpretationKeys[x];
-
-					DetermineMostApplicableBreakpoint(
-						userDefinedBreakpoints,
-						guidelineYear,
-						prioritizedBreakpointTypes,
-						prioritizedSitesOfInfection,
-						k.Item1, k.Item2, k.Item3);
-
-					if (worker != null)
+					lock (syncObject)
 					{
-						currentProgress = (x * 100) / totalKeys;
+						completedKeys++;
+						int currentProgress = (completedKeys * 100) / totalKeys;
+
 						if (currentProgress > lastReportedProgress)
-						{
+						{							
 							lastReportedProgress = currentProgress;
 							worker.ReportProgress(lastReportedProgress);
 						}
 					}
-				}
-			}				
+				}				
+			});
 		}
 
 		/// <summary>
