@@ -2935,3 +2935,10 @@ bvu		Phocaeicola vulgatus	C		a	X		-			PHL	BFX
 phl		Phocaeicola spp.	C		a	X		-			PHL														
 acg		Acinetobacter guillouiae	C		-			-		NFR	AC-				700397005	Acinetobacter guillouiae	7699834		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter
 anl		Acinetobacter lactucae	C		-			-		NFR	AC-				787183008	Acinetobacter lactucae	9407395		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter
+psr		Pseudomonas gessardii	C		-			-		NFR	PS-				415199000	Pseudomonas gessardii	3223210		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
+enq		Enterococcus aquimarinus	C		+			+			ENT				7871000146102	Enterococcus aquimarinus	3227396		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
+arn		Carnobacterium sp.	C		+			+			ARN				115137003	Carnobacterium	3227175		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Carnobacterium
+cbm		Carnobacterium maltaromaticum	C		+			+			ARN				421436009	Carnobacterium maltaromaticum	3227182		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Carnobacterium
+vgc		Vagococcus sp.	C		+			+			VGC				116416009	Vagococcus	3227420		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Vagococcaceae	Vagococcus
+vgs		Vagococcus salmoninarum	C		+			+			VGC				116419002	Vagococcus salmoninarum	3227425		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Vagococcaceae	Vagococcus
+enu		Enterococcus thailandicus	C		+			+			ENT				449322006	Enterococcus thailandicus	7368198		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
