@@ -36983,3 +36983,7 @@ EUCAST	2024	MIC		SE-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM	
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae	44.00	FOS	FOS_EM						2024-04-11		
 EUCAST	2024	DISK	1 unit	sit	WHONET_ORG_CODE	Human	Human	Screen	Staphs		OXA	OXA_ED1	19	-		20		2023-04-05		
 EUCAST	2024	DISK	30μg	sit	WHONET_ORG_CODE	Human	Human	Screen	Staphs	82.00	FOX	FOX_ED30						2024-04-11		
+EUCAST	2024	DISK	5μg	eca	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_ED5						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	MIC		eca	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_EM						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	DISK	5μg	ega	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_ED5						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	MIC		ega	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_EM						2024-04-11		Excluded from Enterococci.
