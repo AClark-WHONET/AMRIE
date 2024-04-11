@@ -36994,3 +36994,88 @@ EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LNZ	LNZ_EM
 EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LNZ	LNZ_ED10	19	-		20		2024-04-11		
 EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		RIF	RIF_EM	2			1		2024-04-11		
 EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		RIF	RIF_ED5	11	-		12		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bmt	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	boi	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bab	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bcn	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bsu	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
