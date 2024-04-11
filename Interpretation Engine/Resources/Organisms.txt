@@ -378,7 +378,7 @@ pdi		Brevundimonas diminuta	C		-			-		NFR	BRV			OTH	113689009	Brevundimonas dimi
 brv		Brevundimonas sp.	C		-			-		NFR	BRV			OTH	115154006	Brevundimonas	3221698	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas
 pve		Brevundimonas vesicularis	C		-			-		NFR	BRV			OTH	113690000	Brevundimonas vesicularis	3221706	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas
 bro		Brochothrix sp.	C		+			+			BRO			OTH	431132005	Genus Brochothrix	3228104	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Listeriaceae	Brochothrix
-boi		Brucella melintensis biovar ovis	C		-			-			BR-				35049005		5427512	52a423d2-0486-4e77-bcee-6350d708d6ff	synonym	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella
+boi		Brucella melitensis biovar ovis	C		-			-			BR-				35049005		5427512	52a423d2-0486-4e77-bcee-6350d708d6ff	synonym	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella
 bmt		Brucella melitensis	C		-			-			BR-			BRUR	72829003	Brucella melitensis	8874921	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella
 bab		Brucella melitensis biovar abortus	C		-			-			BR-														
 bcn		Brucella melitensis biovar canis	C		-			-			BR-														

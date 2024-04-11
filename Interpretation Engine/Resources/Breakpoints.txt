@@ -33276,7 +33276,7 @@ EUCAST	2024	MIC		ctr	WHONET_ORG_CODE	Human	Human		Candida	19.00	AMB	AMB_EM	2			1
 EUCAST	2024	MIC		ctr	WHONET_ORG_CODE	Human	Human		Candida	21.00	FLU	FLU_EM	8			2		2023-04-05		
 EUCAST	2024	MIC		afu	WHONET_ORG_CODE	Human	Human		Aspergillus	25.00	AMB	AMB_EM	2			1		2023-04-05		
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human	Intravenous	Enterobacterales 	1.00	AMP	AMP_ED10	13	-		14		2023-04-05		
-EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	25.00	ETP	ETP_ED10	24	-		25		2023-04-05		
+EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	25.00	ETP	ETP_ED10	22	-		23		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	26.00	IPM	IPM_ED10	18	19-21		22		2023-04-05		
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human	Non-meningitis	Enterobacterales 	27.00	MEM	MEM_ED10	15	16-21		22		2023-04-05		
 EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	28.00	ATM	ATM_ED30	20	21-25		26		2023-04-05		
@@ -33324,7 +33324,7 @@ EUCAST	2024	DISK	30μg	sau	WHONET_ORG_CODE	Human	Human	Screen	Staphs	80.00	FOX	F
 EUCAST	2024	DISK	30μg	SCN	SPECIES_GROUP	Human	Human	Screen	Staphs	81.00	FOX	FOX_ED30	21	-		22		2023-04-05		
 EUCAST	2024	DISK	30μg	psd	WHONET_ORG_CODE	Human	Human	Screen	Staphs	82.00	FOX	FOX_ED30						2023-04-05		
 EUCAST	2024	DISK	5μg	sc+	WHONET_ORG_CODE	Human	Human	Pneumonia	Staphs	83.00	CPT	CPT_ED5	19	-		20		2023-04-05		
-EUCAST	2024	DISK	5μg	sc+	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_ED5	20	21-49		50		2023-04-05		
+EUCAST	2024	DISK	5μg	sc+	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_ED5	16	17-49		50		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	5μg	sc+	WHONET_ORG_CODE	Human	Human		Staphs	85.00	LVX	LVX_ED5	21	22-49		50		2023-04-05		
 EUCAST	2024	DISK	5μg	sc+	WHONET_ORG_CODE	Human	Human		Staphs	86.00	MFX	MFX_ED5	24	-		25		2023-04-05		
 EUCAST	2024	DISK	10μg	STA	GENUS_CODE	Human	Human	Screen	Staphs	87.00	NOR	NOR_ED10	16			17		2023-04-05		
@@ -33493,7 +33493,7 @@ EUCAST	2024	DISK	30μg	PAS	GENUS_CODE	Human	Human	Screen	Pasteurella spp.	351.00
 EUCAST	2024	DISK	1.25μg/23.75μg	PAS	GENUS_CODE	Human	Human		Pasteurella spp.	352.00	SXT	SXT_ED1_2	22	-		23		2023-04-05	2023-10-23	
 EUCAST	2024	DISK	15μg	caj	WHONET_ORG_CODE	Human	Human		C. jejuni, C. coli	354.00	ERY	ERY_ED15	19	-		20		2023-04-05		
 EUCAST	2024	DISK	15μg	cco	WHONET_ORG_CODE	Human	Human		C. jejuni, C. coli	355.00	ERY	ERY_ED15	23	-		24		2023-04-05		
-EUCAST	2024	DISK	1 unit	COR	GENUS_CODE	Human	Human		Corynebacterium spp.	357.00	PEN	PEN_ED1	28	-		29		2023-04-05		
+EUCAST	2024	DISK	1 unit	COR	GENUS_CODE	Human	Human		Corynebacterium spp.	357.00	PEN	PEN_ED1	11	12-49		50		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	5μg	COR	GENUS_CODE	Human	Human		Corynebacterium spp.	358.00	CIP	CIP_ED5	24	25-49		50		2023-04-05		
 EUCAST	2024	DISK	5μg	COR	GENUS_CODE	Human	Human		Corynebacterium spp.	359.00	MFX	MFX_ED5	24	-		25		2023-04-05		
 EUCAST	2024	DISK	5μg	COR	GENUS_CODE	Human	Human		Corynebacterium spp.	361.00	VAN	VAN_ED5	16	-		17		2023-04-05		
@@ -33539,7 +33539,6 @@ EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	39.00	TOB	TOB_EM
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae	40.00	TGC	TGC_EM	1			0.5		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	41.00	CHL	CHL_EM						2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	42.00	COL	COL_EM	4			2		2023-04-05		
-EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	43.00	FOS	FOS_EM	64			32		2023-04-05		
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	44.00	FOS	FOS_EM	16			8		2023-04-05		
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	45.00	NIT	NIT_EM	128			64		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacterales 	46.00	TMP	TMP_EM	8			4		2023-04-05		
@@ -33571,7 +33570,7 @@ EUCAST	2024	MIC		AC-	GENUS_CODE	Human	Human		Acinetobacter spp.	76.00	SXT	SXT_EM
 EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs	77.00	PEN	PEN_EM	0.25			0.125		2023-04-05		
 EUCAST	2024	MIC		slu	WHONET_ORG_CODE	Human	Human		Staphs	78.00	PEN	PEN_EM	0.25			0.125		2023-04-05		
 EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human	Pneumonia	Staphs	83.00	CPT	CPT_EM	2			1		2023-04-05		
-EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_EM	2			0.0001		2023-04-05	2023-06-27	
+EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_EM	4			0.0001		2023-04-05	2024-04-11	
 EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs	85.00	LVX	LVX_EM	2			0.0001		2023-04-05	2023-06-27	
 EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs	86.00	MFX	MFX_EM	0.5			0.25		2023-04-05		
 EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs	89.00	AMK	AMK_EM	16			8		2023-04-05		
@@ -33598,7 +33597,6 @@ EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	110.00	TCY	TCY_EM	2			1		202
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	111.00	TGC	TGC_EM	1			0.5		2023-04-05		
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	112.00	CHL	CHL_EM						2023-04-05		
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	113.00	DAP	DAP_EM	2			1		2023-04-05		
-EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	114.00	FOS	FOS_EM	64			32		2023-04-05		
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	115.00	FUS	FUS_EM	2			1		2023-04-05		
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	116.00	LNZ	LNZ_EM	8			4		2023-04-05		
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Staphs	118.00	NIT	NIT_EM	128			64		2023-04-05		
@@ -33639,7 +33637,6 @@ EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	155.00	DAP	DAP_EM	
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	156.00	LNZ	LNZ_EM	4			2		2023-04-05		
 EUCAST	2024	MIC		bsb	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Strep A, B, C, G	157.00	NIT	NIT_EM	128			64		2023-04-05		
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	158.00	RIF	RIF_EM	0.12			0.064		2023-04-05		
-EUCAST	2024	MIC		bsb	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Strep A, B, C, G	159.00	TMP	TMP_EM	4			2		2023-04-05		
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	160.00	SXT	SXT_EM	4			1		2023-04-05		
 EUCAST	2024	MIC		spn	WHONET_ORG_CODE	Human	Human	Meningitis	S. pneumoniae	161.00	PEN	PEN_EM	0.12			0.064		2023-04-05		
 EUCAST	2024	MIC		spn	WHONET_ORG_CODE	Human	Human	Non-meningitis	S. pneumoniae	162.00	PEN	PEN_EM	4			0.064		2023-04-05		
@@ -33819,7 +33816,7 @@ EUCAST	2024	MIC		PAS	GENUS_CODE	Human	Human		Pasteurella spp.	350.00	DOX	DOX_EM	
 EUCAST	2024	MIC		PAS	GENUS_CODE	Human	Human		Pasteurella spp.	352.00	SXT	SXT_EM	0.5			0.25		2023-04-05	2023-10-23	
 EUCAST	2024	MIC		caj	WHONET_ORG_CODE	Human	Human		C. jejuni, C. coli	354.00	ERY	ERY_EM	8			4		2023-04-05		
 EUCAST	2024	MIC		cco	WHONET_ORG_CODE	Human	Human		C. jejuni, C. coli	355.00	ERY	ERY_EM	16			8		2023-04-05		
-EUCAST	2024	MIC		COR	GENUS_CODE	Human	Human		Corynebacterium spp.	357.00	PEN	PEN_EM	0.25			0.125		2023-04-05		
+EUCAST	2024	MIC		COR	GENUS_CODE	Human	Human		Corynebacterium spp.	357.00	PEN	PEN_EM	2			0.0001		2023-04-05	2024-04-11	
 EUCAST	2024	MIC		COR	GENUS_CODE	Human	Human		Corynebacterium spp.	358.00	CIP	CIP_EM	2			0.0001		2023-04-05	2023-06-27	
 EUCAST	2024	MIC		COR	GENUS_CODE	Human	Human		Corynebacterium spp.	359.00	MFX	MFX_EM	1			0.5		2023-04-05		
 EUCAST	2024	MIC		COR	GENUS_CODE	Human	Human		Corynebacterium spp.	361.00	VAN	VAN_EM	4			2		2023-04-05		
@@ -33893,16 +33890,16 @@ EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs		ORI	ORI_EM	0.25			0.12
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs		TZD	TZD_EM	1			0.5		2023-04-05		
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 		CZA	CZA_ED10	12			13		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 		CZA	CZA_EM	16			8		2023-04-05		
-EUCAST	2024	DISK	200μg	eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae		FOS	FOS_ED200	23			24		2023-04-05		
+EUCAST	2024	DISK	200μg	eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae		FOS	FOS_ED200						2023-04-05	2024-04-11	
 EUCAST	2024	DISK	200μg	eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	44.00	FOS	FOS_ED200	23	-		24		2023-04-05		
 EUCAST	2024	DISK	30μg	eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae		NTR	NTR_ED30	14			15		2023-04-05		
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae		NTR	NTR_EM	32			16		2023-04-05		
 EUCAST	2024	DISK	10μg/4μg	pae	WHONET_ORG_CODE	Human	Human		Pseudo		CZA	CZA_ED10	16			17		2023-04-05		
 EUCAST	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Pseudo		CZA	CZA_EM	16			8		2023-04-05		
-EUCAST	2024	DISK	5μg	SCN	SPECIES_GROUP	Human	Human		Staphs		CIP	CIP_ED5	23	24-49		50		2023-04-05		
+EUCAST	2024	DISK	5μg	SCN	SPECIES_GROUP	Human	Human		Staphs		CIP	CIP_ED5	21	23-49		50		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	5μg	SCN	SPECIES_GROUP	Human	Human		Staphs		LVX	LVX_ED5	23	24-49		50		2023-04-05		
 EUCAST	2024	DISK	5μg	SCN	SPECIES_GROUP	Human	Human		Staphs		MFX	MFX_ED5	27			28		2023-04-05		
-EUCAST	2024	MIC		SCN	SPECIES_GROUP	Human	Human		Staphs		CIP	CIP_EM	2			0.0001		2023-04-05	2023-06-27	
+EUCAST	2024	MIC		SCN	SPECIES_GROUP	Human	Human		Staphs		CIP	CIP_EM	4			0.0001		2023-04-05	2024-04-11	
 EUCAST	2024	MIC		SCN	SPECIES_GROUP	Human	Human		Staphs		LVX	LVX_EM	2			0.0001		2023-04-05	2023-06-27	
 EUCAST	2024	MIC		SCN	SPECIES_GROUP	Human	Human		Staphs		MFX	MFX_EM	0.5			0.25		2023-04-05		
 EUCAST	2024	MIC		AEC	GENUS_CODE	Human	Human		Aerococcus		PEN	PEN_EM	0.25			0.125		2023-04-05		
@@ -34013,7 +34010,6 @@ EUCAST	2024	DISK	30μg	PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract in
 EUCAST	2024	MIC		PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Pseudo	60.00	AMK	AMK_EM	32			16		2023-04-05		
 EUCAST	2024	DISK	10μg	PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Pseudo	63.00	TOB	TOB_ED10	17	-		18		2023-04-05		
 EUCAST	2024	MIC		PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Pseudo	63.00	TOB	TOB_EM	4			2		2023-04-05		
-EUCAST	2024	MIC		AC-	GENUS_CODE	Human	Human		Acinetobacter spp.	76.00	IMR	IMR_EM	4			2		2023-04-05		
 EUCAST	2024	DISK	30μg	AC-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Acinetobacter spp.	71.00	AMK	AMK_ED30	18	-		19		2023-04-05		
 EUCAST	2024	MIC		AC-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Acinetobacter spp.	71.00	AMK	AMK_EM	16			8		2023-04-05		
 EUCAST	2024	DISK	10μg	AC-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Acinetobacter spp.	72.00	GEN	GEN_ED10	16	-		17		2023-04-05		
@@ -34106,7 +34102,7 @@ EUCAST	2024	DISK	10μg	pmi	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tra
 EUCAST	2024	MIC		pmi	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	10.00	MEC	MEC_EM	16			8		2023-04-05		
 EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacterales 		CZO	CZO_ED30	19	20-49		50		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 		FDC	FDC_EM	4			2		2023-04-05		
-EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 		FDC	FDC_ED30	21	-		22		2023-04-05		
+EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 		FDC	FDC_ED30	22	-		23		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	5μg	EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	15.00	CTX	CTX_ED5	19	-		20		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	15.00	CTX	CTX_EM	2			1		2023-04-05		
 EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	21.00	CRO	CRO_ED30	24	-		25		2023-04-05		
@@ -34117,7 +34113,6 @@ EUCAST	2024	DISK	10μg	MOR	GENUS_CODE	Human	Human		Enterobacteriaceae	26.00	IPM	
 EUCAST	2024	MIC		MOR	GENUS_CODE	Human	Human		Enterobacteriaceae	26.00	IPM	IPM_EM	8			0.0001		2023-04-05	2023-06-27	
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	27.00	MEM	MEM_ED10	21	-		22		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	27.00	MEM	MEM_EM	4			2		2023-04-05		
-EUCAST	2024	DISK	200μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	43.00	FOS	FOS_ED200	20	-		21		2023-04-05		
 EUCAST	2024	DISK	30μg	pae	WHONET_ORG_CODE	Human	Human		Pseudo		FDC	FDC_ED30	21	-		22		2023-04-05		
 EUCAST	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Pseudo		FDC	FDC_EM	4			2		2023-04-05		
 EUCAST	2024	DISK	10μg	PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Pseudo	63.00	DOR	DOR_ED10	21	22-49		50		2023-04-05		
@@ -34125,7 +34120,6 @@ EUCAST	2024	MIC		PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infectio
 EUCAST	2024	DISK	10μg/25μg	pae	WHONET_ORG_CODE	Human	Human		Pseudo		IMR	IMR_ED10	21	-		22		2023-04-05		
 EUCAST	2024	DISK	10μg	AC-	GENUS_CODE	Human	Human		Acinetobacter spp.	74.00	DOR	DOR_ED10	21	22-49		50		2023-04-05		
 EUCAST	2024	MIC		AC-	GENUS_CODE	Human	Human		Acinetobacter spp.	74.00	DOR	DOR_EM	4			0.0001		2023-04-05	2023-06-27	
-EUCAST	2024	DISK	10μg/25μg	AC-	GENUS_CODE	Human	Human		Acinetobacter spp.	76.00	IMR	IMR_ED10	23	-		24		2023-04-05		
 EUCAST	2024	DISK	10μg	AC-	GENUS_CODE	Human	Human	Meningitis	Acinetobacter spp.	68.00	MEM	MEM_ED10	20	-		21		2023-04-05		
 EUCAST	2024	MIC		AC-	GENUS_CODE	Human	Human	Meningitis	Acinetobacter spp.	68.00	MEM	MEM_EM	4			2		2023-04-05		
 EUCAST	2024	DISK	1 unit	ssf	WHONET_ORG_CODE	Human	Human	Screen	Staphs		OXA	OXA_ED1	19	-		20		2023-04-05		
@@ -34189,23 +34183,8 @@ EUCAST	2024	MIC		BCS	GENUS_CODE	Human	Human		Bacillus sp.		CLI	CLI_EM	2			1		202
 EUCAST	2024	DISK	2μg	BCS	GENUS_CODE	Human	Human		Bacillus sp.		CLI	CLI_ED2	16	-		17		2023-04-05		
 EUCAST	2024	MIC		BCS	GENUS_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_EM	4			2		2023-04-05		
 EUCAST	2024	DISK	10μg	BCS	GENUS_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_ED10	21	-		22		2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		IPM	IPM_EM						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		IPM	IPM_ED10						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		MEM	MEM_EM						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		MEM	MEM_ED10						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CIP	CIP_EM						2023-04-05		
-EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CIP	CIP_ED5						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LVX	LVX_EM						2023-04-05		
-EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LVX	LVX_ED5						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human	Screen	Bacillus sp.		NOR	NOR_ED10						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		VAN	VAN_EM						2023-04-05		
-EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		VAN	VAN_ED5						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		ERY	ERY_EM						2023-04-05		
-EUCAST	2024	DISK	15μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		ERY	ERY_ED15						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CLI	CLI_EM						2023-04-05		
-EUCAST	2024	DISK	2μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CLI	CLI_ED2						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_EM						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_ED10						2023-04-05		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		PEN	PEN_EM	1			0.0001		2024-04-11		
+EUCAST	2024	DISK	1 unit	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		PEN	PEN_ED1	17	18-49		50		2024-04-11		
 EUCAST	2024	MIC		hso	WHONET_ORG_CODE	Animal	Cattle	Respiratory	Mannheimia haemolytica		FLR	FLR_EM	8			2		2023-04-05		
 EUCAST	2024	MIC		pam	WHONET_ORG_CODE	Animal	Cattle	Respiratory	Pasteurella multocida		FLR	FLR_EM	8			2		2023-04-05		
 EUCAST	2024	MIC		pha	WHONET_ORG_CODE	Animal	Cattle	Respiratory	Histophilus somni		FLR	FLR_EM	8			2		2023-04-05		
@@ -34529,12 +34508,12 @@ EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs	104.00	ERY	ERY_EM	2			1		202
 EUCAST	2024	DISK	1 unit	sau	WHONET_ORG_CODE	Human	Human		Staphs	77.00	PEN	PEN_ED1	25	-		26		2023-04-05		
 EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human		Staphs	77.00	PEN	PEN_EM	0.25			0.125		2023-04-05		
 EUCAST	2024	DISK	5μg	sau	WHONET_ORG_CODE	Human	Human	Pneumonia	Staphs	83.00	CPT	CPT_ED5	19	-		20		2023-04-05		
-EUCAST	2024	DISK	5μg	sau	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_ED5	20	21-49		50		2023-04-05		
+EUCAST	2024	DISK	5μg	sau	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_ED5	16	17-49		50		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	5μg	sau	WHONET_ORG_CODE	Human	Human		Staphs	85.00	LVX	LVX_ED5	21	22-49		50		2023-04-05		
 EUCAST	2024	DISK	5μg	sau	WHONET_ORG_CODE	Human	Human		Staphs	86.00	MFX	MFX_ED5	24	-		25		2023-04-05		
 EUCAST	2024	DISK	10μg	sau	WHONET_ORG_CODE	Human	Human		Staphs	93.00	NET	NET_ED10	17	-		18		2023-04-05		
 EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human	Pneumonia	Staphs	83.00	CPT	CPT_EM	2			1		2023-04-05		
-EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_EM	2			0.0001		2023-04-05	2023-06-27	
+EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human		Staphs	84.00	CIP	CIP_EM	4			0.0001		2023-04-05	2024-04-11	
 EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human		Staphs	85.00	LVX	LVX_EM	2			0.0001		2023-04-05	2023-06-27	
 EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human		Staphs	86.00	MFX	MFX_EM	0.5			0.25		2023-04-05		
 EUCAST	2024	MIC		sau	WHONET_ORG_CODE	Human	Human		Staphs	93.00	NET	NET_EM	2			1		2023-04-05		
@@ -36979,3 +36958,124 @@ EUCAST	2024	MIC		bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		ETP	ETP_EM	4			2	
 EUCAST	2024	DISK	10μg	bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		ETP	ETP_ED10	22	-		23		2023-11-27		
 EUCAST	2024	MIC		bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		IPM	IPM_EM	2			1		2023-11-27		
 EUCAST	2024	DISK	10μg	bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		IPM	IPM_ED10	28	-		29		2023-11-27		
+EUCAST	2024	DISK	5μg	mmo	WHONET_ORG_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_ED5						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		mmo	WHONET_ORG_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	DISK	5μg	PR-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_ED5						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		PR-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	DISK	5μg	SE-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_ED5						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		SE-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae	44.00	FOS	FOS_EM						2024-04-11		
+EUCAST	2024	DISK	1 unit	sit	WHONET_ORG_CODE	Human	Human	Screen	Staphs		OXA	OXA_ED1	19	-		20		2023-04-05		
+EUCAST	2024	DISK	30μg	sit	WHONET_ORG_CODE	Human	Human	Screen	Staphs	82.00	FOX	FOX_ED30						2024-04-11		
+EUCAST	2024	DISK	5μg	eca	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_ED5						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	MIC		eca	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_EM						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	DISK	5μg	ega	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_ED5						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	MIC		ega	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_EM						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	MIC		cdf	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
+EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	313.00	VAN	VAN_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	MTR	MTR_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
+EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	313.00	VAN	VAN_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	MTR	MTR_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		AMX	AMX_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CIP	CIP_EM	0.5			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CIP	CIP_ED5	23	24-49		50		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LVX	LVX_EM	1			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LVX	LVX_ED5	22	23-49		50		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		VAN	VAN_EM	8			4		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		VAN	VAN_ED5	9	-		10		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CLI	CLI_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	2μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CLI	CLI_ED2	16	-		17		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		DOX	DOX_EM	0.12			0.064		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		TCY	TCY_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	30µg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		TCY	TCY_ED30	25	-		26		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LNZ	LNZ_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LNZ	LNZ_ED10	19	-		20		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		RIF	RIF_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		RIF	RIF_ED5	11	-		12		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bmt	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	boi	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bab	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bcn	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	30µg	bsu	WHONET_ORG_CODE	Human	Human	Meningitis	Brucella melitensis		CRO	CRO_ED30	29	-		30		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		CIP	CIP_ED5	26	27-49		50		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_EM	2			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		LVX	LVX_ED5	27	28-49		50		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	10μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		GEN	GEN_ED10	22	-		23		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	10μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		STR	STR_ED10	14	-		15		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		DOX	DOX_EM	0.5			0.25		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_EM	1			0.5		2024-04-11		
+EUCAST	2024	DISK	30µg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		TCY	TCY_ED30	41	-		42		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	5μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		RIF	RIF_ED5	19	-		20		2024-04-11		
+EUCAST	2024	MIC		bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bmt	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	boi	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bab	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bcn	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
+EUCAST	2024	MIC		bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	1.25μg/23.75μg	bsu	WHONET_ORG_CODE	Human	Human		Brucella melitensis		SXT	SXT_ED1_2	28	-		29		2024-04-11		
