@@ -33276,7 +33276,7 @@ EUCAST	2024	MIC		ctr	WHONET_ORG_CODE	Human	Human		Candida	19.00	AMB	AMB_EM	2			1
 EUCAST	2024	MIC		ctr	WHONET_ORG_CODE	Human	Human		Candida	21.00	FLU	FLU_EM	8			2		2023-04-05		
 EUCAST	2024	MIC		afu	WHONET_ORG_CODE	Human	Human		Aspergillus	25.00	AMB	AMB_EM	2			1		2023-04-05		
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human	Intravenous	Enterobacterales 	1.00	AMP	AMP_ED10	13	-		14		2023-04-05		
-EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	25.00	ETP	ETP_ED10	24	-		25		2023-04-05		
+EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	25.00	ETP	ETP_ED10	22	-		23		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	26.00	IPM	IPM_ED10	18	19-21		22		2023-04-05		
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human	Non-meningitis	Enterobacterales 	27.00	MEM	MEM_ED10	15	16-21		22		2023-04-05		
 EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	28.00	ATM	ATM_ED30	20	21-25		26		2023-04-05		
@@ -33539,7 +33539,7 @@ EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	39.00	TOB	TOB_EM
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae	40.00	TGC	TGC_EM	1			0.5		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	41.00	CHL	CHL_EM						2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	42.00	COL	COL_EM	4			2		2023-04-05		
-EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	43.00	FOS	FOS_EM	64			32		2023-04-05		
+EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 	43.00	FOS	FOS_EM						2023-04-05	2024-04-11	
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	44.00	FOS	FOS_EM	16			8		2023-04-05		
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	45.00	NIT	NIT_EM	128			64		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacterales 	46.00	TMP	TMP_EM	8			4		2023-04-05		
@@ -33893,7 +33893,7 @@ EUCAST	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Staphs		ORI	ORI_EM	0.25			0.12
 EUCAST	2024	MIC		STA	GENUS_CODE	Human	Human		Staphs		TZD	TZD_EM	1			0.5		2023-04-05		
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 		CZA	CZA_ED10	12			13		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 		CZA	CZA_EM	16			8		2023-04-05		
-EUCAST	2024	DISK	200μg	eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae		FOS	FOS_ED200	23			24		2023-04-05		
+EUCAST	2024	DISK	200μg	eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae		FOS	FOS_ED200						2023-04-05	2024-04-11	
 EUCAST	2024	DISK	200μg	eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	44.00	FOS	FOS_ED200	23	-		24		2023-04-05		
 EUCAST	2024	DISK	30μg	eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae		NTR	NTR_ED30	14			15		2023-04-05		
 EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae		NTR	NTR_EM	32			16		2023-04-05		
@@ -34106,7 +34106,7 @@ EUCAST	2024	DISK	10μg	pmi	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tra
 EUCAST	2024	MIC		pmi	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacteriaceae	10.00	MEC	MEC_EM	16			8		2023-04-05		
 EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Enterobacterales 		CZO	CZO_ED30	19	20-49		50		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human		Enterobacterales 		FDC	FDC_EM	4			2		2023-04-05		
-EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 		FDC	FDC_ED30	21	-		22		2023-04-05		
+EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 		FDC	FDC_ED30	22	-		23		2023-04-05	2024-04-11	
 EUCAST	2024	DISK	5μg	EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	15.00	CTX	CTX_ED5	19	-		20		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	15.00	CTX	CTX_EM	2			1		2023-04-05		
 EUCAST	2024	DISK	30μg	EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	21.00	CRO	CRO_ED30	24	-		25		2023-04-05		
@@ -34117,7 +34117,7 @@ EUCAST	2024	DISK	10μg	MOR	GENUS_CODE	Human	Human		Enterobacteriaceae	26.00	IPM	
 EUCAST	2024	MIC		MOR	GENUS_CODE	Human	Human		Enterobacteriaceae	26.00	IPM	IPM_EM	8			0.0001		2023-04-05	2023-06-27	
 EUCAST	2024	DISK	10μg	EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	27.00	MEM	MEM_ED10	21	-		22		2023-04-05		
 EUCAST	2024	MIC		EBC	FAMILY_CODE	Human	Human	Meningitis	Enterobacterales 	27.00	MEM	MEM_EM	4			2		2023-04-05		
-EUCAST	2024	DISK	200μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	43.00	FOS	FOS_ED200	20	-		21		2023-04-05		
+EUCAST	2024	DISK	200μg	EBC	FAMILY_CODE	Human	Human		Enterobacterales 	43.00	FOS	FOS_ED200						2023-04-05	2024-04-11	
 EUCAST	2024	DISK	30μg	pae	WHONET_ORG_CODE	Human	Human		Pseudo		FDC	FDC_ED30	21	-		22		2023-04-05		
 EUCAST	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Pseudo		FDC	FDC_EM	4			2		2023-04-05		
 EUCAST	2024	DISK	10μg	PS-	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Pseudo	63.00	DOR	DOR_ED10	21	22-49		50		2023-04-05		
@@ -36979,3 +36979,10 @@ EUCAST	2024	MIC		bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		ETP	ETP_EM	4			2	
 EUCAST	2024	DISK	10μg	bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		ETP	ETP_ED10	22	-		23		2023-11-27		
 EUCAST	2024	MIC		bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		IPM	IPM_EM	2			1		2023-11-27		
 EUCAST	2024	DISK	10μg	bvu	WHONET_ORG_CODE	Human	Human		Bacteroides		IPM	IPM_ED10	28	-		29		2023-11-27		
+EUCAST	2024	DISK	5μg	mmo	WHONET_ORG_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_ED5						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		mmo	WHONET_ORG_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	DISK	5μg	PR-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_ED5						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		PR-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	DISK	5μg	SE-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_ED5						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		SE-	GENUS_CODE	Human	Human		Enterobacterales 	33.00	MFX	MFX_EM						2024-04-11		Excluded from Enterobacterales.
+EUCAST	2024	MIC		eco	WHONET_ORG_CODE	Human	Human		Enterobacteriaceae	44.00	FOS	FOS_EM						2024-04-11		
