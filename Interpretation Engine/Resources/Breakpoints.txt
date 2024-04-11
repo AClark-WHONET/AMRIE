@@ -33637,7 +33637,6 @@ EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	155.00	DAP	DAP_EM	
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	156.00	LNZ	LNZ_EM	4			2		2023-04-05		
 EUCAST	2024	MIC		bsb	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Strep A, B, C, G	157.00	NIT	NIT_EM	128			64		2023-04-05		
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	158.00	RIF	RIF_EM	0.12			0.064		2023-04-05		
-EUCAST	2024	MIC		bsb	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Strep A, B, C, G	159.00	TMP	TMP_EM	4			2		2023-04-05		
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	160.00	SXT	SXT_EM	4			1		2023-04-05		
 EUCAST	2024	MIC		spn	WHONET_ORG_CODE	Human	Human	Meningitis	S. pneumoniae	161.00	PEN	PEN_EM	0.12			0.064		2023-04-05		
 EUCAST	2024	MIC		spn	WHONET_ORG_CODE	Human	Human	Non-meningitis	S. pneumoniae	162.00	PEN	PEN_EM	4			0.064		2023-04-05		
@@ -36987,3 +36986,10 @@ EUCAST	2024	DISK	5μg	eca	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	V
 EUCAST	2024	MIC		eca	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_EM						2024-04-11		Excluded from Enterococci.
 EUCAST	2024	DISK	5μg	ega	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_ED5						2024-04-11		Excluded from Enterococci.
 EUCAST	2024	MIC		ega	WHONET_ORG_CODE	Human	Human		Enterococcus	131.00	VAN	VAN_EM						2024-04-11		Excluded from Enterococci.
+EUCAST	2024	MIC		cdf	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
+EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	313.00	VAN	VAN_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	MTR	MTR_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
+EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	313.00	VAN	VAN_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	MTR	MTR_EM	4			2		2024-04-11		
+EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
