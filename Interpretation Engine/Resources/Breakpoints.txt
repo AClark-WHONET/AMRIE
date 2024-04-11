@@ -34183,23 +34183,8 @@ EUCAST	2024	MIC		BCS	GENUS_CODE	Human	Human		Bacillus sp.		CLI	CLI_EM	2			1		202
 EUCAST	2024	DISK	2μg	BCS	GENUS_CODE	Human	Human		Bacillus sp.		CLI	CLI_ED2	16	-		17		2023-04-05		
 EUCAST	2024	MIC		BCS	GENUS_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_EM	4			2		2023-04-05		
 EUCAST	2024	DISK	10μg	BCS	GENUS_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_ED10	21	-		22		2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		IPM	IPM_EM						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		IPM	IPM_ED10						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		MEM	MEM_EM						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		MEM	MEM_ED10						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CIP	CIP_EM						2023-04-05		
-EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CIP	CIP_ED5						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LVX	LVX_EM						2023-04-05		
-EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LVX	LVX_ED5						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human	Screen	Bacillus sp.		NOR	NOR_ED10						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		VAN	VAN_EM						2023-04-05		
-EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		VAN	VAN_ED5						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		ERY	ERY_EM						2023-04-05		
-EUCAST	2024	DISK	15μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		ERY	ERY_ED15						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CLI	CLI_EM						2023-04-05		
-EUCAST	2024	DISK	2μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		CLI	CLI_ED2						2023-04-05		
-EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_EM						2023-04-05		
-EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus sp.		LNZ	LNZ_ED10						2023-04-05		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		PEN	PEN_EM	1			0.0001		2024-04-11		
+EUCAST	2024	DISK	1 unit	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		PEN	PEN_ED1	17	18-49		50		2024-04-11		
 EUCAST	2024	MIC		hso	WHONET_ORG_CODE	Animal	Cattle	Respiratory	Mannheimia haemolytica		FLR	FLR_EM	8			2		2023-04-05		
 EUCAST	2024	MIC		pam	WHONET_ORG_CODE	Animal	Cattle	Respiratory	Pasteurella multocida		FLR	FLR_EM	8			2		2023-04-05		
 EUCAST	2024	MIC		pha	WHONET_ORG_CODE	Animal	Cattle	Respiratory	Histophilus somni		FLR	FLR_EM	8			2		2023-04-05		
@@ -36993,3 +36978,19 @@ EUCAST	2024	MIC		cd-	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM
 EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	313.00	VAN	VAN_EM	4			2		2024-04-11		
 EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	MTR	MTR_EM	4			2		2024-04-11		
 EUCAST	2024	MIC		cd+	WHONET_ORG_CODE	Human	Human		C. difficile	314.00	FDX	FDX_EM	1			0.5		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		AMX	AMX_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CIP	CIP_EM	0.5			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CIP	CIP_ED5	23	24-49		50		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LVX	LVX_EM	1			0.0001		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LVX	LVX_ED5	22	23-49		50		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		VAN	VAN_EM	8			4		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		VAN	VAN_ED5	9	-		10		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CLI	CLI_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	2μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		CLI	CLI_ED2	16	-		17		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		DOX	DOX_EM	0.12			0.064		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		TCY	TCY_EM	0.25			0.125		2024-04-11		
+EUCAST	2024	DISK	30µg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		TCY	TCY_ED30	25	-		26		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LNZ	LNZ_EM	4			2		2024-04-11		
+EUCAST	2024	DISK	10μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		LNZ	LNZ_ED10	19	-		20		2024-04-11		
+EUCAST	2024	MIC		ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		RIF	RIF_EM	2			1		2024-04-11		
+EUCAST	2024	DISK	5μg	ban	WHONET_ORG_CODE	Human	Human		Bacillus anthracis		RIF	RIF_ED5	11	-		12		2024-04-11		
