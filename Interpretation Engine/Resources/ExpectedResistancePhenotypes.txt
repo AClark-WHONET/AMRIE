@@ -193,7 +193,6 @@ EUCAST	Enterobacterales	psh	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01
 EUCAST	Enterobacterales	psh	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	psh	WHONET_ORG_CODE			SAM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pmi	WHONET_ORG_CODE			J01AA	ATC_CODE		2021-01-01		
-EUCAST	Enterobacterales	pmi	WHONET_ORG_CODE			TGC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pmi	WHONET_ORG_CODE			POL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pmi	WHONET_ORG_CODE			COL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pmi	WHONET_ORG_CODE			NIT	WHONET_ABX_CODE		2021-01-01		
@@ -205,7 +204,6 @@ EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2021-01-01
 EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			CXM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			J01AA	ATC_CODE		2021-01-01		
-EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			TGC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			POL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			COL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ppe	WHONET_ORG_CODE			NIT	WHONET_ABX_CODE		2021-01-01		
@@ -217,7 +215,6 @@ EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2021-01-01
 EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			CXM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			J01AA	ATC_CODE		2021-01-01		
-EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			TGC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			POL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			COL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	pvu	WHONET_ORG_CODE			NIT	WHONET_ABX_CODE		2021-01-01		
@@ -258,8 +255,6 @@ EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2021-01-01
 EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			FOX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			CXM	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			POL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			COL	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			NIT	WHONET_ABX_CODE		2021-01-01		
@@ -442,8 +437,6 @@ EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			ATM	WHONET_
 EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			ETP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			TMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			FOS	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2021-01-01		
@@ -454,7 +447,6 @@ EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			ETP	WHONET_
 EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			TMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			FOS	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2021-01-01		
@@ -465,11 +457,11 @@ EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			ETP	WHONET_
 EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			TMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			FOS	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	axy	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	axy	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	axy	WHONET_ORG_CODE			CRO	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	axy	WHONET_ORG_CODE			CTX	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Non-fermentative gram-negative bacteria	axy	WHONET_ORG_CODE			ATM	WHONET_ABX_CODE		2024-04-12		
 EUCAST	Non-fermentative gram-negative bacteria	axy	WHONET_ORG_CODE			ETP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	BCX	SPECIES_GROUP			AMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	BCX	SPECIES_GROUP			AMX	WHONET_ABX_CODE		2021-01-01		
@@ -547,7 +539,7 @@ EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			ETP	WHONET_
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			IPM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			MEM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			J01G	ATC_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			TMP	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			SXT	WHONET_ABX_CODE		2021-01-01	2024-04-12	
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			FOS	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Other gram-negatives	hin	WHONET_ORG_CODE			FUS	WHONET_ABX_CODE		2021-01-01		
@@ -672,8 +664,6 @@ CLSI	Enterobacterales	hfv	WHONET_ORG_CODE			POL	WHONET_ABX_CODE		2021-01-01
 EUCAST	Enterobacterales	ci9	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ci9	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	ci9	WHONET_ORG_CODE			TIC	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			MNO	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Enterobacterales	sma	WHONET_ORG_CODE			TGC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ela	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ela	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	ela	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2021-01-01		
@@ -957,3 +947,49 @@ CLSI	M38 Filamentous fungi	RZH	GENUS_CODE			VOR	WHONET_ABX_CODE		2023-04-14
 CLSI	M38 Filamentous fungi	MUC	GENUS_CODE			FLU	WHONET_ABX_CODE		2023-04-14		
 CLSI	M38 Filamentous fungi	MUC	GENUS_CODE			VOR	WHONET_ABX_CODE		2023-04-14		
 CLSI	M38 Filamentous fungi	pli	WHONET_ORG_CODE			AMB	WHONET_ABX_CODE		2023-04-14		
+EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Non-fermentative gram-negative bacteria	aba	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Non-fermentative gram-negative bacteria	apt	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Non-fermentative gram-negative bacteria	ano	WHONET_ORG_CODE			DOX	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	csk	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	csk	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	csk	WHONET_ORG_CODE			TIC	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	cfa	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	cfa	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	cfa	WHONET_ORG_CODE			TIC	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			SAM	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			CZO	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			CEP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cbk	WHONET_ORG_CODE			FOX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			SAM	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			CZO	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			CEP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	c11	WHONET_ORG_CODE			FOX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			SAM	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			CZO	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			CEP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cwe	WHONET_ORG_CODE			FOX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			AMP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			AMX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			AMC	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			SAM	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			CZO	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			CEP	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			LEX	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			CFR	WHONET_ABX_CODE		2024-04-12		
+EUCAST	Enterobacterales	cyo	WHONET_ORG_CODE			FOX	WHONET_ABX_CODE		2024-04-12		
