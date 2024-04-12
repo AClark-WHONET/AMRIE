@@ -556,3 +556,4 @@ CBA						Ceftibuten/Avibactam	CLSI	X																												2023-04-11
 XEM						Meropenem/Xeruborbactam	CLSI	X											Beta-lactam+Inhibitors					X												2023-04-11		
 NTR	NI	NIT				Nitroxoline	EUCAST		X							89	30μg	J01XX07	Quinolones	QUIN		11a					Nitroxolin	25608-1		25723-8						2023-12-12		
 LMU						Lefamulin	EUCAST		X							528	5μg	J01XX12	Pleuromutilins	OTHER		28														2023-12-12		
+AMO						Amorolfine	EUCAST		X									D01AE16	Other antifungals for topical use	FUNG				X												2024-04-12		
