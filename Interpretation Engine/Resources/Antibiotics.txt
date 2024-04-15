@@ -449,7 +449,7 @@ SLP						Sulopenem	CLSI	X								484	2μg		Penems	PENEM		07b		X			Sulopenem	5528
 TAL			TAPC			Talampicillin										466		J01CA15	Penicillins	PEN		01b					Talampicil	18988-6	481-2	480-4				482-0	479-6	2021-01-01		
 TLP	TLP					Talmetoprim										296			Folate pathway inhibitors	FOLATE		12a														2021-01-01		
 TAZ		TAB	TAZ			Tazobactam	CLSI	X								297		J01CG02	Beta-lactamase inhibitors	BL-INH		02					Tazobactam	41740-2	41719-6	41721-2	41720-4					2021-01-01		
-TZD						Tedizolid	CLSI,EUCAST	X	X	X						505		J01XX11	Oxazolidinones	OXAZOLID		20						73586-0	73631-4	73608-2						2021-01-01		
+TZD						Tedizolid	CLSI,EUCAST	X	X	X						505	2μg	J01XX11	Oxazolidinones	OXAZOLID		20						73586-0	73631-4	73608-2						2021-01-01		
 TEC	TEC	TPL	TEIC			Teicoplanin	NEO							X		384	60μg	J01XA02	Glycopeptides	GLYCO		21b		X			Teicoplani	18989-4	485-3	484-6	7051-6			486-1	483-8	2021-01-01		
 TEC	TEC	TPL	TEIC			Teicoplanin	CLSI,EUCAST	X	X	X	X				X	79	30μg	J01XA02	Glycopeptides	GLYCO		21b		X			Teicoplani	18989-4	485-3	484-6	7051-6					2021-01-01		
 TCM			TEIC			Teicoplanin-Macromethod										440		J01XA02	Glycopeptides	GLYCO		21b														2021-01-01		
