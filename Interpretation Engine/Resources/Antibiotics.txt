@@ -435,7 +435,7 @@ SBC	SBC		SBPC			Sulbenicillin										125		J01CA16	Penicillins	PEN		01g								
 SUC	SUC					Sulconazole										287		D01AC09	Antifungals	FUNG		29														2021-01-01		
 SUP						Sulfachlorpyridazine										288		QJ01EQ12	Folate pathway inhibitors	FOLATE		12a														2021-01-01		
 SDI		SLD				Sulfadiazine										425		J01EC02	Folate pathway inhibitors	FOLATE		12a					Sulfadiazi	18984-5	465-5	464-8	7050-8			466-3	463-0	2021-01-01		
-SUD	X					Sulfadimethoxine										289		J01ED01	Folate pathway inhibitors	FOLATE		12a														2021-01-01		
+SDM	X					Sulfadimethoxine										289		J01ED01	Folate pathway inhibitors	FOLATE		12a														2021-01-01	2024-04-16	
 SDM	SDM					Sulfadimidine	AFA								X	290	250μg	J01EB03	Folate pathway inhibitors	FOLATE		12a														2021-01-01		
 SZO	SZO					Sulfamazone										291		J01ED09	Folate pathway inhibitors	FOLATE		12a														2021-01-01		
 SUM						Sulfamethazine										292			Folate pathway inhibitors	FOLATE		12a														2021-01-01		
@@ -557,3 +557,4 @@ XEM						Meropenem/Xeruborbactam	CLSI	X											Beta-lactam+Inhibitors					X		
 NTR	NI	NIT				Nitroxoline	EUCAST		X							89	30μg	J01XX07	Quinolones	QUIN		11a					Nitroxolin	25608-1		25723-8						2023-12-12		
 LMU						Lefamulin	EUCAST		X							528	5μg	J01XX12	Pleuromutilins	OTHER		28														2023-12-12		
 AMO						Amorolfine	EUCAST		X									D01AE16	Other antifungals for topical use	FUNG				X												2024-04-12		
+SUD						Sulbactam-durlobactam	CLSI	X									10/10μg							X												2024-04-16		

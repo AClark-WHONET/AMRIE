@@ -36341,7 +36341,7 @@ CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		SMX	SMX_NM	512			256
 CLSI	2024	DISK	30μg	pae	WHONET_ORG_CODE	Human	Human	Parenteral	Table 2B-1		FDC	FDC_ND30	12	13-17		18				
 CLSI	2024	DISK	10μg	pae	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2B-1		NOR	NOR_ND10	12	13-16		17		2021-08-11		
 CLSI	2024	MIC		pae	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2B-1		NOR	NOR_NM	16			4				
-CLSI	2024	DISK	30μg	AC-	GENUS_CODE	Human	Human	Parenteral	Table 2B-2		FDC	FDC_ND30				15				
+CLSI	2024	DISK	30µg	AC-	GENUS_CODE	Human	Human	Parenteral	Table 2B-2		FDC	FDC_ND30				15				
 CLSI	2024	DISK	10μg	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	11.00	COL	COL_ND10								
 CLSI	2024	DISK	300 units	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	12.00	POL	POL_ND300								
 CLSI	2024	DISK	30μg	pma	WHONET_ORG_CODE	Human	Human	Parenteral	Table 2B-4		FDC	FDC_ND30				15				
@@ -37462,3 +37462,5 @@ CLSI	2024	MIC		sgc	WHONET_ORG_CODE	Human	Human		Table 2H-1		DAL	DAL_NM				0.25		
 CLSI	2024	MIC		sdy	WHONET_ORG_CODE	Human	Human		Table 2H-1		DAL	DAL_NM				0.25			2024-04-16	
 CLSI	2024	MIC		sgc	WHONET_ORG_CODE	Human	Human		Table 2H-1		TZD	TZD_NM				0.5			2024-04-16	
 CLSI	2024	DISK	2μg	sgc	WHONET_ORG_CODE	Human	Human		Table 2H-1		TZD	TZD_ND2				15		2024-04-15	2024-04-16	
+CLSI	2024	DISK	10/10μg	AC-	GENUS_CODE	Human	Human		Table 2B-2	5.00	SUD	SUD_ND10	13	14-16		17		2024-04-16		
+CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human		Table 2B-2	5.00	SUD	SUD_NM	16			4		2024-04-16		
