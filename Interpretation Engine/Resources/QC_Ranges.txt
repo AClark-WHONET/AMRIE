@@ -18240,3 +18240,6 @@ CLSI	2024	atccBAA2814	Table 5A-2	kpn	Cefepime	FEP_NM	FEP	MIC		64		2024-04-16
 CLSI	2024	atccBAA2814	Table 5A-2	kpn	Cefepime/Nacubactam	FNC_NM	FNC	MIC		0.5	2	2024-04-16		
 CLSI	2024	nctc13304	Table 5A-2	aba	Meropenem	MEM_NM	MEM	MIC	MH	32	128	2024-04-16		
 CLSI	2024	nctc13304	Table 5A-2	aba	Sulbactam	SUL_NM	SUL	MIC	MH	16	64	2024-04-16		
+CLSI	2024	atcc25922	Table 4A-2	eco	Sulbactam/Durlobactam	SUD_ND10	SUD	Disk	MH	26	32	2024-04-16		
+CLSI	2024	nctc13304	Table 4A-2	aba	Sulbactam/Durlobactam	SUD_ND10	SUD	Disk	MH	24	30	2024-04-16		
+CLSI	2024	nctc13304	Table 4A-2	aba	Sulbactam/Durlobactam	SUD_NM	SUD	MIC	MH	0.5	2	2024-04-16		
