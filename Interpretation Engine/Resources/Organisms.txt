@@ -2645,7 +2645,7 @@ sdf		Streptococcus defectivus	O		+			+			ABI				113714003	Abiotrophia defectiva	
 sdo		Streptococcus downei	C		+			+			STR	SVI		OTH	116501009	Streptococcus species	3227065	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 edu		Streptococcus durans	O		+			+			ENT				46464008	Enterococcus durans	3227093	7ddf754f-d193-4cc9-b351-99906754a03b	synonym	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 sdy		Streptococcus dysgalactiae	O		+			+			STR			LCHS	128338004	Streptococcus dysgalactiae subspecies dysgalactiae	3227094	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sdy		Streptococcus dysgalactiae ss. dysgalactiae	C		+			+			STR			LCHS	128338004	Streptococcus dysgalactiae subspecies dysgalactiae	3227095	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sdy		Streptococcus dysgalactiae ss. dysgalactiae	C		+			+			STR	BS-		LCHS	128338004	Streptococcus dysgalactiae subspecies dysgalactiae	3227095	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sqm		Streptococcus dysgalactiae ss. equisimilis	C		+			+			STR	BS-		LCHS	113984001	Streptococcus dysgalactiae subspecies equisimilis	3227096	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 squ		Streptococcus equi	O		+			+			STR	BS-			33708000	Streptococcus equi subspecies equi	3227113	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 squ		Streptococcus equi ss. equi	C		+			+			STR	BS-		LCHS	33708000	Streptococcus equi subspecies equi	3227116	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
@@ -2943,3 +2943,4 @@ vgc		Vagococcus sp.	C		+			+			VGC				116416009	Vagococcus	3227420		accepted	Bac
 vgs		Vagococcus salmoninarum	C		+			+			VGC				116419002	Vagococcus salmoninarum	3227425		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Vagococcaceae	Vagococcus
 enu		Enterococcus thailandicus	C		+			+			ENT				449322006	Enterococcus thailandicus	7368198		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 tyi		Trichophyton indotineae	C		f						TRY						12244851	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
+												sssss													
