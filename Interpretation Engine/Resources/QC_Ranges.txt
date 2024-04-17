@@ -16975,7 +16975,7 @@ CLSI	2024	atcc6258	Fungus	ckr	5-Fluorocytosine	FCT_NM	FCT	MIC		4	16	2021-01-01	2
 CLSI	2024	atcc22019	Fungus	cpa	5-Fluorocytosine	FCT_NM	FCT	MIC		0.06	0.25	2021-01-01	2023-04-14	
 CLSI	2024	atcc90018	Fungus	cpa	5-Fluorocytosine	FCT_NM	FCT	MIC		0	0.25	2021-01-01	2021-01-01	
 CLSI	2024	atcc750	Fungus	ctr	5-Fluorocytosine	FCT_NM	FCT	MIC		0	0.25	2021-01-01	2021-01-01	
-CLSI	2024	atcc700057	Table 5D	cdf	Fidaxomicin	FDX_NM	FDX	MIC	Agar	0.06	0.25	2021-01-01	2021-01-01	
+CLSI	2024	atcc700057	Table 5D	cdf	Fidaxomicin	FDX_NM	FDX	MIC	Agar	0.03	0.25	2021-01-01	2024-04-17	
 CLSI	2024	atcc29212	Table 5A-1	efa	Fidaxomicin	FDX_NM	FDX	MIC	MH	1	4	2021-01-01	2021-01-01	
 CLSI	2024	atcc29213	Table 5A-1	sau	Fidaxomicin	FDX_NM	FDX	MIC	MH	2	16	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-1	eco	Cefepime	FEP_ND30	FEP	Disk	MH	31	37	2021-01-01	2021-01-01	
@@ -17536,7 +17536,7 @@ CLSI	2024	atcc29213	Table 5A-1	sau	Telithromycin	TEL_NM	TEL	MIC	MH	0.06	0.25	202
 CLSI	2024	atcc49619	Table 4B	spn	Telithromycin	TEL_ND15	TEL	Disk	MHB	27	33	2021-01-01	2021-01-01	
 CLSI	2024	atcc49619	Table 5B	spn	Telithromycin	TEL_NM	TEL	MIC	MHB	0.004	0.032	2021-01-01	2021-01-01	
 CLSI	2024	atcc25285	Table 5D	bfr	Tigecycline	TGC_NM	TGC	MIC	Agar	0.12	1	2021-01-01	2021-01-01	
-CLSI	2024	atcc29741	Table 5D	bth	Tigecycline	TGC_NM	TGC	MIC	Agar	0.25	2	2021-01-01	2021-01-01	
+CLSI	2024	atcc29741	Table 5D	bth	Tigecycline	TGC_NM	TGC	MIC	Agar	0.5	2	2021-01-01	2024-04-17	
 CLSI	2024	atcc700057	Table 5D	cdf	Tigecycline	TGC_NM	TGC	MIC	Agar	0.12	1	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-1	eco	Tigecycline	TGC_ND15	TGC	Disk	MH	20	27	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 5A-1	eco	Tigecycline	TGC_NM	TGC	MIC	MH	0.03	0.25	2021-01-01	2021-01-01	
@@ -17761,9 +17761,8 @@ CLSI	2024	atcc700603	Table 5A-2	kpn	Imipenem	IPM_NM	IPM	MIC	MH	0.03	0.25	2021-01
 CLSI	2024	atcc700603	Table 5A-2	kpn	Imipenem/Relebactam	IMR_NM	IMR	MIC	MH	0.03	0.25	2021-01-01	2021-01-01	
 CLSI	2024	atcc700603	Table 5A-2	kpn	Cefepime/Zidebactam	FPZ_NM	FPZ	MIC	MH	0.06	0.25	2021-01-01	2021-01-01	
 CLSI	2024	atcc49619	Table 5B	spn	Imipenem/relebactam	IMR_NM	IMR	MIC	MH	0.015	0.125	2021-01-01	2021-01-01	
-CLSI	2024	atcc43055	Table 5D	bfr	Imipenem/Relebactam	IMR_NM	IMR	MIC	Agar	0.03	0.125	2021-01-01	2021-01-01	
-CLSI	2024	atcc29741	Table 5D	bth	Imipenem/Relebactam	IMR_NM	IMR	MIC	Agar	0.12	0.5	2021-01-01	2021-01-01	
-CLSI	2024	atcc43055	Table 5D	ele	Imipenem/Relebactam	IMR_NM	IMR	MIC	Agar	0.12	0.5	2021-01-01	2021-01-01	
+CLSI	2024	atcc29741	Table 5D	bth	Imipenem/Relebactam	IMR_NM	IMR	MIC	Agar	0.06	0.5	2021-01-01	2024-04-17	
+CLSI	2024	atcc43055	Table 5D	ele	Imipenem/Relebactam	IMR_NM	IMR	MIC	Agar	0.12	1	2021-01-01	2024-04-17	
 CLSI	2024	atcc25922	Table 4A-1	eco	Cefonicid	CID_ND30	CID	Disk	MH	25	29	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-1	eco	Cefoperazone	CFP_ND75	CFP	Disk	MH	28	34	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-2	eco	Ceftaroline/Avibactam	CPA_ND30	CPA	Disk	MH	27	34	2021-01-01	2021-01-01	
@@ -18281,3 +18280,34 @@ CLSI	2024	atcc49226	Table 5C	ngo	Ceftazidime	CAZ_NM	CAZ	MIC	GC	0.03	0.125	2024-0
 CLSI	2024	atcc49226	Table 5C	ngo	Ciprofloxacin	CIP_NM	CIP	MIC	GC	0.001	0.008	2024-04-17		
 CLSI	2024	atcc49226	Table 5C	ngo	Gentamicin	GEN_NM	GEN	MIC	GC	4	16	2024-04-17		
 CLSI	2024	atcc49226	Table 5C	ngo	Gepotidacin	GEP_NM	GEP	MIC	GC	0.25	1	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Amoxicillin/Clavulanic acid	AMC_NM	AMC	MIC	Agar	0.25	1	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Ampicillin	AMP_NM	AMP	MIC	Agar	16	64	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Cefmetazole	CMZ_NM	CMZ	MIC	Agar	8	32	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Cefoperazone	CFP_NM	CFP	MIC	Agar	32	128	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Ceftaroline/Avibactam	CPA_NM	CPA	MIC	Agar	0.12	0.5	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Chloramphenicol	CHL_NM	CHL	MIC	Agar	2	8	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Clinafloxacin	CLX_NM	CLX	MIC	Agar	0.03	0.125	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Clindamycin	CLI_NM	CLI	MIC	Agar	0.5	2	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Imipenem/Relebactam	IMR_NM	IMR	MIC	Agar	0.03	0.25	2024-04-17		
+CLSI	2024	atcc25285	Table 5D	bfr	Tebipenem	TBP_NM	TBP	MIC	Agar	0.03	0.25	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Amoxicillin/Clavulanic acid	AMC_NM	AMC	MIC	Agar	0.5	2	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Ampicillin	AMP_NM	AMP	MIC	Agar	16	64	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Cefmetazole	CMZ_NM	CMZ	MIC	Agar	32	128	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Cefoperazone	CFP_NM	CFP	MIC	Agar	32	128	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Ceftaroline/Avibactam	CPA_NM	CPA	MIC	Agar	4	16	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Chloramphenicol	CHL_NM	CHL	MIC	Agar	4	16	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Clinafloxacin	CLX_NM	CLX	MIC	Agar	0.06	0.5	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Clindamycin	CLI_NM	CLI	MIC	Agar	2	8	2024-04-17		
+CLSI	2024	atcc29741	Table 5D	bth	Tebipenem	TBP_NM	TBP	MIC	Agar	0.12	0.5	2024-04-17		
+CLSI	2024	atcc700057	Table 5D	cdf	Amoxicillin/Clavulanic acid	AMC_NM	AMC	MIC	Agar	0.25	1	2024-04-17		
+CLSI	2024	atcc700057	Table 5D	cdf	Ampicillin	AMP_NM	AMP	MIC	Agar	1	4	2024-04-17		
+CLSI	2024	atcc700057	Table 5D	cdf	Ceftaroline/Avibactam	CPA_NM	CPA	MIC	Agar	0.5	4	2024-04-17		
+CLSI	2024	atcc700057	Table 5D	cdf	Clindamycin	CLI_NM	CLI	MIC	Agar	2	8	2024-04-17		
+CLSI	2024	atcc700057	Table 5D	cdf	Rifaximin	RFX_NM	RFX	MIC	Agar	0.004	0.016	2024-04-17		
+CLSI	2024	atcc700057	Table 5D	cdf	Tebipenem	TBP_NM	TBP	MIC	Agar	0.5	2	2024-04-17		
+CLSI	2024	atcc43055	Table 5D	ele	Cefmetazole	CMZ_NM	CMZ	MIC	Agar	4	16	2024-04-17		
+CLSI	2024	atcc43055	Table 5D	ele	Cefoperazone	CFP_NM	CFP	MIC	Agar	32	128	2024-04-17		
+CLSI	2024	atcc43055	Table 5D	ele	Ceftaroline/Avibactam	CPA_NM	CPA	MIC	Agar	4	16	2024-04-17		
+CLSI	2024	atcc43055	Table 5D	ele	Clinafloxacin	CLX_NM	CLX	MIC	Agar	0.03	0.125	2024-04-17		
+CLSI	2024	atcc43055	Table 5D	ele	Clindamycin	CLI_NM	CLI	MIC	Agar	0.06	0.25	2024-04-17		
+CLSI	2024	atcc43055	Table 5D	ele	Tebipenem	TBP_NM	TBP	MIC	Agar	0.06	0.25	2024-04-17		
