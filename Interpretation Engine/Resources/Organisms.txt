@@ -2943,4 +2943,4 @@ vgc		Vagococcus sp.	C		+			+			VGC				116416009	Vagococcus	3227420		accepted	Bac
 vgs		Vagococcus salmoninarum	C		+			+			VGC				116419002	Vagococcus salmoninarum	3227425		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Vagococcaceae	Vagococcus
 enu		Enterococcus thailandicus	C		+			+			ENT				449322006	Enterococcus thailandicus	7368198		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 tyi		Trichophyton indotineae	C		f						TRY						12244851	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
-												sssss													
+ask		Arcobacter skirrowii	C		-			-			ARC			OTH	14210002	Arcobacter skirrowii	3223375	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
