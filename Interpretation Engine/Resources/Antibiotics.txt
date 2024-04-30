@@ -18,7 +18,6 @@ ANI						Anidulafungin										477		J02AX06	Antifungals	FUNG		29														2
 APL	APL	APL				Apalcillin										144			Penicillins	PEN		01c														2021-01-01		
 APR		APR				Apramycin	CLSI	X								400	15μg		Aminoglycosides	AG		09			X		Apramycin	23659-6	73653-8	73652-0						2021-01-01		
 BAC	B	BTC	BC			Bacitracin zinc	CLSI	X		X						8	10units	J01XX10	Polypeptides	POLYPEP		26		X			Bacitracin	18870-6	10868-8	6827-0	6983-1					2021-01-01		
-AMX	AMX	AMX	AMPC			Amoxicillin	NEO							X		330	30μg	J01CA04	Penicillins	PEN		01b		X			Amoxicilli	18861-5	17-4	16-6	6976-5			18-2	15-8	2021-01-01		
 AMX	AMX	AMX	AMPC			Amoxicillin										485	2μg	J01CA04	Penicillins	PEN		01b		X			Amoxicilli	18861-5	17-4	16-6	6976-5			18-2	15-8	2021-01-01		
 CPC			CEPM-CVA			Cefepime/Clavulanic acid										432			Beta-lactam+Inhibitors	BL+INH		03					Cefepime+C	42353-3	42350-9	42351-7	35763-2					2021-01-01		
 CCP			CFPN			Cefcapene										152	5μg	J01DD17	Cephems	CEPH3		04c														2021-01-01		
@@ -26,7 +25,7 @@ AMC	AMC	AMC	AMPC-CVA			Amoxicillin/Clavulanic acid										307	25/2μg	J01CR02	
 BES						Besifloxacin	CLSI	X								486		S01AE08	Quinolones	FQ		11b		X				73606-6	73651-2	73628-0						2021-01-01		
 BIA			BIPM			Biapenem	CLSI	X								218		J01DH05	Penems	CARB		07a					Biapenem	41728-7	41666-9	41665-1	41667-7					2021-01-01		
 BCZ	BCZ					Bicyclomycin (Bicozamycin)										219			Rho factor inhibitors	RHO		27														2021-01-01		
-AMX	AMX	AMX	AMPC			Amoxicillin	CLSI	X		X						82	30μg	J01CA04	Penicillins	PEN		01b		X			Amoxicilli	18861-5	17-4	16-6	6976-5			18-2	15-8	2021-01-01		
+AMX	AMX	AMX	AMPC			Amoxicillin	CLSI,NEO	X		X				X		82	30μg	J01CA04	Penicillins	PEN		01b		X			Amoxicilli	18861-5	17-4	16-6	6976-5			18-2	15-8	2021-01-01		
 CTL			CTZ			Ceftezole										450		J01DB12	Cephems	CEPH1		04a														2021-01-01		
 AMX	AMX	AMX	AMPC			Amoxicillin	EUCAST		X	X			X			210	10μg	J01CA04	Penicillins	PEN		01b		X			Amoxicilli	18861-5	17-4	16-6	6976-5			18-2	15-8	2021-01-01		
 CFR	CFR	CFR	CDX			Cefadroxil	EUCAST		X	X	X	X				70	30μg	J01DB05	Cephems-Oral	CEPH-ORAL		05a		X			Cefadroxil	18875-5	65-3	64-6				66-1	63-8	2021-01-01		
