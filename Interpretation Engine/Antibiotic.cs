@@ -218,7 +218,7 @@ namespace AMR_Engine
 			NEO = NEO_;
 			NEO = AFA_;
 			ABX_NUMBER = ABX_NUMBER_;
-			ABX_NUMBER = POTENCY_;
+			POTENCY = POTENCY_;
 			ATC_CODE = ATC_CODE_;
 			CLASS = CLASS_;
 			PROF_CLASS = PROF_CLASS_;
@@ -246,45 +246,45 @@ namespace AMR_Engine
 
 		#region Properties
 
-		public readonly string WHONET_ABX_CODE;
-		public readonly string WHO_CODE;
-		public readonly string DIN_CODE;
-		public readonly string JAC_CODE;
-		public readonly string EUCAST_CODE;
-		public readonly string USER_CODE;
-		public readonly string ANTIBIOTIC;
-		public readonly string GUIDELINES;
-		public readonly bool CLSI;
-		public readonly bool EUCAST;
-		public readonly bool SFM;
-		public readonly bool SRGA;
-		public readonly bool BSAC;
-		public readonly bool DIN;
-		public readonly bool NEO;
-		public readonly bool AFA;
-		public readonly string ABX_NUMBER;
-		public readonly string POTENCY;
-		public readonly string ATC_CODE;
-		public readonly string CLASS;
-		public readonly string PROF_CLASS;
-		public readonly string CIA_CATEGORY;
-		public readonly string CLSI_ORDER;
-		public readonly string EUCAST_ORDER;
-		public readonly bool HUMAN;
-		public readonly bool VETERINARY;
-		public readonly bool ANIMAL_GP;
-		public readonly string LOINCCOMP;
-		public readonly string LOINCGEN;
-		public readonly string LOINCDISK;
-		public readonly string LOINCMIC;
-		public readonly string LOINCETEST;
-		public readonly string LOINCSLOW;
-		public readonly string LOINCAFB;
-		public readonly string LOINCSBT;
-		public readonly string LOINCMLC;
-		public readonly DateTime DATE_ENTERED;
-		public readonly DateTime DATE_MODIFIED;
-		public readonly string COMMENTS;
+		public string WHONET_ABX_CODE { get; }
+		public string WHO_CODE { get; }
+		public string DIN_CODE { get; }
+		public string JAC_CODE { get; }
+		public string EUCAST_CODE { get; }
+		public string USER_CODE { get; }
+		public string ANTIBIOTIC { get; }
+		public string GUIDELINES { get; }
+		public bool CLSI { get; }
+		public bool EUCAST { get; }
+		public bool SFM { get; }
+		public bool SRGA { get; }
+		public bool BSAC { get; }
+		public bool DIN { get; }
+		public bool NEO { get; }
+		public bool AFA { get; }
+		public string ABX_NUMBER { get; }
+		public string POTENCY { get; }
+		public string ATC_CODE { get; }
+		public string CLASS { get; }
+		public string PROF_CLASS { get; }
+		public string CIA_CATEGORY { get; }
+		public string CLSI_ORDER { get; }
+		public string EUCAST_ORDER { get; }
+		public bool HUMAN { get; }
+		public bool VETERINARY { get; }
+		public bool ANIMAL_GP { get; }
+		public string LOINCCOMP { get; }
+		public string LOINCGEN { get; }
+		public string LOINCDISK { get; }
+		public string LOINCMIC { get; }
+		public string LOINCETEST { get; }
+		public string LOINCSLOW { get; }
+		public string LOINCAFB { get; }
+		public string LOINCSBT { get; }
+		public string LOINCMLC { get; }
+		public DateTime DATE_ENTERED { get; }
+		public DateTime DATE_MODIFIED { get; }
+		public string COMMENTS { get; }
 
 		#endregion
 
