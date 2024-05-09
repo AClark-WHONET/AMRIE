@@ -119,14 +119,26 @@ namespace AMR_Engine
 
 		#region Private
 
+		/// <summary>
+		/// Loads all organisms, including those with nomenclature changes, into a list.
+		/// This full list is not used by the AMR system directly, except that it is
+		/// filtered down to the CurrentOrganisms (which is used by the AMR system).
+		/// The full AllOrganisms list is used primarily by 3rd party applications,
+		/// such as WHONET and BacLink, which need to know about nomenclature changes
+		/// that are not relevant for the AMR Engine's work. The AMR system only deals
+		/// with the codes, which don't change, ignoring the full text names which would
+		/// need to be known for mapping and searching purposes in the other applications.
+		/// </summary>
+		/// <returns></returns>
+		/// <exception cref="FileNotFoundException"></exception>
 		private static List<Organism> LoadAllOrganisms()
 		{
 			string organismsTableFile;
-			string relativePath = System.IO.Path.Join("Resources", "Organisms.txt");
+			string relativePath = Path.Join("Resources", "Organisms.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				organismsTableFile = relativePath;
 			else
-				organismsTableFile = System.IO.Path.Join(Constants.SystemRootPath, relativePath);
+				organismsTableFile = Path.Join(Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(organismsTableFile))
 			{
