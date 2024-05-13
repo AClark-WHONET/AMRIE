@@ -134,11 +134,11 @@ namespace AMR_Engine
 		private static List<Organism> LoadAllOrganisms()
 		{
 			string organismsTableFile;
-			string relativePath = Path.Join("Resources", "Organisms.txt");
+			string relativePath = string.Join(Path.DirectorySeparatorChar.ToString(), "Resources", "Organisms.txt");
 			if (string.IsNullOrWhiteSpace(Constants.SystemRootPath))
 				organismsTableFile = relativePath;
 			else
-				organismsTableFile = Path.Join(Constants.SystemRootPath, relativePath);
+				organismsTableFile = string.Join(Path.DirectorySeparatorChar.ToString(), Constants.SystemRootPath, relativePath);
 
 			if (File.Exists(organismsTableFile))
 			{
