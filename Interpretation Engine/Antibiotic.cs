@@ -193,7 +193,8 @@ namespace AMR_Engine
 			bool EUCAST_, bool SFM_, bool SRGA_,
 			bool BSAC_, bool DIN_, bool NEO_,
 			bool AFA_, string ABX_NUMBER_, string POTENCY_,
-			string ATC_CODE_, string CLASS_, string PROF_CLASS_, string CIA_CATEGORY_,
+			string ATC_CODE_, string CLASS_, string SUBCLASS_,
+			string PROF_CLASS_, string CIA_CATEGORY_,
 			string CLSI_ORDER_, string EUCAST_ORDER_, bool HUMAN_,
 			bool VETERINARY_, bool ANIMAL_GP_, string LOINCCOMP_,
 			string LOINCGEN_, string LOINCDISK_, string LOINCMIC_,
@@ -221,6 +222,7 @@ namespace AMR_Engine
 			POTENCY = POTENCY_;
 			ATC_CODE = ATC_CODE_;
 			CLASS = CLASS_;
+			SUBCLASS = SUBCLASS_;
 			PROF_CLASS = PROF_CLASS_;
 			CIA_CATEGORY = CIA_CATEGORY_;
 			CLSI_ORDER = CLSI_ORDER_;
@@ -266,6 +268,7 @@ namespace AMR_Engine
 		public string POTENCY { get; }
 		public string ATC_CODE { get; }
 		public string CLASS { get; }
+		public string SUBCLASS { get; }
 		public string PROF_CLASS { get; }
 		public string CIA_CATEGORY { get; }
 		public string CLSI_ORDER { get; }
@@ -340,8 +343,8 @@ namespace AMR_Engine
 							values[headerMap[nameof(CLSI)]] == X, values[headerMap[nameof(EUCAST)]] == X, values[headerMap[nameof(SFM)]] == X, 
 							values[headerMap[nameof(SRGA)]] == X, values[headerMap[nameof(BSAC)]] == X, values[headerMap[nameof(DIN)]] == X, 
 							values[headerMap[nameof(NEO)]] == X, values[headerMap[nameof(AFA)]] == X, values[headerMap[nameof(ABX_NUMBER)]], 
-							values[headerMap[nameof(POTENCY)]], values[headerMap[nameof(ATC_CODE)]], values[headerMap[nameof(CLASS)]], 
-							values[headerMap[nameof(PROF_CLASS)]], values[headerMap[nameof(CIA_CATEGORY)]],
+							values[headerMap[nameof(POTENCY)]], values[headerMap[nameof(ATC_CODE)]], values[headerMap[nameof(CLASS)]],
+							values[headerMap[nameof(SUBCLASS)]], values[headerMap[nameof(PROF_CLASS)]], values[headerMap[nameof(CIA_CATEGORY)]],
 							values[headerMap[nameof(CLSI_ORDER)]], values[headerMap[nameof(EUCAST_ORDER)]], values[headerMap[nameof(HUMAN)]] == X,
 							values[headerMap[nameof(VETERINARY)]] == X, values[headerMap[nameof(ANIMAL_GP)]] == X, values[headerMap[nameof(LOINCCOMP)]],
 							values[headerMap[nameof(LOINCGEN)]], values[headerMap[nameof(LOINCDISK)]], values[headerMap[nameof(LOINCMIC)]],
