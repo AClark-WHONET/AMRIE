@@ -1,5 +1,5 @@
 # AMRIE
-## Antimicrobial Resistance Interpretation Engine
+## Antimicrobial Resistance Test Interpretation Engine
 
 This software was created by the [WHONET](https://whonet.org) development team to facilitate
 the interpretation of antibiotic measurements according to the various supported guidelines
