@@ -315,8 +315,10 @@ namespace AMR_Engine
 										return Constants.InterpretationCodes.Susceptible;
 
 									else if (MostApplicableBreakpoint.R > 0M)
-										return Constants.InterpretationCodes.Intermediate;
-
+										if (!string.IsNullOrEmpty(MostApplicableBreakpoint.I))
+											return Constants.InterpretationCodes.Intermediate;
+										else
+											return Constants.InterpretationCodes.SusceptibleDoseDependent;
 									else
 										return Constants.InterpretationCodes.NonSusceptible;
 								}
