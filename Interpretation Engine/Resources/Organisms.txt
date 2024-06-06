@@ -76,7 +76,7 @@ adv		Adenovirus	C		v										74871001	Human adenovirus
 aec		Aerococcus sp.	C		+			+			AEC			OTH	131206005	Aerococcus species	3227021	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
 aun		Aerococcus urinae	C		+			+			AEC			OTH	243230001	Aerococcus urinae	3227026	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
 avi		Aerococcus viridans	C		+			+			AEC			OTH	78803006	Aerococcus viridans	3227022	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
-avh		Aerococcus viridans var. homari	C		+			+			AEC														
+avh		Aerococcus viridans var. homari	C		+			+			AEC							7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
 acv		Aeromonas caviae	C		-			-			AER			AVPV	88529008	Aeromonas	3222881	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas
 adh		Aeromonas dhakensis	C		-			-			AER				385475003	Aeromonas dhakensis				Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Aeromonas
 atr		Aeromonas enteropelogenes	C		-			-			AER			AVPV			3222896	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas
@@ -2944,3 +2944,4 @@ vgs		Vagococcus salmoninarum	C		+			+			VGC				116419002	Vagococcus salmoninarum
 enu		Enterococcus thailandicus	C		+			+			ENT				449322006	Enterococcus thailandicus	7368198		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 tyi		Trichophyton indotineae	C		f						TRY						12244851	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
 ask		Arcobacter skirrowii	C		-			-			ARC			OTH	14210002	Arcobacter skirrowii	3223375	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
+aes		Aerococcus sanguinicola	C		+			+			AEC				427222006	Aerococcus sanguinicola	7664344	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
