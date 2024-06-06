@@ -581,7 +581,6 @@ EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			CPT	WHONET_ABX_CODE		2021-01
 EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			FAR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			FDC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			CZT	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			J01G	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			J01FA	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			CLI	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efa	WHONET_ORG_CODE			QDA	WHONET_ABX_CODE		2021-01-01		
@@ -598,7 +597,6 @@ EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			CPT	WHONET_ABX_CODE		2021-01
 EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			FAR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			FDC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			CZT	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			J01G	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			J01FA	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			CLI	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	ega	WHONET_ORG_CODE			QDA	WHONET_ABX_CODE		2021-01-01		
@@ -616,7 +614,6 @@ EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			CPT	WHONET_ABX_CODE		2021-01
 EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			FAR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			FDC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			CZT	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			J01G	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			J01FA	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			CLI	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	eca	WHONET_ORG_CODE			QDA	WHONET_ABX_CODE		2021-01-01		
@@ -634,7 +631,6 @@ EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			CPT	WHONET_ABX_CODE		2021-01
 EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			FAR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			FDC	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			CZT	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			J01G	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			J01FA	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			J01EB	ATC_CODE		2021-01-01		
 EUCAST	Gram-positive bacteria	efm	WHONET_ORG_CODE			J01EC	ATC_CODE		2021-01-01		
