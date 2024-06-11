@@ -370,6 +370,9 @@ namespace AMR_Engine
 													// No "R" breakpoint.
 													if (tempNumericResult > MostApplicableBreakpoint.S)
 														return Constants.InterpretationCodes.NonSusceptible;
+													else
+														// Must include the question mark because of the > symbol.
+														return Constants.InterpretationCodes.NonSusceptible + Constants.InterpretationCodes.QuestionMark;
 												}
 											}
 											else
@@ -379,7 +382,7 @@ namespace AMR_Engine
 
 												else
 													// Must include the question mark because of the > symbol.
-													return Constants.InterpretationCodes.Resistant + Constants.InterpretationCodes.QuestionMark;
+													return Constants.InterpretationCodes.NonSusceptible + Constants.InterpretationCodes.QuestionMark;
 											}
 										}
 										else
