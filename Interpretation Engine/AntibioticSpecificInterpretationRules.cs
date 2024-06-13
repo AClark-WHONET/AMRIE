@@ -315,8 +315,10 @@ namespace AMR_Engine
 										return Constants.InterpretationCodes.Susceptible;
 
 									else if (MostApplicableBreakpoint.R > 0M)
-										return Constants.InterpretationCodes.Intermediate;
-
+										if (!string.IsNullOrEmpty(MostApplicableBreakpoint.I))
+											return Constants.InterpretationCodes.Intermediate;
+										else
+											return Constants.InterpretationCodes.SusceptibleDoseDependent;
 									else
 										return Constants.InterpretationCodes.NonSusceptible;
 								}
@@ -346,7 +348,12 @@ namespace AMR_Engine
 												return Constants.InterpretationCodes.NonSusceptible;
 										}
 										else
-											return Constants.InterpretationCodes.Intermediate;
+										{
+											if (!string.IsNullOrEmpty(MostApplicableBreakpoint.I))
+												return Constants.InterpretationCodes.Intermediate;
+											else
+												return Constants.InterpretationCodes.SusceptibleDoseDependent;
+										}
 									}
 									else
 									{
@@ -363,6 +370,10 @@ namespace AMR_Engine
 													// No "R" breakpoint.
 													if (tempNumericResult > MostApplicableBreakpoint.S)
 														return Constants.InterpretationCodes.NonSusceptible;
+
+													else
+														// Must include the question mark because of the > symbol.
+														return Constants.InterpretationCodes.NonSusceptible + Constants.InterpretationCodes.QuestionMark;
 												}
 											}
 											else
@@ -381,6 +392,21 @@ namespace AMR_Engine
 											if (tempNumericResult <= MostApplicableBreakpoint.S)
 												return Constants.InterpretationCodes.Susceptible;
 
+											else if (MostApplicableBreakpoint.S == Constants.MIC.MinimumMIC_Measurement)
+												if (tempNumericResult >= MostApplicableBreakpoint.R)
+												{
+													if (!string.IsNullOrEmpty(MostApplicableBreakpoint.I))
+														return Constants.InterpretationCodes.Intermediate + Constants.InterpretationCodes.QuestionMark;
+													else
+														return Constants.InterpretationCodes.SusceptibleDoseDependent + Constants.InterpretationCodes.QuestionMark;
+												}
+												else
+												{
+													if (!string.IsNullOrEmpty(MostApplicableBreakpoint.I))
+														return Constants.InterpretationCodes.Intermediate;
+													else
+														return Constants.InterpretationCodes.SusceptibleDoseDependent;
+												}
 											else
 												// Must include the question mark because of the < symbol.
 												return Constants.InterpretationCodes.Susceptible + Constants.InterpretationCodes.QuestionMark;

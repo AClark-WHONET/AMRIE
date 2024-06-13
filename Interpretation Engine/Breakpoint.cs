@@ -113,6 +113,7 @@ namespace AMR_Engine
 		public readonly string SDD;
 		public readonly decimal S;
 		public readonly decimal ECV_ECOFF;
+		public readonly bool ECV_ECOFF_TENTATIVE;
 		public readonly DateTime DATE_ENTERED;
 		public readonly DateTime DATE_MODIFIED;
 		public readonly string COMMENTS;
@@ -146,13 +147,14 @@ namespace AMR_Engine
 		/// <param name="SDD_"></param>
 		/// <param name="S_"></param>
 		/// <param name="ECV_ECOFF_"></param>
+		/// /// <param name="ECV_ECOFF_TENTATIVE_"></param>
 		/// <param name="DATE_ENTERED_"></param>
 		/// <param name="DATE_MODIFIED_"></param>
 		/// <param name="COMMENTS_"></param>
 		public Breakpoint(string GUIDELINES_, int YEAR_, string TEST_METHOD_, string POTENCY_, string ORGANISM_CODE_,
 			string ORGANISM_CODE_TYPE_, string BREAKPOINT_TYPE_, string HOST_, string SITE_OF_INFECTION_,
 			string REFERENCE_TABLE_, string WHONET_ABX_CODE_, string WHONET_TEST_, decimal R_, string I_,
-			string SDD_, decimal S_, decimal ECV_ECOFF_, DateTime DATE_ENTERED_, DateTime DATE_MODIFIED_, string COMMENTS_)
+			string SDD_, decimal S_, decimal ECV_ECOFF_, bool ECV_ECOFF_TENTATIVE_, DateTime DATE_ENTERED_, DateTime DATE_MODIFIED_, string COMMENTS_)
 		{
 			GUIDELINES = GUIDELINES_;
 			YEAR = YEAR_;
@@ -185,6 +187,7 @@ namespace AMR_Engine
 			SDD = SDD_;
 			S = S_;
 			ECV_ECOFF = ECV_ECOFF_;
+			ECV_ECOFF_TENTATIVE = ECV_ECOFF_TENTATIVE_;
 			DATE_ENTERED = DATE_ENTERED_;
 			DATE_MODIFIED = DATE_MODIFIED_;
 			COMMENTS = COMMENTS_;
@@ -479,7 +482,7 @@ namespace AMR_Engine
 							values[headerMap[nameof(ORGANISM_CODE_TYPE)]], values[headerMap[nameof(BREAKPOINT_TYPE)]], values[headerMap[nameof(HOST)]],
 							values[headerMap[nameof(SITE_OF_INFECTION)]], values[headerMap[nameof(REFERENCE_TABLE)]], values[headerMap[nameof(WHONET_ABX_CODE)]],
 							values[headerMap[nameof(WHONET_TEST)]], tempR, values[headerMap[nameof(I)]],
-							values[headerMap[nameof(SDD)]], tempS, tempECV,
+							values[headerMap[nameof(SDD)]], tempS, tempECV, values[headerMap[nameof(ECV_ECOFF_TENTATIVE)]] == "X",
 							tempEntered, tempModified, values[headerMap[nameof(COMMENTS)]]);
 
 						breakpoints.Add(newBreakpoint);

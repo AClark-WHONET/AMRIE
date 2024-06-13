@@ -1,15 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace AMR_Engine
 {
-	class Organism
+	public class Organism
 	{
 		#region Constants
 
 		private const string CurrentOrgCode = "C";
 
 		private const string ReplacedByColumnName = "REPLACED_BY";
+
+		public static readonly List<Organism> AllOrganisms = LoadAllOrganisms();
 
 		public static readonly Dictionary<string, Organism> CurrentOrganisms = LoadCurrentOrganisms();
 
@@ -117,13 +120,18 @@ namespace AMR_Engine
 		#region Private
 
 		/// <summary>
-		/// Load the full organism list into a dictionary with the organism code as the key.
-		/// Note that only the "current" version of the code is used (when organisms have been
-		/// renamed, the old names are retained as "old").
+		/// Loads all organisms, including those with nomenclature changes, into a list.
+		/// This full list is not used by the AMR system directly, except that it is
+		/// filtered down to the CurrentOrganisms (which is used by the AMR system).
+		/// The full AllOrganisms list is used primarily by 3rd party applications,
+		/// such as WHONET and BacLink, which need to know about nomenclature changes
+		/// that are not relevant for the AMR Engine's work. The AMR system only deals
+		/// with the codes, which don't change, ignoring the full text names which would
+		/// need to be known for mapping and searching purposes in the other applications.
 		/// </summary>
 		/// <returns></returns>
 		/// <exception cref="FileNotFoundException"></exception>
-		private static Dictionary<string, Organism> LoadCurrentOrganisms()
+		private static List<Organism> LoadAllOrganisms()
 		{
 			string organismsTableFile;
 			string relativePath = string.Join(Path.DirectorySeparatorChar.ToString(), "Resources", "Organisms.txt");
@@ -134,7 +142,7 @@ namespace AMR_Engine
 
 			if (File.Exists(organismsTableFile))
 			{
-				Dictionary<string, Organism> currentOrgMap = new Dictionary<string, Organism>();
+				List<Organism> allOrgs = new List<Organism>();
 				using (StreamReader reader = new StreamReader(organismsTableFile))
 				{
 					string headerLine = reader.ReadLine();
@@ -146,43 +154,56 @@ namespace AMR_Engine
 						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
 						string taxonomicStatus = values[headerMap[nameof(TAXONOMIC_STATUS)]];
 
-						if (taxonomicStatus == CurrentOrgCode)
-						{
-							string orgCode = values[headerMap[nameof(WHONET_ORG_CODE)]];
-							Organism newOrganism = new Organism(
-								orgCode,
-								values[headerMap[nameof(ORGANISM)]],
-								taxonomicStatus,
-								values[headerMap[nameof(COMMON)]] == "X",
-								values[headerMap[nameof(ORGANISM_TYPE)]],
-								values[headerMap[nameof(ANAEROBE)]] == "X",
-								values[headerMap[nameof(MORPHOLOGY)]],
-								values[headerMap[nameof(SUBKINGDOM_CODE)]],
-								values[headerMap[nameof(FAMILY_CODE)]],
-								values[headerMap[nameof(GENUS_GROUP)]],
-								values[headerMap[nameof(GENUS_CODE)]],
-								values[headerMap[nameof(SPECIES_GROUP)]],
-								values[headerMap[nameof(SEROVAR_GROUP)]],
-								values[headerMap[nameof(SCT_CODE)]],
-								values[headerMap[nameof(SCT_TEXT)]],
-								values[headerMap[nameof(GBIF_TAXON_ID)]],
-								values[headerMap[nameof(GBIF_DATASET_ID)]],
-								values[headerMap[nameof(GBIF_TAXONOMIC_STATUS)]],
-								values[headerMap[nameof(KINGDOM)]],
-								values[headerMap[nameof(PHYLUM)]],
-								values[headerMap[nameof(CLASS)]],
-								values[headerMap[nameof(ORDER)]],
-								values[headerMap[nameof(FAMILY)]],
-								values[headerMap[nameof(GENUS)]]);
+						Organism newOrganism = new Organism(
+							values[headerMap[nameof(WHONET_ORG_CODE)]],
+							values[headerMap[nameof(ORGANISM)]],
+							taxonomicStatus,
+							values[headerMap[nameof(COMMON)]] == "X",
+							values[headerMap[nameof(ORGANISM_TYPE)]],
+							values[headerMap[nameof(ANAEROBE)]] == "X",
+							values[headerMap[nameof(MORPHOLOGY)]],
+							values[headerMap[nameof(SUBKINGDOM_CODE)]],
+							values[headerMap[nameof(FAMILY_CODE)]],
+							values[headerMap[nameof(GENUS_GROUP)]],
+							values[headerMap[nameof(GENUS_CODE)]],
+							values[headerMap[nameof(SPECIES_GROUP)]],
+							values[headerMap[nameof(SEROVAR_GROUP)]],
+							values[headerMap[nameof(SCT_CODE)]],
+							values[headerMap[nameof(SCT_TEXT)]],
+							values[headerMap[nameof(GBIF_TAXON_ID)]],
+							values[headerMap[nameof(GBIF_DATASET_ID)]],
+							values[headerMap[nameof(GBIF_TAXONOMIC_STATUS)]],
+							values[headerMap[nameof(KINGDOM)]],
+							values[headerMap[nameof(PHYLUM)]],
+							values[headerMap[nameof(CLASS)]],
+							values[headerMap[nameof(ORDER)]],
+							values[headerMap[nameof(FAMILY)]],
+							values[headerMap[nameof(GENUS)]]);
 
-							currentOrgMap.Add(orgCode, newOrganism);
-						}
+							allOrgs.Add(newOrganism);
 					}
 				}
 
-				return currentOrgMap;
+				return allOrgs;
 			}
 			else throw new FileNotFoundException(organismsTableFile);
+		}
+
+		/// <summary>
+		/// Load the full organism list into a dictionary with the organism code as the key.
+		/// Note that only the "current" version of the code is used (when organisms have been
+		/// renamed, the old names are retained as "old").
+		/// </summary>
+		/// <returns></returns>
+		/// <exception cref="FileNotFoundException"></exception>
+		private static Dictionary<string, Organism> LoadCurrentOrganisms()
+		{
+			Dictionary<string, Organism> currentOrgMap = new Dictionary<string, Organism>();
+
+			foreach (Organism currentOrg in AllOrganisms.Where(o => o.TAXONOMIC_STATUS == CurrentOrgCode))
+				currentOrgMap.Add(currentOrg.WHONET_ORG_CODE, currentOrg);
+
+			return currentOrgMap;
 		}
 
 		/// <summary>
