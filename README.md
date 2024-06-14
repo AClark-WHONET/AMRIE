@@ -5,7 +5,8 @@ This software was created by the [WHONET](https://whonet.org) development team t
 the interpretation of antibiotic measurements according to the various supported guidelines
 available for this purpose, and published by those groups ([CLSI](https://clsi.org/), [EUCAST](https://www.eucast.org/), etc.).
 
-You can install this software using the command `winget install WHONET.AMRIE` or by downloading the latest release from GitHub.
+You can install this software on Windows using the command `winget install WHONET.AMRIE` or by downloading the latest release from GitHub.
+The solution is built using C# and .NET 8 with the intent of building for other platforms in the future.
 
 The system can be integrated with your project via the Interpretation Engine library, or it
 can be used directly with either the command line interface or interactive interface projects.
