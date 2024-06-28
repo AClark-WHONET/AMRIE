@@ -339,7 +339,7 @@ OFX		OFX	OFLX			Ofloxacin	CLSI,EUCAST	X	X	X			X			50	5µg	J01MA01	Quinolones	Flu
 OFX		OFX	OFLX			Ofloxacin	BSAC					X				322	1µg	J01MA01	Quinolones	Fluoroquinolone	FQ		11b		X			Ofloxacin	18959-7	376-4	375-6	7038-3	20384-4	23948-3	377-2	374-9	2021-01-01		
 OFX		OFX	OFLX			Ofloxacin	AFA,SRGA,NEO				X			X	X	202	10µg	J01MA01	Quinolones	Fluoroquinolone	FQ		11b		X			Ofloxacin	18959-7	376-4	375-6	7038-3	20384-4	23948-3	377-2	374-9	2021-01-01		
 OLE	OL	OLE				Oleandomycin										167	15µg	J01FA05	Macrolides		MACRO		17					Oleandomyc	18960-5	380-6	379-8				381-4	378-0	2021-01-01		
-OMC						Omadacycline	CLSI	X								502		J01AA15	Tetracyclines		TETRA		24c		X				73594-4	73639-7	73616-5						2021-01-01		
+OMC						Omadacycline	CLSI	X								502	30µg	J01AA15	Tetracyclines		TETRA		24c		X				73594-4	73639-7	73616-5						2021-01-01	2024-06-28	
 OPT						Optochin										168	5µg		Optochins		OPT		27														2021-01-01		
 ORB		ORB				Orbifloxacin	CLSI	X								469	10µg	QJ01MA95	Quinolones	Fluoroquinolone	FQ		11b			X		Orbifloxac	35827-5	35825-9	35826-7						2021-01-01		
 ORI						Oritavancin	CLSI,EUCAST	X	X	X						442		J01XA05	Glycopeptides		LIPOGLYC		21a		X			Oritavanci	41736-0	41707-1	41708-9	41709-7					2021-01-01		
