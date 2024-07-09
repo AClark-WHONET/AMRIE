@@ -12,7 +12,7 @@ namespace AMR_Engine
 		// This should increase whenever an issue is resolved
 		// within a year to indicate that the table itself has changed.
 		// For example, if there is a document correction or error on our part.
-		public static readonly int BreakpointTableRevisionMinorChangeNumber = 2;
+		public static readonly int BreakpointTableRevisionMinorChangeNumber = 3;
 
 		// We use this to locate resources.
 		public static string SystemRootPath = 
