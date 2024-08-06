@@ -36240,10 +36240,10 @@ CLSI	2024	DISK	30µg	EBC	FAMILY_CODE	Human	Human		Table 2A-1		CHL	CHL_ND30	12	13
 CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		CHL	CHL_NM	32	16		8				2024-05-22	
 CLSI	2024	DISK	300µg	EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		NIT	NIT_ND300	14	15-16		17					
 CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		NIT	NIT_NM	128	64		32				2024-05-22	
-CLSI	2024	DISK	200µg/300µg	EBC	FAMILY_CODE	Human	Human		Table 2A-1		SOX	SOX_ND200	12	13-16		17					
-CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		SOX	SOX_NM	512			256					
-CLSI	2024	DISK	200µg/300µg	EBC	FAMILY_CODE	Human	Human		Table 2A-1		SMX	SMX_ND200	12	13-16		17					
-CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		SMX	SMX_NM	512			256					
+CLSI	2024	DISK	200µg/300µg	EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		SOX	SOX_ND200	12	13-16		17				2024-08-06	
+CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		SOX	SOX_NM	512			256				2024-08-06	
+CLSI	2024	DISK	200µg/300µg	EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		SMX	SMX_ND200	12	13-16		17				2024-08-06	
+CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		SMX	SMX_NM	512			256				2024-08-06	
 CLSI	2024	DISK	30µg	pae	WHONET_ORG_CODE	Human	Human	Parenteral	Table 2B-1		FDC	FDC_ND30	12	13-17		18					
 CLSI	2024	DISK	10µg	pae	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2B-1		NOR	NOR_ND10	12	13-16		17			2021-08-11		
 CLSI	2024	MIC		pae	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2B-1		NOR	NOR_NM	16	8		4				2024-05-22	
@@ -36278,8 +36278,8 @@ CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human	Uncomplicated urinary tract infection
 CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human		Table 2B-5	21.00	OFX	OFX_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human		Table 2B-5	21.00	SXT	SXT_NM	4			2					
 CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human	Uncomplicated urinary tract infection	Table 2B-5	21.00	SSS	SSS_NM	512			256					
-CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human		Table 2B-5	21.00	SOX	SOX_NM	512			256					
-CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human		Table 2B-5	21.00	SMX	SMX_NM	512			256					
+CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human	Uncomplicated urinary tract infection	Table 2B-5	21.00	SOX	SOX_NM	512			256				2024-08-06	
+CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human	Uncomplicated urinary tract infection	Table 2B-5	21.00	SMX	SMX_NM	512			256				2024-08-06	
 CLSI	2024	MIC		NFR	GENUS_GROUP	Human	Human		Table 2B-5	21.00	CHL	CHL_NM	32	16		8				2024-05-22	
 CLSI	2024	DISK	10µg	STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2C	57.00	NOR	NOR_ND10	12	13-16		17					
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2C	57.00	NOR	NOR_NM	16	8		4				2024-05-22	
@@ -36330,10 +36330,10 @@ CLSI	2024	DISK	20µg	sc+	WHONET_ORG_CODE	Human	Human		Table 2C	71.00	LMU	LMU_ND2
 CLSI	2024	MIC		sc+	WHONET_ORG_CODE	Human	Human		Table 2C		LMU	LMU_NM				0.25					
 CLSI	2024	DISK	15µg	STA	GENUS_CODE	Human	Human		Table 2C	57.00	DIR	DIR_ND15	15	16-18		19					
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	57.00	DIR	DIR_NM	8	4		2				2024-08-05	
-CLSI	2024	DISK	200µg/300µg	STA	GENUS_CODE	Human	Human		Table 2C	67.00	SMX	SMX_ND200	12	13-16		17					
-CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	67.00	SMX	SMX_NM	512			256					
-CLSI	2024	DISK	200µg/300µg	STA	GENUS_CODE	Human	Human		Table 2C	67.00	SOX	SOX_ND200	12	13-16		17					
-CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	67.00	SOX	SOX_NM	512			256					
+CLSI	2024	DISK	200µg/300µg	STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2C	67.00	SMX	SMX_ND200	12	13-16		17				2024-08-06	
+CLSI	2024	MIC		STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2C	67.00	SMX	SMX_NM	512			256				2024-08-06	
+CLSI	2024	DISK	200µg/300µg	STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2C	67.00	SOX	SOX_ND200	12	13-16		17				2024-08-06	
+CLSI	2024	MIC		STA	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2C	67.00	SOX	SOX_NM	512			256				2024-08-06	
 CLSI	2024	DISK	10µg	HIN	SEROVAR_GROUP	Human	Human		Table 2E	26.00	DOR	DOR_ND10		-		16					
 CLSI	2024	DISK	10µg	HIN	SEROVAR_GROUP	Human	Human		Table 2E	24.00	ETP	ETP_ND10		-		19					
 CLSI	2024	MIC		HIN	SEROVAR_GROUP	Human	Human		Table 2E	1.00	AMP	AMP_NM	4	2		1				2024-05-22	
