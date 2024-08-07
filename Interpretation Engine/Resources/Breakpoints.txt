@@ -34774,7 +34774,6 @@ CLSI	2024	MIC		hpi	WHONET_ORG_CODE	Human	Human		Table 2E	6.00	CAZ	CAZ_NM				2
 CLSI	2024	MIC		ppm	WHONET_ORG_CODE	Human	Human		M45 Table 21		CAZ	CAZ_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human	Parenteral	Table 2B-2	7.00	CAZ	CAZ_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	5.00	CAZ	CAZ_NM	32	16		8				2024-05-22	
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human	Parenteral	Table 2B-3	1.00	CAZ	CAZ_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		pma	WHONET_ORG_CODE	Human	Human	Parenteral	Table 2B-4	2.00	CAZ	CAZ_NM	32	16		8				2024-05-22	
 CLSI	2024	DISK	1µg	psd	WHONET_ORG_CODE	Human	Human		Table 2C		OXA	OXA_ND1	17			18			2022-06-07		
 CLSI	2024	MIC		hpi	WHONET_ORG_CODE	Human	Human		Table 2E	15.00	CDR	CDR_NM				1					
@@ -34807,7 +34806,6 @@ CLSI	2024	MIC		BS-	SPECIES_GROUP	Human	Human		Table 2H-1	21.00	CHL	CHL_NM	16	8		
 CLSI	2024	MIC		SVI	SPECIES_GROUP	Human	Human		Table 2H-2	21.00	CHL	CHL_NM	16	8		4				2024-05-22	
 CLSI	2024	MIC		yep	WHONET_ORG_CODE	Human	Human		M45 Table 21	3.00	CHL	CHL_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		ENT	GENUS_CODE	Human	Human		Table 2D	17.00	CHL	CHL_NM	32	16		8				2024-05-22	
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	7.00	CHL	CHL_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		pma	WHONET_ORG_CODE	Human	Human		Table 2B-4	6.00	CHL	CHL_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	69.00	CHL	CHL_NM	32	16		8				2024-05-22	
 CLSI	2024	MIC		hpi	WHONET_ORG_CODE	Human	Human		Table 2E	9.00	CID	CID_NM	16	8		4				2024-05-22	
@@ -34969,8 +34967,6 @@ CLSI	2024	DISK	300µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract inf
 CLSI	2024	DISK	10µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	17.00	CPD	CPD_ND10		-		21					
 CLSI	2024	DISK	10µg	ngo	WHONET_ORG_CODE	Human	Human		Table 2F	12.00	CPD	CPD_ND10		-		29					
 CLSI	2024	DISK	10µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	15.00	CPD	CPD_ND10									
-CLSI	2024	MIC		sep	WHONET_ORG_CODE	Human	Human		Table 2C		OXA	OXA_NM	1			0.5					
-CLSI	2024	MIC		psd	WHONET_ORG_CODE	Human	Human		Table 2C		OXA	OXA_NM	1			0.5					
 CLSI	2024	DISK	30µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	14.00	CPR	CPR_ND30	14	15-17		18					
 CLSI	2024	DISK	30µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	16.00	CPR	CPR_ND30									
 CLSI	2024	DISK	15µg	efm	WHONET_ORG_CODE	Human	Human		Table 2D	18.00	QDA	QDA_ND15	15	16-18		19				2024-08-02	
@@ -35005,7 +35001,6 @@ CLSI	2024	DISK	30µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	8.00	CXM	CXM_ND30
 CLSI	2024	DISK	30µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	11.00	CXM	CXM_ND30									
 CLSI	2024	DISK	30µg	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	5.00	CAZ	CAZ_ND30	14	15-17		18					
 CLSI	2024	DISK	5µg	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	18.00	CIP	CIP_ND5	18	19-24		25					
-CLSI	2024	DISK	30µg	BS-	SPECIES_GROUP	Human	Human		Table 2H-1	10.00	DAP	DAP_ND30		-		16				2024-04-16	
 CLSI	2024	DISK	30µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	12.00	CZX	CZX_ND30		-		26					
 CLSI	2024	DISK	30µg	ngo	WHONET_ORG_CODE	Human	Human		Table 2F	10.00	CZX	CZX_ND30		-		38					
 CLSI	2024	DISK	10µg	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	8.00	DOR	DOR_ND10	15	16-18		19					
@@ -35024,7 +35019,6 @@ CLSI	2024	DISK	5µg	BS-	SPECIES_GROUP	Human	Human		Table 2H-1	16.00	LVX	LVX_ND5	
 CLSI	2024	DISK	30µg	SVI	SPECIES_GROUP	Human	Human		Table 2H-2	3.00	FEP	FEP_ND30	21	22-23		24					
 CLSI	2024	DISK	10µg	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	15.00	TOB	TOB_ND10	12	13-18		19					
 CLSI	2024	DISK	100µg/10µg	pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	3.00	TZP	TZP_ND100	17	18-21		22					
-CLSI	2024	MIC		ssf	WHONET_ORG_CODE	Human	Human		Table 2C		OXA	OXA_NM	1			0.5					
 CLSI	2024	DISK	20µg/10µg	PAS	GENUS_CODE	Human	Human		M45 Table 17		AMC	AMC_ND20		-		27					
 CLSI	2024	DISK	5µg	hpi	WHONET_ORG_CODE	Human	Human	Investigational agent	Table 2E	41.00	FLE	FLE_ND5		-		19					
 CLSI	2024	DISK	10µg	PAS	GENUS_CODE	Human	Human		M45 Table 17		AMP	AMP_ND10		-		27					
@@ -35062,24 +35056,17 @@ CLSI	2024	DISK	10µg	AER	GENUS_CODE	Human	Human		M45 Table 2		IPM	IPM_ND10	13	14
 CLSI	2024	DISK	10µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	25.00	IPM	IPM_ND10		-		16					
 CLSI	2024	DISK	10µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	21.00	IPM	IPM_ND10									
 CLSI	2024	DISK	30µg	PAS	GENUS_CODE	Human	Human		M45 Table 17		TCY	TCY_ND30		-		23					
-CLSI	2024	DISK	30µg	pce	WHONET_ORG_CODE	Human	Human	Parenteral	Table 2B-3	1.00	CAZ	CAZ_ND30	17	18-20		21					
-CLSI	2024	DISK	30µg	pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	7.00	CHL	CHL_ND30									
 CLSI	2024	DISK	10µg	BS-	SPECIES_GROUP	Human	Human		Table 2H-1	20.00	TVA	TVA_ND10	15	16-18		19				2024-04-16	
-CLSI	2024	DISK	5µg	pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	6.00	LVX	LVX_ND5									
 CLSI	2024	DISK	30µg	ENT	GENUS_CODE	Human	Human		Table 2D	19.00	LNZ	LNZ_ND30	20	21-22		23					
 CLSI	2024	DISK	30µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	42.00	LNZ	LNZ_ND30		-		21					
 CLSI	2024	DISK	30µg	BS-	SPECIES_GROUP	Human	Human		Table 2H-1	21.00	CHL	CHL_ND30	17	18-20		21				2024-04-16	
 CLSI	2024	DISK	30µg	SVI	SPECIES_GROUP	Human	Human		Table 2H-2	24.00	LNZ	LNZ_ND30				21					
 CLSI	2024	DISK	10µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	33.00	LOM	LOM_ND10		-		22					
-CLSI	2024	DISK	10µg	pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	2.00	MEM	MEM_ND10	15	16-19		20					
-CLSI	2024	DISK	30µg	pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	3.00	MNO	MNO_ND30	14	15-18		19					
 CLSI	2024	DISK	30µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	19.00	LOR	LOR_ND30	15	16-18		19					
 CLSI	2024	DISK	30µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	18.00	LOR	LOR_ND30									
-CLSI	2024	DISK	1.25µg/23.75µg	pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	4.00	SXT	SXT_ND1_2	10	11-15		16					
 CLSI	2024	DISK	5µg	AER	GENUS_CODE	Human	Human		M45 Table 2		LVX	LVX_ND5	13	14-16		17					
 CLSI	2024	DISK	5µg	hpi	WHONET_ORG_CODE	Human	Human		Table 2E	32.00	LVX	LVX_ND5		-		17					
 CLSI	2024	DISK	5µg	nme	WHONET_ORG_CODE	Human	Human		Table 2I	9.00	LVX	LVX_ND5									
-CLSI	2024	DISK	75/10-15µg	pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	5.00	TCC	TCC_ND75									
 CLSI	2024	DISK	10µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	17.00	DOR	DOR_ND10									
 CLSI	2024	DISK	5µg	spn	WHONET_ORG_CODE	Human	Human		Table 2G	30.00	LVX	LVX_ND5	13	14-16		17					
 CLSI	2024	DISK	5µg	STA	GENUS_CODE	Human	Human		Table 2C	52.00	LVX	LVX_ND5	15	16-18		19					
@@ -35385,7 +35372,6 @@ CLSI	2024	MIC		yep	WHONET_ORG_CODE	Human	Human		M45 Table 21	7.00	LVX	LVX_NM				
 CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human		Table 2B-2	23.00	LVX	LVX_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2D	11.00	LVX	LVX_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	19.00	LVX	LVX_NM	4	2		1				2024-05-22	
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	6.00	LVX	LVX_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		pma	WHONET_ORG_CODE	Human	Human		Table 2B-4	4.00	LVX	LVX_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	52.00	LVX	LVX_NM	4	2		1				2024-05-22	
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	72.00	LNZ	LNZ_NM	8			4					
@@ -35407,7 +35393,6 @@ CLSI	2024	MIC		BS-	SPECIES_GROUP	Human	Human		Table 2H-1	8.00	MEM	MEM_NM				0.5	
 CLSI	2024	MIC		SVI	SPECIES_GROUP	Human	Human		Table 2H-2	8.00	MEM	MEM_NM				0.5					
 CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human		Table 2B-2	12.00	MEM	MEM_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	10.00	MEM	MEM_NM	8	4		2				2024-05-22	
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	2.00	MEM	MEM_NM	16	8		4				2024-05-22	
 CLSI	2024	MIC		hpi	WHONET_ORG_CODE	Human	Human		Table 2E	34.00	MFX	MFX_NM				1					
 CLSI	2024	MIC		PAS	GENUS_CODE	Human	Human		M45 Table 17		MFX	MFX_NM				0.064					
 CLSI	2024	MIC		spn	WHONET_ORG_CODE	Human	Human		Table 2G	34.00	MFX	MFX_NM	4	2		1				2024-05-22	
@@ -35417,7 +35402,6 @@ CLSI	2024	MIC		LEU	GENUS_CODE	Human	Human		M45 Table 13		MNO	MNO_NM	16	8		4				2
 CLSI	2024	MIC		nme	WHONET_ORG_CODE	Human	Human		Table 2I	7.00	MNO	MNO_NM				2					
 CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human		Table 2B-2	21.00	MNO	MNO_NM	16	8		4				2024-05-22	
 CLSI	2024	MIC		ENT	GENUS_CODE	Human	Human		Table 2D	9.00	MNO	MNO_NM	16	8		4				2024-05-22	
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	3.00	MNO	MNO_NM	16	8		4				2024-05-22	
 CLSI	2024	MIC		pma	WHONET_ORG_CODE	Human	Human		Table 2B-4	3.00	MNO	MNO_NM	4	2		1				2024-05-22	
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	50.00	MNO	MNO_NM	16	8		4				2024-05-22	
 CLSI	2024	MIC		ANA	ANAEROBE	Human	Human		Table 2J	22.00	MFX	MFX_NM	8	4		2				2024-08-02	
@@ -35516,13 +35500,11 @@ CLSI	2024	MIC		spn	WHONET_ORG_CODE	Human	Human		Table 2G	40.00	SXT	SXT_NM	4	1-2	
 CLSI	2024	MIC		BS-	SPECIES_GROUP	Human	Human		Table 2H-1		SXT	SXT_NM								2024-04-16	
 CLSI	2024	MIC		yep	WHONET_ORG_CODE	Human	Human		M45 Table 21	9.00	SXT	SXT_NM	4			2					
 CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human		Table 2B-2	15.00	SXT	SXT_NM	4			2					
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	4.00	SXT	SXT_NM	4			2					
 CLSI	2024	MIC		pma	WHONET_ORG_CODE	Human	Human		Table 2B-4	5.00	SXT	SXT_NM	4			2					
 CLSI	2024	MIC		STA	GENUS_CODE	Human	Human		Table 2C	64.00	SXT	SXT_NM	4			2					
 CLSI	2024	MIC		ANA	ANAEROBE	Human	Human		Table 2J	9.00	TCC	TCC_NM	128	64		32				2024-05-22	
 CLSI	2024	MIC		pae	WHONET_ORG_CODE	Human	Human		Table 2B-1	4.00	TCC	TCC_NM	128	32-64		16				2024-05-22	
 CLSI	2024	MIC		AC-	GENUS_CODE	Human	Human		Table 2B-2	6.00	TCC	TCC_NM	128	32-64		16				2024-05-22	
-CLSI	2024	MIC		pce	WHONET_ORG_CODE	Human	Human		Table 2B-3	5.00	TCC	TCC_NM	128	32-64		16				2024-05-22	
 CLSI	2024	MIC		pma	WHONET_ORG_CODE	Human	Human		Table 2B-4	1.00	TCC	TCC_NM	128	32-64		16				2024-05-22	
 CLSI	2024	MIC		AEC	GENUS_CODE	Human	Human		M45 Table 2		TCY	TCY_NM	8	4		2				2024-05-22	
 CLSI	2024	MIC		ANA	ANAEROBE	Human	Human		Table 2J	21.00	TCY	TCY_NM	16	8		4				2024-05-22	
@@ -36227,7 +36209,7 @@ CLSI	2024	DISK	5µg	EBC	FAMILY_CODE	Human	Human		Table 2A-1		OFX	OFX_ND5	12	13-1
 CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		OFX	OFX_NM	8	4		2				2024-05-22	
 CLSI	2024	DISK	5µg	EBC	FAMILY_CODE	Human	Human	Investigational agent	Table 2A-1		FLE	FLE_ND5	15	16-18		19					
 CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human	Investigational agent	Table 2A-1		FLE	FLE_NM	8	4		2				2024-05-22	
-CLSI	2024	DISK	5µg	SAL	GENUS_CODE	Human	Human		Table 2A-2		PEF	PEF_ND5	23	-		24					
+CLSI	2024	DISK	5µg	SAL	GENUS_CODE	Human	Human	Investigational agent	Table 2A-2		PEF	PEF_ND5	23	-		24				2024-08-07	
 CLSI	2024	DISK	1.25µg/23.75µg	EBC	FAMILY_CODE	Human	Human		Table 2A-1		SXT	SXT_ND1_2	10	11-15		16					
 CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		SXT	SXT_NM	4			2					
 CLSI	2024	DISK	200µg/300µg	EBC	FAMILY_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-1		SSS	SSS_ND200	12	13-16		17					
@@ -36628,7 +36610,6 @@ CLSI	2024	DISK	10µg	pae	WHONET_ORG_CODE	ECOFF					TOB	TOB_ND10					18		2022-01-
 CLSI	2024	DISK	5µg	shb	WHONET_ORG_CODE	ECOFF					PEF	PEF_ND5					24		2022-01-01		
 CLSI	2024	DISK	30µg	EBC	FAMILY_CODE	Human	Human		Table 2A-1		PLZ	PLZ_ND30	14	15-17		18					
 CLSI	2024	MIC		EBC	FAMILY_CODE	Human	Human		Table 2A-1		PLZ	PLZ_NM	8	4		2				2024-05-22	
-CLSI	2024	DISK	5µg	EBC	FAMILY_CODE	Human	Human	Investigational agent	Table 2A-1		PEF	PEF_ND5	23	-		24					
 CLSI	2024	MIC		MTX	SPECIES_GROUP	Human	Human		M24 Table 1		ETH	ETH_NM	8	4		2			2023-04-12	2024-05-22	
 CLSI	2024	MIC		MTX	SPECIES_GROUP	Human	Human		M24 Table 1		INH	INH_NM	0.25			0.125			2023-04-12		
 CLSI	2024	MIC		MTX	SPECIES_GROUP	Human	Human		M24 Table 1		INH	INH_NM	1			0.5			2023-04-12		
@@ -37309,7 +37290,7 @@ CLSI	2024	DISK	30µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		MNO	MNO_ND30	12	13-
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human		Table 2A-2		MNO	MNO_NM	16	8		4			2024-04-15	2024-05-22	
 CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		CIP	CIP_ND5	21	22-25		26			2024-04-15		
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human		Table 2A-2		CIP	CIP_NM	1	0.5		0.25			2024-04-15	2024-05-22	
-CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		LVX	LVX_ND5	16	17-20		21			2024-04-15		
+CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		LVX	LVX_ND5							2024-08-07		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human		Table 2A-2		LVX	LVX_NM	2	1		0.5			2024-04-15	2024-05-22	
 CLSI	2024	DISK	100µg	SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		CIN	CIN_ND100							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		CIN	CIN_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
@@ -37325,7 +37306,7 @@ CLSI	2024	DISK	30µg	SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infe
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		NAL	NAL_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	DISK	10µg	SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		NOR	NOR_ND10							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		NOR	NOR_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
-CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		OFX	OFX_ND5	12	13-15		16			2024-04-15		
+CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		OFX	OFX_ND5							2024-08-07		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human		Table 2A-2		OFX	OFX_NM	8	4		2			2024-04-15	2024-05-22	
 CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human	Investigational agent	Table 2A-2		FLE	FLE_ND5							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human	Investigational agent	Table 2A-2		FLE	FLE_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
@@ -37347,7 +37328,6 @@ CLSI	2024	DISK	10µg/25µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		IMR	IMR_ND10	
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human		Table 2A-2		IMR	IMR_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	DISK	30µg	SHI	GENUS_CODE	Human	Human		Table 2A-2		PLZ	PLZ_ND30							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human		Table 2A-2		PLZ	PLZ_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
-CLSI	2024	DISK	5µg	SHI	GENUS_CODE	Human	Human	Investigational agent	Table 2A-2		PEF	PEF_ND5							2024-04-15		Block EBC rules from unintentionally applying to SHI.
 CLSI	2024	DISK	200µg	SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		FOS	FOS_ND200							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	MIC		SHI	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Table 2A-2		FOS	FOS_NM							2024-04-15		Block EBC rules from unintentionally applying to SAL, SHI.
 CLSI	2024	DISK	2µg	sau	WHONET_ORG_CODE	Human	Human		Table 2C		TZD	TZD_ND2	15	16-18		19			2024-04-15		
