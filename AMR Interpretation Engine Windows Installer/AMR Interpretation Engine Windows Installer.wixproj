@@ -18,7 +18,7 @@
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
     <SuppressPdbOutput>True</SuppressPdbOutput>
-    <DefineConstants>Title=AMR Interpretation Engine;Version=24.7.9</DefineConstants>
+    <DefineConstants>Title=AMR Interpretation Engine;Version=24.8.12</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Windows Installer.wxs" />
