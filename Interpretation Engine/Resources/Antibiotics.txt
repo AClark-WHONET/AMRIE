@@ -557,3 +557,5 @@ NTR	NI	NIT				Nitroxoline	EUCAST		X							89	30µg	J01XX07	Quinolones	Quinolone	
 LMU						Lefamulin	EUCAST		X							528	5µg	J01XX12	Pleuromutilins		OTHER		28														2023-12-12		
 AMO						Amorolfine	EUCAST		X									D01AE16	Other antifungals for topical use		FUNG				X												2024-04-12		
 SUD						Sulbactam-durlobactam	CLSI	X									10/10µg								X												2024-04-16		
+FPE						Cefepime/Enmetazobactam	CLSI	X									30/20µg																				2024-08-21		
+FTB						Cefepime/Taniborbactam	CLSI	X									30/20µg																				2024-08-21		
