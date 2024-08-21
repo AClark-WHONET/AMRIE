@@ -18319,3 +18319,25 @@ CLSI	2024	atcc33560	Vet01 T 4C	caj	Nalidixic acid	NAL_ND30	NAL	Disk	MHB	25	34	20
 CLSI	2024	atcc700025	Vet01 T 5B	hso	Spectinomycin	SPT_NM	SPT	MIC	MH	16	64	2024-04-18		
 CLSI	2024	atcc27090	Vet01 T 5B	apl	Ampicillin	AMP_NM	AMP	MIC	MH	0.06	0.25	2024-04-18	2024-04-18	
 CLSI	2024	atcc27090	Vet01 T 5B	apl	Spectinomycin	SPT_NM	SPT	MIC	MH	32	128	2024-04-18		
+CLSI	2024	atcc25922	Table 4A-2	eco	Cefepime/Enmetazobactam	FPE_ND30	FPE	Disk	MH	32	38	2024-08-21		
+CLSI	2024	atcc27853	Table 4A-2	pae	Cefepime/Enmetazobactam	FPE_ND30	FPE	Disk	MH	26	32	2024-08-21		
+CLSI	2024	atcc35218	Table 4A-2	eco	Cefepime/Enmetazobactam	FPE_ND30	FPE	Disk	MH	32	38	2024-08-21		
+CLSI	2024	atcc700603	Table 4A-2	kpn	Cefepime/Enmetazobactam	FPE_ND30	FPE	Disk	MH	26	32	2024-08-21		
+CLSI	2024	nctc13353	Table 4A-2	eco	Cefepime/Enmetazobactam	FPE_ND30	FPE	Disk	MH	27	33	2024-08-21		
+CLSI	2024	atcc25922	Table 5A-2	eco	Cefepime/Enmetazobactam	FPE_NM	FPE	MIC	CLSI	0.03	0.125	2024-08-21		
+CLSI	2024	atcc27853	Table 5A-2	pae	Cefepime/Enmetazobactam	FPE_NM	FPE	MIC	CLSI	0.5	2	2024-08-21		
+CLSI	2024	atcc35218	Table 5A-2	eco	Cefepime/Enmetazobactam	FPE_NM	FPE	MIC	CLSI	0.008	0.064	2024-08-21		
+CLSI	2024	atcc700603	Table 5A-2	kpn	Cefepime/Enmetazobactam	FPE_NM	FPE	MIC	CLSI	0.12	0.5	2024-08-21		
+CLSI	2024	nctc13353	Table 5A-2	eco	Cefepime/Enmetazobactam	FPE_NM	FPE	MIC	CLSI	0.03	0.125	2024-08-21		
+CLSI	2024	atcc25922	Table 4A-2	eco	Cefepime/Taniborbactam	FTB_ND30	FTB	Disk	CLSI	31	37	2024-08-21		
+CLSI	2024	atcc27853	Table 4A-2	pae	Cefepime/Taniborbactam	FTB_ND30	FTB	Disk	CLSI	25	31	2024-08-21		
+CLSI	2024	atcc35218	Table 4A-2	eco	Cefepime/Taniborbactam	FTB_ND30	FTB	Disk	CLSI	31	37	2024-08-21		
+CLSI	2024	atcc700603	Table 4A-2	kpn	Cefepime/Taniborbactam	FTB_ND30	FTB	Disk	CLSI	24	31	2024-08-21		
+CLSI	2024	nctc13353	Table 4A-2	eco	Cefepime/Taniborbactam	FTB_ND30	FTB	Disk	CLSI	24	30	2024-08-21		
+CLSI	2024	atccBAA2814	Table 4A-2	kpn	Cefepime/Taniborbactam	FTB_ND30	FTB	Disk	CLSI	22	27	2024-08-21		
+CLSI	2024	atcc25922	Table 5A-2	eco	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.03	0.125	2024-08-21		
+CLSI	2024	atcc27853	Table 5A-2	pae	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.5	4	2024-08-21		
+CLSI	2024	atcc35218	Table 5A-2	eco	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.015	0.064	2024-08-21		
+CLSI	2024	atcc700603	Table 5A-2	kpn	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.12	0.5	2024-08-21		
+CLSI	2024	nctc13353	Table 5A-2	eco	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.12	1	2024-08-21		
+CLSI	2024	atccBAA1705	Table 5A-2	kpn	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.12	0.5	2024-08-21		
