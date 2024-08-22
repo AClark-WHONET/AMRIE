@@ -438,12 +438,12 @@ SDM	X					Sulfadimethoxine										289		J01ED01	Folate pathway inhibitors		FOLA
 SDM	SDM					Sulfadimidine	AFA								X	290	250µg	J01EB03	Folate pathway inhibitors		FOLATE		12a														2021-01-01		
 SZO	SZO					Sulfamazone										291		J01ED09	Folate pathway inhibitors		FOLATE		12a														2021-01-01		
 SUM						Sulfamethazine										292			Folate pathway inhibitors		FOLATE		12a														2021-01-01		
-SMX	SMX	SOZ				Sulfamethoxazole	CLSI	X		X						427	200-300µg	J01EC01	Folate pathway inhibitors		FOLATE		12a		X			Sulfametho	18985-2	469-7	468-9	11577-4			470-5	467-1	2021-01-01		
+SMX	SMX	SOZ				Sulfamethoxazole	CLSI	X		X						427	200/300µg	J01EC01	Folate pathway inhibitors		FOLATE		12a		X			Sulfametho	18985-2	469-7	468-9	11577-4			470-5	467-1	2021-01-01		
 SMX	SMX	SOZ				Sulfamethoxazole						X				293	100µg	J01EC01	Folate pathway inhibitors		FOLATE		12a		X			Sulfametho	18985-2	469-7	468-9	11577-4			470-5	467-1	2021-01-01		
 SNA	SNA					Sulfasuccinamide										294			Folate pathway inhibitors		FOLATE		12a														2021-01-01		
 SUT	ST					Sulfathiazole										295		J01EB07	Folate pathway inhibitors		FOLATE		12a														2021-01-01		
-SOX						Sulfisoxazole	CLSI	X								404	200-300µg	J01EB05	Folate pathway inhibitors		FOLATE		12a		X			Sulfisoxaz	18986-0	473-9	472-1	11578-2			474-7	471-3	2021-01-01		
-SSS	SSS	SSS				Sulfonamides	CLSI	X		X						61	200-300µg	D06BA	Folate pathway inhibitors		FOLATE		12a		X			Sulfonamid	18987-8	477-0	476-2	35842-4			478-8	475-4	2021-01-01		
+SOX						Sulfisoxazole	CLSI	X								404	200/300µg	J01EB05	Folate pathway inhibitors		FOLATE		12a		X			Sulfisoxaz	18986-0	473-9	472-1	11578-2			474-7	471-3	2021-01-01		
+SSS	SSS	SSS				Sulfonamides	CLSI	X		X						61	200/300µg	D06BA	Folate pathway inhibitors		FOLATE		12a		X			Sulfonamid	18987-8	477-0	476-2	35842-4			478-8	475-4	2021-01-01		
 SLP						Sulopenem	CLSI	X								484	2µg		Penems	Penem	PENEM		07b		X			Sulopenem	55289-3	55291-9	55290-1						2021-01-01		
 TAL			TAPC			Talampicillin										466		J01CA15	Penicillins		PEN		01b					Talampicil	18988-6	481-2	480-4				482-0	479-6	2021-01-01		
 TLP	TLP					Talmetoprim										296			Folate pathway inhibitors		FOLATE		12a														2021-01-01		
