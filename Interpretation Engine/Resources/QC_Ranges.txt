@@ -17768,7 +17768,7 @@ CLSI	2024	atcc25922	Table 4A-1	eco	Cefoperazone	CFP_ND75	CFP	Disk	MH	28	34	2021-
 CLSI	2024	atcc25922	Table 4A-2	eco	Ceftaroline/Avibactam	CPA_ND30	CPA	Disk	MH	27	34	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-1	eco	Ceftazidime	CAZ_ND30	CAZ	Disk	MH	25	32	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-2	eco	Ceftazidime/Avibactam	CAZ_ND30	CZA	Disk	MH	27	35	2021-01-01	2021-01-01	
-CLSI	2024	atcc25922	Table 4A-1	eco	Ceftobiprole	BPR_ND30	BPR	Disk	MH	30	36	2021-01-01	2021-01-01	
+CLSI	2024	atcc25922	Table 4A-1	eco	Ceftobiprole	BPR_ND30	BPR	Disk	MH	25	31	2021-01-01	2024-08-28	
 CLSI	2024	atcc25922	Table 4A-2	eco	Ceftolozane/Tazobactam	CZT_ND30	CZT	Disk	MH	24	32	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-1	eco	Ceftriaxone	CRO_ND30	CRO	Disk	MH	29	35	2021-01-01	2021-01-01	
 CLSI	2024	atcc25922	Table 4A-1	eco	Cephalothin	CEP_ND30	CEP	Disk	MH	15	21	2021-01-01	2021-01-01	
@@ -17799,7 +17799,7 @@ CLSI	2024	atcc25922	Table 5A-1	eco	Eravacycline	ERV_NM	ERV	MIC	MH	0.015	0.125	20
 CLSI	2024	atcc25923	Table 4A-1	sau	Cefoperazone	CFP_ND75	CFP	Disk	MH	23	33	2021-01-01	2021-01-01	
 CLSI	2024	atcc25923	Table 4A-1	sau	Cefotaxime	CTX_ND30	CTX	Disk	MH	25	31	2021-01-01	2021-01-01	
 CLSI	2024	atcc25923	Table 4A-1	sau	Ceftazidime	CAZ_ND30	CAZ	Disk	MH	16	20	2021-01-01	2021-01-01	
-CLSI	2024	atcc25923	Table 4A-1	sau	Ceftobiprole	BRP_ND30	BPR	Disk	MH	26	34	2021-01-01	2021-01-01	
+CLSI	2024	atcc25923	Table 4A-1	sau	Ceftobiprole	BRP_ND30	BPR	Disk	MH	20	27	2021-01-01	2024-08-28	
 CLSI	2024	atcc25923	Table 4A-1	sau	Cephalothin	CEP_ND30	CEP	Disk	MH	29	37	2021-01-01	2021-01-01	
 CLSI	2024	atcc25923	Table 4A-1	sau	Chloramphenicol	CHL_ND30	CHL	Disk	MH	19	26	2021-01-01	2021-01-01	
 CLSI	2024	atcc25923	Table 4A-1	sau	Ciprofloxacin	CIP_ND5	CIP	Disk	MH	22	30	2021-01-01	2021-01-01	
@@ -18341,3 +18341,9 @@ CLSI	2024	atcc35218	Table 5A-2	eco	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.
 CLSI	2024	atcc700603	Table 5A-2	kpn	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.12	0.5	2024-08-21		
 CLSI	2024	nctc13353	Table 5A-2	eco	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.12	1	2024-08-21		
 CLSI	2024	atccBAA1705	Table 5A-2	kpn	Cefepime/Taniborbactam	FTB_NM	FTB	MIC	CLSI	0.12	0.5	2024-08-21		
+CLSI	2024	atcc49247	Table 4B	hin	Ceftobiprole	BRP_ND30	BPR	Disk	MH	28	36	2024-08-28		
+CLSI	2024	atcc49766	Table 4B	hin	Ceftobiprole	BRP_ND30	BPR	Disk	MH	30	38	2024-08-28		
+CLSI	2024	atcc49619	Table 4B	spn	Ceftobiprole	BRP_ND30	BPR	Disk	MH	33	39	2024-08-28		
+CLSI	2024	atcc27853	Table 5A-1	pae	Ceftobiprole	BPR_NM	BPR	MIC	MH	1	4	2024-08-28		
+CLSI	2024	atcc25922	Table 5A-2	eco	Durlobactam	DUR_NM	DUR	MIC	MH	0.12	0.5	2024-08-28		
+CLSI	2024	nctc13304	Table 5A-2	aba	Durlobactam	DUR_NM	DUR	MIC	MH	32	128	2024-08-28		

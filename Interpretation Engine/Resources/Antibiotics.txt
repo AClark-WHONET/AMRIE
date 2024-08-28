@@ -173,7 +173,7 @@ FOX	FOX	COX	CFX			Cefoxitin										439	10µg	J01DC01	Cephems	Cephamycin	CEPHAM
 ZOP		COP	CZOP			Cefozopran										156		J01DE03	Cephems-Oral		CEPH-ORAL		05a														2021-01-01		
 CFZ	CFZ	CMZ				Cefpimizole										236			Cephems		CEPH3		04c														2021-01-01		
 CPM	CPM		CPM			Cefpiramide										237		J01DD11	Cephems		CEPH3		04c														2021-01-01		
-CPO	CPO	CPI	CPR			Cefpirome	SRGA,NEO			X	X			X		72	30µg	J01DE02	Cephems	Cephalosporin III	CEPH3		04c					Cefpirome	18889-6	8276-8	8275-0	6992-2			6650-6	8274-3	2021-01-01		
+CPO	CPO	CPI	CPR			Cefpirome	CLSI,SRGA,NEO	X		X	X			X		72	30µg	J01DE02	Cephems	Cephalosporin III	CEPH3		04c					Cefpirome	18889-6	8276-8	8275-0	6992-2			6650-6	8274-3	2021-01-01	2024-08-28	
 CPO	CPO	CPI	CPR			Cefpirome	BSAC					X				310	20µg	J01DE02	Cephems	Cephalosporin III	CEPH3		04c					Cefpirome	18889-6	8276-8	8275-0	6992-2			6650-6	8274-3	2021-01-01		
 COL	CS	COL	CL			Colistin	NEO							X		349	150µg	J01XB01	Lipopeptides		LIPOPEP		16		X			Colistin	18912-6	206-3	205-5	33333-6			207-1	204-8	2021-01-01		
 COL	CS	COL	CL			Colistin	CLSI,EUCAST	X	X	X						28	10µg	J01XB01	Lipopeptides		LIPOPEP		16		X			Colistin	18912-6	206-3	205-5	33333-6			207-1	204-8	2021-01-01		
@@ -559,3 +559,5 @@ AMO						Amorolfine	EUCAST		X									D01AE16	Other antifungals for topical use	
 SUD						Sulbactam-durlobactam	CLSI	X									10/10µg								X												2024-04-16		
 FPE						Cefepime/Enmetazobactam	CLSI	X									30/20µg																				2024-08-21		
 FTB						Cefepime/Taniborbactam	CLSI	X									30/20µg																				2024-08-21		
+BPR						Ceftobiprole	CLSI	X								474	30µg	J01DI01	Cephems	Cephalosporin	CEPH		04e		X												2024-08-28		
+DUR						Durlobactam	CLSI	X																	X												2024-08-28		
