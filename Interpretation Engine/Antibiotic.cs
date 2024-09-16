@@ -44,7 +44,7 @@ namespace AMR_Engine
 			public const char ETest = 'E';
 		}
 
-		public class Guidelines
+		public class GuidelineNames
 		{
 			public static readonly string CLSI = "CLSI";
 			public static readonly string EUCAST = "EUCAST";

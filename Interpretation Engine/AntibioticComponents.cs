@@ -44,7 +44,7 @@
 				TestMethod = Antibiotic.TestMethods.GetTestMethodFromCode(abxComponents[1][1]);
 			}
 
-			Guideline = Antibiotic.Guidelines.GetGuidelineFromCode(guidelineCode);
+			Guideline = Antibiotic.GuidelineNames.GetGuidelineFromCode(guidelineCode);
 		}
 
 		#endregion
