@@ -425,7 +425,7 @@ SPT	SPT	SPT	SPCM			Spectinomycin	CLSI,EUCAST	X	X	X						59	100µg	J01XX04	Aminoc
 SPT		SPT	SPCM			Spectinomycin						X				424	25µg	J01XX04	Aminocyclitols		AMINOC		08		X			Spectinomy	18980-3	453-1	452-3	35840-8			454-9	451-5	2021-01-01		
 SPI	SP	SPM	SPM			Spiramycin				X						95	100µg	J01FA02	Macrolides		MACRO		17					Spiramycin	18981-1	457-2	456-4				458-0	455-6	2021-01-01		
 SPI	SP	SPM	SPM			Spiramycin	NEO							X		382	200µg	J01FA02	Macrolides	16-Membered ring	MACRO		17					Spiramycin	18981-1	457-2	456-4				458-0	455-6	2021-01-01		
-STR	S	STR	SM			Streptomycin	CLSI,BSAC	X		X		X				60	10µg	J01GA01	Aminoglycosides		AG		09		X			Streptomyc	18982-9	461-4	460-6	7048-2	20462-8	23626-5	462-2	459-8	2021-01-01		
+STR	S	STR	SM			Streptomycin	CLSI,EUCAST,BSAC	X	X	X		X				60	10µg	J01GA01	Aminoglycosides		AG		09		X			Streptomyc	18982-9	461-4	460-6	7048-2	20462-8	23626-5	462-2	459-8	2021-01-01		
 STR	S	STR	SM			Streptomycin	NEO							X		383	100µg	J01GA01	Aminoglycosides		AG		09		X			Streptomyc	18982-9	461-4	460-6	7048-2	20462-8	23626-5	462-2	459-8	2021-01-01		
 STH						Streptomycin-High	CLSI	X								139	300µg	J01GA01	Aminoglycosides		AG		09		X			Streptomyc	18983-7	7049-0	6933-6	35841-6					2021-01-01		
 STH						Streptomycin-High	NEO			X				X		208	500µg	J01GA01	Aminoglycosides		AG		09		X			Streptomyc	18983-7	7049-0	6933-6	35841-6					2021-01-01		
