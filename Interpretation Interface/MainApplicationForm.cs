@@ -35,6 +35,10 @@ namespace AMR_InterpretationInterface
 
 			SelectedGuidelinesCheckedListBox.SetItemChecked(0, true);
 			FieldDelimiterComboBox.SelectedIndex = 0;
+
+			AntibioticComboBox.Items.AddRange(
+				Antibiotic.AllAntibiotics.OrderBy(a => a.ANTIBIOTIC).
+				Select(a => a.ANTIBIOTIC).Distinct().ToArray());
 		}
 
 		#endregion
@@ -112,7 +116,7 @@ namespace AMR_InterpretationInterface
 				// Ensure that user control returns if there's an exception.
 				ToggleUI(true);
 				throw;
-			}			
+			}
 		}
 
 		private void HandlerInterpretationCompletion(object s, RunWorkerCompletedEventArgs e)
@@ -400,6 +404,12 @@ namespace AMR_InterpretationInterface
 		{
 			if (Worker != null && Worker.IsBusy)
 				Worker.CancelAsync();
+		}
+
+		private void TestMethodChanged(object sender, EventArgs e)
+		{
+			RadioButton radioButton = sender as RadioButton;
+			DiskContentPanel.Enabled = radioButton.Checked;
 		}
 	}
 }

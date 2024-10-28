@@ -30,501 +30,611 @@ namespace AMR_InterpretationInterface
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainApplicationForm));
-			this.GetApplicableBreakpointsButton = new System.Windows.Forms.Button();
-			this.WHONET_OrgCode = new System.Windows.Forms.TextBox();
-			this.OrganismCodeLabel = new System.Windows.Forms.Label();
-			this.GuidelinesCheckbox = new System.Windows.Forms.CheckBox();
-			this.SelectedGuidelinesCheckedListBox = new System.Windows.Forms.CheckedListBox();
-			this.YearCheckbox = new System.Windows.Forms.CheckBox();
-			this.GuidelineYearUpDown = new System.Windows.Forms.NumericUpDown();
-			this.BreakpointTypesCheckbox = new System.Windows.Forms.CheckBox();
-			this.BreakpointTypesCheckedListBox = new System.Windows.Forms.CheckedListBox();
-			this.SitesOfInfectionCheckedListBox = new System.Windows.Forms.CheckedListBox();
-			this.SitesOfInfectionCheckbox = new System.Windows.Forms.CheckBox();
-			this.AntimicrobialFullCodesLabel = new System.Windows.Forms.Label();
-			this.AntimicrobialCodesTextBox = new System.Windows.Forms.TextBox();
-			this.GetApplicableIntrinsicResistanceRulesButton = new System.Windows.Forms.Button();
-			this.GetInerpretationsButton = new System.Windows.Forms.Button();
-			this.ResultStringTextBox = new System.Windows.Forms.TextBox();
-			this.ResultLabel = new System.Windows.Forms.Label();
-			this.ModeTabControl = new System.Windows.Forms.TabControl();
-			this.MultipleInterpretationsTab = new System.Windows.Forms.TabPage();
-			this.ProgressMeter = new System.Windows.Forms.ProgressBar();
-			this.BrowseForConfigFileButton = new System.Windows.Forms.Button();
-			this.ConfigFileTextBox = new System.Windows.Forms.TextBox();
-			this.ConfigFileLabel = new System.Windows.Forms.Label();
-			this.BrowseForOutputFileButton = new System.Windows.Forms.Button();
-			this.OutputFileTextBox = new System.Windows.Forms.TextBox();
-			this.OutputFileNameLabel = new System.Windows.Forms.Label();
-			this.FieldDelimiterComboBox = new System.Windows.Forms.ComboBox();
-			this.FieldDelimiterLabel = new System.Windows.Forms.Label();
-			this.InterpretFileButton = new System.Windows.Forms.Button();
-			this.BrowseForInputFileButton = new System.Windows.Forms.Button();
-			this.InputFileTextBox = new System.Windows.Forms.TextBox();
-			this.InputFileNameLabel = new System.Windows.Forms.Label();
-			this.SingleInterpretationTab = new System.Windows.Forms.TabPage();
-			this.IncludeInterpretationCommentsCheckbox = new System.Windows.Forms.CheckBox();
-			this.GetApplicableExpertRulesButton = new System.Windows.Forms.Button();
-			this.Cancel_Button = new System.Windows.Forms.Button();
-			((System.ComponentModel.ISupportInitialize)(this.GuidelineYearUpDown)).BeginInit();
-			this.ModeTabControl.SuspendLayout();
-			this.MultipleInterpretationsTab.SuspendLayout();
-			this.SingleInterpretationTab.SuspendLayout();
-			this.SuspendLayout();
+			GetApplicableBreakpointsButton = new System.Windows.Forms.Button();
+			GuidelinesCheckbox = new System.Windows.Forms.CheckBox();
+			SelectedGuidelinesCheckedListBox = new System.Windows.Forms.CheckedListBox();
+			YearCheckbox = new System.Windows.Forms.CheckBox();
+			GuidelineYearUpDown = new System.Windows.Forms.NumericUpDown();
+			BreakpointTypesCheckbox = new System.Windows.Forms.CheckBox();
+			BreakpointTypesCheckedListBox = new System.Windows.Forms.CheckedListBox();
+			SitesOfInfectionCheckedListBox = new System.Windows.Forms.CheckedListBox();
+			SitesOfInfectionCheckbox = new System.Windows.Forms.CheckBox();
+			GetApplicableIntrinsicResistanceRulesButton = new System.Windows.Forms.Button();
+			GetInerpretationsButton = new System.Windows.Forms.Button();
+			ResultStringTextBox = new System.Windows.Forms.TextBox();
+			TestMeasurementLabel = new System.Windows.Forms.Label();
+			ModeTabControl = new System.Windows.Forms.TabControl();
+			MultipleInterpretationsTab = new System.Windows.Forms.TabPage();
+			ProgressMeter = new System.Windows.Forms.ProgressBar();
+			BrowseForConfigFileButton = new System.Windows.Forms.Button();
+			ConfigFileTextBox = new System.Windows.Forms.TextBox();
+			ConfigFileLabel = new System.Windows.Forms.Label();
+			BrowseForOutputFileButton = new System.Windows.Forms.Button();
+			OutputFileTextBox = new System.Windows.Forms.TextBox();
+			OutputFileNameLabel = new System.Windows.Forms.Label();
+			FieldDelimiterComboBox = new System.Windows.Forms.ComboBox();
+			FieldDelimiterLabel = new System.Windows.Forms.Label();
+			InterpretFileButton = new System.Windows.Forms.Button();
+			BrowseForInputFileButton = new System.Windows.Forms.Button();
+			InputFileTextBox = new System.Windows.Forms.TextBox();
+			InputFileNameLabel = new System.Windows.Forms.Label();
+			SingleInterpretationTab = new System.Windows.Forms.TabPage();
+			OrganismGroupBox = new System.Windows.Forms.GroupBox();
+			OrganismSearchTextBox = new System.Windows.Forms.TextBox();
+			OrganismComboBox = new System.Windows.Forms.ComboBox();
+			BreakpointFiltersPanel = new System.Windows.Forms.GroupBox();
+			TestPanel = new System.Windows.Forms.GroupBox();
+			DiskContentPanel = new System.Windows.Forms.Panel();
+			DiskContentLabel = new System.Windows.Forms.Label();
+			PotencyComboBox = new System.Windows.Forms.ComboBox();
+			TestMethodLabel = new System.Windows.Forms.Label();
+			MIC_Etest_RadioButton = new System.Windows.Forms.RadioButton();
+			DiskRadioButton = new System.Windows.Forms.RadioButton();
+			AntibioticNameLabel = new System.Windows.Forms.Label();
+			AntibioticComboBox = new System.Windows.Forms.ComboBox();
+			IncludeInterpretationCommentsCheckbox = new System.Windows.Forms.CheckBox();
+			GetApplicableExpertRulesButton = new System.Windows.Forms.Button();
+			Cancel_Button = new System.Windows.Forms.Button();
+			ViewResourcesPanel = new System.Windows.Forms.GroupBox();
+			InterpretationPanel = new System.Windows.Forms.GroupBox();
+			((System.ComponentModel.ISupportInitialize)GuidelineYearUpDown).BeginInit();
+			ModeTabControl.SuspendLayout();
+			MultipleInterpretationsTab.SuspendLayout();
+			SingleInterpretationTab.SuspendLayout();
+			OrganismGroupBox.SuspendLayout();
+			BreakpointFiltersPanel.SuspendLayout();
+			TestPanel.SuspendLayout();
+			DiskContentPanel.SuspendLayout();
+			ViewResourcesPanel.SuspendLayout();
+			InterpretationPanel.SuspendLayout();
+			SuspendLayout();
 			// 
 			// GetApplicableBreakpointsButton
 			// 
-			this.GetApplicableBreakpointsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.GetApplicableBreakpointsButton.Location = new System.Drawing.Point(6, 202);
-			this.GetApplicableBreakpointsButton.Name = "GetApplicableBreakpointsButton";
-			this.GetApplicableBreakpointsButton.Size = new System.Drawing.Size(251, 23);
-			this.GetApplicableBreakpointsButton.TabIndex = 11;
-			this.GetApplicableBreakpointsButton.Text = "Get applicable breakpoints";
-			this.GetApplicableBreakpointsButton.UseVisualStyleBackColor = true;
-			this.GetApplicableBreakpointsButton.Click += new System.EventHandler(this.GetApplicableBreakpointsButton_Click);
-			// 
-			// WHONET_OrgCode
-			// 
-			this.WHONET_OrgCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.WHONET_OrgCode.Location = new System.Drawing.Point(238, 115);
-			this.WHONET_OrgCode.MaxLength = 3;
-			this.WHONET_OrgCode.Name = "WHONET_OrgCode";
-			this.WHONET_OrgCode.Size = new System.Drawing.Size(55, 23);
-			this.WHONET_OrgCode.TabIndex = 7;
-			// 
-			// OrganismCodeLabel
-			// 
-			this.OrganismCodeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.OrganismCodeLabel.AutoSize = true;
-			this.OrganismCodeLabel.Location = new System.Drawing.Point(6, 118);
-			this.OrganismCodeLabel.Name = "OrganismCodeLabel";
-			this.OrganismCodeLabel.Size = new System.Drawing.Size(139, 15);
-			this.OrganismCodeLabel.TabIndex = 2;
-			this.OrganismCodeLabel.Text = "WHONET organism code";
+			GetApplicableBreakpointsButton.Location = new System.Drawing.Point(6, 22);
+			GetApplicableBreakpointsButton.Name = "GetApplicableBreakpointsButton";
+			GetApplicableBreakpointsButton.Size = new System.Drawing.Size(251, 23);
+			GetApplicableBreakpointsButton.TabIndex = 0;
+			GetApplicableBreakpointsButton.Text = "Get applicable breakpoints";
+			GetApplicableBreakpointsButton.UseVisualStyleBackColor = true;
+			GetApplicableBreakpointsButton.Click += GetApplicableBreakpointsButton_Click;
 			// 
 			// GuidelinesCheckbox
 			// 
-			this.GuidelinesCheckbox.AutoSize = true;
-			this.GuidelinesCheckbox.Checked = true;
-			this.GuidelinesCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.GuidelinesCheckbox.Location = new System.Drawing.Point(6, 6);
-			this.GuidelinesCheckbox.Name = "GuidelinesCheckbox";
-			this.GuidelinesCheckbox.Size = new System.Drawing.Size(122, 19);
-			this.GuidelinesCheckbox.TabIndex = 1;
-			this.GuidelinesCheckbox.Text = "Restrict guidelines";
-			this.GuidelinesCheckbox.UseVisualStyleBackColor = true;
-			this.GuidelinesCheckbox.CheckedChanged += new System.EventHandler(this.GuidelinesCheckbox_CheckedChanged);
+			GuidelinesCheckbox.AutoSize = true;
+			GuidelinesCheckbox.Checked = true;
+			GuidelinesCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
+			GuidelinesCheckbox.Location = new System.Drawing.Point(21, 22);
+			GuidelinesCheckbox.Name = "GuidelinesCheckbox";
+			GuidelinesCheckbox.Size = new System.Drawing.Size(122, 19);
+			GuidelinesCheckbox.TabIndex = 1;
+			GuidelinesCheckbox.Text = "Restrict guidelines";
+			GuidelinesCheckbox.UseVisualStyleBackColor = true;
+			GuidelinesCheckbox.CheckedChanged += GuidelinesCheckbox_CheckedChanged;
 			// 
 			// SelectedGuidelinesCheckedListBox
 			// 
-			this.SelectedGuidelinesCheckedListBox.BackColor = System.Drawing.SystemColors.Control;
-			this.SelectedGuidelinesCheckedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.SelectedGuidelinesCheckedListBox.CheckOnClick = true;
-			this.SelectedGuidelinesCheckedListBox.FormattingEnabled = true;
-			this.SelectedGuidelinesCheckedListBox.Items.AddRange(new object[] {
-            "CLSI",
-            "EUCAST",
-            "SFM"});
-			this.SelectedGuidelinesCheckedListBox.Location = new System.Drawing.Point(15, 31);
-			this.SelectedGuidelinesCheckedListBox.Name = "SelectedGuidelinesCheckedListBox";
-			this.SelectedGuidelinesCheckedListBox.Size = new System.Drawing.Size(139, 54);
-			this.SelectedGuidelinesCheckedListBox.TabIndex = 2;
+			SelectedGuidelinesCheckedListBox.BackColor = System.Drawing.SystemColors.Control;
+			SelectedGuidelinesCheckedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			SelectedGuidelinesCheckedListBox.CheckOnClick = true;
+			SelectedGuidelinesCheckedListBox.FormattingEnabled = true;
+			SelectedGuidelinesCheckedListBox.Items.AddRange(new object[] { "CLSI", "EUCAST", "SFM" });
+			SelectedGuidelinesCheckedListBox.Location = new System.Drawing.Point(30, 47);
+			SelectedGuidelinesCheckedListBox.Name = "SelectedGuidelinesCheckedListBox";
+			SelectedGuidelinesCheckedListBox.Size = new System.Drawing.Size(139, 54);
+			SelectedGuidelinesCheckedListBox.TabIndex = 2;
 			// 
 			// YearCheckbox
 			// 
-			this.YearCheckbox.Checked = true;
-			this.YearCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.YearCheckbox.Location = new System.Drawing.Point(12, 13);
-			this.YearCheckbox.Name = "YearCheckbox";
-			this.YearCheckbox.Size = new System.Drawing.Size(236, 19);
-			this.YearCheckbox.TabIndex = 5;
-			this.YearCheckbox.Text = "Restrict guideline year";
-			this.YearCheckbox.UseVisualStyleBackColor = true;
-			this.YearCheckbox.CheckedChanged += new System.EventHandler(this.YearCheckbox_CheckedChanged);
+			YearCheckbox.Checked = true;
+			YearCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
+			YearCheckbox.Location = new System.Drawing.Point(12, 13);
+			YearCheckbox.Name = "YearCheckbox";
+			YearCheckbox.Size = new System.Drawing.Size(236, 19);
+			YearCheckbox.TabIndex = 0;
+			YearCheckbox.Text = "Restrict guideline year";
+			YearCheckbox.UseVisualStyleBackColor = true;
+			YearCheckbox.CheckedChanged += YearCheckbox_CheckedChanged;
 			// 
 			// GuidelineYearUpDown
 			// 
-			this.GuidelineYearUpDown.Location = new System.Drawing.Point(254, 12);
-			this.GuidelineYearUpDown.Maximum = new decimal(new int[] {
-            3000,
-            0,
-            0,
-            0});
-			this.GuidelineYearUpDown.Minimum = new decimal(new int[] {
-            2011,
-            0,
-            0,
-            0});
-			this.GuidelineYearUpDown.Name = "GuidelineYearUpDown";
-			this.GuidelineYearUpDown.Size = new System.Drawing.Size(55, 23);
-			this.GuidelineYearUpDown.TabIndex = 6;
-			this.GuidelineYearUpDown.Value = new decimal(new int[] {
-            2011,
-            0,
-            0,
-            0});
+			GuidelineYearUpDown.Location = new System.Drawing.Point(254, 12);
+			GuidelineYearUpDown.Maximum = new decimal(new int[] { 3000, 0, 0, 0 });
+			GuidelineYearUpDown.Minimum = new decimal(new int[] { 2011, 0, 0, 0 });
+			GuidelineYearUpDown.Name = "GuidelineYearUpDown";
+			GuidelineYearUpDown.Size = new System.Drawing.Size(55, 23);
+			GuidelineYearUpDown.TabIndex = 1;
+			GuidelineYearUpDown.Value = new decimal(new int[] { 2011, 0, 0, 0 });
 			// 
 			// BreakpointTypesCheckbox
 			// 
-			this.BreakpointTypesCheckbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.BreakpointTypesCheckbox.Location = new System.Drawing.Point(225, 6);
-			this.BreakpointTypesCheckbox.Name = "BreakpointTypesCheckbox";
-			this.BreakpointTypesCheckbox.Size = new System.Drawing.Size(224, 19);
-			this.BreakpointTypesCheckbox.TabIndex = 3;
-			this.BreakpointTypesCheckbox.Text = "Restrict breakpoint types";
-			this.BreakpointTypesCheckbox.UseVisualStyleBackColor = true;
-			this.BreakpointTypesCheckbox.CheckedChanged += new System.EventHandler(this.BreakpointTypesCheckbox_CheckedChanged);
+			BreakpointTypesCheckbox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			BreakpointTypesCheckbox.Location = new System.Drawing.Point(242, 22);
+			BreakpointTypesCheckbox.Name = "BreakpointTypesCheckbox";
+			BreakpointTypesCheckbox.Size = new System.Drawing.Size(224, 19);
+			BreakpointTypesCheckbox.TabIndex = 3;
+			BreakpointTypesCheckbox.Text = "Restrict breakpoint types";
+			BreakpointTypesCheckbox.UseVisualStyleBackColor = true;
+			BreakpointTypesCheckbox.CheckedChanged += BreakpointTypesCheckbox_CheckedChanged;
 			// 
 			// BreakpointTypesCheckedListBox
 			// 
-			this.BreakpointTypesCheckedListBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.BreakpointTypesCheckedListBox.BackColor = System.Drawing.SystemColors.Control;
-			this.BreakpointTypesCheckedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.BreakpointTypesCheckedListBox.CheckOnClick = true;
-			this.BreakpointTypesCheckedListBox.Enabled = false;
-			this.BreakpointTypesCheckedListBox.FormattingEnabled = true;
-			this.BreakpointTypesCheckedListBox.Items.AddRange(new object[] {
-            "Human",
-            "Animal",
-            "ECOFF"});
-			this.BreakpointTypesCheckedListBox.Location = new System.Drawing.Point(243, 31);
-			this.BreakpointTypesCheckedListBox.Name = "BreakpointTypesCheckedListBox";
-			this.BreakpointTypesCheckedListBox.Size = new System.Drawing.Size(209, 54);
-			this.BreakpointTypesCheckedListBox.TabIndex = 4;
+			BreakpointTypesCheckedListBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			BreakpointTypesCheckedListBox.BackColor = System.Drawing.SystemColors.Control;
+			BreakpointTypesCheckedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			BreakpointTypesCheckedListBox.CheckOnClick = true;
+			BreakpointTypesCheckedListBox.Enabled = false;
+			BreakpointTypesCheckedListBox.FormattingEnabled = true;
+			BreakpointTypesCheckedListBox.Items.AddRange(new object[] { "Human", "Animal", "ECOFF" });
+			BreakpointTypesCheckedListBox.Location = new System.Drawing.Point(260, 47);
+			BreakpointTypesCheckedListBox.Name = "BreakpointTypesCheckedListBox";
+			BreakpointTypesCheckedListBox.Size = new System.Drawing.Size(209, 54);
+			BreakpointTypesCheckedListBox.TabIndex = 4;
 			// 
 			// SitesOfInfectionCheckedListBox
 			// 
-			this.SitesOfInfectionCheckedListBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.SitesOfInfectionCheckedListBox.BackColor = System.Drawing.SystemColors.Control;
-			this.SitesOfInfectionCheckedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.SitesOfInfectionCheckedListBox.CheckOnClick = true;
-			this.SitesOfInfectionCheckedListBox.Enabled = false;
-			this.SitesOfInfectionCheckedListBox.FormattingEnabled = true;
-			this.SitesOfInfectionCheckedListBox.Location = new System.Drawing.Point(514, 31);
-			this.SitesOfInfectionCheckedListBox.Name = "SitesOfInfectionCheckedListBox";
-			this.SitesOfInfectionCheckedListBox.Size = new System.Drawing.Size(209, 108);
-			this.SitesOfInfectionCheckedListBox.TabIndex = 6;
+			SitesOfInfectionCheckedListBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+			SitesOfInfectionCheckedListBox.BackColor = System.Drawing.SystemColors.Control;
+			SitesOfInfectionCheckedListBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			SitesOfInfectionCheckedListBox.CheckOnClick = true;
+			SitesOfInfectionCheckedListBox.Enabled = false;
+			SitesOfInfectionCheckedListBox.FormattingEnabled = true;
+			SitesOfInfectionCheckedListBox.Location = new System.Drawing.Point(533, 47);
+			SitesOfInfectionCheckedListBox.Name = "SitesOfInfectionCheckedListBox";
+			SitesOfInfectionCheckedListBox.Size = new System.Drawing.Size(269, 90);
+			SitesOfInfectionCheckedListBox.TabIndex = 6;
 			// 
 			// SitesOfInfectionCheckbox
 			// 
-			this.SitesOfInfectionCheckbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.SitesOfInfectionCheckbox.Location = new System.Drawing.Point(499, 6);
-			this.SitesOfInfectionCheckbox.Name = "SitesOfInfectionCheckbox";
-			this.SitesOfInfectionCheckbox.Size = new System.Drawing.Size(224, 19);
-			this.SitesOfInfectionCheckbox.TabIndex = 5;
-			this.SitesOfInfectionCheckbox.Text = "Restrict sites of infection";
-			this.SitesOfInfectionCheckbox.UseVisualStyleBackColor = true;
-			this.SitesOfInfectionCheckbox.CheckedChanged += new System.EventHandler(this.SiteOfInfectionCheckbox_CheckedChanged);
-			// 
-			// AntimicrobialFullCodesLabel
-			// 
-			this.AntimicrobialFullCodesLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.AntimicrobialFullCodesLabel.AutoSize = true;
-			this.AntimicrobialFullCodesLabel.Location = new System.Drawing.Point(6, 147);
-			this.AntimicrobialFullCodesLabel.Name = "AntimicrobialFullCodesLabel";
-			this.AntimicrobialFullCodesLabel.Size = new System.Drawing.Size(106, 15);
-			this.AntimicrobialFullCodesLabel.TabIndex = 12;
-			this.AntimicrobialFullCodesLabel.Text = "Antibiotic code list";
-			// 
-			// AntimicrobialCodesTextBox
-			// 
-			this.AntimicrobialCodesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.AntimicrobialCodesTextBox.Location = new System.Drawing.Point(238, 144);
-			this.AntimicrobialCodesTextBox.Name = "AntimicrobialCodesTextBox";
-			this.AntimicrobialCodesTextBox.Size = new System.Drawing.Size(480, 23);
-			this.AntimicrobialCodesTextBox.TabIndex = 8;
+			SitesOfInfectionCheckbox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			SitesOfInfectionCheckbox.Location = new System.Drawing.Point(518, 22);
+			SitesOfInfectionCheckbox.Name = "SitesOfInfectionCheckbox";
+			SitesOfInfectionCheckbox.Size = new System.Drawing.Size(224, 19);
+			SitesOfInfectionCheckbox.TabIndex = 5;
+			SitesOfInfectionCheckbox.Text = "Restrict sites of infection";
+			SitesOfInfectionCheckbox.UseVisualStyleBackColor = true;
+			SitesOfInfectionCheckbox.CheckedChanged += SiteOfInfectionCheckbox_CheckedChanged;
 			// 
 			// GetApplicableIntrinsicResistanceRulesButton
 			// 
-			this.GetApplicableIntrinsicResistanceRulesButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.GetApplicableIntrinsicResistanceRulesButton.Location = new System.Drawing.Point(469, 202);
-			this.GetApplicableIntrinsicResistanceRulesButton.Name = "GetApplicableIntrinsicResistanceRulesButton";
-			this.GetApplicableIntrinsicResistanceRulesButton.Size = new System.Drawing.Size(254, 23);
-			this.GetApplicableIntrinsicResistanceRulesButton.TabIndex = 13;
-			this.GetApplicableIntrinsicResistanceRulesButton.Text = "Get applicable intrinsic resistance";
-			this.GetApplicableIntrinsicResistanceRulesButton.UseVisualStyleBackColor = true;
-			this.GetApplicableIntrinsicResistanceRulesButton.Click += new System.EventHandler(this.GetApplicableIntrinsicResistanceRulesButton_Click);
+			GetApplicableIntrinsicResistanceRulesButton.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			GetApplicableIntrinsicResistanceRulesButton.Location = new System.Drawing.Point(518, 22);
+			GetApplicableIntrinsicResistanceRulesButton.Name = "GetApplicableIntrinsicResistanceRulesButton";
+			GetApplicableIntrinsicResistanceRulesButton.Size = new System.Drawing.Size(284, 23);
+			GetApplicableIntrinsicResistanceRulesButton.TabIndex = 2;
+			GetApplicableIntrinsicResistanceRulesButton.Text = "Get applicable intrinsic resistance";
+			GetApplicableIntrinsicResistanceRulesButton.UseVisualStyleBackColor = true;
+			GetApplicableIntrinsicResistanceRulesButton.Click += GetApplicableIntrinsicResistanceRulesButton_Click;
 			// 
 			// GetInerpretationsButton
 			// 
-			this.GetInerpretationsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.GetInerpretationsButton.Location = new System.Drawing.Point(469, 231);
-			this.GetInerpretationsButton.Name = "GetInerpretationsButton";
-			this.GetInerpretationsButton.Size = new System.Drawing.Size(254, 23);
-			this.GetInerpretationsButton.TabIndex = 14;
-			this.GetInerpretationsButton.Text = "Get interpretations";
-			this.GetInerpretationsButton.UseVisualStyleBackColor = true;
-			this.GetInerpretationsButton.Click += new System.EventHandler(this.GetInerpretationsButton_Click);
+			GetInerpretationsButton.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			GetInerpretationsButton.Location = new System.Drawing.Point(548, 22);
+			GetInerpretationsButton.Name = "GetInerpretationsButton";
+			GetInerpretationsButton.Size = new System.Drawing.Size(254, 23);
+			GetInerpretationsButton.TabIndex = 2;
+			GetInerpretationsButton.Text = "Get interpretations";
+			GetInerpretationsButton.UseVisualStyleBackColor = true;
+			GetInerpretationsButton.Click += GetInerpretationsButton_Click;
 			// 
 			// ResultStringTextBox
 			// 
-			this.ResultStringTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.ResultStringTextBox.Location = new System.Drawing.Point(238, 173);
-			this.ResultStringTextBox.Name = "ResultStringTextBox";
-			this.ResultStringTextBox.Size = new System.Drawing.Size(55, 23);
-			this.ResultStringTextBox.TabIndex = 9;
+			ResultStringTextBox.Location = new System.Drawing.Point(195, 22);
+			ResultStringTextBox.Name = "ResultStringTextBox";
+			ResultStringTextBox.Size = new System.Drawing.Size(55, 23);
+			ResultStringTextBox.TabIndex = 0;
 			// 
-			// ResultLabel
+			// TestMeasurementLabel
 			// 
-			this.ResultLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.ResultLabel.AutoSize = true;
-			this.ResultLabel.Location = new System.Drawing.Point(6, 176);
-			this.ResultLabel.Name = "ResultLabel";
-			this.ResultLabel.Size = new System.Drawing.Size(72, 15);
-			this.ResultLabel.TabIndex = 44;
-			this.ResultLabel.Text = "Result string";
+			TestMeasurementLabel.AutoSize = true;
+			TestMeasurementLabel.Location = new System.Drawing.Point(6, 25);
+			TestMeasurementLabel.Name = "TestMeasurementLabel";
+			TestMeasurementLabel.Size = new System.Drawing.Size(103, 15);
+			TestMeasurementLabel.TabIndex = 44;
+			TestMeasurementLabel.Text = "Test measurement";
 			// 
 			// ModeTabControl
 			// 
-			this.ModeTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.ModeTabControl.Controls.Add(this.MultipleInterpretationsTab);
-			this.ModeTabControl.Controls.Add(this.SingleInterpretationTab);
-			this.ModeTabControl.Location = new System.Drawing.Point(12, 41);
-			this.ModeTabControl.MinimumSize = new System.Drawing.Size(737, 288);
-			this.ModeTabControl.Name = "ModeTabControl";
-			this.ModeTabControl.SelectedIndex = 0;
-			this.ModeTabControl.Size = new System.Drawing.Size(737, 288);
-			this.ModeTabControl.TabIndex = 0;
+			ModeTabControl.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			ModeTabControl.Controls.Add(MultipleInterpretationsTab);
+			ModeTabControl.Controls.Add(SingleInterpretationTab);
+			ModeTabControl.Location = new System.Drawing.Point(12, 41);
+			ModeTabControl.MinimumSize = new System.Drawing.Size(737, 288);
+			ModeTabControl.Name = "ModeTabControl";
+			ModeTabControl.SelectedIndex = 0;
+			ModeTabControl.Size = new System.Drawing.Size(828, 465);
+			ModeTabControl.TabIndex = 2;
 			// 
 			// MultipleInterpretationsTab
 			// 
-			this.MultipleInterpretationsTab.Controls.Add(this.ProgressMeter);
-			this.MultipleInterpretationsTab.Controls.Add(this.BrowseForConfigFileButton);
-			this.MultipleInterpretationsTab.Controls.Add(this.ConfigFileTextBox);
-			this.MultipleInterpretationsTab.Controls.Add(this.ConfigFileLabel);
-			this.MultipleInterpretationsTab.Controls.Add(this.BrowseForOutputFileButton);
-			this.MultipleInterpretationsTab.Controls.Add(this.OutputFileTextBox);
-			this.MultipleInterpretationsTab.Controls.Add(this.OutputFileNameLabel);
-			this.MultipleInterpretationsTab.Controls.Add(this.FieldDelimiterComboBox);
-			this.MultipleInterpretationsTab.Controls.Add(this.FieldDelimiterLabel);
-			this.MultipleInterpretationsTab.Controls.Add(this.InterpretFileButton);
-			this.MultipleInterpretationsTab.Controls.Add(this.BrowseForInputFileButton);
-			this.MultipleInterpretationsTab.Controls.Add(this.InputFileTextBox);
-			this.MultipleInterpretationsTab.Controls.Add(this.InputFileNameLabel);
-			this.MultipleInterpretationsTab.Location = new System.Drawing.Point(4, 24);
-			this.MultipleInterpretationsTab.Name = "MultipleInterpretationsTab";
-			this.MultipleInterpretationsTab.Padding = new System.Windows.Forms.Padding(3);
-			this.MultipleInterpretationsTab.Size = new System.Drawing.Size(729, 260);
-			this.MultipleInterpretationsTab.TabIndex = 0;
-			this.MultipleInterpretationsTab.Text = "Whole-database interpretation";
-			this.MultipleInterpretationsTab.UseVisualStyleBackColor = true;
+			MultipleInterpretationsTab.Controls.Add(ProgressMeter);
+			MultipleInterpretationsTab.Controls.Add(BrowseForConfigFileButton);
+			MultipleInterpretationsTab.Controls.Add(ConfigFileTextBox);
+			MultipleInterpretationsTab.Controls.Add(ConfigFileLabel);
+			MultipleInterpretationsTab.Controls.Add(BrowseForOutputFileButton);
+			MultipleInterpretationsTab.Controls.Add(OutputFileTextBox);
+			MultipleInterpretationsTab.Controls.Add(OutputFileNameLabel);
+			MultipleInterpretationsTab.Controls.Add(FieldDelimiterComboBox);
+			MultipleInterpretationsTab.Controls.Add(FieldDelimiterLabel);
+			MultipleInterpretationsTab.Controls.Add(InterpretFileButton);
+			MultipleInterpretationsTab.Controls.Add(BrowseForInputFileButton);
+			MultipleInterpretationsTab.Controls.Add(InputFileTextBox);
+			MultipleInterpretationsTab.Controls.Add(InputFileNameLabel);
+			MultipleInterpretationsTab.Location = new System.Drawing.Point(4, 24);
+			MultipleInterpretationsTab.Name = "MultipleInterpretationsTab";
+			MultipleInterpretationsTab.Padding = new System.Windows.Forms.Padding(3);
+			MultipleInterpretationsTab.Size = new System.Drawing.Size(820, 437);
+			MultipleInterpretationsTab.TabIndex = 0;
+			MultipleInterpretationsTab.Text = "Whole-database interpretation";
+			MultipleInterpretationsTab.UseVisualStyleBackColor = true;
 			// 
 			// ProgressMeter
 			// 
-			this.ProgressMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.ProgressMeter.Location = new System.Drawing.Point(6, 231);
-			this.ProgressMeter.Name = "ProgressMeter";
-			this.ProgressMeter.Size = new System.Drawing.Size(164, 23);
-			this.ProgressMeter.TabIndex = 11;
+			ProgressMeter.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+			ProgressMeter.Location = new System.Drawing.Point(6, 408);
+			ProgressMeter.Name = "ProgressMeter";
+			ProgressMeter.Size = new System.Drawing.Size(164, 23);
+			ProgressMeter.TabIndex = 11;
 			// 
 			// BrowseForConfigFileButton
 			// 
-			this.BrowseForConfigFileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.BrowseForConfigFileButton.Location = new System.Drawing.Point(622, 64);
-			this.BrowseForConfigFileButton.Name = "BrowseForConfigFileButton";
-			this.BrowseForConfigFileButton.Size = new System.Drawing.Size(101, 23);
-			this.BrowseForConfigFileButton.TabIndex = 7;
-			this.BrowseForConfigFileButton.Text = "Browse";
-			this.BrowseForConfigFileButton.UseVisualStyleBackColor = true;
-			this.BrowseForConfigFileButton.Click += new System.EventHandler(this.BrowseForConfigFileButton_Click);
+			BrowseForConfigFileButton.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			BrowseForConfigFileButton.Location = new System.Drawing.Point(713, 65);
+			BrowseForConfigFileButton.Name = "BrowseForConfigFileButton";
+			BrowseForConfigFileButton.Size = new System.Drawing.Size(101, 23);
+			BrowseForConfigFileButton.TabIndex = 5;
+			BrowseForConfigFileButton.Text = "Browse";
+			BrowseForConfigFileButton.UseVisualStyleBackColor = true;
+			BrowseForConfigFileButton.Click += BrowseForConfigFileButton_Click;
 			// 
 			// ConfigFileTextBox
 			// 
-			this.ConfigFileTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.ConfigFileTextBox.Location = new System.Drawing.Point(111, 65);
-			this.ConfigFileTextBox.Name = "ConfigFileTextBox";
-			this.ConfigFileTextBox.Size = new System.Drawing.Size(505, 23);
-			this.ConfigFileTextBox.TabIndex = 6;
-			this.ConfigFileTextBox.Text = "Resources\\SampleConfig.json";
+			ConfigFileTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			ConfigFileTextBox.Location = new System.Drawing.Point(111, 65);
+			ConfigFileTextBox.Name = "ConfigFileTextBox";
+			ConfigFileTextBox.Size = new System.Drawing.Size(596, 23);
+			ConfigFileTextBox.TabIndex = 4;
+			ConfigFileTextBox.Text = "Resources\\SampleConfig.json";
 			// 
 			// ConfigFileLabel
 			// 
-			this.ConfigFileLabel.AutoSize = true;
-			this.ConfigFileLabel.Location = new System.Drawing.Point(6, 68);
-			this.ConfigFileLabel.Name = "ConfigFileLabel";
-			this.ConfigFileLabel.Size = new System.Drawing.Size(62, 15);
-			this.ConfigFileLabel.TabIndex = 9;
-			this.ConfigFileLabel.Text = "Config file";
+			ConfigFileLabel.AutoSize = true;
+			ConfigFileLabel.Location = new System.Drawing.Point(6, 68);
+			ConfigFileLabel.Name = "ConfigFileLabel";
+			ConfigFileLabel.Size = new System.Drawing.Size(62, 15);
+			ConfigFileLabel.TabIndex = 9;
+			ConfigFileLabel.Text = "Config file";
 			// 
 			// BrowseForOutputFileButton
 			// 
-			this.BrowseForOutputFileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.BrowseForOutputFileButton.Location = new System.Drawing.Point(622, 93);
-			this.BrowseForOutputFileButton.Name = "BrowseForOutputFileButton";
-			this.BrowseForOutputFileButton.Size = new System.Drawing.Size(101, 23);
-			this.BrowseForOutputFileButton.TabIndex = 9;
-			this.BrowseForOutputFileButton.Text = "Browse";
-			this.BrowseForOutputFileButton.UseVisualStyleBackColor = true;
-			this.BrowseForOutputFileButton.Click += new System.EventHandler(this.BrowseForOutputFileButton_Click);
+			BrowseForOutputFileButton.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			BrowseForOutputFileButton.Location = new System.Drawing.Point(713, 94);
+			BrowseForOutputFileButton.Name = "BrowseForOutputFileButton";
+			BrowseForOutputFileButton.Size = new System.Drawing.Size(101, 23);
+			BrowseForOutputFileButton.TabIndex = 7;
+			BrowseForOutputFileButton.Text = "Browse";
+			BrowseForOutputFileButton.UseVisualStyleBackColor = true;
+			BrowseForOutputFileButton.Click += BrowseForOutputFileButton_Click;
 			// 
 			// OutputFileTextBox
 			// 
-			this.OutputFileTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.OutputFileTextBox.Location = new System.Drawing.Point(111, 94);
-			this.OutputFileTextBox.Name = "OutputFileTextBox";
-			this.OutputFileTextBox.Size = new System.Drawing.Size(505, 23);
-			this.OutputFileTextBox.TabIndex = 8;
-			this.OutputFileTextBox.Text = "Results.txt";
+			OutputFileTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			OutputFileTextBox.Location = new System.Drawing.Point(111, 94);
+			OutputFileTextBox.Name = "OutputFileTextBox";
+			OutputFileTextBox.Size = new System.Drawing.Size(596, 23);
+			OutputFileTextBox.TabIndex = 6;
+			OutputFileTextBox.Text = "Results.txt";
 			// 
 			// OutputFileNameLabel
 			// 
-			this.OutputFileNameLabel.AutoSize = true;
-			this.OutputFileNameLabel.Location = new System.Drawing.Point(6, 97);
-			this.OutputFileNameLabel.Name = "OutputFileNameLabel";
-			this.OutputFileNameLabel.Size = new System.Drawing.Size(64, 15);
-			this.OutputFileNameLabel.TabIndex = 6;
-			this.OutputFileNameLabel.Text = "Output file";
+			OutputFileNameLabel.AutoSize = true;
+			OutputFileNameLabel.Location = new System.Drawing.Point(6, 97);
+			OutputFileNameLabel.Name = "OutputFileNameLabel";
+			OutputFileNameLabel.Size = new System.Drawing.Size(64, 15);
+			OutputFileNameLabel.TabIndex = 6;
+			OutputFileNameLabel.Text = "Output file";
 			// 
 			// FieldDelimiterComboBox
 			// 
-			this.FieldDelimiterComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.FieldDelimiterComboBox.FormattingEnabled = true;
-			this.FieldDelimiterComboBox.Items.AddRange(new object[] {
-            "|",
-            ",",
-            "TAB",
-            ";"});
-			this.FieldDelimiterComboBox.Location = new System.Drawing.Point(111, 36);
-			this.FieldDelimiterComboBox.Name = "FieldDelimiterComboBox";
-			this.FieldDelimiterComboBox.Size = new System.Drawing.Size(59, 23);
-			this.FieldDelimiterComboBox.TabIndex = 5;
+			FieldDelimiterComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			FieldDelimiterComboBox.FormattingEnabled = true;
+			FieldDelimiterComboBox.Items.AddRange(new object[] { ",", ";", "|", "TAB" });
+			FieldDelimiterComboBox.Location = new System.Drawing.Point(111, 36);
+			FieldDelimiterComboBox.Name = "FieldDelimiterComboBox";
+			FieldDelimiterComboBox.Size = new System.Drawing.Size(59, 23);
+			FieldDelimiterComboBox.TabIndex = 3;
 			// 
 			// FieldDelimiterLabel
 			// 
-			this.FieldDelimiterLabel.AutoSize = true;
-			this.FieldDelimiterLabel.Location = new System.Drawing.Point(6, 39);
-			this.FieldDelimiterLabel.Name = "FieldDelimiterLabel";
-			this.FieldDelimiterLabel.Size = new System.Drawing.Size(82, 15);
-			this.FieldDelimiterLabel.TabIndex = 4;
-			this.FieldDelimiterLabel.Text = "Field delimiter";
+			FieldDelimiterLabel.AutoSize = true;
+			FieldDelimiterLabel.Location = new System.Drawing.Point(6, 39);
+			FieldDelimiterLabel.Name = "FieldDelimiterLabel";
+			FieldDelimiterLabel.Size = new System.Drawing.Size(82, 15);
+			FieldDelimiterLabel.TabIndex = 4;
+			FieldDelimiterLabel.Text = "Field delimiter";
 			// 
 			// InterpretFileButton
 			// 
-			this.InterpretFileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.InterpretFileButton.Location = new System.Drawing.Point(506, 231);
-			this.InterpretFileButton.Name = "InterpretFileButton";
-			this.InterpretFileButton.Size = new System.Drawing.Size(217, 23);
-			this.InterpretFileButton.TabIndex = 10;
-			this.InterpretFileButton.Text = "Interpret file";
-			this.InterpretFileButton.UseVisualStyleBackColor = true;
-			this.InterpretFileButton.Click += new System.EventHandler(this.InterpretFileButton_Click);
+			InterpretFileButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+			InterpretFileButton.Location = new System.Drawing.Point(597, 408);
+			InterpretFileButton.Name = "InterpretFileButton";
+			InterpretFileButton.Size = new System.Drawing.Size(217, 23);
+			InterpretFileButton.TabIndex = 8;
+			InterpretFileButton.Text = "Interpret file";
+			InterpretFileButton.UseVisualStyleBackColor = true;
+			InterpretFileButton.Click += InterpretFileButton_Click;
 			// 
 			// BrowseForInputFileButton
 			// 
-			this.BrowseForInputFileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.BrowseForInputFileButton.Location = new System.Drawing.Point(622, 6);
-			this.BrowseForInputFileButton.Name = "BrowseForInputFileButton";
-			this.BrowseForInputFileButton.Size = new System.Drawing.Size(101, 23);
-			this.BrowseForInputFileButton.TabIndex = 2;
-			this.BrowseForInputFileButton.Text = "Browse";
-			this.BrowseForInputFileButton.UseVisualStyleBackColor = true;
-			this.BrowseForInputFileButton.Click += new System.EventHandler(this.BrowseForInputFileButton_Click);
+			BrowseForInputFileButton.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			BrowseForInputFileButton.Location = new System.Drawing.Point(713, 7);
+			BrowseForInputFileButton.Name = "BrowseForInputFileButton";
+			BrowseForInputFileButton.Size = new System.Drawing.Size(101, 23);
+			BrowseForInputFileButton.TabIndex = 2;
+			BrowseForInputFileButton.Text = "Browse";
+			BrowseForInputFileButton.UseVisualStyleBackColor = true;
+			BrowseForInputFileButton.Click += BrowseForInputFileButton_Click;
 			// 
 			// InputFileTextBox
 			// 
-			this.InputFileTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.InputFileTextBox.Location = new System.Drawing.Point(111, 7);
-			this.InputFileTextBox.Name = "InputFileTextBox";
-			this.InputFileTextBox.Size = new System.Drawing.Size(505, 23);
-			this.InputFileTextBox.TabIndex = 1;
-			this.InputFileTextBox.Text = "Resources\\SampleInputFile.txt";
+			InputFileTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			InputFileTextBox.Location = new System.Drawing.Point(111, 7);
+			InputFileTextBox.Name = "InputFileTextBox";
+			InputFileTextBox.Size = new System.Drawing.Size(596, 23);
+			InputFileTextBox.TabIndex = 1;
+			InputFileTextBox.Text = "Resources\\SampleInputFile.txt";
 			// 
 			// InputFileNameLabel
 			// 
-			this.InputFileNameLabel.AutoSize = true;
-			this.InputFileNameLabel.Location = new System.Drawing.Point(6, 10);
-			this.InputFileNameLabel.Name = "InputFileNameLabel";
-			this.InputFileNameLabel.Size = new System.Drawing.Size(54, 15);
-			this.InputFileNameLabel.TabIndex = 0;
-			this.InputFileNameLabel.Text = "Input file";
+			InputFileNameLabel.AutoSize = true;
+			InputFileNameLabel.Location = new System.Drawing.Point(6, 10);
+			InputFileNameLabel.Name = "InputFileNameLabel";
+			InputFileNameLabel.Size = new System.Drawing.Size(54, 15);
+			InputFileNameLabel.TabIndex = 0;
+			InputFileNameLabel.Text = "Input file";
 			// 
 			// SingleInterpretationTab
 			// 
-			this.SingleInterpretationTab.Controls.Add(this.IncludeInterpretationCommentsCheckbox);
-			this.SingleInterpretationTab.Controls.Add(this.GetApplicableExpertRulesButton);
-			this.SingleInterpretationTab.Controls.Add(this.GetInerpretationsButton);
-			this.SingleInterpretationTab.Controls.Add(this.BreakpointTypesCheckedListBox);
-			this.SingleInterpretationTab.Controls.Add(this.SitesOfInfectionCheckedListBox);
-			this.SingleInterpretationTab.Controls.Add(this.BreakpointTypesCheckbox);
-			this.SingleInterpretationTab.Controls.Add(this.ResultLabel);
-			this.SingleInterpretationTab.Controls.Add(this.SitesOfInfectionCheckbox);
-			this.SingleInterpretationTab.Controls.Add(this.ResultStringTextBox);
-			this.SingleInterpretationTab.Controls.Add(this.GetApplicableBreakpointsButton);
-			this.SingleInterpretationTab.Controls.Add(this.GetApplicableIntrinsicResistanceRulesButton);
-			this.SingleInterpretationTab.Controls.Add(this.AntimicrobialCodesTextBox);
-			this.SingleInterpretationTab.Controls.Add(this.OrganismCodeLabel);
-			this.SingleInterpretationTab.Controls.Add(this.SelectedGuidelinesCheckedListBox);
-			this.SingleInterpretationTab.Controls.Add(this.AntimicrobialFullCodesLabel);
-			this.SingleInterpretationTab.Controls.Add(this.GuidelinesCheckbox);
-			this.SingleInterpretationTab.Controls.Add(this.WHONET_OrgCode);
-			this.SingleInterpretationTab.Location = new System.Drawing.Point(4, 24);
-			this.SingleInterpretationTab.Name = "SingleInterpretationTab";
-			this.SingleInterpretationTab.Padding = new System.Windows.Forms.Padding(3);
-			this.SingleInterpretationTab.Size = new System.Drawing.Size(729, 260);
-			this.SingleInterpretationTab.TabIndex = 1;
-			this.SingleInterpretationTab.Text = "Single interpretation";
-			this.SingleInterpretationTab.UseVisualStyleBackColor = true;
+			SingleInterpretationTab.Controls.Add(InterpretationPanel);
+			SingleInterpretationTab.Controls.Add(ViewResourcesPanel);
+			SingleInterpretationTab.Controls.Add(OrganismGroupBox);
+			SingleInterpretationTab.Controls.Add(BreakpointFiltersPanel);
+			SingleInterpretationTab.Controls.Add(TestPanel);
+			SingleInterpretationTab.Location = new System.Drawing.Point(4, 24);
+			SingleInterpretationTab.Name = "SingleInterpretationTab";
+			SingleInterpretationTab.Padding = new System.Windows.Forms.Padding(3);
+			SingleInterpretationTab.Size = new System.Drawing.Size(820, 437);
+			SingleInterpretationTab.TabIndex = 1;
+			SingleInterpretationTab.Text = "Single interpretation";
+			SingleInterpretationTab.UseVisualStyleBackColor = true;
+			// 
+			// OrganismGroupBox
+			// 
+			OrganismGroupBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			OrganismGroupBox.Controls.Add(OrganismSearchTextBox);
+			OrganismGroupBox.Controls.Add(OrganismComboBox);
+			OrganismGroupBox.Location = new System.Drawing.Point(6, 162);
+			OrganismGroupBox.Name = "OrganismGroupBox";
+			OrganismGroupBox.Size = new System.Drawing.Size(808, 55);
+			OrganismGroupBox.TabIndex = 1;
+			OrganismGroupBox.TabStop = false;
+			OrganismGroupBox.Text = "Microorganism";
+			// 
+			// OrganismSearchTextBox
+			// 
+			OrganismSearchTextBox.Location = new System.Drawing.Point(6, 22);
+			OrganismSearchTextBox.Name = "OrganismSearchTextBox";
+			OrganismSearchTextBox.PlaceholderText = "Search";
+			OrganismSearchTextBox.Size = new System.Drawing.Size(100, 23);
+			OrganismSearchTextBox.TabIndex = 0;
+			// 
+			// OrganismComboBox
+			// 
+			OrganismComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			OrganismComboBox.FormattingEnabled = true;
+			OrganismComboBox.Location = new System.Drawing.Point(112, 22);
+			OrganismComboBox.Name = "OrganismComboBox";
+			OrganismComboBox.Size = new System.Drawing.Size(315, 23);
+			OrganismComboBox.TabIndex = 1;
+			// 
+			// BreakpointFiltersPanel
+			// 
+			BreakpointFiltersPanel.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			BreakpointFiltersPanel.Controls.Add(GuidelinesCheckbox);
+			BreakpointFiltersPanel.Controls.Add(SelectedGuidelinesCheckedListBox);
+			BreakpointFiltersPanel.Controls.Add(SitesOfInfectionCheckbox);
+			BreakpointFiltersPanel.Controls.Add(BreakpointTypesCheckbox);
+			BreakpointFiltersPanel.Controls.Add(SitesOfInfectionCheckedListBox);
+			BreakpointFiltersPanel.Controls.Add(BreakpointTypesCheckedListBox);
+			BreakpointFiltersPanel.Location = new System.Drawing.Point(6, 6);
+			BreakpointFiltersPanel.Name = "BreakpointFiltersPanel";
+			BreakpointFiltersPanel.Size = new System.Drawing.Size(808, 150);
+			BreakpointFiltersPanel.TabIndex = 0;
+			BreakpointFiltersPanel.TabStop = false;
+			BreakpointFiltersPanel.Text = "Breakpoint restrictions";
+			// 
+			// TestPanel
+			// 
+			TestPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			TestPanel.Controls.Add(DiskContentPanel);
+			TestPanel.Controls.Add(TestMethodLabel);
+			TestPanel.Controls.Add(MIC_Etest_RadioButton);
+			TestPanel.Controls.Add(DiskRadioButton);
+			TestPanel.Controls.Add(AntibioticNameLabel);
+			TestPanel.Controls.Add(AntibioticComboBox);
+			TestPanel.Location = new System.Drawing.Point(6, 223);
+			TestPanel.Name = "TestPanel";
+			TestPanel.Size = new System.Drawing.Size(808, 91);
+			TestPanel.TabIndex = 2;
+			TestPanel.TabStop = false;
+			TestPanel.Text = "Antimicrobial test";
+			// 
+			// DiskContentPanel
+			// 
+			DiskContentPanel.Controls.Add(DiskContentLabel);
+			DiskContentPanel.Controls.Add(PotencyComboBox);
+			DiskContentPanel.Location = new System.Drawing.Point(421, 12);
+			DiskContentPanel.Name = "DiskContentPanel";
+			DiskContentPanel.Size = new System.Drawing.Size(157, 57);
+			DiskContentPanel.TabIndex = 3;
+			// 
+			// DiskContentLabel
+			// 
+			DiskContentLabel.AutoSize = true;
+			DiskContentLabel.Location = new System.Drawing.Point(3, 6);
+			DiskContentLabel.Name = "DiskContentLabel";
+			DiskContentLabel.Size = new System.Drawing.Size(73, 15);
+			DiskContentLabel.TabIndex = 6;
+			DiskContentLabel.Text = "Disk content";
+			// 
+			// PotencyComboBox
+			// 
+			PotencyComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			PotencyComboBox.FormattingEnabled = true;
+			PotencyComboBox.Location = new System.Drawing.Point(3, 24);
+			PotencyComboBox.Name = "PotencyComboBox";
+			PotencyComboBox.Size = new System.Drawing.Size(147, 23);
+			PotencyComboBox.TabIndex = 0;
+			// 
+			// TestMethodLabel
+			// 
+			TestMethodLabel.AutoSize = true;
+			TestMethodLabel.Location = new System.Drawing.Point(299, 19);
+			TestMethodLabel.Name = "TestMethodLabel";
+			TestMethodLabel.Size = new System.Drawing.Size(72, 15);
+			TestMethodLabel.TabIndex = 4;
+			TestMethodLabel.Text = "Test method";
+			// 
+			// MIC_Etest_RadioButton
+			// 
+			MIC_Etest_RadioButton.AutoSize = true;
+			MIC_Etest_RadioButton.Location = new System.Drawing.Point(299, 66);
+			MIC_Etest_RadioButton.Name = "MIC_Etest_RadioButton";
+			MIC_Etest_RadioButton.Size = new System.Drawing.Size(83, 19);
+			MIC_Etest_RadioButton.TabIndex = 2;
+			MIC_Etest_RadioButton.Text = "MIC / Etest";
+			MIC_Etest_RadioButton.UseVisualStyleBackColor = true;
+			// 
+			// DiskRadioButton
+			// 
+			DiskRadioButton.AutoSize = true;
+			DiskRadioButton.Checked = true;
+			DiskRadioButton.Location = new System.Drawing.Point(299, 41);
+			DiskRadioButton.Name = "DiskRadioButton";
+			DiskRadioButton.Size = new System.Drawing.Size(47, 19);
+			DiskRadioButton.TabIndex = 1;
+			DiskRadioButton.TabStop = true;
+			DiskRadioButton.Text = "Disk";
+			DiskRadioButton.UseVisualStyleBackColor = true;
+			DiskRadioButton.CheckedChanged += TestMethodChanged;
+			// 
+			// AntibioticNameLabel
+			// 
+			AntibioticNameLabel.AutoSize = true;
+			AntibioticNameLabel.Location = new System.Drawing.Point(6, 19);
+			AntibioticNameLabel.Name = "AntibioticNameLabel";
+			AntibioticNameLabel.Size = new System.Drawing.Size(91, 15);
+			AntibioticNameLabel.TabIndex = 1;
+			AntibioticNameLabel.Text = "Select antibiotic";
+			// 
+			// AntibioticComboBox
+			// 
+			AntibioticComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			AntibioticComboBox.FormattingEnabled = true;
+			AntibioticComboBox.Location = new System.Drawing.Point(6, 37);
+			AntibioticComboBox.Name = "AntibioticComboBox";
+			AntibioticComboBox.Size = new System.Drawing.Size(244, 23);
+			AntibioticComboBox.TabIndex = 0;
 			// 
 			// IncludeInterpretationCommentsCheckbox
 			// 
-			this.IncludeInterpretationCommentsCheckbox.AutoSize = true;
-			this.IncludeInterpretationCommentsCheckbox.Location = new System.Drawing.Point(299, 176);
-			this.IncludeInterpretationCommentsCheckbox.Name = "IncludeInterpretationCommentsCheckbox";
-			this.IncludeInterpretationCommentsCheckbox.Size = new System.Drawing.Size(200, 19);
-			this.IncludeInterpretationCommentsCheckbox.TabIndex = 10;
-			this.IncludeInterpretationCommentsCheckbox.Text = "Include interpretation comments";
-			this.IncludeInterpretationCommentsCheckbox.UseVisualStyleBackColor = true;
+			IncludeInterpretationCommentsCheckbox.AutoSize = true;
+			IncludeInterpretationCommentsCheckbox.Location = new System.Drawing.Point(256, 24);
+			IncludeInterpretationCommentsCheckbox.Name = "IncludeInterpretationCommentsCheckbox";
+			IncludeInterpretationCommentsCheckbox.Size = new System.Drawing.Size(200, 19);
+			IncludeInterpretationCommentsCheckbox.TabIndex = 1;
+			IncludeInterpretationCommentsCheckbox.Text = "Include interpretation comments";
+			IncludeInterpretationCommentsCheckbox.UseVisualStyleBackColor = true;
 			// 
 			// GetApplicableExpertRulesButton
 			// 
-			this.GetApplicableExpertRulesButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.GetApplicableExpertRulesButton.Location = new System.Drawing.Point(6, 231);
-			this.GetApplicableExpertRulesButton.Name = "GetApplicableExpertRulesButton";
-			this.GetApplicableExpertRulesButton.Size = new System.Drawing.Size(251, 23);
-			this.GetApplicableExpertRulesButton.TabIndex = 12;
-			this.GetApplicableExpertRulesButton.Text = "Get applicable expert rules";
-			this.GetApplicableExpertRulesButton.UseVisualStyleBackColor = true;
-			this.GetApplicableExpertRulesButton.Click += new System.EventHandler(this.GetApplicableExpertRulesButton_Click);
+			GetApplicableExpertRulesButton.Location = new System.Drawing.Point(263, 22);
+			GetApplicableExpertRulesButton.Name = "GetApplicableExpertRulesButton";
+			GetApplicableExpertRulesButton.Size = new System.Drawing.Size(251, 23);
+			GetApplicableExpertRulesButton.TabIndex = 1;
+			GetApplicableExpertRulesButton.Text = "Get applicable expert rules";
+			GetApplicableExpertRulesButton.UseVisualStyleBackColor = true;
+			GetApplicableExpertRulesButton.Click += GetApplicableExpertRulesButton_Click;
 			// 
 			// Cancel_Button
 			// 
-			this.Cancel_Button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.Cancel_Button.Location = new System.Drawing.Point(638, 12);
-			this.Cancel_Button.Name = "Cancel_Button";
-			this.Cancel_Button.Size = new System.Drawing.Size(111, 23);
-			this.Cancel_Button.TabIndex = 7;
-			this.Cancel_Button.Text = "&Cancel";
-			this.Cancel_Button.UseVisualStyleBackColor = true;
-			this.Cancel_Button.Click += new System.EventHandler(this.Cancel_Button_Click);
+			Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+			Cancel_Button.Location = new System.Drawing.Point(729, 12);
+			Cancel_Button.Name = "Cancel_Button";
+			Cancel_Button.Size = new System.Drawing.Size(111, 23);
+			Cancel_Button.TabIndex = 3;
+			Cancel_Button.Text = "&Cancel";
+			Cancel_Button.UseVisualStyleBackColor = true;
+			Cancel_Button.Click += Cancel_Button_Click;
+			// 
+			// ViewResourcesPanel
+			// 
+			ViewResourcesPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			ViewResourcesPanel.Controls.Add(GetApplicableBreakpointsButton);
+			ViewResourcesPanel.Controls.Add(GetApplicableExpertRulesButton);
+			ViewResourcesPanel.Controls.Add(GetApplicableIntrinsicResistanceRulesButton);
+			ViewResourcesPanel.Location = new System.Drawing.Point(6, 379);
+			ViewResourcesPanel.Name = "ViewResourcesPanel";
+			ViewResourcesPanel.Size = new System.Drawing.Size(808, 52);
+			ViewResourcesPanel.TabIndex = 4;
+			ViewResourcesPanel.TabStop = false;
+			ViewResourcesPanel.Text = "View applicable resources";
+			// 
+			// InterpretationPanel
+			// 
+			InterpretationPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			InterpretationPanel.Controls.Add(TestMeasurementLabel);
+			InterpretationPanel.Controls.Add(ResultStringTextBox);
+			InterpretationPanel.Controls.Add(GetInerpretationsButton);
+			InterpretationPanel.Controls.Add(IncludeInterpretationCommentsCheckbox);
+			InterpretationPanel.Location = new System.Drawing.Point(6, 320);
+			InterpretationPanel.Name = "InterpretationPanel";
+			InterpretationPanel.Size = new System.Drawing.Size(808, 53);
+			InterpretationPanel.TabIndex = 3;
+			InterpretationPanel.TabStop = false;
+			InterpretationPanel.Text = "Interpret result";
 			// 
 			// MainApplicationForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(761, 341);
-			this.Controls.Add(this.Cancel_Button);
-			this.Controls.Add(this.ModeTabControl);
-			this.Controls.Add(this.GuidelineYearUpDown);
-			this.Controls.Add(this.YearCheckbox);
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Name = "MainApplicationForm";
-			this.Text = "Antimicrobial test result interpretation system";
-			this.Load += new System.EventHandler(this.MainApplicationForm_Load);
-			((System.ComponentModel.ISupportInitialize)(this.GuidelineYearUpDown)).EndInit();
-			this.ModeTabControl.ResumeLayout(false);
-			this.MultipleInterpretationsTab.ResumeLayout(false);
-			this.MultipleInterpretationsTab.PerformLayout();
-			this.SingleInterpretationTab.ResumeLayout(false);
-			this.SingleInterpretationTab.PerformLayout();
-			this.ResumeLayout(false);
-
+			AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			ClientSize = new System.Drawing.Size(852, 518);
+			Controls.Add(Cancel_Button);
+			Controls.Add(ModeTabControl);
+			Controls.Add(GuidelineYearUpDown);
+			Controls.Add(YearCheckbox);
+			Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+			MinimumSize = new System.Drawing.Size(868, 557);
+			Name = "MainApplicationForm";
+			Text = "Antimicrobial test result interpretation system";
+			Load += MainApplicationForm_Load;
+			((System.ComponentModel.ISupportInitialize)GuidelineYearUpDown).EndInit();
+			ModeTabControl.ResumeLayout(false);
+			MultipleInterpretationsTab.ResumeLayout(false);
+			MultipleInterpretationsTab.PerformLayout();
+			SingleInterpretationTab.ResumeLayout(false);
+			OrganismGroupBox.ResumeLayout(false);
+			OrganismGroupBox.PerformLayout();
+			BreakpointFiltersPanel.ResumeLayout(false);
+			BreakpointFiltersPanel.PerformLayout();
+			TestPanel.ResumeLayout(false);
+			TestPanel.PerformLayout();
+			DiskContentPanel.ResumeLayout(false);
+			DiskContentPanel.PerformLayout();
+			ViewResourcesPanel.ResumeLayout(false);
+			InterpretationPanel.ResumeLayout(false);
+			InterpretationPanel.PerformLayout();
+			ResumeLayout(false);
 		}
 
 		#endregion
@@ -545,7 +655,7 @@ namespace AMR_InterpretationInterface
 		private System.Windows.Forms.Button GetApplicableIntrinsicResistanceRulesButton;
 		private System.Windows.Forms.Button GetInerpretationsButton;
 		private System.Windows.Forms.TextBox ResultStringTextBox;
-		private System.Windows.Forms.Label ResultLabel;
+		private System.Windows.Forms.Label TestMeasurementLabel;
 		private System.Windows.Forms.TabControl ModeTabControl;
 		private System.Windows.Forms.TabPage MultipleInterpretationsTab;
 		private System.Windows.Forms.TabPage SingleInterpretationTab;
@@ -565,6 +675,21 @@ namespace AMR_InterpretationInterface
 		private System.Windows.Forms.ProgressBar ProgressMeter;
 		private System.Windows.Forms.Button GetApplicableExpertRulesButton;
 		private System.Windows.Forms.CheckBox IncludeInterpretationCommentsCheckbox;
+		private System.Windows.Forms.GroupBox TestPanel;
+		private System.Windows.Forms.RadioButton MIC_Etest_RadioButton;
+		private System.Windows.Forms.RadioButton DiskRadioButton;
+		private System.Windows.Forms.Label AntibioticNameLabel;
+		private System.Windows.Forms.ComboBox AntibioticComboBox;
+		private System.Windows.Forms.Label TestMethodLabel;
+		private System.Windows.Forms.ComboBox PotencyComboBox;
+		private System.Windows.Forms.Label DiskContentLabel;
+		private System.Windows.Forms.Panel DiskContentPanel;
+		private System.Windows.Forms.ComboBox OrganismComboBox;
+		private System.Windows.Forms.GroupBox BreakpointFiltersPanel;
+		private System.Windows.Forms.GroupBox OrganismGroupBox;
+		private System.Windows.Forms.TextBox OrganismSearchTextBox;
+		private System.Windows.Forms.GroupBox ViewResourcesPanel;
+		private System.Windows.Forms.GroupBox InterpretationPanel;
 	}
 }
 
