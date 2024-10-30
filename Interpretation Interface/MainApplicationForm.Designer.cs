@@ -59,34 +59,30 @@ namespace AMR_InterpretationInterface
 			InputFileTextBox = new System.Windows.Forms.TextBox();
 			InputFileNameLabel = new System.Windows.Forms.Label();
 			SingleInterpretationTab = new System.Windows.Forms.TabPage();
+			InterpretationPanel = new System.Windows.Forms.GroupBox();
+			IncludeInterpretationCommentsCheckbox = new System.Windows.Forms.CheckBox();
+			ViewResourcesPanel = new System.Windows.Forms.GroupBox();
+			GetApplicableExpertRulesButton = new System.Windows.Forms.Button();
 			OrganismGroupBox = new System.Windows.Forms.GroupBox();
 			OrganismSearchTextBox = new System.Windows.Forms.TextBox();
 			OrganismComboBox = new System.Windows.Forms.ComboBox();
 			BreakpointFiltersPanel = new System.Windows.Forms.GroupBox();
 			TestPanel = new System.Windows.Forms.GroupBox();
-			DiskContentPanel = new System.Windows.Forms.Panel();
-			DiskContentLabel = new System.Windows.Forms.Label();
-			PotencyComboBox = new System.Windows.Forms.ComboBox();
-			TestMethodLabel = new System.Windows.Forms.Label();
+			AntibioticSearchTextBox = new System.Windows.Forms.TextBox();
+			DiskContentComboBox = new System.Windows.Forms.ComboBox();
 			MIC_Etest_RadioButton = new System.Windows.Forms.RadioButton();
 			DiskRadioButton = new System.Windows.Forms.RadioButton();
-			AntibioticNameLabel = new System.Windows.Forms.Label();
 			AntibioticComboBox = new System.Windows.Forms.ComboBox();
-			IncludeInterpretationCommentsCheckbox = new System.Windows.Forms.CheckBox();
-			GetApplicableExpertRulesButton = new System.Windows.Forms.Button();
 			Cancel_Button = new System.Windows.Forms.Button();
-			ViewResourcesPanel = new System.Windows.Forms.GroupBox();
-			InterpretationPanel = new System.Windows.Forms.GroupBox();
 			((System.ComponentModel.ISupportInitialize)GuidelineYearUpDown).BeginInit();
 			ModeTabControl.SuspendLayout();
 			MultipleInterpretationsTab.SuspendLayout();
 			SingleInterpretationTab.SuspendLayout();
+			InterpretationPanel.SuspendLayout();
+			ViewResourcesPanel.SuspendLayout();
 			OrganismGroupBox.SuspendLayout();
 			BreakpointFiltersPanel.SuspendLayout();
 			TestPanel.SuspendLayout();
-			DiskContentPanel.SuspendLayout();
-			ViewResourcesPanel.SuspendLayout();
-			InterpretationPanel.SuspendLayout();
 			SuspendLayout();
 			// 
 			// GetApplicableBreakpointsButton
@@ -181,7 +177,7 @@ namespace AMR_InterpretationInterface
 			SitesOfInfectionCheckedListBox.FormattingEnabled = true;
 			SitesOfInfectionCheckedListBox.Location = new System.Drawing.Point(533, 47);
 			SitesOfInfectionCheckedListBox.Name = "SitesOfInfectionCheckedListBox";
-			SitesOfInfectionCheckedListBox.Size = new System.Drawing.Size(269, 90);
+			SitesOfInfectionCheckedListBox.Size = new System.Drawing.Size(269, 72);
 			SitesOfInfectionCheckedListBox.TabIndex = 6;
 			// 
 			// SitesOfInfectionCheckbox
@@ -242,7 +238,7 @@ namespace AMR_InterpretationInterface
 			ModeTabControl.MinimumSize = new System.Drawing.Size(737, 288);
 			ModeTabControl.Name = "ModeTabControl";
 			ModeTabControl.SelectedIndex = 0;
-			ModeTabControl.Size = new System.Drawing.Size(828, 465);
+			ModeTabControl.Size = new System.Drawing.Size(828, 424);
 			ModeTabControl.TabIndex = 2;
 			// 
 			// MultipleInterpretationsTab
@@ -403,17 +399,64 @@ namespace AMR_InterpretationInterface
 			SingleInterpretationTab.Location = new System.Drawing.Point(4, 24);
 			SingleInterpretationTab.Name = "SingleInterpretationTab";
 			SingleInterpretationTab.Padding = new System.Windows.Forms.Padding(3);
-			SingleInterpretationTab.Size = new System.Drawing.Size(820, 437);
+			SingleInterpretationTab.Size = new System.Drawing.Size(820, 396);
 			SingleInterpretationTab.TabIndex = 1;
 			SingleInterpretationTab.Text = "Single interpretation";
 			SingleInterpretationTab.UseVisualStyleBackColor = true;
+			// 
+			// InterpretationPanel
+			// 
+			InterpretationPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			InterpretationPanel.Controls.Add(TestMeasurementLabel);
+			InterpretationPanel.Controls.Add(ResultStringTextBox);
+			InterpretationPanel.Controls.Add(GetInerpretationsButton);
+			InterpretationPanel.Controls.Add(IncludeInterpretationCommentsCheckbox);
+			InterpretationPanel.Location = new System.Drawing.Point(6, 279);
+			InterpretationPanel.Name = "InterpretationPanel";
+			InterpretationPanel.Size = new System.Drawing.Size(808, 53);
+			InterpretationPanel.TabIndex = 3;
+			InterpretationPanel.TabStop = false;
+			InterpretationPanel.Text = "Interpret result";
+			// 
+			// IncludeInterpretationCommentsCheckbox
+			// 
+			IncludeInterpretationCommentsCheckbox.AutoSize = true;
+			IncludeInterpretationCommentsCheckbox.Location = new System.Drawing.Point(256, 24);
+			IncludeInterpretationCommentsCheckbox.Name = "IncludeInterpretationCommentsCheckbox";
+			IncludeInterpretationCommentsCheckbox.Size = new System.Drawing.Size(200, 19);
+			IncludeInterpretationCommentsCheckbox.TabIndex = 1;
+			IncludeInterpretationCommentsCheckbox.Text = "Include interpretation comments";
+			IncludeInterpretationCommentsCheckbox.UseVisualStyleBackColor = true;
+			// 
+			// ViewResourcesPanel
+			// 
+			ViewResourcesPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+			ViewResourcesPanel.Controls.Add(GetApplicableBreakpointsButton);
+			ViewResourcesPanel.Controls.Add(GetApplicableExpertRulesButton);
+			ViewResourcesPanel.Controls.Add(GetApplicableIntrinsicResistanceRulesButton);
+			ViewResourcesPanel.Location = new System.Drawing.Point(6, 338);
+			ViewResourcesPanel.Name = "ViewResourcesPanel";
+			ViewResourcesPanel.Size = new System.Drawing.Size(808, 52);
+			ViewResourcesPanel.TabIndex = 4;
+			ViewResourcesPanel.TabStop = false;
+			ViewResourcesPanel.Text = "View applicable resources";
+			// 
+			// GetApplicableExpertRulesButton
+			// 
+			GetApplicableExpertRulesButton.Location = new System.Drawing.Point(263, 22);
+			GetApplicableExpertRulesButton.Name = "GetApplicableExpertRulesButton";
+			GetApplicableExpertRulesButton.Size = new System.Drawing.Size(251, 23);
+			GetApplicableExpertRulesButton.TabIndex = 1;
+			GetApplicableExpertRulesButton.Text = "Get applicable expert rules";
+			GetApplicableExpertRulesButton.UseVisualStyleBackColor = true;
+			GetApplicableExpertRulesButton.Click += GetApplicableExpertRulesButton_Click;
 			// 
 			// OrganismGroupBox
 			// 
 			OrganismGroupBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
 			OrganismGroupBox.Controls.Add(OrganismSearchTextBox);
 			OrganismGroupBox.Controls.Add(OrganismComboBox);
-			OrganismGroupBox.Location = new System.Drawing.Point(6, 162);
+			OrganismGroupBox.Location = new System.Drawing.Point(6, 159);
 			OrganismGroupBox.Name = "OrganismGroupBox";
 			OrganismGroupBox.Size = new System.Drawing.Size(808, 55);
 			OrganismGroupBox.TabIndex = 1;
@@ -427,6 +470,8 @@ namespace AMR_InterpretationInterface
 			OrganismSearchTextBox.PlaceholderText = "Search";
 			OrganismSearchTextBox.Size = new System.Drawing.Size(100, 23);
 			OrganismSearchTextBox.TabIndex = 0;
+			OrganismSearchTextBox.Tag = OrganismComboBox;
+			OrganismSearchTextBox.TextChanged += SearchTextChanged;
 			// 
 			// OrganismComboBox
 			// 
@@ -448,7 +493,7 @@ namespace AMR_InterpretationInterface
 			BreakpointFiltersPanel.Controls.Add(BreakpointTypesCheckedListBox);
 			BreakpointFiltersPanel.Location = new System.Drawing.Point(6, 6);
 			BreakpointFiltersPanel.Name = "BreakpointFiltersPanel";
-			BreakpointFiltersPanel.Size = new System.Drawing.Size(808, 150);
+			BreakpointFiltersPanel.Size = new System.Drawing.Size(808, 147);
 			BreakpointFiltersPanel.TabIndex = 0;
 			BreakpointFiltersPanel.TabStop = false;
 			BreakpointFiltersPanel.Text = "Breakpoint restrictions";
@@ -456,59 +501,41 @@ namespace AMR_InterpretationInterface
 			// TestPanel
 			// 
 			TestPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			TestPanel.Controls.Add(DiskContentPanel);
-			TestPanel.Controls.Add(TestMethodLabel);
+			TestPanel.Controls.Add(AntibioticSearchTextBox);
+			TestPanel.Controls.Add(DiskContentComboBox);
 			TestPanel.Controls.Add(MIC_Etest_RadioButton);
 			TestPanel.Controls.Add(DiskRadioButton);
-			TestPanel.Controls.Add(AntibioticNameLabel);
 			TestPanel.Controls.Add(AntibioticComboBox);
-			TestPanel.Location = new System.Drawing.Point(6, 223);
+			TestPanel.Location = new System.Drawing.Point(6, 220);
 			TestPanel.Name = "TestPanel";
-			TestPanel.Size = new System.Drawing.Size(808, 91);
+			TestPanel.Size = new System.Drawing.Size(808, 53);
 			TestPanel.TabIndex = 2;
 			TestPanel.TabStop = false;
 			TestPanel.Text = "Antimicrobial test";
 			// 
-			// DiskContentPanel
+			// AntibioticSearchTextBox
 			// 
-			DiskContentPanel.Controls.Add(DiskContentLabel);
-			DiskContentPanel.Controls.Add(PotencyComboBox);
-			DiskContentPanel.Location = new System.Drawing.Point(421, 12);
-			DiskContentPanel.Name = "DiskContentPanel";
-			DiskContentPanel.Size = new System.Drawing.Size(157, 57);
-			DiskContentPanel.TabIndex = 3;
+			AntibioticSearchTextBox.Location = new System.Drawing.Point(6, 22);
+			AntibioticSearchTextBox.Name = "AntibioticSearchTextBox";
+			AntibioticSearchTextBox.PlaceholderText = "Search";
+			AntibioticSearchTextBox.Size = new System.Drawing.Size(100, 23);
+			AntibioticSearchTextBox.TabIndex = 5;
+			AntibioticSearchTextBox.Tag = AntibioticComboBox;
+			AntibioticSearchTextBox.TextChanged += SearchTextChanged;
 			// 
-			// DiskContentLabel
+			// DiskContentComboBox
 			// 
-			DiskContentLabel.AutoSize = true;
-			DiskContentLabel.Location = new System.Drawing.Point(3, 6);
-			DiskContentLabel.Name = "DiskContentLabel";
-			DiskContentLabel.Size = new System.Drawing.Size(73, 15);
-			DiskContentLabel.TabIndex = 6;
-			DiskContentLabel.Text = "Disk content";
-			// 
-			// PotencyComboBox
-			// 
-			PotencyComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			PotencyComboBox.FormattingEnabled = true;
-			PotencyComboBox.Location = new System.Drawing.Point(3, 24);
-			PotencyComboBox.Name = "PotencyComboBox";
-			PotencyComboBox.Size = new System.Drawing.Size(147, 23);
-			PotencyComboBox.TabIndex = 0;
-			// 
-			// TestMethodLabel
-			// 
-			TestMethodLabel.AutoSize = true;
-			TestMethodLabel.Location = new System.Drawing.Point(299, 19);
-			TestMethodLabel.Name = "TestMethodLabel";
-			TestMethodLabel.Size = new System.Drawing.Size(72, 15);
-			TestMethodLabel.TabIndex = 4;
-			TestMethodLabel.Text = "Test method";
+			DiskContentComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			DiskContentComboBox.FormattingEnabled = true;
+			DiskContentComboBox.Location = new System.Drawing.Point(456, 22);
+			DiskContentComboBox.Name = "DiskContentComboBox";
+			DiskContentComboBox.Size = new System.Drawing.Size(127, 23);
+			DiskContentComboBox.TabIndex = 0;
 			// 
 			// MIC_Etest_RadioButton
 			// 
 			MIC_Etest_RadioButton.AutoSize = true;
-			MIC_Etest_RadioButton.Location = new System.Drawing.Point(299, 66);
+			MIC_Etest_RadioButton.Location = new System.Drawing.Point(610, 24);
 			MIC_Etest_RadioButton.Name = "MIC_Etest_RadioButton";
 			MIC_Etest_RadioButton.Size = new System.Drawing.Size(83, 19);
 			MIC_Etest_RadioButton.TabIndex = 2;
@@ -519,7 +546,7 @@ namespace AMR_InterpretationInterface
 			// 
 			DiskRadioButton.AutoSize = true;
 			DiskRadioButton.Checked = true;
-			DiskRadioButton.Location = new System.Drawing.Point(299, 41);
+			DiskRadioButton.Location = new System.Drawing.Point(362, 24);
 			DiskRadioButton.Name = "DiskRadioButton";
 			DiskRadioButton.Size = new System.Drawing.Size(47, 19);
 			DiskRadioButton.TabIndex = 1;
@@ -528,43 +555,14 @@ namespace AMR_InterpretationInterface
 			DiskRadioButton.UseVisualStyleBackColor = true;
 			DiskRadioButton.CheckedChanged += TestMethodChanged;
 			// 
-			// AntibioticNameLabel
-			// 
-			AntibioticNameLabel.AutoSize = true;
-			AntibioticNameLabel.Location = new System.Drawing.Point(6, 19);
-			AntibioticNameLabel.Name = "AntibioticNameLabel";
-			AntibioticNameLabel.Size = new System.Drawing.Size(91, 15);
-			AntibioticNameLabel.TabIndex = 1;
-			AntibioticNameLabel.Text = "Select antibiotic";
-			// 
 			// AntibioticComboBox
 			// 
 			AntibioticComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			AntibioticComboBox.FormattingEnabled = true;
-			AntibioticComboBox.Location = new System.Drawing.Point(6, 37);
+			AntibioticComboBox.Location = new System.Drawing.Point(112, 22);
 			AntibioticComboBox.Name = "AntibioticComboBox";
 			AntibioticComboBox.Size = new System.Drawing.Size(244, 23);
 			AntibioticComboBox.TabIndex = 0;
-			// 
-			// IncludeInterpretationCommentsCheckbox
-			// 
-			IncludeInterpretationCommentsCheckbox.AutoSize = true;
-			IncludeInterpretationCommentsCheckbox.Location = new System.Drawing.Point(256, 24);
-			IncludeInterpretationCommentsCheckbox.Name = "IncludeInterpretationCommentsCheckbox";
-			IncludeInterpretationCommentsCheckbox.Size = new System.Drawing.Size(200, 19);
-			IncludeInterpretationCommentsCheckbox.TabIndex = 1;
-			IncludeInterpretationCommentsCheckbox.Text = "Include interpretation comments";
-			IncludeInterpretationCommentsCheckbox.UseVisualStyleBackColor = true;
-			// 
-			// GetApplicableExpertRulesButton
-			// 
-			GetApplicableExpertRulesButton.Location = new System.Drawing.Point(263, 22);
-			GetApplicableExpertRulesButton.Name = "GetApplicableExpertRulesButton";
-			GetApplicableExpertRulesButton.Size = new System.Drawing.Size(251, 23);
-			GetApplicableExpertRulesButton.TabIndex = 1;
-			GetApplicableExpertRulesButton.Text = "Get applicable expert rules";
-			GetApplicableExpertRulesButton.UseVisualStyleBackColor = true;
-			GetApplicableExpertRulesButton.Click += GetApplicableExpertRulesButton_Click;
 			// 
 			// Cancel_Button
 			// 
@@ -577,44 +575,17 @@ namespace AMR_InterpretationInterface
 			Cancel_Button.UseVisualStyleBackColor = true;
 			Cancel_Button.Click += Cancel_Button_Click;
 			// 
-			// ViewResourcesPanel
-			// 
-			ViewResourcesPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			ViewResourcesPanel.Controls.Add(GetApplicableBreakpointsButton);
-			ViewResourcesPanel.Controls.Add(GetApplicableExpertRulesButton);
-			ViewResourcesPanel.Controls.Add(GetApplicableIntrinsicResistanceRulesButton);
-			ViewResourcesPanel.Location = new System.Drawing.Point(6, 379);
-			ViewResourcesPanel.Name = "ViewResourcesPanel";
-			ViewResourcesPanel.Size = new System.Drawing.Size(808, 52);
-			ViewResourcesPanel.TabIndex = 4;
-			ViewResourcesPanel.TabStop = false;
-			ViewResourcesPanel.Text = "View applicable resources";
-			// 
-			// InterpretationPanel
-			// 
-			InterpretationPanel.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-			InterpretationPanel.Controls.Add(TestMeasurementLabel);
-			InterpretationPanel.Controls.Add(ResultStringTextBox);
-			InterpretationPanel.Controls.Add(GetInerpretationsButton);
-			InterpretationPanel.Controls.Add(IncludeInterpretationCommentsCheckbox);
-			InterpretationPanel.Location = new System.Drawing.Point(6, 320);
-			InterpretationPanel.Name = "InterpretationPanel";
-			InterpretationPanel.Size = new System.Drawing.Size(808, 53);
-			InterpretationPanel.TabIndex = 3;
-			InterpretationPanel.TabStop = false;
-			InterpretationPanel.Text = "Interpret result";
-			// 
 			// MainApplicationForm
 			// 
 			AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			ClientSize = new System.Drawing.Size(852, 518);
+			ClientSize = new System.Drawing.Size(852, 477);
 			Controls.Add(Cancel_Button);
 			Controls.Add(ModeTabControl);
 			Controls.Add(GuidelineYearUpDown);
 			Controls.Add(YearCheckbox);
 			Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-			MinimumSize = new System.Drawing.Size(868, 557);
+			MinimumSize = new System.Drawing.Size(868, 516);
 			Name = "MainApplicationForm";
 			Text = "Antimicrobial test result interpretation system";
 			Load += MainApplicationForm_Load;
@@ -623,17 +594,15 @@ namespace AMR_InterpretationInterface
 			MultipleInterpretationsTab.ResumeLayout(false);
 			MultipleInterpretationsTab.PerformLayout();
 			SingleInterpretationTab.ResumeLayout(false);
+			InterpretationPanel.ResumeLayout(false);
+			InterpretationPanel.PerformLayout();
+			ViewResourcesPanel.ResumeLayout(false);
 			OrganismGroupBox.ResumeLayout(false);
 			OrganismGroupBox.PerformLayout();
 			BreakpointFiltersPanel.ResumeLayout(false);
 			BreakpointFiltersPanel.PerformLayout();
 			TestPanel.ResumeLayout(false);
 			TestPanel.PerformLayout();
-			DiskContentPanel.ResumeLayout(false);
-			DiskContentPanel.PerformLayout();
-			ViewResourcesPanel.ResumeLayout(false);
-			InterpretationPanel.ResumeLayout(false);
-			InterpretationPanel.PerformLayout();
 			ResumeLayout(false);
 		}
 
@@ -678,18 +647,15 @@ namespace AMR_InterpretationInterface
 		private System.Windows.Forms.GroupBox TestPanel;
 		private System.Windows.Forms.RadioButton MIC_Etest_RadioButton;
 		private System.Windows.Forms.RadioButton DiskRadioButton;
-		private System.Windows.Forms.Label AntibioticNameLabel;
 		private System.Windows.Forms.ComboBox AntibioticComboBox;
-		private System.Windows.Forms.Label TestMethodLabel;
-		private System.Windows.Forms.ComboBox PotencyComboBox;
-		private System.Windows.Forms.Label DiskContentLabel;
-		private System.Windows.Forms.Panel DiskContentPanel;
+		private System.Windows.Forms.ComboBox DiskContentComboBox;
 		private System.Windows.Forms.ComboBox OrganismComboBox;
 		private System.Windows.Forms.GroupBox BreakpointFiltersPanel;
 		private System.Windows.Forms.GroupBox OrganismGroupBox;
 		private System.Windows.Forms.TextBox OrganismSearchTextBox;
 		private System.Windows.Forms.GroupBox ViewResourcesPanel;
 		private System.Windows.Forms.GroupBox InterpretationPanel;
+		private System.Windows.Forms.TextBox AntibioticSearchTextBox;
 	}
 }
 

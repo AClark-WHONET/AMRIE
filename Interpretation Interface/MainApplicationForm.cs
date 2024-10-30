@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
@@ -36,9 +37,34 @@ namespace AMR_InterpretationInterface
 			SelectedGuidelinesCheckedListBox.SetItemChecked(0, true);
 			FieldDelimiterComboBox.SelectedIndex = 0;
 
-			AntibioticComboBox.Items.AddRange(
+			// Add the full list of organisms.
+			List<Tuple<string, string>> Organisms = 
+				new List<Tuple<string, string>>([DefaultSelection]);
+
+			Organisms.AddRange(
+				Organism.AllOrganisms.OrderBy(o => o.ORGANISM).
+				Select(o => new Tuple<string, string>(string.Format("{0} - ({1})", o.ORGANISM, o.WHONET_ORG_CODE), o.WHONET_ORG_CODE)).
+				Distinct());
+
+			OrganismComboBox.Tag = Organisms;
+			OrganismComboBox.DisplayMember = nameof(DefaultSelection.Item1);
+			OrganismComboBox.ValueMember = nameof(DefaultSelection.Item2);
+			OrganismComboBox.DataSource = Organisms;
+
+
+			// Add the full list of antibiotics.
+			List<Tuple<string, string>> Antibiotics = 
+				new List<Tuple<string, string>>([DefaultSelection]);
+
+			Antibiotics.AddRange(
 				Antibiotic.AllAntibiotics.OrderBy(a => a.ANTIBIOTIC).
-				Select(a => a.ANTIBIOTIC).Distinct().ToArray());
+				Select(a => new Tuple<string, string>(string.Format("{0} - ({1})", a.ANTIBIOTIC, a.WHONET_ABX_CODE), a.WHONET_ABX_CODE)).
+				Distinct());
+
+			AntibioticComboBox.Tag = Antibiotics;
+			AntibioticComboBox.DisplayMember = nameof(DefaultSelection.Item1);
+			AntibioticComboBox.ValueMember = nameof(DefaultSelection.Item2);
+			AntibioticComboBox.DataSource = Antibiotics;
 		}
 
 		#endregion
@@ -46,6 +72,9 @@ namespace AMR_InterpretationInterface
 		#region Private
 
 		private BackgroundWorker Worker;
+
+		private Tuple<string, string> DefaultSelection =
+			new("[Select a value]", string.Empty);
 
 		#endregion
 
@@ -346,9 +375,57 @@ namespace AMR_InterpretationInterface
 			ProgressMeter.Value = e.ProgressPercentage;
 		}
 
+		private void Cancel_Button_Click(object sender, EventArgs e)
+		{
+			if (Worker != null && Worker.IsBusy)
+				Worker.CancelAsync();
+		}
+
+		private void TestMethodChanged(object sender, EventArgs e)
+		{
+			RadioButton radioButton = sender as RadioButton;
+			DiskContentComboBox.Enabled = radioButton.Checked;
+		}
+
+		private void SearchTextChanged(object sender, EventArgs e)
+		{
+			TextBox searchTextBox = sender as TextBox;
+			ComboBox searchComboBox = searchTextBox.Tag as ComboBox;
+
+			SearchList(searchComboBox, searchTextBox.Text);
+		}
+
 		#endregion
 
 		#region Library
+
+		private void SearchList(ComboBox targetControl, string searchString)
+		{
+			List<Tuple<string, string>> fullList = 
+				targetControl.Tag as List<Tuple<string, string>>;
+
+			if (string.IsNullOrWhiteSpace(searchString))
+			{
+				// No search terms. Reset the list.
+				targetControl.DataSource = fullList;
+			}
+			else
+			{
+				// Filter the items using the search terms provided by the user.
+				List<string> searchTerms =
+					searchString.Split(' ').
+					Where(s => !string.IsNullOrWhiteSpace(s)).
+					Distinct(StringComparer.InvariantCultureIgnoreCase).
+					ToList();
+
+				List<Tuple<string, string>> filteredList =
+					fullList.Skip(1).
+					Where(item => searchTerms.All(s => item.Item1.Contains(s, StringComparison.InvariantCultureIgnoreCase) || item.Item2.Contains(s, StringComparison.InvariantCultureIgnoreCase))).
+					ToList();
+
+				targetControl.DataSource = filteredList;
+			}
+		}
 
 		private bool ValidateCommonSelections(bool organismCodeRequired)
 		{
@@ -399,17 +476,5 @@ namespace AMR_InterpretationInterface
 		}
 
 		#endregion
-
-		private void Cancel_Button_Click(object sender, EventArgs e)
-		{
-			if (Worker != null && Worker.IsBusy)
-				Worker.CancelAsync();
-		}
-
-		private void TestMethodChanged(object sender, EventArgs e)
-		{
-			RadioButton radioButton = sender as RadioButton;
-			DiskContentPanel.Enabled = radioButton.Checked;
-		}
 	}
 }
