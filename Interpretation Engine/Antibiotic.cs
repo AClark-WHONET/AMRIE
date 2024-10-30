@@ -46,14 +46,14 @@ namespace AMR_Engine
 
 		public class GuidelineNames
 		{
-			public static readonly string CLSI = "CLSI";
-			public static readonly string EUCAST = "EUCAST";
-			public static readonly string SFM = "SFM";
-			public static readonly string SRGA = "SRGA";
-			public static readonly string BSAC = "BSAC";
-			public static readonly string DIN = "DIN";
-			public static readonly string NEO = "NEO";
-			public static readonly string AFA = "AFA";
+			public static readonly string CLSI = nameof(CLSI);
+			public static readonly string EUCAST = nameof(EUCAST);
+			public static readonly string SFM = nameof(SFM);
+			public static readonly string SRGA = nameof(SRGA);
+			public static readonly string BSAC = nameof(BSAC);
+			public static readonly string DIN = nameof(DIN);
+			public static readonly string NEO = nameof(NEO);
+			public static readonly string AFA = nameof(AFA);
 
 			/// <summary>
 			/// Expand the guideline code used in the antibiotic column name to the longer abbreviation.

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using AMR_Engine;
 
@@ -75,6 +75,15 @@ namespace AMR_InterpretationInterface
 
 		private Tuple<string, string> DefaultSelection =
 			new("[Select a value]", string.Empty);
+
+		private static readonly string MIC_TestFormat =
+			@"{0}_{1}" + Antibiotic.TestMethodCodes.MIC;
+
+		private static readonly string DiskTestFormat =
+			@"{0}_{1}" + Antibiotic.TestMethodCodes.Disk + @"{2}";
+
+		private static readonly Regex MatchCombinationAgents =
+			new(@"/.+$", RegexOptions.Compiled);
 
 		#endregion
 
@@ -189,26 +198,41 @@ namespace AMR_InterpretationInterface
 
 				interpretationConfig.GuidelineYear = Convert.ToInt64(GuidelineYearUpDown.Value);
 
-				string orgCode = WHONET_OrgCode.Text.Trim();
+				string orgCode = OrganismComboBox.SelectedValue as string;
 
-				string antibioticCode =
-						AntimicrobialCodesTextBox.Text.Trim().Split(Constants.Delimiters.CommaChar).Select((abx) => abx.Trim()).First();
+				List<string> antibioticTestCodes = GetFullTestCodes();
 
-				string measurement = ResultStringTextBox.Text;
+				if (!antibioticTestCodes.Any())
+				{
+					MessageBox.Show("There was a problem creating the antibiotic code. Please ensure that you have either CLSI or EUCAST checked above.");
+					return;
+				}
 
-				string interpretation =
-					IsolateInterpretation.GetSingleInterpretation(
-						interpretationConfig, orgCode, antibioticCode, measurement);
+				string measurement = ResultStringTextBox.Text.Trim();
 
-				if (!interpretationConfig.IncludeInterpretationComments)
-					interpretation = IsolateInterpretation.RemoveComments(interpretation);
+				if (string.IsNullOrWhiteSpace(measurement))
+				{
+					MessageBox.Show("Please enter a test measurement.");
+					return;
+				}
 
-				MessageBox.Show(interpretation);
+				List<string> interpretations =
+					antibioticTestCodes.Select(
+						fullTestCode =>
+						{
+							string rawInterpretation =
+								IsolateInterpretation.GetSingleInterpretation(interpretationConfig, orgCode, fullTestCode, measurement);
+
+							if (!interpretationConfig.IncludeInterpretationComments)
+								rawInterpretation = IsolateInterpretation.RemoveComments(rawInterpretation);
+
+							return string.Format(@"{0}: {1}", fullTestCode, rawInterpretation);
+						}).
+						ToList();
+
+				MessageBox.Show(string.Join(Environment.NewLine, interpretations));
 			}
-			else
-			{
-				MessageBox.Show(Translations.Resources.OneOrMoreSelectionsIsInvalid);
-			}
+			else MessageBox.Show(Translations.Resources.OneOrMoreSelectionsIsInvalid);
 		}
 
 		private void GetApplicableBreakpointsButton_Click(object sender, EventArgs e)
@@ -219,7 +243,7 @@ namespace AMR_InterpretationInterface
 				List<int> prioritizedGuidelineYears = null;
 				List<string> prioritizedBreakpointTypes = null;
 				List<string> prioritizedSitesOfInfection = null;
-				string orgCode = WHONET_OrgCode.Text.Trim();
+				string orgCode = OrganismComboBox.SelectedValue as string;
 				List<string> prioritizedWhonetAbxFullDrugCodes = null;
 
 				if (GuidelinesCheckbox.Checked)
@@ -249,10 +273,8 @@ namespace AMR_InterpretationInterface
 					prioritizedGuidelineYears.Add(Convert.ToInt32(GuidelineYearUpDown.Value));
 				}
 
-				if (!string.IsNullOrWhiteSpace(AntimicrobialCodesTextBox.Text))
-				{
-					prioritizedWhonetAbxFullDrugCodes = AntimicrobialCodesTextBox.Text.Trim().Split(Constants.Delimiters.CommaChar).Select((abx) => abx.Trim()).ToList();
-				}
+				if (ValidateAntibioticSelection())
+					prioritizedWhonetAbxFullDrugCodes = GetFullTestCodes();
 
 				List<Breakpoint> applicableBreakpoints =
 					Breakpoint.GetApplicableBreakpoints(
@@ -277,9 +299,9 @@ namespace AMR_InterpretationInterface
 		{
 			if (ValidateSelectionsForExpertRules())
 			{
-				string orgCode = WHONET_OrgCode.Text.Trim();
+				string orgCode = OrganismComboBox.SelectedValue as string;
 
-				string[] abxAndTests = AntimicrobialCodesTextBox.Text.Trim().Split(Constants.Delimiters.CommaChar).Select((abx) => abx.Trim()).ToArray();
+				string[] abxAndTests = GetFullTestCodes().ToArray();
 				List<string> antibioticCodes = abxAndTests.Where(abx => IsolateInterpretation.ValidAntibioticCode.IsMatch(abx)).ToList();
 				List<string> otherTestsCodes = abxAndTests.Except(antibioticCodes).ToList();
 
@@ -296,7 +318,7 @@ namespace AMR_InterpretationInterface
 		{
 			if (ValidateCommonSelections(true))
 			{
-				string orgCode = WHONET_OrgCode.Text.Trim();
+				string orgCode = OrganismComboBox.SelectedValue as string;
 
 				List<string> prioritizedGuidelines = null;
 				if (GuidelinesCheckbox.Checked)
@@ -406,7 +428,6 @@ namespace AMR_InterpretationInterface
 			else
 			{
 				// Attempt to look up the potencies for the given drug and guidelines.
-
 				string abxCode = 
 					(abx.SelectedItem as Tuple<string, string>).Item2;
 				
@@ -415,7 +436,7 @@ namespace AMR_InterpretationInterface
 
 				List<string> diskContentOptions =
 					Antibiotic.AllAntibiotics.Where(abx => abx.WHONET_ABX_CODE == abxCode && guidelines.Any(
-						g => (g == nameof(abx.CLSI) && abx.CLSI) || (g == nameof(abx.CLSI) && abx.EUCAST) || g == Breakpoint.BreakpointTypes.ECOFF)).
+						g => (g == nameof(abx.CLSI) && abx.CLSI) || (g == nameof(abx.EUCAST) && abx.EUCAST) || (g == nameof(abx.SFM)))).
 					Select(abx => abx.POTENCY).
 					Distinct().ToList();
 
@@ -460,7 +481,7 @@ namespace AMR_InterpretationInterface
 			if (GuidelinesCheckbox.Checked && SelectedGuidelinesCheckedListBox.CheckedItems.Count == 0)
 				return false;
 			else
-				return !organismCodeRequired || WHONET_OrgCode.Text.Trim().Length == 3;
+				return !organismCodeRequired || ValidateOrganismSelection();
 		}
 
 		private bool ValidateSelectionsForBreakpoints(bool organismCodeRequired)
@@ -482,7 +503,7 @@ namespace AMR_InterpretationInterface
 				return false;
 			else if (!YearCheckbox.Checked)
 				return false;
-			else if (string.IsNullOrWhiteSpace(AntimicrobialCodesTextBox.Text))
+			else if (!ValidateAntibioticSelection())
 				return false;
 			else if (string.IsNullOrWhiteSpace(ResultStringTextBox.Text))
 				return false;
@@ -492,7 +513,17 @@ namespace AMR_InterpretationInterface
 
 		private bool ValidateSelectionsForExpertRules()
 		{
-			return WHONET_OrgCode.Text.Trim().Length == 3 && !string.IsNullOrWhiteSpace(AntimicrobialCodesTextBox.Text);
+			return ValidateOrganismSelection() && ValidateAntibioticSelection();
+		}
+
+		private bool ValidateOrganismSelection()
+		{
+			return OrganismComboBox.SelectedValue != null && OrganismComboBox.SelectedItem != DefaultSelection;
+		}
+
+		private bool ValidateAntibioticSelection()
+		{
+			return AntibioticComboBox.SelectedValue != null && AntibioticComboBox.SelectedItem != DefaultSelection;
 		}
 
 		private void ToggleUI(bool enabled)
@@ -502,6 +533,78 @@ namespace AMR_InterpretationInterface
 			Cancel_Button.Enabled = !enabled;
 			ModeTabControl.Enabled = enabled;
 		}
+
+		private List<string> GetFullTestCodes()
+		{
+			List<string> guidelines =
+				SelectedGuidelinesCheckedListBox.CheckedItems.
+				Cast<string>().
+				ToList();
+
+			string selectedAntibioticCode =
+				AntibioticComboBox.SelectedValue as string;
+
+			string diskContent = string.Empty;
+			if (DiskRadioButton.Checked && DiskContentComboBox.SelectedValue != null)
+				diskContent = DiskContentComboBox.SelectedValue as string;
+
+			return guidelines.
+				Select(g => Create_FullTestCode(g, selectedAntibioticCode, DiskRadioButton.Checked, diskContent)).
+				Where(fullCode => !string.IsNullOrWhiteSpace(fullCode)).
+				ToList();
+		}
+
+		private string Create_FullTestCode(string guidelineName, string antibioticCode, bool diskTest, string diskContent = "")
+		{
+			char guidelineCode;
+			switch (guidelineName)
+			{
+				case nameof(Antibiotic.GuidelineNames.CLSI):
+					guidelineCode = Antibiotic.GuidelineCodes.CLSI;
+					break;
+
+				case nameof(Antibiotic.GuidelineNames.EUCAST):
+					guidelineCode = Antibiotic.GuidelineCodes.EUCAST;
+					break;
+
+				case nameof(Antibiotic.GuidelineNames.SFM):
+					guidelineCode = Antibiotic.GuidelineCodes.SFM;
+					break;
+
+				default:
+					// Other guidelines not supported on screen at this time.
+					// They continue to work through the library interpretations,
+					// and could be added to this interface. They are rare enough
+					// that we have left them off avoid clutter that is not relevant for most users.
+					return null;
+			}
+
+			if (diskTest)
+			{
+				if (!string.IsNullOrWhiteSpace(diskContent))
+				{
+					// Convert the disk content values from the antibiotic table
+					// into the format used by the breakpoints/test codes.
+					diskContent = diskContent.
+						Replace("µg", string.Empty).
+						Replace("units", string.Empty).
+						Replace(".", "_");
+
+					// If the agent has two components separated by a "/",
+					// truncate the second part for use in the test code.
+					if (MatchCombinationAgents.IsMatch(diskContent))
+						diskContent =
+							MatchCombinationAgents.Replace(diskContent, string.Empty);
+
+					// Important special case for "1_25" which should result in "1_2" as in "SXT_ND1_2".
+					if (diskContent == "1_25")
+						diskContent = "1_2";
+				}
+
+				return string.Format(DiskTestFormat, antibioticCode, guidelineCode, diskContent);
+			}
+			else return string.Format(MIC_TestFormat, antibioticCode, guidelineCode);
+		}				
 
 		#endregion
 	}

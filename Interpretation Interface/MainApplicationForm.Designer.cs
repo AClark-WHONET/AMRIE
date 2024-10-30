@@ -610,7 +610,6 @@ namespace AMR_InterpretationInterface
 		#endregion
 
 		private System.Windows.Forms.Button GetApplicableBreakpointsButton;
-		private System.Windows.Forms.TextBox WHONET_OrgCode;
 		private System.Windows.Forms.Label OrganismCodeLabel;
 		private System.Windows.Forms.CheckBox GuidelinesCheckbox;
 		private System.Windows.Forms.CheckedListBox SelectedGuidelinesCheckedListBox;
@@ -621,7 +620,6 @@ namespace AMR_InterpretationInterface
 		private System.Windows.Forms.CheckedListBox SitesOfInfectionCheckedListBox;
 		private System.Windows.Forms.CheckBox SitesOfInfectionCheckbox;
 		private System.Windows.Forms.Label AntimicrobialFullCodesLabel;
-		private System.Windows.Forms.TextBox AntimicrobialCodesTextBox;
 		private System.Windows.Forms.Button GetApplicableIntrinsicResistanceRulesButton;
 		private System.Windows.Forms.Button GetInerpretationsButton;
 		private System.Windows.Forms.TextBox ResultStringTextBox;
