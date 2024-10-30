@@ -395,20 +395,48 @@ namespace AMR_InterpretationInterface
 			SearchList(searchComboBox, searchTextBox.Text);
 		}
 
+		private void AntibioticChanged(object sender, EventArgs e) 
+		{
+			ComboBox abx = sender as ComboBox;
+
+			if (abx.SelectedItem == null || abx.SelectedItem == DefaultSelection)
+				// Clear the disk content combo box.
+				DiskContentComboBox.DataSource = new List<string>();
+
+			else
+			{
+				// Attempt to look up the potencies for the given drug and guidelines.
+
+				string abxCode = 
+					(abx.SelectedItem as Tuple<string, string>).Item2;
+				
+				List<string> guidelines =
+					SelectedGuidelinesCheckedListBox.CheckedItems.Cast<string>().ToList();
+
+				List<string> diskContentOptions =
+					Antibiotic.AllAntibiotics.Where(abx => abx.WHONET_ABX_CODE == abxCode && guidelines.Any(
+						g => (g == nameof(abx.CLSI) && abx.CLSI) || (g == nameof(abx.CLSI) && abx.EUCAST) || g == Breakpoint.BreakpointTypes.ECOFF)).
+					Select(abx => abx.POTENCY).
+					Distinct().ToList();
+
+				DiskContentComboBox.DataSource = diskContentOptions;
+			}
+		}
+
 		#endregion
 
 		#region Library
 
 		private void SearchList(ComboBox targetControl, string searchString)
 		{
+			// A reference to the full list of items is stored in the control's Tag.
 			List<Tuple<string, string>> fullList = 
 				targetControl.Tag as List<Tuple<string, string>>;
 
 			if (string.IsNullOrWhiteSpace(searchString))
-			{
 				// No search terms. Reset the list.
 				targetControl.DataSource = fullList;
-			}
+
 			else
 			{
 				// Filter the items using the search terms provided by the user.

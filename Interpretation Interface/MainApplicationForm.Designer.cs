@@ -563,6 +563,7 @@ namespace AMR_InterpretationInterface
 			AntibioticComboBox.Name = "AntibioticComboBox";
 			AntibioticComboBox.Size = new System.Drawing.Size(244, 23);
 			AntibioticComboBox.TabIndex = 0;
+			AntibioticComboBox.SelectedValueChanged += AntibioticChanged;
 			// 
 			// Cancel_Button
 			// 
