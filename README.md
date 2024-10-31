@@ -8,7 +8,9 @@ For more information about the guidelines, please visit their websites: [CLSI](h
 You can install this software on Windows using the command `winget install WHONET.AMRIE` or by downloading the latest release from GitHub.
 
 There are three different sets of needs that the solution aims to support:
-1. Interactive use, 2. Command line use, and 3. Library integration.
+1. Interactive use
+2. Command line use
+3. Library integration
 
 The library code is written in .NET 8 with no additional package dependencies. It can be directly integrated with other projects on any platform which supports .NET 8.
 The interactive interface and the command line interface exercise the various interpretation features.
