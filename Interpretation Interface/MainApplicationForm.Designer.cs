@@ -335,7 +335,7 @@ namespace AMR_InterpretationInterface
 			// 
 			FieldDelimiterComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			FieldDelimiterComboBox.FormattingEnabled = true;
-			FieldDelimiterComboBox.Items.AddRange(new object[] { ",", ";", "|", "TAB" });
+			FieldDelimiterComboBox.Items.AddRange(new object[] { "|", ",", ";", "TAB" });
 			FieldDelimiterComboBox.Location = new System.Drawing.Point(111, 36);
 			FieldDelimiterComboBox.Name = "FieldDelimiterComboBox";
 			FieldDelimiterComboBox.Size = new System.Drawing.Size(59, 23);
