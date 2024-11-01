@@ -119,6 +119,7 @@ namespace AMR_InterpretationInterface
 			SelectedGuidelinesCheckedListBox.Name = "SelectedGuidelinesCheckedListBox";
 			SelectedGuidelinesCheckedListBox.Size = new System.Drawing.Size(139, 54);
 			SelectedGuidelinesCheckedListBox.TabIndex = 2;
+			SelectedGuidelinesCheckedListBox.ItemCheck += AntibioticChanged;
 			// 
 			// YearCheckbox
 			// 
