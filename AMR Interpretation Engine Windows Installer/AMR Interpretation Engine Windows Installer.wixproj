@@ -8,7 +8,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <SuppressPdbOutput>True</SuppressPdbOutput>
-    <DefineConstants>Title=AMR Interpretation Engine;Version=24.8.29</DefineConstants>
+    <DefineConstants>Title=AMR Interpretation Engine;Version=24.10.31</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Interpretation CLI\Interpretation CLI.csproj">
