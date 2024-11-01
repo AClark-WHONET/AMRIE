@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Interpretation_CLI</RootNamespace>
-    <Version>$(VersionPrefix)24.10.31</Version>
+    <Version>$(VersionPrefix)24.11.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
