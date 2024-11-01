@@ -232,7 +232,6 @@ namespace AMR_InterpretationInterface
 
 				MessageBox.Show(string.Join(Environment.NewLine, interpretations));
 			}
-			else MessageBox.Show(Translations.Resources.OneOrMoreSelectionsIsInvalid);
 		}
 
 		private void GetApplicableBreakpointsButton_Click(object sender, EventArgs e)
@@ -274,20 +273,22 @@ namespace AMR_InterpretationInterface
 				}
 
 				if (ValidateAntibioticSelection())
+				{
 					prioritizedWhonetAbxFullDrugCodes = GetFullTestCodes();
 
-				List<Breakpoint> applicableBreakpoints =
-					Breakpoint.GetApplicableBreakpoints(
-						orgCode,
-						new List<Breakpoint>(),
-						prioritizedGuidelines: prioritizedGuidelines,
-						prioritizedGuidelineYears: prioritizedGuidelineYears,
-						prioritizedBreakpointTypes: prioritizedBreakpointTypes,
-						prioritizedSitesOfInfection: prioritizedSitesOfInfection,
-						prioritizedWhonetAbxFullDrugCodes: prioritizedWhonetAbxFullDrugCodes);
+					List<Breakpoint> applicableBreakpoints =
+						Breakpoint.GetApplicableBreakpoints(
+							orgCode,
+							new List<Breakpoint>(),
+							prioritizedGuidelines: prioritizedGuidelines,
+							prioritizedGuidelineYears: prioritizedGuidelineYears,
+							prioritizedBreakpointTypes: prioritizedBreakpointTypes,
+							prioritizedSitesOfInfection: prioritizedSitesOfInfection,
+							prioritizedWhonetAbxFullDrugCodes: prioritizedWhonetAbxFullDrugCodes);
 
-				using Interpretation_Interface.BreakpointDisplay bp = new(applicableBreakpoints);
-				bp.ShowDialog();
+					using Interpretation_Interface.BreakpointDisplay bp = new(applicableBreakpoints);
+					bp.ShowDialog();
+				}					
 			}
 			else
 			{
@@ -419,9 +420,7 @@ namespace AMR_InterpretationInterface
 
 		private void AntibioticChanged(object sender, EventArgs e) 
 		{
-			ComboBox abx = sender as ComboBox;
-
-			if (abx.SelectedItem == null || abx.SelectedItem == DefaultSelection)
+			if (AntibioticComboBox == null || AntibioticComboBox.SelectedItem == null || AntibioticComboBox.SelectedItem == DefaultSelection)
 				// Clear the disk content combo box.
 				DiskContentComboBox.DataSource = new List<string>();
 
@@ -429,10 +428,22 @@ namespace AMR_InterpretationInterface
 			{
 				// Attempt to look up the potencies for the given drug and guidelines.
 				string abxCode = 
-					(abx.SelectedItem as Tuple<string, string>).Item2;
+					(AntibioticComboBox.SelectedItem as Tuple<string, string>).Item2;
 				
 				List<string> guidelines =
 					SelectedGuidelinesCheckedListBox.CheckedItems.Cast<string>().ToList();
+
+				if (sender == SelectedGuidelinesCheckedListBox)
+				{
+					ItemCheckEventArgs itemChangeArgs = e as ItemCheckEventArgs;
+					string updatedGuideline = 
+						SelectedGuidelinesCheckedListBox.Items[itemChangeArgs.Index].ToString();
+
+					if (itemChangeArgs.NewValue == CheckState.Checked)
+						guidelines.Add(updatedGuideline);
+					else
+						guidelines.Remove(updatedGuideline);
+				}
 
 				List<string> diskContentOptions =
 					Antibiotic.AllAntibiotics.Where(abx => abx.WHONET_ABX_CODE == abxCode && guidelines.Any(
@@ -479,36 +490,52 @@ namespace AMR_InterpretationInterface
 		private bool ValidateCommonSelections(bool organismCodeRequired)
 		{
 			if (GuidelinesCheckbox.Checked && SelectedGuidelinesCheckedListBox.CheckedItems.Count == 0)
+			{
+				MessageBox.Show("You must enable at least one antibiotic guideline.");
 				return false;
-			else
-				return !organismCodeRequired || ValidateOrganismSelection();
+			}
+			else if (organismCodeRequired && !ValidateOrganismSelection())
+			{
+				return false;
+			}
+			else return true;
 		}
 
 		private bool ValidateSelectionsForBreakpoints(bool organismCodeRequired)
 		{
 			if (!ValidateCommonSelections(organismCodeRequired))
 				return false;
-			else if (BreakpointTypesCheckbox.Checked && BreakpointTypesCheckedListBox.CheckedItems.Count == 0)
-				return false;
-			else if (SitesOfInfectionCheckbox.Checked && SitesOfInfectionCheckedListBox.CheckedItems.Count == 0)
-				return false;
 
-			else
-				return true;
+			else if (BreakpointTypesCheckbox.Checked && BreakpointTypesCheckedListBox.CheckedItems.Count == 0)
+			{
+				MessageBox.Show("Please choose one or more breakpoint types.");
+				return false;
+			}				
+			else if (SitesOfInfectionCheckbox.Checked && SitesOfInfectionCheckedListBox.CheckedItems.Count == 0)
+			{
+				MessageBox.Show("Please choose one or more sites of infection.");
+				return false;
+			}
+			else return true;
 		}
 
 		private bool ValidateSelectionsForInterpretation(bool organismCodeRequired)
 		{
 			if (!ValidateSelectionsForBreakpoints(organismCodeRequired))
 				return false;
+
 			else if (!YearCheckbox.Checked)
+			{
+				MessageBox.Show("Please select a guideline year.");
 				return false;
+			}				
 			else if (!ValidateAntibioticSelection())
 				return false;
-			else if (string.IsNullOrWhiteSpace(ResultStringTextBox.Text))
+
+			else if (!ValidateTestMeasurement())
 				return false;
-			else
-				return true;
+
+			else return true;
 		}
 
 		private bool ValidateSelectionsForExpertRules()
@@ -518,12 +545,42 @@ namespace AMR_InterpretationInterface
 
 		private bool ValidateOrganismSelection()
 		{
-			return OrganismComboBox.SelectedValue != null && OrganismComboBox.SelectedItem != DefaultSelection;
+			if (OrganismComboBox.SelectedValue != null && OrganismComboBox.SelectedItem != DefaultSelection)
+				return true;
+			else
+				MessageBox.Show("Please select an organism.");
+		
+			return false;
 		}
 
 		private bool ValidateAntibioticSelection()
 		{
-			return AntibioticComboBox.SelectedValue != null && AntibioticComboBox.SelectedItem != DefaultSelection;
+			if (AntibioticComboBox.SelectedValue != null && AntibioticComboBox.SelectedItem != DefaultSelection)
+				return true;
+			else
+				MessageBox.Show("Please select an antibiotic.");
+
+			return false;
+		}
+
+		private bool ValidateTestMeasurement()
+		{
+			string testMethod;
+			if (DiskRadioButton.Checked)
+				testMethod = Antibiotic.TestMethods.Disk;
+			else
+				testMethod = Antibiotic.TestMethods.MIC;
+
+			decimal discardedNumericResult = decimal.Zero;
+			string discardedResultModifier = string.Empty;
+
+			if (InterpretationLibrary.ParseResult(testMethod, ResultStringTextBox.Text,
+				ref discardedNumericResult, ref discardedResultModifier))
+				return true;
+			else
+				MessageBox.Show("The test measurement could not be read. Please verify the input.");
+
+			return false;
 		}
 
 		private void ToggleUI(bool enabled)

@@ -119,6 +119,7 @@ namespace AMR_InterpretationInterface
 			SelectedGuidelinesCheckedListBox.Name = "SelectedGuidelinesCheckedListBox";
 			SelectedGuidelinesCheckedListBox.Size = new System.Drawing.Size(139, 54);
 			SelectedGuidelinesCheckedListBox.TabIndex = 2;
+			SelectedGuidelinesCheckedListBox.ItemCheck += AntibioticChanged;
 			// 
 			// YearCheckbox
 			// 
@@ -334,7 +335,7 @@ namespace AMR_InterpretationInterface
 			// 
 			FieldDelimiterComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			FieldDelimiterComboBox.FormattingEnabled = true;
-			FieldDelimiterComboBox.Items.AddRange(new object[] { ",", ";", "|", "TAB" });
+			FieldDelimiterComboBox.Items.AddRange(new object[] { "|", ",", ";", "TAB" });
 			FieldDelimiterComboBox.Location = new System.Drawing.Point(111, 36);
 			FieldDelimiterComboBox.Name = "FieldDelimiterComboBox";
 			FieldDelimiterComboBox.Size = new System.Drawing.Size(59, 23);
@@ -610,7 +611,6 @@ namespace AMR_InterpretationInterface
 		#endregion
 
 		private System.Windows.Forms.Button GetApplicableBreakpointsButton;
-		private System.Windows.Forms.Label OrganismCodeLabel;
 		private System.Windows.Forms.CheckBox GuidelinesCheckbox;
 		private System.Windows.Forms.CheckedListBox SelectedGuidelinesCheckedListBox;
 		private System.Windows.Forms.CheckBox YearCheckbox;
@@ -619,7 +619,6 @@ namespace AMR_InterpretationInterface
 		private System.Windows.Forms.CheckedListBox BreakpointTypesCheckedListBox;
 		private System.Windows.Forms.CheckedListBox SitesOfInfectionCheckedListBox;
 		private System.Windows.Forms.CheckBox SitesOfInfectionCheckbox;
-		private System.Windows.Forms.Label AntimicrobialFullCodesLabel;
 		private System.Windows.Forms.Button GetApplicableIntrinsicResistanceRulesButton;
 		private System.Windows.Forms.Button GetInerpretationsButton;
 		private System.Windows.Forms.TextBox ResultStringTextBox;
