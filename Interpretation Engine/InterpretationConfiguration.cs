@@ -108,10 +108,6 @@ namespace AMR_Engine
 		/// <returns></returns>
 		public static InterpretationConfiguration DefaultConfiguration()
 		{
-			// Take the most recent year by default.
-			int defaultGuidelineYear =
-				Breakpoint.Breakpoints.Max(bp => bp.YEAR);
-
 			List<string> defaultExpertInterpretationRules =
 				new List<string> {
 					ExpertInterpretationRule.RuleCodes.MRStaph,
@@ -126,7 +122,7 @@ namespace AMR_Engine
 				Breakpoint.SiteOfInfection.DefaultOrder().ToList();
 
 			return new InterpretationConfiguration(true, true, defaultExpertInterpretationRules,
-				defaultGuidelineYear, defaultBreakpointTypes, defaultSitesOfInfection, new List<string>(), string.Empty);
+				Constants.BreakpointTableRevisionYear, defaultBreakpointTypes, defaultSitesOfInfection, new List<string>(), string.Empty);
 		}
 
 		/// <summary>
