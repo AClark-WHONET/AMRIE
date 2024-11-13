@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -185,15 +186,17 @@ namespace AMR_Engine
 			{
 				List<QualityControlRange> qcRanges = new List<QualityControlRange>();
 
-				using (StreamReader reader = new StreamReader(qualityControlTableFile))
+				using (TextFieldParser parser = new TextFieldParser(qualityControlTableFile, System.Text.Encoding.UTF8))
 				{
-					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
+					parser.SetDelimiters(Constants.Delimiters.TabChar.ToString());
+					parser.HasFieldsEnclosedInQuotes = true;
 
-					while (!reader.EndOfStream)
+					string[] headers = parser.ReadFields();
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headers);
+
+					while (!parser.EndOfData)
 					{
-						string thisLine = reader.ReadLine();
-						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
+						string[] values = parser.ReadFields();
 
 						int tempYear = 0;
 						if (!string.IsNullOrWhiteSpace(values[headerMap[nameof(YEAR)]]))
@@ -216,7 +219,7 @@ namespace AMR_Engine
 							tempModified = DateTime.Parse(values[headerMap[nameof(DATE_MODIFIED)]], System.Globalization.CultureInfo.InvariantCulture);
 
 						QualityControlRange newRange = new QualityControlRange(values[headerMap[nameof(GUIDELINE)]],
-							tempYear, values[headerMap[nameof(STRAIN)]], values[headerMap[nameof(REFERENCE_TABLE)]], 
+							tempYear, values[headerMap[nameof(STRAIN)]], values[headerMap[nameof(REFERENCE_TABLE)]],
 							values[headerMap[nameof(WHONET_ORG_CODE)]], values[headerMap[nameof(ANTIBIOTIC)]],
 							values[headerMap[nameof(ABX_TEST)]], values[headerMap[nameof(WHONET_ABX_CODE)]],
 							values[headerMap[nameof(METHOD)]], values[headerMap[nameof(MEDIUM)]], tempMin,

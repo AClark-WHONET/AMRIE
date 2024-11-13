@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.VisualBasic.FileIO;
+using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
@@ -287,16 +288,20 @@ namespace AMR_Engine
 
 			if (File.Exists(expertRulesTableFile))
 			{
-				List<ExpertInterpretationRule> allRules = new List<ExpertInterpretationRule>();
-				using (StreamReader reader = new StreamReader(expertRulesTableFile))
-				{
-					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
+				List<ExpertInterpretationRule> allRules = 
+					new List<ExpertInterpretationRule>();
 
-					while (!reader.EndOfStream)
+				using (TextFieldParser parser = new TextFieldParser(expertRulesTableFile, System.Text.Encoding.UTF8))
+				{
+					parser.SetDelimiters(Constants.Delimiters.TabChar.ToString());
+					parser.HasFieldsEnclosedInQuotes = true;
+
+					string[] headers = parser.ReadFields();
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headers);
+
+					while (!parser.EndOfData)
 					{
-						string thisLine = reader.ReadLine();
-						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
+						string[] values = parser.ReadFields();
 
 						List<ExpertRuleCriterion> ruleCriteria = new List<ExpertRuleCriterion>();
 
@@ -347,7 +352,7 @@ namespace AMR_Engine
 
 						allRules.Add(newRule);
 					}
-				}					
+				}
 
 				return allRules;
 			}

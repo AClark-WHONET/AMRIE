@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.VisualBasic.FileIO;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -143,15 +144,19 @@ namespace AMR_Engine
 			if (File.Exists(organismsTableFile))
 			{
 				List<Organism> allOrgs = new List<Organism>();
-				using (StreamReader reader = new StreamReader(organismsTableFile))
-				{
-					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
-					while (!reader.EndOfStream)
+				using (TextFieldParser parser = new TextFieldParser(organismsTableFile, System.Text.Encoding.UTF8))
+				{
+					parser.SetDelimiters(Constants.Delimiters.TabChar.ToString());
+					parser.HasFieldsEnclosedInQuotes = true;
+
+					string[] headers = parser.ReadFields();
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headers);
+
+					while (!parser.EndOfData)
 					{
-						string thisLine = reader.ReadLine();
-						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
+						string[] values = parser.ReadFields();
+
 						string taxonomicStatus = values[headerMap[nameof(TAXONOMIC_STATUS)]];
 
 						Organism newOrganism = new Organism(
@@ -180,11 +185,11 @@ namespace AMR_Engine
 							values[headerMap[nameof(FAMILY)]],
 							values[headerMap[nameof(GENUS)]]);
 
-							allOrgs.Add(newOrganism);
+						allOrgs.Add(newOrganism);
 					}
-				}
 
-				return allOrgs;
+					return allOrgs;
+				}
 			}
 			else throw new FileNotFoundException(organismsTableFile);
 		}
@@ -223,15 +228,19 @@ namespace AMR_Engine
 			if (File.Exists(organismsTableFile))
 			{
 				Dictionary<string, string> mergedOrganismMap = new Dictionary<string, string>();
-				using (StreamReader reader = new StreamReader(organismsTableFile))
-				{
-					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
 
-					while (!reader.EndOfStream)
+				using (TextFieldParser parser = new TextFieldParser(organismsTableFile, System.Text.Encoding.UTF8))
+				{
+					parser.SetDelimiters(Constants.Delimiters.TabChar.ToString());
+					parser.HasFieldsEnclosedInQuotes = true;
+
+					string[] headers = parser.ReadFields();
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headers);
+
+					while (!parser.EndOfData)
 					{
-						string thisLine = reader.ReadLine();
-						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
+						string[] values = parser.ReadFields();
+
 						string taxonomicStatus = values[headerMap[nameof(TAXONOMIC_STATUS)]];
 
 						string oldOrgCode = values[headerMap[nameof(WHONET_ORG_CODE)]];

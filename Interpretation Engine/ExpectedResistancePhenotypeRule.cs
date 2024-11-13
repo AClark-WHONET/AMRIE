@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
@@ -273,16 +274,21 @@ namespace AMR_Engine
 
 			if (File.Exists(expectedResistancePhenotypesTableFile))
 			{
-				List<ExpectedResistancePhenotypeRule> expectedResistanceRules = new List<ExpectedResistancePhenotypeRule>();
-				using (StreamReader reader = new StreamReader(expectedResistancePhenotypesTableFile))
-				{
-					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
+				List<ExpectedResistancePhenotypeRule> expectedResistanceRules = 
+					new List<ExpectedResistancePhenotypeRule>();
 
-					while (!reader.EndOfStream)
+
+				using (TextFieldParser parser = new TextFieldParser(expectedResistancePhenotypesTableFile, System.Text.Encoding.UTF8))
+				{
+					parser.SetDelimiters(Constants.Delimiters.TabChar.ToString());
+					parser.HasFieldsEnclosedInQuotes = true;
+
+					string[] headers = parser.ReadFields();
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headers);
+
+					while (!parser.EndOfData)
 					{
-						string thisLine = reader.ReadLine();
-						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
+						string[] values = parser.ReadFields();
 
 						// Exeptions to the affected antibiotics, if any.
 						List<string> antibioticExceptions =
