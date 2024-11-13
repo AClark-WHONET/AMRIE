@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -319,15 +320,17 @@ namespace AMR_Engine
 			if (File.Exists(antibioticsTableFile))
 			{
 				List<Antibiotic> antibiotics = new List<Antibiotic>();
-				using (StreamReader reader = new StreamReader(antibioticsTableFile))
+				using (TextFieldParser parser = new TextFieldParser(antibioticsTableFile, System.Text.Encoding.UTF8))
 				{
-					string headerLine = reader.ReadLine();
-					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headerLine);
+					parser.SetDelimiters(Constants.Delimiters.TabChar.ToString());
+					parser.HasFieldsEnclosedInQuotes = true;
 
-					while (!reader.EndOfStream)
+					string[] headers = parser.ReadFields();
+					Dictionary<string, int> headerMap = IO_Library.GetResourceHeaders(headers);
+
+					while (!parser.EndOfData)
 					{
-						string thisLine = reader.ReadLine();
-						string[] values = IO_Library.SplitLine(thisLine, Constants.Delimiters.TabChar);
+						string[] values = parser.ReadFields();
 
 						DateTime tempEntered = DateTime.MinValue;
 						if (!string.IsNullOrWhiteSpace(values[headerMap[nameof(DATE_ENTERED)]]))
@@ -337,12 +340,12 @@ namespace AMR_Engine
 						if (!string.IsNullOrWhiteSpace(values[headerMap[nameof(DATE_MODIFIED)]]))
 							tempModified = DateTime.Parse(values[headerMap[nameof(DATE_MODIFIED)]], System.Globalization.CultureInfo.InvariantCulture);
 
-						Antibiotic newAntibiotic = new Antibiotic(values[headerMap[nameof(WHONET_ABX_CODE)]], values[headerMap[nameof(WHO_CODE)]], 
+						Antibiotic newAntibiotic = new Antibiotic(values[headerMap[nameof(WHONET_ABX_CODE)]], values[headerMap[nameof(WHO_CODE)]],
 							values[headerMap[nameof(DIN_CODE)]], values[headerMap[nameof(JAC_CODE)]], values[headerMap[nameof(EUCAST_CODE)]],
 							values[headerMap[nameof(USER_CODE)]], values[headerMap[nameof(ANTIBIOTIC)]], values[headerMap[nameof(GUIDELINES)]],
-							values[headerMap[nameof(CLSI)]] == X, values[headerMap[nameof(EUCAST)]] == X, values[headerMap[nameof(SFM)]] == X, 
-							values[headerMap[nameof(SRGA)]] == X, values[headerMap[nameof(BSAC)]] == X, values[headerMap[nameof(DIN)]] == X, 
-							values[headerMap[nameof(NEO)]] == X, values[headerMap[nameof(AFA)]] == X, values[headerMap[nameof(ABX_NUMBER)]], 
+							values[headerMap[nameof(CLSI)]] == X, values[headerMap[nameof(EUCAST)]] == X, values[headerMap[nameof(SFM)]] == X,
+							values[headerMap[nameof(SRGA)]] == X, values[headerMap[nameof(BSAC)]] == X, values[headerMap[nameof(DIN)]] == X,
+							values[headerMap[nameof(NEO)]] == X, values[headerMap[nameof(AFA)]] == X, values[headerMap[nameof(ABX_NUMBER)]],
 							values[headerMap[nameof(POTENCY)]], values[headerMap[nameof(ATC_CODE)]], values[headerMap[nameof(CLASS)]],
 							values[headerMap[nameof(SUBCLASS)]], values[headerMap[nameof(PROF_CLASS)]], values[headerMap[nameof(CIA_CATEGORY)]],
 							values[headerMap[nameof(CLSI_ORDER)]], values[headerMap[nameof(EUCAST_ORDER)]], values[headerMap[nameof(HUMAN)]] == X,
@@ -353,7 +356,7 @@ namespace AMR_Engine
 
 						antibiotics.Add(newAntibiotic);
 					}
-				}				
+				}
 
 				return antibiotics;
 			}

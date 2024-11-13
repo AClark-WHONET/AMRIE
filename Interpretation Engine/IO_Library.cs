@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -64,12 +65,25 @@ namespace AMR_Engine
 			Dictionary<string, int> headerMap = new Dictionary<string, int>();
 			string[] headerValues = SplitLine(headerLine, Constants.Delimiters.TabChar);
 			for (int i = 0; i < headerValues.Length; i++)
-			{
 				headerMap.Add(headerValues[i], i);
-			}
 
 			return headerMap;
 		}
+
+		/// <summary>
+		/// Get the headers for the a resource file header line provided.
+		/// </summary>
+		/// <param name="headerLine"></param>
+		/// <returns></returns>
+		public static Dictionary<string, int> GetResourceHeaders(string[] headers)
+		{
+			Dictionary<string, int> headerMap = new Dictionary<string, int>();
+			for (int i = 0; i < headers.Length; i++)
+				headerMap.Add(headers[i], i);
+
+			return headerMap;
+		}
+
 
 		public static string[] SplitLine(string record, char delimiter)
 		{
@@ -183,40 +197,39 @@ namespace AMR_Engine
 			ref List<string> inputColumnNames,
 			List<Dictionary<string, string>> rowValueSets)
 		{
-			Dictionary<int, string> headers = new Dictionary<int, string>();
-
-			using (StreamReader inputReader = new StreamReader(arguments.InputFile))
+			using (TextFieldParser parser =
+				new TextFieldParser(arguments.InputFile))
 			{
-				while (!inputReader.EndOfStream)
+				parser.SetDelimiters(arguments.Delimiter.ToString());
+				parser.HasFieldsEnclosedInQuotes = true;
+
+				// In this context the dictionary is in the reverse order (index -> name).
+				Dictionary<int, string> headers = new Dictionary<int, string>();
+
+				// Locate the first non-blank row. Use this as the header.
+				do
 				{
-					if (arguments.Worker != null && arguments.Worker.CancellationPending)
+					string[] headerNames = parser.ReadFields();
+
+					if (headerNames.Where(h => !string.IsNullOrWhiteSpace(h)).Any())
 					{
-						e.Cancel = true;
-						return;
-					}
-
-					string thisLine = inputReader.ReadLine();
-
-					if (!string.IsNullOrWhiteSpace(thisLine))
-					{
-						// Process header row.
-						string[] headerValues = SplitLine(thisLine, arguments.Delimiter);
-
-						for (int x = 0; x < headerValues.Length; x++)
-							headers.Add(x, headerValues[x]);
+						// We found a non-blank row. Use this as the header.
+						for (int x = 0; x < headerNames.Length; x++)
+							headers.Add(x, headerNames[x]);
 
 						break;
 					}
+					else
+						headerLineNumber++;
 
-					headerLineNumber++;
-				}
+				} while (!parser.EndOfData);
 
 				inputColumnNames = headers.Values.ToList();
 
-				// Transfer the lines into value dictionaries.
-				// Don't add empty fields to the row's set.
-				// Don't add anything for a blank line.
-				while (!inputReader.EndOfStream)
+				int NumberOfColumns = inputColumnNames.Count;
+
+				// Process the rest of the data file.
+				while (!parser.EndOfData)
 				{
 					if (arguments.Worker != null && arguments.Worker.CancellationPending)
 					{
@@ -224,11 +237,14 @@ namespace AMR_Engine
 						return;
 					}
 
-					string thisLine = inputReader.ReadLine();
+					string[] values = parser.ReadFields();
 
-					if (!string.IsNullOrWhiteSpace(thisLine))
+					if (values.Length >= NumberOfColumns && values.Any(v => !string.IsNullOrWhiteSpace(v)))
 					{
-						string[] values = SplitLine(thisLine, arguments.Delimiter);
+						// Process this data row.
+						// Transfer the lines into value dictionaries.
+						// Don't add empty fields to the row's set.
+						// Don't add anything for a blank line.
 
 						// Transfer the value array into a row dictionary.
 						Dictionary<string, string> rowValues = new Dictionary<string, string>();
@@ -270,7 +286,7 @@ namespace AMR_Engine
 			int previousProgressReport = 0;
 
 			// Determine the set of breakpoints needed for the data.
-			List<Tuple<string, string, string>> distinctInterpretationKeys = 
+			List<Tuple<string, string, string>> distinctInterpretationKeys =
 				rowValueSets.SelectMany(row =>
 				{
 					List<Tuple<string, string, string>> combinationsForRow = new List<Tuple<string, string, string>>();
@@ -294,8 +310,8 @@ namespace AMR_Engine
 			AntibioticSpecificInterpretationRules.PreheatBreakpointCache(
 				interpretationConfig.UserDefinedBreakpoints,
 				arguments.GuidelineYear,
-				interpretationConfig.PrioritizedBreakpointTypes, 
-				interpretationConfig.PrioritizedSitesOfInfection, 
+				interpretationConfig.PrioritizedBreakpointTypes,
+				interpretationConfig.PrioritizedSitesOfInfection,
 				distinctInterpretationKeys,
 				arguments.Worker);
 
