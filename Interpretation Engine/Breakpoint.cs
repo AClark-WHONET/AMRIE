@@ -86,11 +86,14 @@ namespace AMR_Engine
 
 		#region Static properties
 
+		public static readonly string BreakpointFilePath =
+			string.Join(Path.DirectorySeparatorChar.ToString(), Constants.SystemRootPath, "Resources", "Breakpoints.txt");
+
 		/// <summary>
 		/// List of breakpoints loaded from the text file resource.
 		/// </summary>
 		public static readonly List<Breakpoint> Breakpoints = 
-			LoadBreakpoints(string.Join(Path.DirectorySeparatorChar.ToString(), Constants.SystemRootPath, "Resources", "Breakpoints.txt"));
+			LoadBreakpoints(BreakpointFilePath);
 
 		#endregion
 
