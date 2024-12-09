@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 
 namespace AMR_Engine
 {
@@ -15,7 +17,7 @@ namespace AMR_Engine
 		public static readonly int BreakpointTableRevisionMinorChangeNumber = 6;
 
 		// We use this to locate resources.
-		public static string SystemRootPath = 
+		public static string SystemRootPath =
 			Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + System.IO.Path.DirectorySeparatorChar;
 
 		public static readonly char Quote = '"';
@@ -33,7 +35,7 @@ namespace AMR_Engine
 			public static readonly decimal MinimumMIC_Measurement = 0.0001M;
 			public static readonly decimal MaximumMIC_Measurement = 2048;
 		}
-		
+
 		public class MeasurementModifiers
 		{
 			public static readonly string LessThan = "<";
@@ -44,7 +46,7 @@ namespace AMR_Engine
 				public static readonly string LessThanOrEqualTo = "≤";
 				public static readonly string GreaterThanOrEqualTo = "≥";
 			}
-		}		
+		}
 
 		public class Delimiters
 		{
@@ -54,7 +56,7 @@ namespace AMR_Engine
 			public static readonly char Underscore = '_';
 			public static readonly char Space = ' ';
 			public static readonly char EqualsSign = '=';
-		}		
+		}
 
 		public class CommandLineModes
 		{
@@ -89,7 +91,7 @@ namespace AMR_Engine
 			public static readonly string Positive = "+";
 			public static readonly string Negative = "-";
 		}
-		
+
 		public class OrganismGroups
 		{
 			public static readonly string GramPositiveAnaerobes = "AN" + TestResultCodes.Positive;
@@ -101,6 +103,36 @@ namespace AMR_Engine
 		public class SitesOfInfection
 		{
 			public const string Blank = "(Blank)";
+			public const string Abscesses = "Abscesses";
+			public const string Extraintestinal = "Extraintestinal";
+			public const string Genital = "Genital";
+			public const string InfectionsOriginatingFromTheUrinaryTract = "Infections originating from the urinary tract";
+			public const string Inhaled = "Inhaled";
+			public const string Intravenous = "Intravenous";
+			public const string InvestigationalAgent = "Investigational agent";
+			public const string Liposomal = "Liposomal";
+			public const string MammaryGland = "Mammary gland";
+			public const string Mastitis = "Mastitis";
+			public const string Meningitis = "Meningitis";
+			public const string Metritis = "Metritis";
+			public const string NonMeningitis = "Non-meningitis";
+			public const string NonPneumonia = "Non-pneumonia";
+			public const string Oral = "Oral";
+			public const string OtherIndications = "Other indications";
+			public const string Parenteral = "Parenteral";
+			public const string Pneumonia = "Pneumonia";
+			public const string Prophylaxis = "Prophylaxis";
+			public const string Respiratory = "Respiratory";
+			public const string Screen = "Screen";
+			public const string Skin = "Skin";
+			public const string SoftTissue = "Soft tissue";
+			public const string UncomplicatedUrinaryTractInfection = "Uncomplicated urinary tract infection";
+			public const string Wounds = "Wounds";
+
+			public readonly ReadOnlyCollection<string> AllSitesOfInfection = new([Blank, Abscesses, Extraintestinal, Genital,
+				InfectionsOriginatingFromTheUrinaryTract, Inhaled, Intravenous, InvestigationalAgent,
+				Liposomal, MammaryGland, Mastitis, Meningitis, Metritis, NonMeningitis, NonPneumonia, Oral, OtherIndications, Parenteral,
+				Pneumonia, Prophylaxis, Respiratory, Screen, Skin, SoftTissue, UncomplicatedUrinaryTractInfection, Wounds]);
 		}
 	}
 }
