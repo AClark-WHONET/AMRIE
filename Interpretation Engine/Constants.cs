@@ -129,10 +129,12 @@ namespace AMR_Engine
 			public const string UncomplicatedUrinaryTractInfection = "Uncomplicated urinary tract infection";
 			public const string Wounds = "Wounds";
 
-			public readonly ReadOnlyCollection<string> AllSitesOfInfection = new([Blank, Abscesses, Extraintestinal, Genital,
+			private static List<string> AllSites_Internal = [Blank, Abscesses, Extraintestinal, Genital,
 				InfectionsOriginatingFromTheUrinaryTract, Inhaled, Intravenous, InvestigationalAgent,
 				Liposomal, MammaryGland, Mastitis, Meningitis, Metritis, NonMeningitis, NonPneumonia, Oral, OtherIndications, Parenteral,
-				Pneumonia, Prophylaxis, Respiratory, Screen, Skin, SoftTissue, UncomplicatedUrinaryTractInfection, Wounds]);
+				Pneumonia, Prophylaxis, Respiratory, Screen, Skin, SoftTissue, UncomplicatedUrinaryTractInfection, Wounds];
+
+			public static readonly ReadOnlyCollection<string> AllSitesOfInfection = AllSites_Internal.AsReadOnly();
 		}
 	}
 }
