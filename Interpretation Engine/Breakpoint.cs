@@ -247,7 +247,7 @@ namespace AMR_Engine
 			// Find all matches on ORGANISM_CODE_TYPE, but sort them by specificity.
 			IEnumerable<Breakpoint> relevantBreakpoints =
 				from Breakpoint thisBreakpoint in Breakpoints.Concat(userDefinedBreakpoints)
-				where prioritizedGuidelineYears is null || prioritizedGuidelineYears.Contains(thisBreakpoint.YEAR)
+				where prioritizedGuidelineYears is null || prioritizedGuidelineYears.Contains(thisBreakpoint.YEAR) || thisBreakpoint.GUIDELINES == Antibiotic.GuidelineNames.UserDefined
 				where prioritizedGuidelines is null || prioritizedGuidelines.Contains(thisBreakpoint.GUIDELINES) || thisBreakpoint.GUIDELINES == Antibiotic.GuidelineNames.UserDefined
 				where prioritizedBreakpointTypes is null || prioritizedBreakpointTypes.Contains(thisBreakpoint.BREAKPOINT_TYPE)
 				where prioritizedSitesOfInfection.Any((requestedSite) =>
