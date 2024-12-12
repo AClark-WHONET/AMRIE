@@ -55,6 +55,7 @@ namespace AMR_Engine
 			public static readonly string DIN = nameof(DIN);
 			public static readonly string NEO = nameof(NEO);
 			public static readonly string AFA = nameof(AFA);
+			public static readonly string UserDefined = nameof(UserDefined);
 
 			/// <summary>
 			/// Expand the guideline code used in the antibiotic column name to the longer abbreviation.

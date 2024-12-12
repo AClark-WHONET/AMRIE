@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace AMR_Engine
 {
@@ -79,8 +80,6 @@ namespace AMR_Engine
 				};
 			}
 		}
-
-		private const string UserDefinedGuidelineCode = "User-defined";
 
 		#endregion
 
@@ -251,8 +250,8 @@ namespace AMR_Engine
 			// Find all matches on ORGANISM_CODE_TYPE, but sort them by specificity.
 			IEnumerable<Breakpoint> relevantBreakpoints =
 				from Breakpoint thisBreakpoint in Breakpoints.Concat(userDefinedBreakpoints)
-				where prioritizedGuidelineYears is null || prioritizedGuidelineYears.Contains(thisBreakpoint.YEAR)
-				where prioritizedGuidelines is null || prioritizedGuidelines.Contains(thisBreakpoint.GUIDELINES) || thisBreakpoint.GUIDELINES == UserDefinedGuidelineCode
+				where prioritizedGuidelineYears is null || prioritizedGuidelineYears.Contains(thisBreakpoint.YEAR) || thisBreakpoint.GUIDELINES == Antibiotic.GuidelineNames.UserDefined
+				where prioritizedGuidelines is null || prioritizedGuidelines.Contains(thisBreakpoint.GUIDELINES) || thisBreakpoint.GUIDELINES == Antibiotic.GuidelineNames.UserDefined
 				where prioritizedBreakpointTypes is null || prioritizedBreakpointTypes.Contains(thisBreakpoint.BREAKPOINT_TYPE)
 				where prioritizedSitesOfInfection.Any((requestedSite) =>
 							 thisBreakpoint.SITES_OF_INFECTION.
@@ -281,7 +280,7 @@ namespace AMR_Engine
 						recodedDrugCodes is null ? thisBreakpoint.WHONET_TEST : recodedDrugCodes.IndexOf(thisBreakpoint.WHONET_TEST).ToString()
 					), (
 						// Sort user-defined breakpoints ahead of any others.
-						thisBreakpoint.GUIDELINES == UserDefinedGuidelineCode ? 0 : 1
+						thisBreakpoint.GUIDELINES == Antibiotic.GuidelineNames.UserDefined ? 0 : 1
 					), (
 						prioritizedGuidelines is null ? thisBreakpoint.GUIDELINES : prioritizedGuidelines.IndexOf(thisBreakpoint.GUIDELINES).ToString()
 					), (
@@ -445,7 +444,7 @@ namespace AMR_Engine
 		/// <param name="breakpointsTableFile"></param>
 		/// <returns></returns>
 		/// <exception cref="FileNotFoundException"></exception>
-		public static List<Breakpoint> LoadBreakpoints(string breakpointsTableFile)
+		public static List<Breakpoint> LoadBreakpoints(string breakpointsTableFile, bool userDefined = false)
 		{
 			if (!string.IsNullOrWhiteSpace(breakpointsTableFile) && File.Exists(breakpointsTableFile))
 			{
@@ -482,6 +481,10 @@ namespace AMR_Engine
 						DateTime tempModified = DateTime.MinValue;
 						if (!string.IsNullOrWhiteSpace(values[headerMap[nameof(DATE_MODIFIED)]]))
 							tempModified = DateTime.Parse(values[headerMap[nameof(DATE_MODIFIED)]], System.Globalization.CultureInfo.InvariantCulture);
+
+						// Override any text for the guidelines in user-defined breakpoint files.
+						if (userDefined)
+							values[headerMap[nameof(GUIDELINES)]] = Antibiotic.GuidelineNames.UserDefined;
 
 						Breakpoint newBreakpoint = new Breakpoint(values[headerMap[nameof(GUIDELINES)]], int.Parse(values[headerMap[nameof(YEAR)]], System.Globalization.CultureInfo.InvariantCulture),
 							values[headerMap[nameof(TEST_METHOD)]], values[headerMap[nameof(POTENCY)]], values[headerMap[nameof(ORGANISM_CODE)]],

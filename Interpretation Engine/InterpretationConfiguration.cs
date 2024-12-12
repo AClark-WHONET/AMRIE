@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
 using System.Linq;
-using System.Runtime.InteropServices;
 
 namespace AMR_Engine
 {
@@ -65,7 +64,7 @@ namespace AMR_Engine
 			UserDefinedBreakpointsFile = userDefinedBreakpointsFile;
 
 			if (!string.IsNullOrWhiteSpace(UserDefinedBreakpointsFile) && File.Exists(UserDefinedBreakpointsFile))
-				UserDefinedBreakpoints = Breakpoint.LoadBreakpoints(UserDefinedBreakpointsFile);
+				UserDefinedBreakpoints = Breakpoint.LoadBreakpoints(UserDefinedBreakpointsFile, true);
 
 			UpdateSitesOfInfection();
 		}
@@ -95,7 +94,10 @@ namespace AMR_Engine
 				config.PrioritizedSitesOfInfection = null;
 
 			if (!string.IsNullOrWhiteSpace(config.UserDefinedBreakpointsFile) && File.Exists(string.Format("{0}{1}", Constants.SystemRootPath, config.UserDefinedBreakpointsFile)))
-				config.UserDefinedBreakpoints = Breakpoint.LoadBreakpoints(string.Format("{0}{1}", Constants.SystemRootPath, config.UserDefinedBreakpointsFile));
+				config.UserDefinedBreakpoints = 
+					Breakpoint.LoadBreakpoints(
+						string.Format("{0}{1}", Constants.SystemRootPath, config.UserDefinedBreakpointsFile), 
+						true);
 
 			config.UpdateSitesOfInfection();
 
