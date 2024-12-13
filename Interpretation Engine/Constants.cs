@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 
 namespace AMR_Engine
@@ -130,37 +131,40 @@ namespace AMR_Engine
 			public const string UncomplicatedUrinaryTractInfection = "Uncomplicated urinary tract infection";
 			public const string Wounds = "Wounds";
 
+			private static readonly List<string> internalDefaultOrderList = new List<string>
+			{
+				NonMeningitis,
+				Parenteral,
+				Blank,
+				UncomplicatedUrinaryTractInfection,
+				InfectionsOriginatingFromTheUrinaryTract,
+				Meningitis,
+				Intravenous,
+				Oral,
+				Inhaled,
+				InvestigationalAgent,
+				Extraintestinal,
+				Abscesses,
+				Genital,
+				Intestinal,
+				Liposomal,
+				MammaryGland,
+				Mastitis,
+				Metritis,
+				NonPneumonia,
+				OtherInfections,
+				OtherIndications,
+				Pneumonia,
+				Prophylaxis,
+				Respiratory,
+				Screen,
+				Skin,
+				SoftTissue,
+				Wounds
+			};
+
 			public static readonly ReadOnlyCollection<string> DefaultOrder =
-				new([
-					NonMeningitis,
-					Parenteral,
-					Blank,
-					UncomplicatedUrinaryTractInfection,
-					InfectionsOriginatingFromTheUrinaryTract,
-					Meningitis,
-					Intravenous,
-					Oral,
-					Inhaled,
-					InvestigationalAgent,
-					Extraintestinal,
-					Abscesses,
-					Genital,
-					Intestinal,
-					Liposomal,
-					MammaryGland,
-					Mastitis,
-					Metritis,
-					NonPneumonia,
-					OtherInfections,
-					OtherIndications,
-					Pneumonia,
-					Prophylaxis,
-					Respiratory,
-					Screen,
-					Skin,
-					SoftTissue,
-					Wounds
-				]);
+				new ReadOnlyCollection<string>(internalDefaultOrderList);
 		}
 	}
 }
