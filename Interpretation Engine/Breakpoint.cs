@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
 
 namespace AMR_Engine
 {
@@ -48,37 +47,7 @@ namespace AMR_Engine
 			public static readonly string UTI = "Uncomplicated urinary tract infection";
 			public static readonly string Wounds = "Wounds";
 
-			public static string[] DefaultOrder()
-			{
-				return new[]
-				{
-					NonMeningitis,
-					Parenteral,
-					None,
-					UTI,
-					Meningitis,
-					Intravenous,
-					Oral,
-					Inhaled,					
-					InvestigationalAgent,
-					Extraintestinal,
-					Abscesses,
-					Genital,
-					Intestinal,
-					Liposomal,
-					MammaryGland,					
-					Metritis,					
-					NonPneumonia,
-					OtherInfections,					
-					Pneumonia,
-					Prophylaxis,
-					Respiratory,
-					Screen,
-					Skin,
-					SoftTissue,					
-					Wounds
-				};
-			}
+			
 		}
 
 		#endregion
@@ -229,7 +198,7 @@ namespace AMR_Engine
 			}
 
 			if (prioritizedSitesOfInfection is null)
-				prioritizedSitesOfInfection = SiteOfInfection.DefaultOrder().ToList();
+				prioritizedSitesOfInfection = Constants.SitesOfInfection.DefaultOrder.ToList();
 
 			Organism o = Organism.CurrentOrganisms[whonetOrganismCode];
 
@@ -251,8 +220,9 @@ namespace AMR_Engine
 				where prioritizedGuidelines is null || prioritizedGuidelines.Contains(thisBreakpoint.GUIDELINES) || thisBreakpoint.GUIDELINES == Antibiotic.GuidelineNames.UserDefined
 				where prioritizedBreakpointTypes is null || prioritizedBreakpointTypes.Contains(thisBreakpoint.BREAKPOINT_TYPE)
 				where prioritizedSitesOfInfection.Any((requestedSite) =>
+							// Handle blank sites of infection from the breakpoint with the Blank constant (which is not an empty string).
 							 thisBreakpoint.SITES_OF_INFECTION.
-							 Any(sitesFromBP => requestedSite.Equals(sitesFromBP, StringComparison.InvariantCultureIgnoreCase)))
+							 Any(sitesFromBP => (requestedSite == Constants.SitesOfInfection.Blank && string.IsNullOrWhiteSpace(sitesFromBP)) || requestedSite.Equals(sitesFromBP, StringComparison.InvariantCultureIgnoreCase)))
 				where recodedDrugCodes is null || recodedDrugCodes.Contains(thisBreakpoint.WHONET_TEST)
 				where (
 						// This section restricts to only those breakpoints which match our organism at some level.

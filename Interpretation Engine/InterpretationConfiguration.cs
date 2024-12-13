@@ -121,7 +121,7 @@ namespace AMR_Engine
 
 			// Generate an ordered list of the available sites of infection.
 			List<string> defaultSitesOfInfection =
-				Breakpoint.SiteOfInfection.DefaultOrder().ToList();
+				Constants.SitesOfInfection.DefaultOrder.ToList();
 
 			return new InterpretationConfiguration(true, true, defaultExpertInterpretationRules,
 				Constants.BreakpointTableRevisionYear, defaultBreakpointTypes, defaultSitesOfInfection, new List<string>(), string.Empty);
@@ -156,18 +156,18 @@ namespace AMR_Engine
 			{
 				// Remove invalid sites of infection.
 				PrioritizedSitesOfInfection =
-					PrioritizedSitesOfInfection.Intersect(Breakpoint.SiteOfInfection.DefaultOrder()).ToList();
+					PrioritizedSitesOfInfection.Intersect(Constants.SitesOfInfection.DefaultOrder).ToList();
 
 				if (DisabledSitesOfInfection != null)
 				{
 					// Remove invalid sites of infection from the disabled list.
 					DisabledSitesOfInfection =
-						DisabledSitesOfInfection.Intersect(Breakpoint.SiteOfInfection.DefaultOrder()).ToList();
+						DisabledSitesOfInfection.Intersect(Constants.SitesOfInfection.DefaultOrder).ToList();
 
 					// Append any new sites of infection.
 					PrioritizedSitesOfInfection =
 						PrioritizedSitesOfInfection.Concat(
-							Breakpoint.SiteOfInfection.DefaultOrder().
+							Constants.SitesOfInfection.DefaultOrder.
 							Except(PrioritizedSitesOfInfection).
 							Except(DisabledSitesOfInfection)).ToList();
 				}
@@ -177,7 +177,7 @@ namespace AMR_Engine
 					PrioritizedSitesOfInfection =
 						PrioritizedSitesOfInfection.
 						Concat(
-							Breakpoint.SiteOfInfection.DefaultOrder().
+							Constants.SitesOfInfection.DefaultOrder.
 							Except(PrioritizedSitesOfInfection)).ToList();
 				}
 			}
