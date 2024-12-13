@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.IO;
 
 namespace AMR_Engine
@@ -108,6 +107,7 @@ namespace AMR_Engine
 			public const string Genital = "Genital";
 			public const string InfectionsOriginatingFromTheUrinaryTract = "Infections originating from the urinary tract";
 			public const string Inhaled = "Inhaled";
+			public const string Intestinal = "Intestinal";
 			public const string Intravenous = "Intravenous";
 			public const string InvestigationalAgent = "Investigational agent";
 			public const string Liposomal = "Liposomal";
@@ -119,6 +119,7 @@ namespace AMR_Engine
 			public const string NonPneumonia = "Non-pneumonia";
 			public const string Oral = "Oral";
 			public const string OtherIndications = "Other indications";
+			public const string OtherInfections = "Other infections";
 			public const string Parenteral = "Parenteral";
 			public const string Pneumonia = "Pneumonia";
 			public const string Prophylaxis = "Prophylaxis";
@@ -129,12 +130,37 @@ namespace AMR_Engine
 			public const string UncomplicatedUrinaryTractInfection = "Uncomplicated urinary tract infection";
 			public const string Wounds = "Wounds";
 
-			private static List<string> AllSites_Internal = new List<string> {Blank, Abscesses, Extraintestinal, Genital,
-				InfectionsOriginatingFromTheUrinaryTract, Inhaled, Intravenous, InvestigationalAgent,
-				Liposomal, MammaryGland, Mastitis, Meningitis, Metritis, NonMeningitis, NonPneumonia, Oral, OtherIndications, Parenteral,
-				Pneumonia, Prophylaxis, Respiratory, Screen, Skin, SoftTissue, UncomplicatedUrinaryTractInfection, Wounds };
-
-			public static readonly ReadOnlyCollection<string> AllSitesOfInfection = AllSites_Internal.AsReadOnly();
+			public static readonly ReadOnlyCollection<string> DefaultOrder =
+				new([
+					NonMeningitis,
+					Parenteral,
+					Blank,
+					UncomplicatedUrinaryTractInfection,
+					InfectionsOriginatingFromTheUrinaryTract,
+					Meningitis,
+					Intravenous,
+					Oral,
+					Inhaled,
+					InvestigationalAgent,
+					Extraintestinal,
+					Abscesses,
+					Genital,
+					Intestinal,
+					Liposomal,
+					MammaryGland,
+					Mastitis,
+					Metritis,
+					NonPneumonia,
+					OtherInfections,
+					OtherIndications,
+					Pneumonia,
+					Prophylaxis,
+					Respiratory,
+					Screen,
+					Skin,
+					SoftTissue,
+					Wounds
+				]);
 		}
 	}
 }

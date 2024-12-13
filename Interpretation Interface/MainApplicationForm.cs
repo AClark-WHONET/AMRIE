@@ -25,14 +25,7 @@ namespace AMR_InterpretationInterface
 			// Recode the empty string as "(Blank)" here for display purposes.
 			// (Blank) will be processed as the empty string when we determine the applicable breakpoints.
 			SitesOfInfectionCheckedListBox.Items.AddRange(
-				Breakpoint.SiteOfInfection.DefaultOrder().
-				Select(soi =>
-				{
-					if (string.IsNullOrEmpty(soi))
-						return Constants.SitesOfInfection.Blank;
-					else
-						return soi;
-				}).ToArray());
+				Constants.SitesOfInfection.DefaultOrder.ToArray());
 
 			SelectedGuidelinesCheckedListBox.SetItemChecked(0, true);
 			FieldDelimiterComboBox.SelectedIndex = 0;
