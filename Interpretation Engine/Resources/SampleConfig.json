@@ -10,7 +10,7 @@
 		"ESBL-CONFIRMED",
 		"ESBL-AMPC-PROBABLE"
 	],
-	"GuidelineYear": 2024,
+	"GuidelineYear": 2025,
 	"PrioritizedBreakpointTypes": [ "Human", "Animal", "ECOFF" ],
 	"PrioritizedSitesOfInfection": [
 		"Non-meningitis",

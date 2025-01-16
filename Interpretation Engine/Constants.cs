@@ -8,12 +8,12 @@ namespace AMR_Engine
 		// This should be set to the current year when annual
 		// breakpoint changes are made to the Breakpoints.txt file.
 		// The minor change number below should be reset to 0 each year.
-		public static readonly int BreakpointTableRevisionYear = 2024;
+		public static readonly int BreakpointTableRevisionYear = 2025;
 
 		// This should increase whenever an issue is resolved
 		// within a year to indicate that the table itself has changed.
 		// For example, if there is a document correction or error on our part.
-		public static readonly int BreakpointTableRevisionMinorChangeNumber = 6;
+		public static readonly int BreakpointTableRevisionMinorChangeNumber = 0;
 
 		// We use this to locate resources.
 		public static string SystemRootPath =
