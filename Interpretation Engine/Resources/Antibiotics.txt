@@ -263,7 +263,7 @@ KAH						Kanamycin-High	CLSI	X		X						138	1000µg	J01GB04	Aminoglycosides		AG		
 KAH						Kanamycin-High	NEO							X		362	500µg	J01GB04	Aminoglycosides		AG		09		X			Kanamycin.	18936-5	7023-5	7024-3						2021-01-01		
 KET		KET	KCZ			Ketoconazole	NEO							X		134	15µg	J02AB02	Antifungals		FUNG		29					Ketoconazo	18937-3	296-4	295-6	7025-0			297-2	294-9	2021-01-01		
 KIT	LU		LM			Kitasamycin (Leucomycin)										116		QJ01FA93	Macrolides		MACRO		17														2021-01-01		
-LAS						Lasalocid										415		QP51AH02	Combinations		OTHER		28														2021-01-01		
+LAS						Lasalocid										415		QP51AH02	Coccidiostats		OTHER		28														2021-01-01		
 LEN		LEN	LAPC			Lenampicillin										454			Penicillins		PEN		01b														2021-01-01		
 LVX		LEV	LVFX			Levofloxacin	CLSI,EUCAST	X	X	X	X	X				142	5µg	J01MA12	Quinolones	Fluoroquinolone	FQ		11b		X			Levofloxac	20629-2	21367-8	20396-8	7026-8					2021-01-01		
 LVX		LEV	LVFX			Levofloxacin	BSAC					X				319	1µg	J01MA12	Quinolones	Fluoroquinolone	FQ		11b		X			Levofloxac	20629-2	21367-8	20396-8	7026-8					2021-01-01		
@@ -301,7 +301,7 @@ MID		MID	MDM			Midecamycin										118	100µg	J01FA03	Macrolides		MACRO		17				
 MIL	MIL					Miloxacin										270			Quinolones		QUIN		11a														2021-01-01		
 MNO	MNO	MNO	MINO			Minocycline	CLSI,EUCAST	X	X	X						41	30µg	J01AA08	Tetracyclines		TETRA		24a		X			Minocyclin	18948-0	336-8	335-0	7032-6			337-6	334-3	2021-01-01		
 MNO	MNO	MNO	MINO			Minocycline	NEO							X		368	80µg	J01AA08	Tetracyclines		TETRA		24		X			Minocyclin	18948-0	336-8	335-0	7032-6			337-6	334-3	2021-01-01		
-MON						Monensin sodium										417		QP51AH02	Combinations		OTHER		28														2021-01-01		
+MON						Monensin sodium										417		QP51AH02	Coccidiostats		OTHER		28														2021-01-01		
 MOX	MOX	LMO	LMOX			Moxalactam (Latamoxef)	CLSI	X		X						42	30µg	J01DD06	Cephems	Oxacephem	OXACEPH		04f		X			Moxalactam	18950-6	344-2	343-4	41703-0			345-9	342-6	2021-01-01		
 MFX		MOX	MFLX			Moxifloxacin						X				418	1µg	J01MA14	Quinolones	Fluoroquinolone	FQ		11b		X			Moxifloxac	31039-1	31041-7	31037-5	31043-3		41502-6			2021-01-01		
 MFX		MOX	MFLX			Moxifloxacin	CLSI,EUCAST	X	X	X	X		X			392	5µg	J01MA14	Quinolones	Fluoroquinolone	FQ		11b		X			Moxifloxac	31039-1	31041-7	31037-5	31043-3		41502-6			2021-01-01		
@@ -311,7 +311,7 @@ NAD			NDFX			Nadifloxacin										456		D10AF05	Quinolones		FQ		11b													
 NAF	NF	NCL				Nafcillin	CLSI	X								43	1µg	J01CF06	Penicillins	Penicillin (Stable)	PEN-S		01e		X			Nafcillin	18951-4	348-3	347-5	41704-8			349-1	346-7	2021-01-01		
 NAL	NA	NAL	NA			Nalidixic acid	CLSI,EUCAST	X	X	X					X	44	30µg	J01MB02	Quinolones	Quinolone	QUIN		11a		X			Nalidixate	18952-2	352-5	351-7	7034-2			353-3	350-9	2021-01-01		
 NAL	NA	NAL	NA			Nalidixic acid	NEO							X		369	130µg	J01MB02	Quinolones	Quinolone	QUIN		11a		X			Nalidixate	18952-2	352-5	351-7	7034-2			353-3	350-9	2021-01-01		
-NAR						Narasin										402		QP51AH04	Combinations		OTHER		28														2021-01-01		
+NAR						Narasin										402		QP51AH04	Coccidiostats		OTHER		28														2021-01-01		
 NEO	N	NEO	FRM			Neomycin	CLSI	X								45	30µg	J01GB05	Aminoglycosides		AG		09		X			Neomycin	18953-0	356-6	355-8	41705-5			357-4	354-1	2021-01-01		
 NEO		NEO	FRM			Neomycin						X				420	10µg	J01GB05	Aminoglycosides		AG		09		X			Neomycin	18953-0	356-6	355-8	41705-5			357-4	354-1	2021-01-01		
 NEO	N	NEO	FRM			Neomycin	NEO							X		370	120µg	J01GB05	Aminoglycosides		AG		09		X			Neomycin	18953-0	356-6	355-8	41705-5			357-4	354-1	2021-01-01		
@@ -411,7 +411,7 @@ ROK	ROK	ROK	RKM			Rokitamycin										284		J01FA12	Macrolides		MACRO		17							
 ROS	ROS	ROS				Rosoxacin				X						94	5µg	J01MB01	Quinolones	Quinolone	QUIN		11a					Rosoxacin	18977-9	441-6	440-8				442-4	439-0	2021-01-01		
 RXT	RXT	ROX	RXM			Roxithromicin	EUCAST,NEO		X					X		379	30µg		Macrolides		MACRO		17					Roxithromy	18978-7	445-7	444-0	7046-6			446-5	443-2	2021-01-01		
 RXT	RXT	ROX	RXM			Roxithromicin	SRGA				X					77	15µg		Macrolides		MACRO		17					Roxithromy	18978-7	445-7	444-0	7046-6			446-5	443-2	2021-01-01		
-SAL						Salinomycin										423		QP51AH01	Combinations		OTHER		28					Salinomyci	35838-2	35836-6	35837-4						2021-01-01		
+SAL						Salinomycin										423		QP51AH01	Coccidiostats		OTHER		28					Salinomyci	35838-2	35836-6	35837-4						2021-01-01		
 SAR		SAR				Sarafloxacin	CLSI	X								285	5µg	QJ01MA98	Quinolones	Fluoroquinolone	FQ		11b		X				73588-6	73633-0	73610-8						2021-01-01		
 SRX	SRX					Sarmoxicillin										286			Penicillins		PEN		01b														2021-01-01		
 SIS	SIS	SIS	SISO			Sisomicin				X						78	10µg	J01GB08	Aminoglycosides		AG		09					Sisomicin	18979-5	449-9	448-1				450-7	447-3	2021-01-01		
@@ -555,7 +555,7 @@ CBA						Ceftibuten/Avibactam	CLSI	X																													2023-04-11
 XEM						Meropenem/Xeruborbactam	CLSI	X											Beta-lactam+Inhibitors						X												2023-04-11		
 NTR	NI	NIT				Nitroxoline	EUCAST		X							89	30µg	J01XX07	Quinolones	Quinolone	QUIN		11a					Nitroxolin	25608-1		25723-8						2023-12-12		
 LMU						Lefamulin	EUCAST		X							528	5µg	J01XX12	Pleuromutilins		OTHER		28														2023-12-12		
-AMO						Amorolfine	EUCAST		X									D01AE16	Other antifungals for topical use		FUNG				X												2024-04-12		
+AMO						Amorolfine	EUCAST		X									D01AE16	Antifungals		FUNG				X												2024-04-12		
 SUD						Sulbactam-durlobactam	CLSI	X									10/10µg								X												2024-04-16		
 FPE						Cefepime/Enmetazobactam	CLSI	X									30/20µg																				2024-08-21		
 FTB						Cefepime/Taniborbactam	CLSI	X									30/20µg																				2024-08-21		
