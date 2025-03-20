@@ -529,7 +529,7 @@ ZWK						Nafithromycin	CLSI	X								534	15µg		Macrolides	Ketolide	MACRO		17		X
 PEX						Pexiganan	CLSI	X								535			Peptsides		PEPTIDE				X												2021-01-01		
 RET						Retapamulin	CLSI	X								538			Pleuromutilins																		2021-01-01		
 RPT						Rifapentine	CLSI	X								539		J04AB05	Ansamycins																		2021-01-01		
-FDC						Cefiderocol	CLSI	X								537		J01DI04	Cephems																		2021-01-01		
+FDC						Cefiderocol	CLSI,EUCAST	X	X							537	30µg	J01DI04	Cephems																		2021-01-01		
 FPZ						Cefepime/Zidebactam	CLSI	X								536			Beta-lactam+Inhibitors																		2021-01-01		
 ZID						Zidebactam	CLSI									540			Beta-lactamase inhibitors						X												2021-01-01		
 RDZ						Ridinilazole	CLSI									541		J01DB02							X												2021-01-01		
