@@ -35875,9 +35875,9 @@ CLSI	2024	MIC		STA	GENUS_CODE	Animal	Cats	Skin, soft tissue	VET01 Table 2C-2		OR
 CLSI	2024	DISK	5µg	psd	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_ND5	19	20-23		24					
 CLSI	2024	DISK	5µg	sau	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_ND5	19	20-23		24					
 CLSI	2024	DISK	5µg	sfe	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_ND5	19	20-23		24					
-CLSI	2024	MIC		psd	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_NM	8	0.5-4		0.25				2024-05-22	
-CLSI	2024	MIC		sau	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_NM	8	0.5-4		0.25				2024-05-22	
-CLSI	2024	MIC		sfe	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_NM	8	0.5-4		0.25				2024-05-22	
+CLSI	2024	MIC		psd	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_NM	2	0.5-1		0.25				2025-03-25	
+CLSI	2024	MIC		sau	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_NM	2	0.5-1		0.25				2025-03-25	
+CLSI	2024	MIC		sfe	WHONET_ORG_CODE	Animal	Cats	Skin, respiratory	VET01 Table 2C-2		PRA	PRA_NM	2	0.5-1		0.25				2025-03-25	
 CLSI	2024	MIC		STA	GENUS_CODE	Animal	Horses	Skin, soft tissue, respiratory	VET01 Table 2C		ENR	ENR_NM	0.5	0.25		0.125				2024-05-22	
 CLSI	2024	DISK	2µg	STA	GENUS_CODE	Animal	Dogs	Skin, soft tissue	VET01 Table 2C-2		CLI	CLI_ND2	14	15-20		21					
 CLSI	2024	MIC		STA	GENUS_CODE	Animal	Dogs	Skin, soft tissue	VET01 Table 2C-2		CLI	CLI_NM	4	1-2		0.5				2024-05-22	
