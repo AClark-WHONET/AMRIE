@@ -551,7 +551,7 @@ IBX						Ibrexafungerp	CLSI	X											Antifungals		FUNG				X
 MGX						Manogepix	CLSI	X									5µg		Antifungals		FUNG				X														
 RZF						Rezafungin	CLSI	X									5µg		Antifungals		FUNG				X														
 CLB						Ceftibuten/Ledaborbactam	CLSI	X									5/2.5µg								X												2023-04-11		
-CBA						Ceftibuten/Avibactam	CLSI	X																													2023-04-11		
+CBA						Ceftibuten/Avibactam	CLSI	X																	X												2023-04-11		
 XEM						Meropenem/Xeruborbactam	CLSI	X											Beta-lactam+Inhibitors						X												2023-04-11		
 NTR	NI	NIT				Nitroxoline	EUCAST		X							89	30µg	J01XX07	Quinolones	Quinolone	QUIN		11a					Nitroxolin	25608-1		25723-8						2023-12-12		
 LMU						Lefamulin	EUCAST		X							528	5µg	J01XX12	Pleuromutilins		OTHER		28														2023-12-12		
@@ -561,3 +561,4 @@ FPE						Cefepime/Enmetazobactam	CLSI	X									30/20µg																				2024
 FTB						Cefepime/Taniborbactam	CLSI	X									30/20µg																				2024-08-21		
 BPR						Ceftobiprole	CLSI	X								474	30µg	J01DI01	Cephems	Cephalosporin	CEPH		04e		X												2024-08-28		
 DUR						Durlobactam	CLSI	X																	X												2024-08-28		
+CBX						Ceftibuten/Xeruborbactam	CLSI	X																	X												2025-03-28		

@@ -19311,7 +19311,7 @@ CLSI	2025	atcc25923	Table 4A-1	sau	Moxifloxacin	MFX_ND5	MFX	Disk	MH	28	35	2021-0
 CLSI	2025	atcc29213	Table 5A-1	sau	Moxifloxacin	MFX_NM	MFX	MIC	MH	0.015	0.125	2021-01-01	2021-01-01	
 CLSI	2025	atcc49619	Table 4B	spn	Moxifloxacin	MFX_ND5	MFX	Disk	MHB	25	31	2021-01-01	2021-01-01	
 CLSI	2025	atcc49619	Table 5B	spn	Moxifloxacin	MFX_NM	MFX	MIC	MHB	0.06	0.25	2021-01-01	2021-01-01	
-CLSI	2025	atcc25922	Table 4A-1	eco	Minocycline	MNO_ND30	MNO	Disk	MH	19	25	2021-01-01	2021-01-01	
+CLSI	2025	atcc25922	Table 4A-1	eco	Minocycline	MNO_ND30	MNO	Disk	MH	20	26	2021-01-01	2025-03-28	
 CLSI	2025	atcc25922	Table 5A-1	eco	Minocycline	MNO_NM	MNO	MIC	MH	0.25	1	2021-01-01	2021-01-01	
 CLSI	2025	atcc29212	Table 5A-1	efa	Minocycline	MNO_NM	MNO	MIC	MH	1	4	2021-01-01	2021-01-01	
 CLSI	2025	atcc25923	Table 4A-1	sau	Minocycline	MNO_ND30	MNO	Disk	MH	25	30	2021-01-01	2021-01-01	
@@ -20871,3 +20871,11 @@ EUCAST	2025	atcc49619	Table 5	spn	Oxytetracycline	OXY_EM	OXY	MIC	MHB	0.12	0.5	20
 EUCAST	2025	dsm25589		cpe	Metronidazole	MTR_ED5	MTR	Disk	MH	25	80	2024-10-03		
 EUCAST	2025	atcc25922	Table 1	eco	Colistin	COL_EM	COL	MIC	MH	0.25	1	2024-10-03		
 EUCAST	2025	atcc25922	Table 1	eco	Streptomycin	STR_ED10	STR	Disk	MH	12	20	2024-10-03		
+CLSI	2025	atcc25922	Table 4A-2	eco	Ceftibuten/Avibactam	CBA_ND10	CBA	Disk	MH	28	36	2025-03-28		
+CLSI	2025	atcc700603	Table 4A-2	kpn	Ceftibuten/Avibactam	CBA_ND10	CBA	Disk	MH	24	30	2025-03-28		
+CLSI	2025	nctc13353	Table 4A-2	eco	Ceftibuten/Avibactam	CBA_ND10	CBA	Disk	MH	28	34	2025-03-28		
+CLSI	2025	atccBAA1705	Table 4A-2	kpn	Ceftibuten/Avibactam	CBA_ND10	CBA	Disk	MH	24	30	2025-03-28		
+CLSI	2025	atccBAA2814	Table 4A-2	kpn	Ceftibuten/Avibactam	CBA_ND10	CBA	Disk	MH	22	28	2025-03-28		
+CLSI	2025	atcc700603	Table 5A-2	kpn	Ceftibuten/Xeruborbactam	CBX_NM	CBX	MIC	MH	0.015	0.125	2025-03-28		
+CLSI	2025	atccBAA1705	Table 5A-2	kpn	Ceftibuten/Xeruborbactam	CBX_NM	CBX	MIC	MH	0.03	0.25	2025-03-28		
+CLSI	2025	atccBAA2814	Table 5A-2	kpn	Ceftibuten/Xeruborbactam	CBX_NM	CBX	MIC	MH	0.12	0.5	2025-03-28		
