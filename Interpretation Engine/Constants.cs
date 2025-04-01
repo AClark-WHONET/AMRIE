@@ -105,6 +105,7 @@ namespace AMR_Engine
 			public const string Abscesses = "Abscesses";
 			public const string Extraintestinal = "Extraintestinal";
 			public const string Endocarditis = "Endocarditis";
+			public const string EndocarditisWithCombinationTreatment = "Endocarditis with combination treatment";
 			public const string Genital = "Genital";
 			public const string InfectionsOriginatingFromTheUrinaryTract = "Infections originating from the urinary tract";
 			public const string Inhaled = "Inhaled";
@@ -142,6 +143,7 @@ namespace AMR_Engine
 					InfectionsOriginatingFromTheUrinaryTract,
 					Meningitis,
 					Endocarditis,
+					EndocarditisWithCombinationTreatment,
 					Intravenous,
 					Oral,
 					Inhaled,
