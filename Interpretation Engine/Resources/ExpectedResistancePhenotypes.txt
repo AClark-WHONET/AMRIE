@@ -539,7 +539,7 @@ EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			ETP	WHONET_
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			IPM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			MEM	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			J01G	ATC_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			SXT	WHONET_ABX_CODE		2021-01-01	2024-04-12	
+EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			TMP	WHONET_ABX_CODE		2021-01-01	2025-04-02	
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			FOS	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Non-fermentative gram-negative bacteria	pma	WHONET_ORG_CODE			TCY	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Other gram-negatives	hin	WHONET_ORG_CODE			FUS	WHONET_ABX_CODE		2021-01-01		
