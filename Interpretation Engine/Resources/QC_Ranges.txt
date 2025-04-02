@@ -20626,7 +20626,7 @@ EUCAST	2025	nctc8468	Table 6	hin	Telithromycin	TLT_ED15	TLT	Disk	MHB+	15	21	2024
 EUCAST	2025	atcc27853	Table 2	pae	Piperacillin	PIP_EM	PIP	MIC	MH	1	8	2024-10-03		
 EUCAST	2025	atcc25922	Table 1	eco	Piperacillin	PIP_EM	PIP	MIC	MH	1	4	2024-10-03		
 EUCAST	2025	atcc35218	Table 8	eco	Amoxicillin/Clavulanic acid	AMC_ED20	AMC	Disk	MH	17	22	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ticarcillin/Clavulanic acid	TCC_ED75	TCC	Disk	MH	21	15	2024-10-03		
+EUCAST	2025	atcc35218	Table 8	eco	Ticarcillin/Clavulanic acid	TCC_ED75	TCC	Disk	MH	21	25	2024-10-03		
 EUCAST	2025	atcc29213	Table 3	sau	Quinupristin-dalfopristin	QDA_EM	QDA	MIC	MH	0.25	1	2024-10-03		
 EUCAST	2025	atcc29213	Table 3	sau	Quinupristin-dalfopristin	QDA_ED15	QDA	Disk	MH	21	27	2024-10-03		
 EUCAST	2025	atcc29212	Table 4	efa	Quinupristin-dalfopristin	QDA_ED15	QDA	Disk	MH	11	17	2024-10-03		
@@ -20844,25 +20844,14 @@ EUCAST	2025	atcc13124		cpe	Penicillin G	PEN_ED1	PEN	Disk	MH	23	29	2024-10-03
 EUCAST	2025	atcc13124		cpe	Clindamycin	CLI_EM	CLI	MIC	MH	0.03	0.125	2024-10-03		
 EUCAST	2025	atcc13124		cpe	Clindamycin	CLI_ED2	CLI	Disk	MH	20	26	2024-10-03		
 EUCAST	2025	atcc13124		cpe	Meropenem	MEM_EM	MEM	MIC	MH	0.004	0.016	2024-10-03		
-EUCAST	2025	atcc13124		cpe	Meropenem	MEM_ED10	MEM	Disk	MH	34	40	2024-10-03		
+EUCAST	2025	atcc13124		cpe	Meropenem	MEM_ED10	MEM	Disk	MH	33	39	2024-10-03	2025-04-02	
 EUCAST	2025	atcc13124		cpe	Metronidazole	MTR_EM	MTR	MIC	MH	1	4	2024-10-03		
 EUCAST	2025	atcc13124		cpe	Metronidazole	MTR_ED5	MTR	Disk	MH	20	26	2024-10-03		
 EUCAST	2025	atcc13124		cpe	Piperacillin/Tazobactam	TZP_EM	TZP	MIC	MH	0.015	0.125	2024-10-03		
-EUCAST	2025	atcc13124		cpe	Piperacillin/Tazobactam	TZP_ED30	TZP	Disk	MH	30	36	2024-10-03		
+EUCAST	2025	atcc13124		cpe	Piperacillin/Tazobactam	TZP_ED30	TZP	Disk	MH	29	35	2024-10-03	2025-04-02	
 EUCAST	2025	atcc13124		cpe	Vancomycin	VAN_EM	VAN	MIC	MH	0.5	2	2024-10-03		
 EUCAST	2025	atcc13124		cpe	Vancomycin	VAN_ED5	VAN	Disk	MH	14	20	2024-10-03		
-EUCAST	2025	atcc35218		eco	Amoxicillin/Clavulanic acid	AMC_ED2	VAN	MIC	MH	0.5	2	2024-10-03		
-EUCAST	2025	atcc35218		eco	Amoxicillin/Clavulanic acid	VAN_ED5	VAN	Disk	MH	14	20	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ampicillin/Sulbactam	SAM_ED10	SAM	Disk	MH	13	19	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ampicillin/Sulbactam	SAM_EM	SAM	MIC	MH	16	128	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ceftolozane/Tazobactam	CZT_EM	CZT	MIC	MH	0.06	0.25	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ceftolozane/Tazobactam	CZT_ED30	CZT	Disk	MH	25	31	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Piperacillin/Tazobactam	TZP_EM	TZP	MIC	MH	0.5	2	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Piperacillin/Tazobactam	TZP_ED30	TZP	Disk	MH	21	27	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ticarcillin/Clavulanic acid	TCC_EM	TCC	MIC	MH	8	32	2024-10-03		
-EUCAST	2025	atcc35218	Table 8	eco	Ticarcillin/Clavulanic acid	TCC_ED75	TCC	Disk	MH	21	25	2024-10-03		
-EUCAST	2025	atcc29213	Table 11	sau	Amoxicillin/Clavulanic acid	AMC_EM	AMC	MIC	MH	0.12	0.5	2024-10-03		
-EUCAST	2025	atcc29213	Table 11	sau	Amoxicillin	AMX_EM	AMX	MIC	MH	0.5	2	2024-10-03		
+EUCAST	2025	atcc29213	Table 3	sau	Amoxicillin	AMX_EM	AMX	MIC	MH	0.5	2	2024-10-03		
 EUCAST	2025	atcc29213	Table 3	sau	Ampicillin	AMP_EM	AMP	MIC	MH	0.5	2	2024-10-03		
 EUCAST	2025	atcc29213	Table 3	sau	Chlortetracycline	CTE_EM	CTE	MIC	MH	0.12	0.5	2024-10-03		
 EUCAST	2025	atcc29213	Table 3	sau	Oxytetracycline	OXY_EM	OXY	MIC	MH	0.25	1	2024-10-03		
@@ -20937,3 +20926,36 @@ EUCAST	2025	ssi7583	Fungus	tru	Amorolfine	AMO_EM	AMO	MIC		0.03	0.125	2025-04-02
 EUCAST	2025	ssi7583	Fungus	tru	Itraconazole	ITR_EM	ITR	MIC		0.008	0.032	2025-04-02		
 EUCAST	2025	ssi7583	Fungus	tru	Terbinafine	TRB_EM	TRB	MIC		0.008	0.032	2025-04-02		
 EUCAST	2025	ssi7583	Fungus	tru	Voriconazole	VOR_EM	VOR	MIC		0.008	0.032	2025-04-02		
+EUCAST	2025	atcc25922	Table 1	eco	Aztreonam/Avibactam	AZA_EM	AZA	MIC	MH	0.03	0.125	2025-04-02		
+EUCAST	2025	atcc25922	Table 1	eco	Aztreonam/Avibactam	AZA_ED30	AZA	Disk	MH	32	38	2025-04-02		
+EUCAST	2025	atcc25922	Table 1	eco	Cefepime/Enmetazobactam	FPE_EM	FPE	MIC	MH	0.03	0.125	2025-04-02		
+EUCAST	2025	atcc25922	Table 1	eco	Cefepime/Enmetazobactam	FPE_ED30	FPE	Disk	MH	32	38	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Amoxicillin/Clavulanic acid	AMC_EM	AMC	MIC	MH	0.06	0.25	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Amoxicillin/Clavulanic acid	AMC_ED2	AMC	Disk	MH	23	29	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Ampicillin/Sulbactam	SAM_EM	SAM	MIC	MH	0.12	0.5	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Ampicillin/Sulbactam	SAM_ED10	SAM	Disk	MH	28	34	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Clindamycin	CLI_ED2	CLI	Disk	MH	22	28	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Ertapenem	ETP_EM	ETP	MIC	MH	0.06	0.25	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Ertapenem	ETP_ED10	ETP	Disk	MH	33	39	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Imipenem	IPM_EM	IPM	MIC	MH	0.03	0.125	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Imipenem	IPM_ED10	IPM	Disk	MH	38	44	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Meropenem	MEM_ED10	MEM	Disk	MH	32	39	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Metronidazole	MTR_ED5	MTR	Disk	MH	29	36	2025-04-02		
+EUCAST	2025	atcc25285		bfr	Piperacillin/Tazobactam	TZP_ED30	TZP	Disk	MH	29	35	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Amoxicillin	AMX_EM	AMX	MIC	MH	0.008	0.064	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Amoxicillin/Clavulanic acid	AMC_EM	AMC	MIC	MH	0.008	0.064	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Amoxicillin/Clavulanic acid	AMC_ED2	AMC	Disk	MH	28	34	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Ampicillin	AMP_EM	AMP	MIC	MH	0.008	0.064	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Ampicillin	AMP_ED2	AMC	Disk	MH	29	35	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Ampicillin/Sulbactam	SAM_EM	SAM	MIC	MH	0.008	0.064	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Ampicillin/Sulbactam	SAM_ED10	SAM	Disk	MH	32	38	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Cefotaxime	CTX_ED6	CTX	Disk	MH	27	33	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Ceftriaxone	CRO_ED30	CRO	Disk	MH	31	37	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Ertapenem	ETP_ED10	ETP	Disk	MH	31	37	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Imipenem	IPM_ED10	IPM	Disk	MH	31	37	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Linezolid	LNZ_EM	LNZ	MIC	MH	2	8	2025-04-02		
+EUCAST	2025	atcc13124		cpe	Linezolid	LNZ_ED10	LNZ	Disk	MH	21	27	2025-04-02		
+EUCAST	2025	atcc700603	Table 9	kpn	Aztreonam/Avibactam	AZA_EM	AZA	MIC	MH	0.06	0.5	2024-10-03		
+EUCAST	2025	atcc700603	Table 9	kpn	Aztreonam/Avibactam	AZA_ED30	AZA	Disk	MH	26	32	2024-10-03		
+EUCAST	2025	nctc13353	Table 11	eco	Cefepime/Enmetazobactam	FPE_EM	FPE	MIC	MH	0.03	0.125	2025-04-02		
+EUCAST	2025	nctc13353	Table 11	eco	Cefepime/Enmetazobactam	FPE_ED30	FPE	Disk	MH	27	33	2025-04-02		
