@@ -20879,3 +20879,61 @@ CLSI	2025	atccBAA2814	Table 4A-2	kpn	Ceftibuten/Avibactam	CBA_ND10	CBA	Disk	MH	2
 CLSI	2025	atcc700603	Table 5A-2	kpn	Ceftibuten/Xeruborbactam	CBX_NM	CBX	MIC	MH	0.015	0.125	2025-03-28		
 CLSI	2025	atccBAA1705	Table 5A-2	kpn	Ceftibuten/Xeruborbactam	CBX_NM	CBX	MIC	MH	0.03	0.25	2025-03-28		
 CLSI	2025	atccBAA2814	Table 5A-2	kpn	Ceftibuten/Xeruborbactam	CBX_NM	CBX	MIC	MH	0.12	0.5	2025-03-28		
+EUCAST	2025	atcc6258	Fungus	ckr	Ambphotericin B	AMB_EM	AMB	MIC		0.12	1	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Anidulafungin	ANI_EM	ANI	MIC		0.015	0.064	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Fluconazole	FLU_EM	FLU	MIC		16	64	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	5-Fluorocytosine	FCT_EM	FCT	MIC		1	4	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Isavuconazole	ISV_EM	ISV	MIC		0.015	0.064	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Itraconazole	ITR_EM	ITR	MIC		0.03	0.125	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Micafungin	MIF_EM	MIF	MIC		0.03	0.125	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Posaconazole	POS_EM	POS	MIC		0.015	0.064	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Rezafungin	RZF_EM	RZF	MIC		0.004	0.032	2025-04-02		
+EUCAST	2025	atcc6258	Fungus	ckr	Voriconazole	VOR_EM	VOR	MIC		0.03	0.25	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Amphotericin B	AMB_EM	AMB	MIC		0.12	1	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Anidulafungin	ANI_EM	ANI	MIC		0.25	1	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Fluconazole	FLU_EM	FLU	MIC		0.5	2	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	5-Fluorocytosine	FCT_EM	FCT	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Isavuconazole	ISV_EM	ISV	MIC		0.008	0.032	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Itraconazole	ITR_EM	ITR	MIC		0.03	0.125	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Micafungin	MIF_EM	MIF	MIC		0.5	2	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Posaconazole	POS_EM	POS	MIC		0.015	0.064	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Rezafungin	RZF_EM	RZF	MIC		0.12	1	2025-04-02		
+EUCAST	2025	atcc22019	Fungus	cpa	Voriconazole	VOR_EM	VOR	MIC		0.015	0.064	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	Amphotericin B	AMB_EM	AMB	MIC		0.06	0.5	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	Fluconazole	FLU_EM	FLU	MIC		32	128	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	5-Fluorocytosine	FCT_EM	FCT	MIC		0.06	0.25	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	Itraconazole	ITR_EM	ITR	MIC		0.25	1	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	Posaconazole	POS_EM	POS	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	Rezafungin	RZF_EM	RZF	MIC		0.002	0.008	2025-04-02		
+EUCAST	2025	cnmclf8555	Fungus	cal	Voriconazole	VOR_EM	VOR	MIC		0.5	2	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	Amphotericin B	AMB_EM	AMB	MIC		0.25	1	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	Fluconazole	FLU_EM	FLU	MIC		16	64	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	5-Fluorocytosine	FCT_EM	FCT	MIC		2	8	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	Itraconazole	ITR_EM	ITR	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	Posaconazole	POS_EM	POS	MIC		0.06	0.25	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	Rezafungin	RZF_EM	RZF	MIC		0.004	0.032	2025-04-02		
+EUCAST	2025	cnmcl3403	Fungus	ckr	Voriconazole	VOR_EM	VOR	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	atcc64548	Fungus	cal	Rezafungin	RZF_EM	RZF	MIC		0.0005	0.002	2025-04-02		
+EUCAST	2025	atcc64550	Fungus	cal	Rezafungin	RZF_EM	RZF	MIC		0.002	0.008	2025-04-02		
+EUCAST	2025	atcc204305	Fungus	afu	Amphotericin B	AMB_EM	AMB	MIC		0.25	1	2025-04-02		
+EUCAST	2025	atcc204305	Fungus	afu	Itraconazole	ITR_EM	ITR	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	atcc204305	Fungus	afu	Posaconazole	POS_EM	POS	MIC		0.03	0.25	2025-04-02		
+EUCAST	2025	atcc204305	Fungus	afu	Voriconazole	VOR_EM	VOR	MIC		0.25	1	2025-04-02		
+EUCAST	2025	atcc204304	Fungus	afl	Amphotericin B	AMB_EM	AMB	MIC		0.5	2	2025-04-02		
+EUCAST	2025	atcc204304	Fungus	afl	Itraconazole	ITR_EM	ITR	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	atcc204304	Fungus	afl	Posaconazole	POS_EM	POS	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	atcc204304	Fungus	afl	Terbinafine	TRB_EM	TRB	MIC		0.25	1	2025-04-02		
+EUCAST	2025	atcc204304	Fungus	afl	Voriconazole	VOR_EM	VOR	MIC		0.5	2	2025-04-02		
+EUCAST	2025	cnmcm1813	Fungus	afl	Amphotericin B	AMB_EM	AMB	MIC		1	4	2025-04-02		
+EUCAST	2025	cnmcm1813	Fungus	afl	Itraconazole	ITR_EM	ITR	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	cnmcm1813	Fungus	afl	Posaconazole	POS_EM	POS	MIC		0.12	0.5	2025-04-02		
+EUCAST	2025	cnmcm1813	Fungus	afl	Terbinafine	TRB_EM	TRB	MIC		0.25	1	2025-04-02		
+EUCAST	2025	cnmcm1813	Fungus	afl	Voriconazole	VOR_EM	VOR	MIC		0.5	2	2025-04-02		
+EUCAST	2025	ssi9363	Fungus	tyi	Amorolfine	AMO_EM	AMO	MIC		0.03	0.25	2025-04-02		
+EUCAST	2025	ssi9363	Fungus	tyi	Itraconazole	ITR_EM	ITR	MIC		0.03	0.25	2025-04-02		
+EUCAST	2025	ssi9363	Fungus	tyi	Terbinafine	TRB_EM	TRB	MIC		0.015	0.064	2025-04-02		
+EUCAST	2025	ssi9363	Fungus	tyi	Voriconazole	VOR_EM	VOR	MIC		0.12	1	2025-04-02		
+EUCAST	2025	ssi7583	Fungus	tru	Amorolfine	AMO_EM	AMO	MIC		0.03	0.125	2025-04-02		
+EUCAST	2025	ssi7583	Fungus	tru	Itraconazole	ITR_EM	ITR	MIC		0.008	0.032	2025-04-02		
+EUCAST	2025	ssi7583	Fungus	tru	Terbinafine	TRB_EM	TRB	MIC		0.008	0.032	2025-04-02		
+EUCAST	2025	ssi7583	Fungus	tru	Voriconazole	VOR_EM	VOR	MIC		0.008	0.032	2025-04-02		

@@ -456,7 +456,7 @@ TLV						Telavancin	CLSI	X								472	30µg	J01XA03	Glycopeptides	Lipoglycopepti
 TLT		TEL	TEL			Telithromycin	CLSI,EUCAST	X	X	X						396	15µg	J01FA15	Macrolides	Ketolide	MACRO		17b		X			Telithromy	35845-7	35843-2	35844-0	41722-0					2021-01-01		
 TMX	TMX	TEM				Temafloxacin	CLSI	X								111	5µg	J01MA05	Quinolones	Fluoroquinolone	FQ		11b		X			Temafloxac	18990-2	489-5	488-7				490-3	487-9	2021-01-01		
 TEM	TEM	TMO				Temocillin	NEO							X		298	30µg	J01CA17	Penicillins	Penicillin (Stable)	PEN-S		01e					Temocillin	18991-0	493-7	492-9				494-5	491-1	2021-01-01		
-TRB						Terbinafine	NEO							X		479	30µg	D01AE15	Antifungals		FUNG		29														2021-01-01		
+TRB						Terbinafine	EUCAST,NEO		X					X		479	30µg	D01AE15	Antifungals		FUNG		29														2021-01-01		
 TRC						Terconazole										480		G01AG02	Antifungals		FUNG		29														2021-01-01		
 TCY	TE	TET	TC			Tetracycline	CLSI,EUCAST	X	X	X	X	X	X		X	62	30µg	J01AA07	Tetracyclines		TETRA		24a		X			Tetracycli	18993-6	497-8	496-0	7052-4			498-6	495-2	2021-01-01		
 TCY	TE	TET	TC			Tetracycline	NEO							X		399	80µg	J01AA07	Tetracyclines		TETRA		24		X			Tetracycli	18993-6	497-8	496-0	7052-4			498-6	495-2	2021-01-01		
