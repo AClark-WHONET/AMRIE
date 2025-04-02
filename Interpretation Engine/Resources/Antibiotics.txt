@@ -94,7 +94,7 @@ CTF	CTF	CTM	CTM			Cefotiam	DIN			X			X			86	30µg	J01DC07	Cephems	Cephamycin	CEP
 CHE		CTH	CTM-HE			Cefotiam hexetil				X						235	10µg	J01DC07	Cephems-Oral	Cephalosporin	CEPH-ORAL		05a														2021-01-01		
 CHE		CTH	CTM-HE			Cefotiam hexetil	DIN						X			435	30µg	J01DC07	Cephems-Oral	Cephalosporin	CEPH-ORAL		05a														2021-01-01		
 CLI	CM	CLI	CLDM			Clindamycin	CLSI,EUCAST	X	X	X		X				27	2µg	J01FF01	Lincosamides		LINCO		15		X			Clindamyci	18908-4	194-1	193-3	7005-2			195-8	192-5	2021-01-01		
-FCT	FCT	5FC	5-FC			5-Fluorocytosine	CLSI,NEO	X						X		328	10µg	J02AX01	Antifungals		FUNG		29		X			5-Fluorocy	18855-7	254-3	253-5	7014-4			255-0	252-7	2021-01-01		
+FCT	FCT	5FC	5-FC			5-Fluorocytosine	CLSI,EUCAST,NEO	X	X					X		328	10µg	J02AX01	Antifungals		FUNG		29		X			5-Fluorocy	18855-7	254-3	253-5	7014-4			255-0	252-7	2021-01-01		
 FCT	FCT		5-FC			5-Fluorocytosine	CLSI,NEO	X						X		126	1µg	J02AX01	Antifungals		FUNG		29		X			5-Fluorocy	18855-7	254-3	253-5	7014-4			255-0	252-7	2021-01-01		
 ACM						Acetylmidecamycin										114			Macrolides		MACRO		17														2021-01-01		
 ASP						Acetylspiramycin										113			Macrolides		MACRO		17														2021-01-01		
@@ -456,7 +456,7 @@ TLV						Telavancin	CLSI	X								472	30µg	J01XA03	Glycopeptides	Lipoglycopepti
 TLT		TEL	TEL			Telithromycin	CLSI,EUCAST	X	X	X						396	15µg	J01FA15	Macrolides	Ketolide	MACRO		17b		X			Telithromy	35845-7	35843-2	35844-0	41722-0					2021-01-01		
 TMX	TMX	TEM				Temafloxacin	CLSI	X								111	5µg	J01MA05	Quinolones	Fluoroquinolone	FQ		11b		X			Temafloxac	18990-2	489-5	488-7				490-3	487-9	2021-01-01		
 TEM	TEM	TMO				Temocillin	NEO							X		298	30µg	J01CA17	Penicillins	Penicillin (Stable)	PEN-S		01e					Temocillin	18991-0	493-7	492-9				494-5	491-1	2021-01-01		
-TRB						Terbinafine	NEO							X		479	30µg	D01AE15	Antifungals		FUNG		29														2021-01-01		
+TRB						Terbinafine	EUCAST,NEO		X					X		479	30µg	D01AE15	Antifungals		FUNG		29														2021-01-01		
 TRC						Terconazole										480		G01AG02	Antifungals		FUNG		29														2021-01-01		
 TCY	TE	TET	TC			Tetracycline	CLSI,EUCAST	X	X	X	X	X	X		X	62	30µg	J01AA07	Tetracyclines		TETRA		24a		X			Tetracycli	18993-6	497-8	496-0	7052-4			498-6	495-2	2021-01-01		
 TCY	TE	TET	TC			Tetracycline	NEO							X		399	80µg	J01AA07	Tetracyclines		TETRA		24		X			Tetracycli	18993-6	497-8	496-0	7052-4			498-6	495-2	2021-01-01		
@@ -551,7 +551,7 @@ IBX						Ibrexafungerp	CLSI	X											Antifungals		FUNG				X
 MGX						Manogepix	CLSI	X									5µg		Antifungals		FUNG				X														
 RZF						Rezafungin	CLSI	X									5µg		Antifungals		FUNG				X														
 CLB						Ceftibuten/Ledaborbactam	CLSI	X									5/2.5µg								X												2023-04-11		
-CBA						Ceftibuten/Avibactam	CLSI	X																													2023-04-11		
+CBA						Ceftibuten/Avibactam	CLSI	X																	X												2023-04-11		
 XEM						Meropenem/Xeruborbactam	CLSI	X											Beta-lactam+Inhibitors						X												2023-04-11		
 NTR	NI	NIT				Nitroxoline	EUCAST		X							89	30µg	J01XX07	Quinolones	Quinolone	QUIN		11a					Nitroxolin	25608-1		25723-8						2023-12-12		
 LMU						Lefamulin	EUCAST		X							528	5µg	J01XX12	Pleuromutilins		OTHER		28														2023-12-12		
@@ -561,3 +561,4 @@ FPE						Cefepime/Enmetazobactam	CLSI	X									30/20µg																				2024
 FTB						Cefepime/Taniborbactam	CLSI	X									30/20µg																				2024-08-21		
 BPR						Ceftobiprole	CLSI	X								474	30µg	J01DI01	Cephems	Cephalosporin	CEPH		04e		X												2024-08-28		
 DUR						Durlobactam	CLSI	X																	X												2024-08-28		
+CBX						Ceftibuten/Xeruborbactam	CLSI	X																	X												2025-03-28		
