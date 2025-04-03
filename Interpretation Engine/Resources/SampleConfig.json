@@ -10,18 +10,9 @@
 		"ESBL-CONFIRMED",
 		"ESBL-AMPC-PROBABLE"
 	],
-	"GuidelineYear": 2024,
+	"GuidelineYear": 2025,
 	"PrioritizedBreakpointTypes": [ "Human", "Animal", "ECOFF" ],
-	"PrioritizedSitesOfInfection": [
-		"Non-meningitis",
-		"Parenteral",
-		"(Blank)",
-		"Uncomplicated urinary tract infection",
-		"Meningitis",
-		"Oral",
-		"Intravenous",
-		"Extraintestinal"
-	],
+	"PrioritizedSitesOfInfection": [],
 	"DisabledSitesOfInfection": [],
 	"HorizontalAntibioticResults": true,
 	"DISABLED_UserDefinedBreakpointsFile": "Resources\\SampleUserDefinedBreakpoints.txt"

@@ -9,12 +9,12 @@ namespace AMR_Engine
 		// This should be set to the current year when annual
 		// breakpoint changes are made to the Breakpoints.txt file.
 		// The minor change number below should be reset to 0 each year.
-		public static readonly int BreakpointTableRevisionYear = 2024;
+		public static readonly int BreakpointTableRevisionYear = 2025;
 
 		// This should increase whenever an issue is resolved
 		// within a year to indicate that the table itself has changed.
 		// For example, if there is a document correction or error on our part.
-		public static readonly int BreakpointTableRevisionMinorChangeNumber = 6;
+		public static readonly int BreakpointTableRevisionMinorChangeNumber = 0;
 
 		// We use this to locate resources.
 		public static string SystemRootPath =
@@ -105,6 +105,8 @@ namespace AMR_Engine
 			public const string Blank = "(Blank)";
 			public const string Abscesses = "Abscesses";
 			public const string Extraintestinal = "Extraintestinal";
+			public const string Endocarditis = "Endocarditis";
+			public const string EndocarditisWithCombinationTreatment = "Endocarditis with combination treatment";
 			public const string Genital = "Genital";
 			public const string InfectionsOriginatingFromTheUrinaryTract = "Infections originating from the urinary tract";
 			public const string Inhaled = "Inhaled";
@@ -116,6 +118,7 @@ namespace AMR_Engine
 			public const string Mastitis = "Mastitis";
 			public const string Meningitis = "Meningitis";
 			public const string Metritis = "Metritis";
+			public const string NonEndocarditis = "Non-endocarditis";
 			public const string NonMeningitis = "Non-meningitis";
 			public const string NonPneumonia = "Non-pneumonia";
 			public const string Oral = "Oral";
@@ -134,11 +137,14 @@ namespace AMR_Engine
 			private static readonly List<string> internalDefaultOrderList = new List<string>
 			{
 				NonMeningitis,
+				NonEndocarditis,
 				Parenteral,
 				Blank,
 				UncomplicatedUrinaryTractInfection,
 				InfectionsOriginatingFromTheUrinaryTract,
 				Meningitis,
+				Endocarditis,
+				EndocarditisWithCombinationTreatment,
 				Intravenous,
 				Oral,
 				Inhaled,
