@@ -499,7 +499,7 @@ VIO		VIO				Viomycin										183			Antimycobacterials		MYCO		28					Viomycin	19
 VIR	VG	VIR				Virginiamycine	NEO							X		391	30µg	D06AX10	Streptogramins		STREPTOG		23					Virginiamy	35861-4	35859-8	35860-6						2021-01-01		
 VIR	VG	VIR				Virginiamycine				X						184	15µg	D06AX10	Streptogramins		STREPTOG		23					Virginiamy	35861-4	35859-8	35860-6						2021-01-01		
 VOR			VRCZ			Voriconazole	CLSI,NEO	X						X		431	1µg	J02AC03	Antifungals		FUNG		29		X			Voriconazo	32379-0	41200-7	35863-0	35862-2				41199-1	2021-01-01		
-AZA						Aztreonam/Avibactam	CLSI	X								510	30/20µg		Beta-lactam+inhibitors		BL+INH																2021-01-01		
+AZA						Aztreonam/Avibactam	CLSI,EUCAST	X	X							510	30/20µg		Beta-lactam+inhibitors		BL+INH																2021-01-01		
 POP						Polymyxin B/Polysorbate 80	CLSI	X								509	300units	J01XB02	Lipopeptides	Polymyxin	LIPOPEP		16		X												2021-01-01		
 SUR						Surotomycin	CLSI	X								514			Lipopeptides		LIPOPEP																2021-01-01		
 COP						Colistin/Polysorbate	CLSI	X								508	10µg	J01XB01	Lipopeptides		LIPOPEP		16		X												2021-01-01		
