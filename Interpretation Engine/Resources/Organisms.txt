@@ -2615,8 +2615,8 @@ sta		Staphylococcus sp.	C		+			+			STA			OTH	116499001	Staphylococcus species	79
 spv		Staphylococcus vitulinus	C		+			+			STA	SCN		OTH	113971005	Staphylococcus pulvereri	7439950	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 swa		Staphylococcus warneri	C		+			+			STA	SCN		CONS	63550006	Staphylococcus warneri	3227675	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sxy		Staphylococcus xylosus	C		+			+			STA	SCN		CONS	32737005	Staphylococcus xylosus	3227711	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-scn		Staphylococcus, coagulase negative	C	X	+			+			STA	SCN		CONS	116197008	Staphylococcus, coagulase negative									
-sc+		Staphylococcus, coagulase positive	C		+			+			STA	SC+		STAS	127535004	Staphylococcus, coagulase positive									
+scn		Staphylococcus, coagulase negative	C	X	+			+			STA	SCN		CONS	116197008	Staphylococcus, coagulase negative				Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sc+		Staphylococcus, coagulase positive	C		+			+			STA	SC+		STAS	127535004	Staphylococcus, coagulase positive				Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 stl		Stemphylium sp.	C		f						STL				90824006	Stemphylium	2592424	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Stemphylium
 stu		Stenella araguata	C		f						STN				83210003	Stenella araguata	5264902	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Stenella
 stn		Stenella sp.	C		f						STN				18806000	Stenella	2623442	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Stenella
@@ -2945,3 +2945,9 @@ enu		Enterococcus thailandicus	C		+			+			ENT				449322006	Enterococcus thailand
 tyi		Trichophyton indotineae	C		f						TRY						12244851	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
 ask		Arcobacter skirrowii	C		-			-			ARC			OTH	14210002	Arcobacter skirrowii	3223375	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
 aes		Aerococcus sanguinicola	C		+			+			AEC				427222006	Aerococcus sanguinicola	7664344	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
+pso		Pseudomonas plecoglossicida	C		-			-		NFR	PS-				428109007	Pseudomonas plecoglossicida	3223132		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
+ebg		Enterobacter bugandensis	C		-			-	EBC		EN-				113611000146106	Enterobacter bugandensis	8768455		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Enterobacter
+sbs		Staphylococcus borealis	C		+			+			STA	SC+		OTH	159481000146105	Staphylococcus borealis	11888108		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+pcl		Pseudomonas citronellolis	C		-			-		NFR	PS-				31277003	Pseudomonas citronellolis	9094808		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
+enn		Enterobacter roggenkampii	C		-			-	EBC		EN-				1285009006	Enterobacter roggenkampii	10853238		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Enterobacter
+pnr		Pseudomonas nitroreducens	C		-			-		NFR	PS-				19428001	Pseudomonas nitroreducens	8954237		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
