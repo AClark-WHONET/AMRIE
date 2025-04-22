@@ -2951,3 +2951,5 @@ sbs		Staphylococcus borealis	C		+			+			STA	SC+		OTH	159481000146105	Staphylococ
 pcl		Pseudomonas citronellolis	C		-			-		NFR	PS-				31277003	Pseudomonas citronellolis	9094808		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
 enn		Enterobacter roggenkampii	C		-			-	EBC		EN-				1285009006	Enterobacter roggenkampii	10853238		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Enterobacter
 pnr		Pseudomonas nitroreducens	C		-			-		NFR	PS-				19428001	Pseudomonas nitroreducens	8954237		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
+sbi		Solibacillus silvestris	C		+			+			SBC				429471007	Solibacillus silvestris	8280514		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
+sbc		Solibacillus sp.	C		+			+			SBC				699375003	Solibacillus	7455476		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
