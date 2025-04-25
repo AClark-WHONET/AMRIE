@@ -357,6 +357,7 @@ namespace AMR_Engine
 				new DataColumn(nameof(SDD), typeof(string)),
 				new DataColumn(nameof(S), typeof(decimal)),
 				new DataColumn(nameof(ECV_ECOFF), typeof(decimal)),
+				new DataColumn(nameof(ECV_ECOFF_TENTATIVE), typeof(bool)),
 				new DataColumn(nameof(DATE_ENTERED), typeof(DateTime)),
 				new DataColumn(nameof(DATE_MODIFIED), typeof(DateTime)),
 				new DataColumn(nameof(COMMENTS), typeof(string))
@@ -397,6 +398,7 @@ namespace AMR_Engine
 				else
 					newRow[nameof(ECV_ECOFF)] = DBNull.Value;
 
+				newRow[nameof(ECV_ECOFF_TENTATIVE)] = bp.ECV_ECOFF_TENTATIVE;
 				newRow[nameof(DATE_ENTERED)] = bp.DATE_ENTERED;
 				newRow[nameof(DATE_MODIFIED)] = bp.DATE_MODIFIED;
 				newRow[nameof(COMMENTS)] = bp.COMMENTS;
