@@ -78,6 +78,7 @@ namespace AMR_Engine
 		public readonly string SITE_OF_INFECTION;
 		public readonly string[] SITES_OF_INFECTION;
 		public readonly string REFERENCE_TABLE;
+		public readonly string REFERENCE_SEQUENCE;
 		public readonly string WHONET_ABX_CODE;
 		public readonly string WHONET_TEST;
 		public readonly decimal R;
@@ -112,6 +113,7 @@ namespace AMR_Engine
 		/// <param name="HOST_"></param>
 		/// <param name="SITE_OF_INFECTION_"></param>
 		/// <param name="REFERENCE_TABLE_"></param>
+		/// <param name="REFERENCE_SEQUENCE_"></param>
 		/// <param name="WHONET_ABX_CODE_"></param>
 		/// <param name="WHONET_TEST_"></param>
 		/// <param name="R_"></param>
@@ -125,7 +127,7 @@ namespace AMR_Engine
 		/// <param name="COMMENTS_"></param>
 		public Breakpoint(string GUIDELINES_, int YEAR_, string TEST_METHOD_, string POTENCY_, string ORGANISM_CODE_,
 			string ORGANISM_CODE_TYPE_, string BREAKPOINT_TYPE_, string HOST_, string SITE_OF_INFECTION_,
-			string REFERENCE_TABLE_, string WHONET_ABX_CODE_, string WHONET_TEST_, decimal R_, string I_,
+			string REFERENCE_TABLE_, string REFERENCE_SEQUENCE_, string WHONET_ABX_CODE_, string WHONET_TEST_, decimal R_, string I_,
 			string SDD_, decimal S_, decimal ECV_ECOFF_, bool ECV_ECOFF_TENTATIVE_, DateTime DATE_ENTERED_, DateTime DATE_MODIFIED_, string COMMENTS_)
 		{
 			GUIDELINES = GUIDELINES_;
@@ -152,6 +154,7 @@ namespace AMR_Engine
 				}).ToArray();
 
 			REFERENCE_TABLE = REFERENCE_TABLE_;
+			REFERENCE_SEQUENCE = REFERENCE_SEQUENCE_;
 			WHONET_ABX_CODE = WHONET_ABX_CODE_;
 			WHONET_TEST = WHONET_TEST_;
 			R = R_;
@@ -461,7 +464,8 @@ namespace AMR_Engine
 						Breakpoint newBreakpoint = new Breakpoint(values[headerMap[nameof(GUIDELINES)]], int.Parse(values[headerMap[nameof(YEAR)]], System.Globalization.CultureInfo.InvariantCulture),
 							values[headerMap[nameof(TEST_METHOD)]], values[headerMap[nameof(POTENCY)]], values[headerMap[nameof(ORGANISM_CODE)]],
 							values[headerMap[nameof(ORGANISM_CODE_TYPE)]], values[headerMap[nameof(BREAKPOINT_TYPE)]], values[headerMap[nameof(HOST)]],
-							values[headerMap[nameof(SITE_OF_INFECTION)]], values[headerMap[nameof(REFERENCE_TABLE)]], values[headerMap[nameof(WHONET_ABX_CODE)]],
+							values[headerMap[nameof(SITE_OF_INFECTION)]], values[headerMap[nameof(REFERENCE_TABLE)]], values[headerMap[nameof(REFERENCE_SEQUENCE)]],
+							values[headerMap[nameof(WHONET_ABX_CODE)]],
 							values[headerMap[nameof(WHONET_TEST)]], tempR, values[headerMap[nameof(I)]],
 							values[headerMap[nameof(SDD)]], tempS, tempECV, values[headerMap[nameof(ECV_ECOFF_TENTATIVE)]] == "X",
 							tempEntered, tempModified, values[headerMap[nameof(COMMENTS)]]);
