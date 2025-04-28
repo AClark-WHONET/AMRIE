@@ -14,7 +14,7 @@ namespace AMR_Engine
 
 		private const string AllOrganisms = "ALL";
 
-		private static readonly List<ExpectedResistancePhenotypeRule> ExpectedResistancePhenotypeRules = LoadExpectedResistancePhenotypeRules();
+		public static readonly List<ExpectedResistancePhenotypeRule> ExpectedResistancePhenotypeRules = LoadExpectedResistancePhenotypeRules();
 
 		#endregion
 
