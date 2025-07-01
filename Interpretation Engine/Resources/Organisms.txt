@@ -58,24 +58,24 @@ ati		Actinobaculum suis	C			b						AAM				114045000	Actinobaculum suis	3225794	7
 amu		Actinomadura madurae	C			+			+			ACM			OTH	90285002	Actinomadura madurae	3225479	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Thermomonosporaceae	Actinomadura
 acm		Actinomadura sp.	C			+			+			ACM			OTH	41571004	Actinomadura	3225210	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Thermomonosporaceae	Actinomadura
 abe		Actinomyces bernardiae	O			a	X		+			ACT				40560008	Actinomyces	3225747	7ddf754f-d193-4cc9-b351-99906754a03b	synonym	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
-abo		Actinomyces bovis	C			a	X		+			ACT			OTH	59806008	Actinomyces bovis	3225750	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
+abo		Actinomyces bovis	C		X	a	X		+			ACT			OTH	59806008	Actinomyces bovis	3225750	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 agg		Actinomyces georgiae	C			a	X		+			ACT			OTH	113415003	Actinomyces georgiae	3225751	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
-age		Actinomyces gerencseriae	C			a	X		+			ACT			OTH	113416002	Actinomyces gerencseriae	3225772	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
-ais		Actinomyces israelii	C			a	X		+			ACT			OTH	46369004	Actinomyces israelii	3225777	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
+age		Actinomyces gerencseriae	C		X	a	X		+			ACT			OTH	113416002	Actinomyces gerencseriae	3225772	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
+ais		Actinomyces israelii	C		X	a	X		+			ACT			OTH	46369004	Actinomyces israelii	3225777	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 ame		Actinomyces meyeri	C			a	X		+			ACT			OTH	3174002	Actinomyces meyeri	9771710	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
-ane		Actinomyces naeslundii	C			a	X		+			ACT			OTH	8940004	Actinomyces naeslundii	3225752	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
+ane		Actinomyces naeslundii	C		X	a	X		+			ACT			OTH	8940004	Actinomyces naeslundii	3225752	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 aat		Actinomyces neuii ss. anitratus	C			a	X		+			ACT			OTH	113419009	Actinomyces neuii ss anitratus	3225770	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 anu		Actinomyces neuii ss. neuii	C			a	X		+			ACT			OTH	113420003	Actinomyces neuii ss neuii	7234553	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 aod		Actinomyces odontolyticus	C			a	X		+			ACT			OTH	12069003	Actinomyces odontolyticus	3225781	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 apy		Actinomyces pyogenes	O			+			+			TRL	COF		OTH			8216478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
 apk		Actinomyces pyogenes-like bacteria	O			+			+			TRL	COF		OTH											
-act		Actinomyces sp.	C			a	X		+			ACT			OTH	40560008	Actinomyces	9407921	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
+act		Actinomyces sp.	C		X	a	X		+			ACT			OTH	40560008	Actinomyces	9407921	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 atc		Actinomyces turicensis	C			+			+			ACT			OTH	113422006	Actinomyces turicensis	9132981	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
-avs		Actinomyces viscosus	C			a	X		+			ACT			OTH	33529006	Actinomyces viscosus	3225779	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
+avs		Actinomyces viscosus	C		X	a	X		+			ACT			OTH	33529006	Actinomyces viscosus	3225779	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Actinomyces
 adv		Adenovirus	C			v										74871001	Human adenovirus									
-aec		Aerococcus sp.	C			+			+			AEC			OTH	131206005	Aerococcus species	3227021	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
-aun		Aerococcus urinae	C			+			+			AEC			OTH	243230001	Aerococcus urinae	3227026	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
-avi		Aerococcus viridans	C			+			+			AEC			OTH	78803006	Aerococcus viridans	3227022	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
+aec		Aerococcus sp.	C		X	+			+			AEC			OTH	131206005	Aerococcus species	3227021	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
+aun		Aerococcus urinae	C		X	+			+			AEC			OTH	243230001	Aerococcus urinae	3227026	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
+avi		Aerococcus viridans	C		X	+			+			AEC			OTH	78803006	Aerococcus viridans	3227022	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
 avh		Aerococcus viridans var. homari	C			+			+			AEC							7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
 acv		Aeromonas caviae	C			-			-			AER			AVPV	88529008	Aeromonas	3222881	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas
 adh		Aeromonas dhakensis	C			-			-			AER				385475003	Aeromonas dhakensis				Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Aeromonas
@@ -170,15 +170,15 @@ aim		Apiotrichum montevideense	C			f						AIT						9789579		accepted	Fungi	Basid
 ait		Apiotrichum sp.	C			f						AIT						7239018		accepted	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Kalmanozyma
 ppr		Arachnia propionica	O			a	X					PUP						9309860	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteriota	Actinomycetia	Propionibacteriales	Propionibacteriaceae	Pseudopropionibacterium
 tbn		Arcanobacterium bernardiae	O			+			+			TRL	COF		OTH	704975008	Trueperella bernardiae	7351880	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
-ahe		Arcanobacterium haemolyticum	C			+			+			ARB	COF		OTH	44723000	Arcanobacterium haemolyticum	3225738	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Arcanobacterium
+ahe		Arcanobacterium haemolyticum	C		X	+			+			ARB	COF		OTH	44723000	Arcanobacterium haemolyticum	3225738	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Arcanobacterium
 apy		Arcanobacterium pyogenes	O			+			+			TRL	COF		OTH			8216478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
-arb		Arcanobacterium sp.	C			+			+			ARB	COF		OTH	131216002	Arcanobacterium species	3225736	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Arcanobacterium
+arb		Arcanobacterium sp.	C		X	+			+			ARB	COF		OTH	131216002	Arcanobacterium species	3225736	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Arcanobacterium
 abu		Arcobacter butzleri	C			-			-			ARC			OTH	114207009	Arcobacter butzleri	3223377	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
 acy		Arcobacter cryaerophilus	C			-			-			ARC			OTH	7858008	Arcobacter cryaerophilus	3223372	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
 ant		Arcobacter nitrofigilis	C			-			-			ARC			OTH	408629003	Arcobacter nitrofigilis	3223379	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
 arc		Arcobacter sp.	C			-			-			ARC			OTH	131407003	Arcobacter species	3223371	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
 arr		Arthrinium sp.	C			f						ARR				415874003	Arthrinium species	2569332	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Xylariales	Apiosporaceae	Arthrinium
-atb		Arthrobacter sp.	C			+			+			ATB			OTH	131217006	Arthrobacter species	3223550	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Arthrobacter
+atb		Arthrobacter sp.	C		X	+			+			ATB			OTH	131217006	Arthrobacter species	3223550	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Arthrobacter
 abl		Arthroderma borellii	C			f						ARD				62457003	Arthroderma borelli	2596014	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Arthroderma
 acj		Arthroderma cajetani	O			f						NAN						2596010	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Nannizzia
 ack		Arthroderma cookiellum	O			f						NAN						2596003	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Nannizzia
@@ -236,24 +236,24 @@ bbs		Babesia sp.	C			w						BBS				372376003	Babesia species	8653882	7ddf754f-d1
 bal		Bacillus alvei	O			+			+			PAB			OTH	114088008	Paenibacillus alvei	3227606	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
 ban		Bacillus anthracis	C			+			+			BCS			OTH	21927003	Bacillus anthracis	5428037	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 bbe		Bacillus brevis	O			+			+			BRI			OTH			3227525	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
-bce		Bacillus cereus	C			+			+			BCS			BAC+	84408007	Bacillus cereus	5428132	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
-bci		Bacillus circulans	C			+			+			BCS			BAC+	71812004	Bacillus circulans	5428072	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bce		Bacillus cereus	C		X	+			+			BCS			BAC+	84408007	Bacillus cereus	5428132	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bci		Bacillus circulans	C		X	+			+			BCS			BAC+	71812004	Bacillus circulans	5428072	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 bcg		Bacillus coagulans	C			+			+			BCS			BAC+	81346002	Bacillus coagulans	5428016	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
-bfi		Bacillus firmus	C			+			+			BCS			BAC+	13430008	Bacillus firmus	5428086	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bfi		Bacillus firmus	C		X	+			+			BCS			BAC+	13430008	Bacillus firmus	5428086	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 blt		Bacillus laterosporus	O			+			+			BRI			OTH			3227507	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
-bln		Bacillus lentus	C			+			+			BCS			BAC+	3020006	Bacillus lentus	5428091	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
-bli		Bacillus licheniformis	C			+			+			BCS			BAC+	74867004	Bacillus licheniformis	5428113	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bln		Bacillus lentus	C		X	+			+			BCS			BAC+	3020006	Bacillus lentus	5428091	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bli		Bacillus licheniformis	C		X	+			+			BCS			BAC+	74867004	Bacillus licheniformis	5428113	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 bmc		Bacillus macerans	O			+			+			PAB			OTH	114101003	Paenibacillus macerans	3227635	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
 bmg		Bacillus megaterium	C			+			+			BCS			BAC+	79109002	Bacillus megaterium	5428097	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
-bmy		Bacillus mycoides	C			+			+			BCS			BAC+	33900003	Bacillus mycoides	5428136	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bmy		Bacillus mycoides	C		X	+			+			BCS			BAC+	33900003	Bacillus mycoides	5428136	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 bpn		Bacillus pantothenticus	O			+			+			VIR			OTH			8934918	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Virgibacillus
 bpo		Bacillus polymyxa	O			+			+			PAB			OTH	114105007	Paenibacillus polymyxa	3227595	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
-bpm		Bacillus pumilus	C			+			+			BCS			BAC+	16580009	Bacillus pumilus	5428009	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
-bcs		Bacillus sp.	C			+			+			BCS			BAC+	372377007	Bacillus species	3227637	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bpm		Bacillus pumilus	C		X	+			+			BCS			BAC+	16580009	Bacillus pumilus	5428009	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bcs		Bacillus sp.	C		X	+			+			BCS			BAC+	372377007	Bacillus species	3227637	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 bsh		Bacillus sphaericus	O			+			+			LYS			OTH			8185611	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Lysinibacillus
 bsr		Bacillus stearothermophilus	O			+			+			GEB			OTH			3227848	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Geobacillus
-bsl		Bacillus subtilis	C			+			+			BCS			BAC+	83512007	Bacillus subtilis	5428098	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
-btu		Bacillus thuringiensis	C			+			+			BCS			BAC+	64840009	Bacillus thuringiensis	5428045	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+bsl		Bacillus subtilis	C		X	+			+			BCS			BAC+	83512007	Bacillus subtilis	5428098	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
+btu		Bacillus thuringiensis	C		X	+			+			BCS			BAC+	64840009	Bacillus thuringiensis	5428045	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus
 paa		Bacteroides asaccharolyticus	O			a	X		-			POR			OTH	115950003	Porphyromonas asaccharolyticus	3228332	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas
 bbi		Bacteroides bivius	O			a	X		-			PRT			OTH	114131009	Prevotella bivia	3228457	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella
 pbu		Bacteroides buccae	O			a	X		-			PRT			OTH	114134001	Prevotella buccae	3228471	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella
@@ -367,13 +367,13 @@ byp		Brachyspira pilosicoli	C			b			-			BRS				113517008	Brachyspira pilosicoli	
 brs		Brachyspira sp.	C			b			-			BRS			OTH	131228005	Brachyspira species	3228112	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Spirochaetae	Spirochaetes	Spirochaetales	Brachyspiraceae	Brachyspira
 bca		Branhamella catarrhalis	O	X		-			-		NFR	MO-			OTH	24226003	Moraxella catarrhalis	4902159	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella
 mo-		Branhamella sp.	O			-			-		NFR	MO-			OTH	131337008	Moraxella species	3219792	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella
-bbe		Brevibacillus brevis	C			+			+			BRI			OTH			3227525	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
-blt		Brevibacillus laterosporus	C			+			+			BRI			OTH			3227507	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
+bbe		Brevibacillus brevis	C		X	+			+			BRI			OTH			3227525	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
+blt		Brevibacillus laterosporus	C		X	+			+			BRI			OTH			3227507	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Brevibacillus
 bay		Brevibacterium acetylicum	O			+			+			EXI			OTH	114179002	Exiguobacterium acetylicum	3227752	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Exiguobacterium
-bvc		Brevibacterium casei	C			+			+			BRE	COF		OTH	6405003	Brevibacterium casei	3225712	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
-bep		Brevibacterium epidermidis	C			+			+			BRE	COF		OTH	57301000	Brevibacterium epidermidis	3225707	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
-bmb		Brevibacterium mcbrellneri	C			+			+			BRE	COF		OTH	113518003	Brevibacterium mecbrellneri	3225706	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
-bre		Brevibacterium sp.	C			+			+			BRE	COF		OTH	3603008	Brevibacterium	3224718	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
+bvc		Brevibacterium casei	C		X	+			+			BRE	COF		OTH	6405003	Brevibacterium casei	3225712	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
+bep		Brevibacterium epidermidis	C		X	+			+			BRE	COF		OTH	57301000	Brevibacterium epidermidis	3225707	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
+bmb		Brevibacterium mcbrellneri	C		X	+			+			BRE	COF		OTH	113518003	Brevibacterium mecbrellneri	3225706	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
+bre		Brevibacterium sp.	C		X	+			+			BRE	COF		OTH	3603008	Brevibacterium	3224718	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Brevibacteriaceae	Brevibacterium
 pdi		Brevundimonas diminuta	C			-			-		NFR	BRV			OTH	113689009	Brevundimonas diminuta	3221704	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas
 brv		Brevundimonas sp.	C			-			-		NFR	BRV			OTH	115154006	Brevundimonas	3221698	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas
 pve		Brevundimonas vesicularis	C			-			-		NFR	BRV			OTH	113690000	Brevundimonas vesicularis	3221706	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas
@@ -634,10 +634,10 @@ ce3		Cedecea sp. 3	C			-			-	EBC		CED			OTH	243292007	Cedecea species 3
 cnt		Cedecea sp. 4	O			-			-	EBC		CED			OTH	83767006	Cedecea neteri	3221931	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Cedecea
 ce5		Cedecea sp. 5	C			-			-	EBC		CED			OTH	243293002	Cedecea species 5									
 cce		Cellulomonas cellulans (O. xanthineolytica)	O			+			+			CEM	COF		OTH	409864003	Cellulosimicrobium cellulans	3224912	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Promicromonosporaceae	Cellulosimicrobium
-cel		Cellulomonas sp.	C			+			+			CEL	COF		OTH	131405006	Cellulomonas species	3224279	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Cellulomonadaceae	Cellulomonas
+cel		Cellulomonas sp.	C		X	+			+			CEL	COF		OTH	131405006	Cellulomonas species	3224279	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Cellulomonadaceae	Cellulomonas
 otu		Cellulomonas turbata	O			+			+			OER	COF		OTH			3224275	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Cellulomonadaceae	Oerskovia
-cce		Cellulosimicrobium cellulans	C			+			+			CEM	COF		OTH	409864003	Cellulosimicrobium cellulans	3224912	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Promicromonosporaceae	Cellulosimicrobium
-cem		Cellulosimicrobium sp.	C			+			+			CEM	COF		OTH	409861006	Cellulosimicrobium species	3224911	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Promicromonosporaceae	Cellulosimicrobium
+cce		Cellulosimicrobium cellulans	C		X	+			+			CEM	COF		OTH	409864003	Cellulosimicrobium cellulans	3224912	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Promicromonosporaceae	Cellulosimicrobium
+cem		Cellulosimicrobium sp.	C		X	+			+			CEM	COF		OTH	409861006	Cellulosimicrobium species	3224911	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Promicromonosporaceae	Cellulosimicrobium
 cpo		Centipeda periodontii	C			a	X		+			CEN			OTH	72002007	Centipeda periodontii	5427914	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Centipeda
 cen		Centipeda sp.	C			a	X		+			CEN			OTH	131239008	Centipeda species	3226271	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Centipeda
 acr		Cephalosporium sp.	O			f						ACR				115992008	Acremonium species	2560451	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Bionectriaceae	Acremonium
@@ -789,42 +789,42 @@ con		Contaminated specimen	C			o							XXX
 cot		Contracaecum sp.	C			w						COT				372392008	Contracaecum sp.	5188697	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Animalia	Nematoda	Secernentea	Ascaridida	Anisakidae	Contracaecum
 cpc		Coprococcus sp.	C			+			+			CPC			OTH	417561001	Coprococcus species	3226800	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Coprococcus
 cov		Coronavirus	C			v										84101006	Human coronavirus	10347353	1ec61203-14fa-4fbd-8ee5-a4a80257b45a	doubtful	Viruses			Nidovirales	Coronaviridae	Coronavirus
-cao		Corynebacterium accolens	C			+			+			COR	COF		CORU	243254006	Corynebacterium accolens	3225014	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-caf		Corynebacterium afermentans	C			+			+			COR	COF		CORU	113608003	Corynebacterium afermentans	3224992	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-ci2		Corynebacterium amycolatum	C			+			+			COR	COF		CORU	113611002	Corynebacterium amycolatum	3225011	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cao		Corynebacterium accolens	C		X	+			+			COR	COF		CORU	243254006	Corynebacterium accolens	3225014	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+caf		Corynebacterium afermentans	C		X	+			+			COR	COF		CORU	113608003	Corynebacterium afermentans	3224992	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+ci2		Corynebacterium amycolatum	C		X	+			+			COR	COF		CORU	113611002	Corynebacterium amycolatum	3225011	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 caq		Corynebacterium aquaticum	O			+			+			LEF	COF		OTH	414591000	Leifsonia aquatica	3225320	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Leifsonia
-crg		Corynebacterium argentoratense	C			+			+			COR	COF		CORU	417499006	Corynebacterium argentoratense	3224927	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-crm		Corynebacterium aurimucosum	C			+			+			COR	COF		CORU	385503009	Corynebacterium aurimucosum	3224966	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-aus		Corynebacterium auris	C			+			+			COR	COF		CORU	413925000	Corynebacterium auris	3224941	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cbv		Corynebacterium bovis	C			+			+			COR	COF		CORU	44885001	Corynebacterium bovis	3224946	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cye		Corynebacterium coyleae	C			+			+			COR	COF		CORU	116461008	Corynebacterium coyleae	3224955	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-crc		Corynebacterium cystitidis	C			+			+			COR	COF		CORU	50169005	Corynebacterium cystitidis	3224978	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+crg		Corynebacterium argentoratense	C		X	+			+			COR	COF		CORU	417499006	Corynebacterium argentoratense	3224927	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+crm		Corynebacterium aurimucosum	C		X	+			+			COR	COF		CORU	385503009	Corynebacterium aurimucosum	3224966	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+aus		Corynebacterium auris	C		X	+			+			COR	COF		CORU	413925000	Corynebacterium auris	3224941	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cbv		Corynebacterium bovis	C		X	+			+			COR	COF		CORU	44885001	Corynebacterium bovis	3224946	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cye		Corynebacterium coyleae	C		X	+			+			COR	COF		CORU	116461008	Corynebacterium coyleae	3224955	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+crc		Corynebacterium cystitidis	C		X	+			+			COR	COF		CORU	50169005	Corynebacterium cystitidis	3224978	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 cdt		Corynebacterium diphtheriae	C			+			+			COR	COF		OTH	5851001	Corynebacterium diphtheriae	3225001	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 req		Corynebacterium equi	O			+			+			RHD			OTH	80771008	Rhodococcus equi	5427801	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Rhodococcus
-cgy		Corynebacterium glucuronolyticum	C			+			+			COR	COF		CORU	413927008	Corynebacterium glucuronolyticum	3224937	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cgm		Corynebacterium glutamicum	C			+			+			COR	COF		CORU	89651003	Corynebacterium glutamicum	3224954	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cgy		Corynebacterium glucuronolyticum	C		X	+			+			COR	COF		CORU	413927008	Corynebacterium glucuronolyticum	3224937	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cgm		Corynebacterium glutamicum	C		X	+			+			COR	COF		CORU	89651003	Corynebacterium glutamicum	3224954	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 ahe		Corynebacterium haemolyticum	O			+			+			ARB	COF		OTH	44723000	Arcanobacterium haemolyticum	3225738	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Arcanobacterium
-cjk		Corynebacterium jeikeium	C			+			+			COR	COF		CORU	63410006	Corynebacterium jeikeium	3224951	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cku		Corynebacterium kutscheri	C			+			+			COR	COF		CORU	88575000	Corynebacterium kutscheri	3224976	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cmc		Corynebacterium macginleyi	C			+			+			COR	COF		CORU	363772007	Corynebacterium macginleyi	3224962	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cmt		Corynebacterium matruchotii	C			+			+			COR	COF		CORU	89922004	Corynebacterium matruchotii	3225006	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cjk		Corynebacterium jeikeium	C		X	+			+			COR	COF		CORU	63410006	Corynebacterium jeikeium	3224951	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cku		Corynebacterium kutscheri	C		X	+			+			COR	COF		CORU	88575000	Corynebacterium kutscheri	3224976	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cmc		Corynebacterium macginleyi	C		X	+			+			COR	COF		CORU	363772007	Corynebacterium macginleyi	3224962	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cmt		Corynebacterium matruchotii	C		X	+			+			COR	COF		CORU	89922004	Corynebacterium matruchotii	3225006	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 cmg		Corynebacterium michiganense	O			+			+			CLV			OTH			7073658	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Clavibacter
-cmi		Corynebacterium minutissimum	C			+			+			COR	COF		CORU	83594007	Corynebacterium minutissimum	3224961	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cmf		Corynebacterium mucifaciens	C			+			+			COR	COF		CORU	413929006	Corynebacterium mucifaciens	3225005	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cmy		Corynebacterium mycetoides	C			+			+			COR	COF		CORU	58879005	Corynebacterium mycetoides	3224950	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cmi		Corynebacterium minutissimum	C		X	+			+			COR	COF		CORU	83594007	Corynebacterium minutissimum	3224961	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cmf		Corynebacterium mucifaciens	C		X	+			+			COR	COF		CORU	413929006	Corynebacterium mucifaciens	3225005	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cmy		Corynebacterium mycetoides	C		X	+			+			COR	COF		CORU	58879005	Corynebacterium mycetoides	3224950	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 cni		Corynebacterium nigricans	O			+			+			COR	COF			385503009	Corynebacterium aurimucosum	3224990	52a423d2-0486-4e77-bcee-6350d708d6ff	synonym	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cpi		Corynebacterium pilosum	C			+			+			COR	COF		CORU	81368007	Corynebacterium pilosum	3224984	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cpq		Corynebacterium propinquum	C			+			+			COR	COF		CORU	113612009	Corynebacterium propinquum	3224949	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cpd		Corynebacterium pseudodiphtheriticum	C			+			+			COR	COF		CORU	12050008	Corynebacterium pseudodiphtheriticum	3224968	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cpb		Corynebacterium pseudotuberculosis	C			+			+			COR	COF		CORU	55084001	Corynebacterium pseudotuberculosis	3224989	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cpi		Corynebacterium pilosum	C		X	+			+			COR	COF		CORU	81368007	Corynebacterium pilosum	3224984	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cpq		Corynebacterium propinquum	C		X	+			+			COR	COF		CORU	113612009	Corynebacterium propinquum	3224949	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cpd		Corynebacterium pseudodiphtheriticum	C		X	+			+			COR	COF		CORU	12050008	Corynebacterium pseudodiphtheriticum	3224968	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cpb		Corynebacterium pseudotuberculosis	C		X	+			+			COR	COF		CORU	55084001	Corynebacterium pseudotuberculosis	3224989	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 apy		Corynebacterium pyogenes	O			+			+			TRL	COF		OTH			8216478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
-crn		Corynebacterium renale	C			+			+			COR	COF		CORU	62000003	Corynebacterium renale	3224973	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cor	cdp	Corynebacterium sp.	O			+			+			COR	COF		CORU	116463006	Corynebacterium species	3224364	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cdp		Corynebacterium sp. (diphtheroids)	C	X		+			+			COR	COF		OTH	5851001	Corynebacterium diphtheriae	3224364	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cst		Corynebacterium striatum	C			+			+			COR	COF		CORU	63815007	Corynebacterium striatum	3224972	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cul		Corynebacterium ulcerans	C			+			+			COR	COF		CORU	103428000	Corynebacterium ulcerans	3224942	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cd2		Corynebacterium urealyticum	C			+			+			COR	COF		CORU	113613004	Corynebacterium urealyticum	3224959	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
-cxe		Corynebacterium xerosis	C			+			+			COR	COF		CORU	27101006	Corynebacterium xerosis	3224947	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+crn		Corynebacterium renale	C		X	+			+			COR	COF		CORU	62000003	Corynebacterium renale	3224973	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cor	cdp	Corynebacterium sp.	O		X	+			+			COR	COF		CORU	116463006	Corynebacterium species	3224364	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cdp		Corynebacterium sp. (diphtheroids)	C	X	X	+			+			COR	COF		OTH	5851001	Corynebacterium diphtheriae	3224364	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cst		Corynebacterium striatum	C		X	+			+			COR	COF		CORU	63815007	Corynebacterium striatum	3224972	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cul		Corynebacterium ulcerans	C		X	+			+			COR	COF		CORU	103428000	Corynebacterium ulcerans	3224942	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cd2		Corynebacterium urealyticum	C		X	+			+			COR	COF		CORU	113613004	Corynebacterium urealyticum	3224959	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
+cxe		Corynebacterium xerosis	C		X	+			+			COR	COF		CORU	27101006	Corynebacterium xerosis	3224947	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Corynebacterium
 pmy		Cosenzaea myxofaciens	C			-			-	EBC		COS			OTH			8414498	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Cosenzaea
 eru		Cowdria ruminantium	O			-			-			EHR			OTH			3221421	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Ehrlichia
 cbt		Coxiella burnetii	C			-			-			COX			OTH	22533000	Coxiella burnetii	5427774	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Coxiella
@@ -863,8 +863,8 @@ bha		Curvularia hawaiiensis	C			f						CUR						8240153	7ddf754f-d193-4cc9-b351-
 cur		Curvularia sp.	C			f						CUR				5214001	Curvularia	2569225	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Curvularia
 bsi		Curvularia spicifera	C			f						CUR						2615960	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Curvularia
 tmu		Cutaneotrichosporon mucoides	C			f						CUT						9705242	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Tremellomycetes	Trichosporonales	Trichosporonaceae	Cutaneotrichosporon
-pro		Cutibacterium acnes	C			a	X					CUB						9500595	52a423d2-0486-4e77-bcee-6350d708d6ff	homotypic synonym	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
-cub		Cutibacterium sp.	C			a	X					CUB			OTH			9519489	52a423d2-0486-4e77-bcee-6350d708d6ff	doubtful	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Cutibacterium
+pro		Cutibacterium acnes	C		X	a	X					CUB						9500595	52a423d2-0486-4e77-bcee-6350d708d6ff	homotypic synonym	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
+cub		Cutibacterium sp.	C		X	a	X					CUB			OTH			9519489	52a423d2-0486-4e77-bcee-6350d708d6ff	doubtful	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Cutibacterium
 cfb		Cyberlindnera fabianii	C			f						CYB				10151000000000	Cyberlindnera fabianii	3283830	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Phaffomycetaceae	Cyberlindnera
 cut		Cyberlindnera jadinii	C			f						CYB				4281000000000	Cyberlindnera jadinii	3283823	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Phaffomycetaceae	Cyberlindnera
 cyb		Cyberlindnera sp.	C			f						CYB				4601000000000	Genus Cyberlindnera	3283818	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Phaffomycetaceae	Cyberlindnera
@@ -882,11 +882,11 @@ cac		Delftia acidovorans	C			-			-		NFR	DEF			OTH	413887006	Comamonas	3220130	7d
 def		Delftia sp.	C			-			-			DEF			OTH			3220129	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Delftia
 den		Dendrostilbella sp.	C			f						DEN				23496000	Fungus (organism)	2561550	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Leotiomycetes	Helotiales	Tympanidaceae	Dendrostilbella
 dgv		Dengue virus	C			v										34348001	Dengue virus	10333010	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Flaviviridae	Flavivirus
-dho		Dermabacter hominis	C			+			+			DER	COF		OTH	413977006	Dermabacter hominis	3224901	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermabacteraceae	Dermabacter
-der		Dermabacter sp.	C			+			+			DER	COF		OTH	413978001	Dermabacter species	3224900	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermabacteraceae	Dermabacter
+dho		Dermabacter hominis	C		X	+			+			DER	COF		OTH	413977006	Dermabacter hominis	3224901	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermabacteraceae	Dermabacter
+der		Dermabacter sp.	C		X	+			+			DER	COF		OTH	413978001	Dermabacter species	3224900	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermabacteraceae	Dermabacter
 drm		Dermacentor sp.	C			i						DRM				372400006	Dermacentor sp.	2184370	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Animalia	Arthropoda	Arachnida	Ixodida	Ixodidae	Dermacentor
-dni		Dermacoccus nishinomiyaensis	C			+			+			DCC			OTH	113776005	Dermacoccus nishinomiyaensis	3225668	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermacoccaceae	Dermacoccus
-dcc		Dermacoccus sp.	C			+			+			DCC			OTH	115142006	Dermacoccus species	3225666	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermacoccaceae	Dermacoccus
+dni		Dermacoccus nishinomiyaensis	C		X	+			+			DCC			OTH	113776005	Dermacoccus nishinomiyaensis	3225668	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermacoccaceae	Dermacoccus
+dcc		Dermacoccus sp.	C		X	+			+			DCC			OTH	115142006	Dermacoccus species	3225666	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermacoccaceae	Dermacoccus
 dco		Dermatophilus congolensis	C			+			+			DET			OTH	58141003	Dermatophilus congolensis	5427786	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermatophilaceae	Dermatophilus
 det		Dermatophilus sp.	C			+			+			DET			OTH	131242002	Dermatophilus species	3224263	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Dermatophilaceae	Dermatophilus
 dep		Dermatophyte	C			f										115651002	Dermatophyte									
@@ -1088,8 +1088,8 @@ esk		Eubacterium yurii ss. schtitka	C			a	X					EUB						3226395	7ddf754f-d193-4
 eyu		Eubacterium yurii ss. yurii	C			a	X		+			EUB			OTH	52871003	Eubacterium yurii ss. yurii	7234573	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Eubacterium
 ear		Ewingella americana	C			-			-	EBC		EWI			OTH	19027003	Ewingella americana	5427619	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Ewingella
 ewi		Ewingella sp.	C			-			-	EBC		EWI			OTH	131262005	Ewingella species	3221883	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Ewingella
-bay		Exiguobacterium acetylicum	C			+			+			EXI			OTH	114179002	Exiguobacterium acetylicum	3227752	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Exiguobacterium
-exi		Exiguobacterium sp.	C			+			+			EXI			OTH	131404005	Exiguobacterium species	3227748	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Exiguobacterium
+bay		Exiguobacterium acetylicum	C		X	+			+			EXI			OTH	114179002	Exiguobacterium acetylicum	3227752	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Exiguobacterium
+exi		Exiguobacterium sp.	C		X	+			+			EXI			OTH	131404005	Exiguobacterium species	3227748	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Exiguobacterium
 wde		Exophiala dermatitidis	C			f						EXO				12210004	Exophiala	2598450	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala
 pex		Exophiala exophialae	C			f						EXO						2598460	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala
 eje		Exophiala jeanselmei	C			f						EXO				38224003	Exophiala jeanselmei	2598404	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala
@@ -1213,12 +1213,12 @@ gsp		Gnathostoma spinigerum	C			w						GNA				30429007	Gnathostoma spinigerum	45
 cga		Goffeauzyma gastrica	C			f						GOF						9722918	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Tremellomycetes	Filobasidiales	Filobasidiaceae	Goffeauzyma
 dme		Gordius medinensis	C			w						GRD						7013247	80b4b440-eaca-4860-aadf-d0dfdd3e856e	accepted	Animalia	Nematomorpha	Gordioida	Gordioidea	Gordiidae	Gordius
 gai		Gordonia aichiensis	C			+			+			GOR			OTH	416711002	Gordonia aichiensis	5820069	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
-gbr		Gordonia bronchialis	C			+			+			GOR			OTH	113646005	Gordonia bronchialis	5820075	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
-gbp		Gordonia rubripertincta	C			+			+			GOR			OTH			8359290	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
+gbr		Gordonia bronchialis	C		X	+			+			GOR			OTH	113646005	Gordonia bronchialis	5820075	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
+gbp		Gordonia rubripertincta	C		X	+			+			GOR			OTH			8359290	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
 gbp		Gordonia rubropertinctus	O			+			+			GOR			OTH			8359290	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
-gor		Gordonia sp.	C			+			+			GOR			OTH	131264006	Gordonia species	3225515	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
-gsu		Gordonia sputi	C			+			+			GOR			OTH	113648006	Gordonia sputi	8808020	6cfd67d6-4f9b-400b-8549-1933ac27936f	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
-gte		Gordonia terrae	C			+			+			GOR			OTH	425972004	Actinokineospora terrae	5820071	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
+gor		Gordonia sp.	C		X	+			+			GOR			OTH	131264006	Gordonia species	3225515	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
+gsu		Gordonia sputi	C		X	+			+			GOR			OTH	113648006	Gordonia sputi	8808020	6cfd67d6-4f9b-400b-8549-1933ac27936f	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
+gte		Gordonia terrae	C		X	+			+			GOR			OTH	425972004	Actinokineospora terrae	5820071	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Gordonia
 gm-		Gram negative bacteria	C			-			-						OTH	81325006	Gram-negative bacterium									
 gnc		Gram negative cocci	C			-			-						OTH	83045001	Cocci									
 ncb		Gram negative coccobacilli	C			-			-						OTH	103423009	Coccobacilli									
@@ -1377,10 +1377,10 @@ kma		Kluyveromyces fragilis	O			f						KLV				243431000	Kluyveromyces marxianus	
 kla		Kluyveromyces lactis	C			f						KLV				243430004	Kluyveromyces lactis	8681602	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kluyveromyces
 kma		Kluyveromyces marxianus	C			f						KLV				243431000	Kluyveromyces marxianus	2599079	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kluyveromyces
 klv		Kluyveromyces sp.	C			f						KLV				78377004	Kluyveromyces	2599075	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kluyveromyces
-kkr		Kocuria kristinae	C			+			+			KOC			OTH	113772007	Kocuria kristinae	3224639	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
-kro		Kocuria rosea	C			+			+			KOC			OTH	113773002	Kocuria rosea	3224633	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
-koc		Kocuria sp.	C			+			+			KOC			OTH	131316000	Kocuria species	3224630	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
-kva		Kocuria varians	C			+			+			KOC			OTH	113774008	Kocuria varians	3224644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
+kkr		Kocuria kristinae	C		X	+			+			KOC			OTH	113772007	Kocuria kristinae	3224639	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
+kro		Kocuria rosea	C		X	+			+			KOC			OTH	113773002	Kocuria rosea	3224633	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
+koc		Kocuria sp.	C		X	+			+			KOC			OTH	131316000	Kocuria species	3224630	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
+kva		Kocuria varians	C		X	+			+			KOC			OTH	113774008	Kocuria varians	3224644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
 poh		Kodamaea ohmeri	C			f						KOD						3479414	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Metschnikowiaceae	Kodamaea
 yok		Koserella sp.	O			-			-	EBC		YOK			OTH	131296003	Yokenella species	3222022	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Yokenella
 yre		Koserella trabulsii	O			-			-	EBC		YOK			OTH	89477001	89477001	3222023	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Yokenella
@@ -1470,8 +1470,8 @@ lst		Legionella steigerwaltii	C			-			-			LEG			OTH	14121003	Legionella steigerw
 ltu		Legionella tucsonensis	C			-			-			LEG			OTH	103461007	Legionella tucsonensis	3223076	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella
 lwa		Legionella wadsworthii	C			-			-			LEG			OTH	8147000	Legionella wadsworthii	3223037	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella
 lwo		Legionella worsleiensis	C			-			-			LEG			OTH	103462000	Legionella worsleiensis	3223054	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella
-caq		Leifsonia aquatica	C			+			+			LEF	COF		OTH	414591000	Leifsonia aquatica	3225320	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Leifsonia
-lef		Leifsonia sp.	C			+			+			LEF	COF		OTH	414595009	Leifsonia species	8159185	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Leifsonia
+caq		Leifsonia aquatica	C		X	+			+			LEF	COF		OTH	414591000	Leifsonia aquatica	3225320	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Leifsonia
+lef		Leifsonia sp.	C		X	+			+			LEF	COF		OTH	414595009	Leifsonia species	8159185	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Leifsonia
 lme		Leishmania amazonensis	C			w						LEI				89169008	Leishmania mexicana amazonensis	9397608	0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6	accepted	Protozoa	Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania
 lbr		Leishmania braziliensis	C			w						LEI				83196002	Leishmania brasiliensis brasiliensis	9369332	0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6	accepted	Protozoa	Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania
 ldo		Leishmania donovani	C			w						LEI				16043006	Leishmania donovani donovani									
@@ -1568,15 +1568,15 @@ yzh		Meyerozyma carpophila	C			f						MEY	MGX			3541000000000	Candida carpophila
 cgu		Meyerozyma guilliermondii	C			f						MEY	MGX			29812000	Meyerozyma guilliermondii	5893383	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Meyerozyma
 yzg		Meyerozyma guilliermondii complex	C			f						MEY	MGX			29812000	Meyerozyma guilliermondii									
 mey		Meyerozyma sp.	C			f						MEY				718505003		5893380	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Meyerozyma
-mba		Microbacterium arborescens	C			+			+			MIB	COF		OTH	414699006	Microbacterium arborescens	9815015	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
-mim		Microbacterium imperiale	C			+			+			MIB	COF		OTH	114203008	Microbacterium imperiale	3225379	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
-mlq		Microbacterium liquefaciens	C			+			+			MIB	COF		OTH	114063000	Microbacterium liquefaciens	3225433	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
-mox		Microbacterium oxydans	C			+			+			MIB	COF		OTH	414713001	Microbacterium oxydans	3225397	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
-mib		Microbacterium sp.	C			+			+			MIB	COF		OTH	127543009	Microbacterium species	3225370	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
+mba		Microbacterium arborescens	C		X	+			+			MIB	COF		OTH	414699006	Microbacterium arborescens	9815015	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
+mim		Microbacterium imperiale	C		X	+			+			MIB	COF		OTH	114203008	Microbacterium imperiale	3225379	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
+mlq		Microbacterium liquefaciens	C		X	+			+			MIB	COF		OTH	114063000	Microbacterium liquefaciens	3225433	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
+mox		Microbacterium oxydans	C		X	+			+			MIB	COF		OTH	414713001	Microbacterium oxydans	3225397	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
+mib		Microbacterium sp.	C		X	+			+			MIB	COF		OTH	127543009	Microbacterium species	3225370	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Microbacteriaceae	Microbacterium
 kkr		Micrococcus kristinae	O			+			+			KOC			OTH	113772007	Kocuria kristinae	3224639	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
-mlu		Micrococcus luteus	C			+			+			MIC			OTH	48299003	Micrococcus luteus	9096291	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Micrococcus
+mlu		Micrococcus luteus	C		X	+			+			MIC			OTH	48299003	Micrococcus luteus	9096291	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Micrococcus
 kro		Micrococcus roseus	O			+			+			KOC			OTH	113773002	Kocuria rosea	3224633	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
-mic		Micrococcus sp.	C			+			+			MIC			OTH	116486004	Micrococcus species	3224623	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Micrococcus
+mic		Micrococcus sp.	C		X	+			+			MIC			OTH	116486004	Micrococcus species	3224623	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Micrococcus
 kva		Micrococcus varians	O			+			+			KOC			OTH	113774008	Kocuria varians	3224644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Kocuria
 mif		Microfilaria sp.	C			w						MIF				2105009	Microfilaria	7029365	0938172b-2086-439c-a1dd-c21cb0109ed5	accepted	Animalia	Nematoda	Secernentea	Spirurida	Onchocercidae	Microfilaria
 mre		Micropolyspora faeni	O			+			+			SAH			OTH	113657000	Saccharopolyspora rectivirgula	3224825	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Pseudonocardiaceae	Saccharopolyspora
@@ -1876,7 +1876,7 @@ obv		Ockelbovirus???	C			v										312318005	Ockelbo virus
 bsp		Odoribacter splanchnicus	C			a	X		-			ODR			OTH			7623495	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Odoribacter
 ooe		Oenococcus oeni	C			+			+			OEN			OTH	113893001	Oenococcus oeni	3227446	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Oenococcus
 oen		Oenococcus sp.	C			+			+			OEN			OTH	116411004	Oenococcus species	3227445	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Oenococcus
-oer		Oerskovia sp.	C			+			+			OER	COF		OTH	81194007	Oerskovia species	3224271	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Cellulomonadaceae	Oerskovia
+oer		Oerskovia sp.	C		X	+			+			OER	COF		OTH	81194007	Oerskovia species	3224271	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Cellulomonadaceae	Oerskovia
 otu		Oerskovia turbata	C			+			+			OER	COF		OTH			3224275	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Cellulomonadaceae	Oerskovia
 cce		Oerskovia xanthineolytica	O			+			+			CEM	COF		OTH	409864003	Cellulosimicrobium cellulans	3224912	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Promicromonosporaceae	Cellulosimicrobium
 hpo		Ogataea polymorpha	C			f						OGA						2599388	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Ogataea
@@ -1903,11 +1903,11 @@ hvi		Orthohantavirus	C			v												10216207	e01b0cbb-a10a-420c-b5f3-a3b20cc26
 oth		Other	C			o							XXX													
 pli		Paecilomyces lilacinus	O			f						PUR						8276361	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Ophiocordycipitaceae	Purpureocillium
 pac		Paecilomyces sp.	C			f						PAC				372326000	Paecilomyces species	2560478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Paecilomyces
-bal		Paenibacillus alvei	C			+			+			PAB			OTH	114088008	Paenibacillus alvei	3227606	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
-pbl		Paenibacillus larvae	C			+			+			PAB			OTH			8373079	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
-bmc		Paenibacillus macerans	C			+			+			PAB			OTH	114101003	Paenibacillus macerans	3227635	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
-bpo		Paenibacillus polymyxa	C			+			+			PAB			OTH	114105007	Paenibacillus polymyxa	3227595	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
-pab		Paenibacillus sp.	C			+			+			PAB			OTH	127542004	Paenibacillus species	3227538	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
+bal		Paenibacillus alvei	C		X	+			+			PAB			OTH	114088008	Paenibacillus alvei	3227606	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
+pbl		Paenibacillus larvae	C		X	+			+			PAB			OTH			8373079	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
+bmc		Paenibacillus macerans	C		X	+			+			PAB			OTH	114101003	Paenibacillus macerans	3227635	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
+bpo		Paenibacillus polymyxa	C		X	+			+			PAB			OTH	114105007	Paenibacillus polymyxa	3227595	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
+pab		Paenibacillus sp.	C		X	+			+			PAB			OTH	127542004	Paenibacillus species	3227538	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Paenibacillus
 pnd		Pandoraea sp.	C			-			-		NFR	PND			OTH	414998001	Genus Pandoraea	3219888	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Pandoraea
 eag		Pantoea agglomerans	C			-			-	EBC		PAN			OTH	115015008	Pantoea agglomerans	8905302	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pantoea
 pan		Pantoea sp.	C			-			-	EBC		PAN			OTH	115015008	Pantoea agglomerans	3221840	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pantoea
@@ -2073,12 +2073,12 @@ pvr		Prevotella veroralis	C			a	X		-			PRT			OTH	114152001	Prevotella veroralis	
 pzg		Prevotella zoogleoformans	C			a	X		-			PRT			OTH	114129000	Prevotella	9143126	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella
 pro		Propionibacterium acnes	O			a	X					CUB						9500595	52a423d2-0486-4e77-bcee-6350d708d6ff	homotypic synonym	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
 pad		Propionibacterium avidum	C			a	X		+			PRP			OTH	47473006	Propionibacterium avidum	3225694	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
-pfr		Propionibacterium freudenreichii	C			a	X		+			PRP			OTH	23871008	Propionibacterium freudenreichii	3225691	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
+pfr		Propionibacterium freudenreichii	C		X	a	X		+			PRP			OTH	23871008	Propionibacterium freudenreichii	3225691	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
 pgr		Propionibacterium granulosum	C			a	X		+			PRP			OTH	87755005	Propionibacterium granulosum	3225699	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
 pje		Propionibacterium jensenii	C			a	X		+			PRP			OTH	86720000	Propionibacterium jensenii	3225702	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
 plm		Propionibacterium lymphophilum	O			a	X		+			PRO			OTH			3225684	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionimicrobium
 ppr		Propionibacterium propionicum	O			a	X					PUP						9309860	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteriota	Actinomycetia	Propionibacteriales	Propionibacteriaceae	Pseudopropionibacterium
-prp		Propionibacterium sp.	C			a	X		+			PRP			OTH	131348001	Propionibacterium species	3225689	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
+prp		Propionibacterium sp.	C		X	a	X		+			PRP			OTH	131348001	Propionibacterium species	3225689	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
 pth		Propionibacterium thoenii	C			a	X		+			PRP			OTH	30087004	Propionibacterium thoenii	3225695	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionibacterium
 prn		Propionigenium sp.	C			a	X		-			PRN			OTH	23496000	Fungus (organism)	3225867	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Propionigenium
 plm		Propionimicrobium lymphophilum	C			a	X		+			PRO			OTH			3225684	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Propionibacteriaceae	Propionimicrobium
@@ -2192,8 +2192,8 @@ ror	rar	Rhizopus oryzae	O			f						RHZ				17683005	Rhizopus	7258386	7ddf754f-d19
 rhz		Rhizopus sp.	C			f						RHZ				372339001	Rhizopus species	2558384	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Zygomycota	Mucoromycetes	Mucorales	Rhizopodaceae	Rhizopus
 rst		Rhizopus stolonifer	C			f						RHZ				37060000	Rhizopus stolonifer	2558944	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Zygomycota	Mucoromycetes	Mucorales	Rhizopodaceae	Rhizopus
 req		Rhodococcus equi	C			+			+			RHD			OTH	80771008	Rhodococcus equi	5427801	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Rhodococcus
-rrh		Rhodococcus rhodochrous	C			+			+			RHD			OTH	54379008	Rhodococcus rhodochrous	5427812	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Rhodococcus
-rhd		Rhodococcus sp.	C			+			+			RHD			OTH	131350009	Rhodococcus species	3224437	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Rhodococcus
+rrh		Rhodococcus rhodochrous	C		X	+			+			RHD			OTH	54379008	Rhodococcus rhodochrous	5427812	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Rhodococcus
+rhd		Rhodococcus sp.	C		X	+			+			RHD			OTH	131350009	Rhodococcus species	3224437	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Nocardiaceae	Rhodococcus
 rgl		Rhodotorula glutinis	C			f						RHO				69250004	Rhodotorula glutinis	2556470	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula
 rmi		Rhodotorula minuta	O			f						CYS						7535089	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Cystobasidiomycetes	Cystobasidiales	Cystobasidiaceae	Cystobasidium
 rmu		Rhodotorula mucilaginosa	C			f						RHO				51976007	Rhodotorula	2556492	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula
@@ -2216,17 +2216,17 @@ bqu		Rochalimaea quintana	O			-			-			BAR			OTH	103511001	Bartonella quintana	32
 bvi		Rochalimaea vinsonii	O			-			-			BAR			OTH	103512008	Bartonella vinsonii									
 hna		Rodentolepis nana	C			w						ROD						4413352	4dd32523-a3a3-43b7-84df-4cda02f15cf7	accepted	Animalia	Platyhelminthes	Cestoda	Cyclophyllidea	Hymenolepididae	Rodentolepis
 rob		Roseburia sp.	C			a	X		+			ROB			OTH	438129001	Genus Roseburia	3226806	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia
-rce		Roseomonas cervicalis	C			-			-		NFR	ROS			OTH	113711006	Roseomonas cervicalis	9087915	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
+rce		Roseomonas cervicalis	C		X	-			-		NFR	ROS			OTH	113711006	Roseomonas cervicalis	9087915	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
 rfa		Roseomonas fauriae	O			-			-		NFR	AZO			OTH			5910930	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum
 ro4		Roseomonas genomospecies 4	C			-			-		NFR	ROS		GRC		115159001	Roseomonas									
 ro5		Roseomonas genomospecies 5	C			-			-		NFR	ROS		GRC		415350007	Roseomonas genomospecies 5									
 ro6		Roseomonas genomospecies 6	C			-			-		NFR	ROS		GRC		115159001	Roseomonas									
-rgi		Roseomonas gilardii	C			-			-		NFR	ROS			OTH	113710007	Roseomonas gilardii	9106335	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
-ros		Roseomonas sp.	C			-			-		NFR	ROS			OTH	131291008	Roseomonas species	3221509	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
+rgi		Roseomonas gilardii	C		X	-			-		NFR	ROS			OTH	113710007	Roseomonas gilardii	9106335	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
+ros		Roseomonas sp.	C		X	-			-		NFR	ROS			OTH	131291008	Roseomonas species	3221509	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas
 rtv		Rotavirus	C			v										66932002	Ramichloridium	9860749	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Reoviridae	Rotavirus
-rde		Rothia dentocariosa	C			+			+			ROT	COF		BAC+	35379007	Rothia dentocariosa	5427830	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
-smg		Rothia mucilaginosa	C			+			+			ROT	COF	GRB		416544005	Rothia mucilaginosa	5427828	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
-rot		Rothia sp.	C			+			+			ROT	COF		BAC+	415355002	Rothia species	3224616	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
+rde		Rothia dentocariosa	C		X	+			+			ROT	COF		BAC+	35379007	Rothia dentocariosa	5427830	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
+smg		Rothia mucilaginosa	C		X	+			+			ROT	COF	GRB		416544005	Rothia mucilaginosa	5427828	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
+rot		Rothia sp.	C		X	+			+			ROT	COF		BAC+	415355002	Rothia species	3224616	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
 ruv		Rubella virus	C			v										5210005	Rubella virus	10201068	e01b0cbb-a10a-420c-b5f3-a3b20cc266ad	accepted	Viruses				Togaviridae	Rubivirus
 rub		Ruminobacter sp.	C			a	X		-			RUB			OTH	131352001	Ruminobacter species	3222906	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Succinivibrionaceae	Ruminobacter
 rha		Ruminococcus hansenii	O			a	X		+			BLT			OTH			7617182	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales		Blautia
@@ -2566,56 +2566,56 @@ spt		Sporotrichum sp.	C			f						SPT				125053004	Sporotrichum species	2518109	7
 sby		Stachybotrys sp.	C			f						SBT				61175005	Stachybotrys	9438147	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Stachybotryaceae	Stachybotrys
 sep		Staphylococcus albus	O	X		+			+			STA	SCN		CONS	60875001	Staphylococcus epidermidis	3227655	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 srg		Staphylococcus argenteus	C			+			+			STA				782316009	Staphylococcus argenteus	7748131	a97f36e5-ded1-49cc-bdec-ac6170fc7b9c	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sae		Staphylococcus arlettae	C			+			+			STA	SCN		OTH	72465001	Staphylococcus arlettae	3227713	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sae		Staphylococcus arlettae	C		X	+			+			STA	SCN		OTH	72465001	Staphylococcus arlettae	3227713	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sau		Staphylococcus aureus	O	X		+			+			STA	SC+		STAS	113961008	Staphylococcus aureus ss aureus	7234582	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sau		Staphylococcus aureus ss. aureus	C	X		+			+			STA	SC+		STAS	113961008	Staphylococcus aureus ss aureus	7234582	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sai		Staphylococcus auricularis	C			+			+			STA	SCN		OTH	45654003	Staphylococcus auricularis	3227679	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sca		Staphylococcus capitis	O			+			+			STA	SCN		CONS	113962001	Staphylococcus capitis ss capitis	7073644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sca		Staphylococcus capitis ss. capitis	C			+			+			STA	SCN		CONS	113962001	Staphylococcus capitis ss capitis	7073644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sur		Staphylococcus capitis ss. ureolyticus	O			+			+			STA	SCN		CONS			3227693	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sai		Staphylococcus auricularis	C		X	+			+			STA	SCN		OTH	45654003	Staphylococcus auricularis	3227679	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sca		Staphylococcus capitis	O		X	+			+			STA	SCN		CONS	113962001	Staphylococcus capitis ss capitis	7073644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sca		Staphylococcus capitis ss. capitis	C		X	+			+			STA	SCN		CONS	113962001	Staphylococcus capitis ss capitis	7073644	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sur		Staphylococcus capitis ss. ureolyticus	O		X	+			+			STA	SCN		CONS			3227693	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sur		Staphylococcus capitis urealyticus	C			+			+			STA	SCN		CONS			3227693	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-scp		Staphylococcus caprae	C			+			+			STA	SCN		OTH	76969000	Staphylococcus caprae	8953383	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-scu		Staphylococcus carnosus	C			+			+			STA	SCN		OTH	9784002	Staphylococcus carnosus	3227684	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+scp		Staphylococcus caprae	C		X	+			+			STA	SCN		OTH	76969000	Staphylococcus caprae	8953383	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+scu		Staphylococcus carnosus	C		X	+			+			STA	SCN		OTH	9784002	Staphylococcus carnosus	3227684	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 scl		Staphylococcus caseolyticus	O			+			+			MCC			OTH	416613009	Macrococcus caseolyticus	3227726	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Macrococcus
-scg		Staphylococcus chromogenes	C			+			+			STA	SCN		OTH	56629004	Staphylococcus chromogenes	3227714	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+scg		Staphylococcus chromogenes	C		X	+			+			STA	SCN		OTH	56629004	Staphylococcus chromogenes	3227714	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 slc		Staphylococcus coagulans	O			+			+			STA	SC+		OTH	113974002	Staphylococcus schleiferi ss coagulans	3227661	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-stc		Staphylococcus cohnii	O			+			+			STA	SCN		CONS	113963006	Staphylococcus cohnii ss cohnii	7073646	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+stc		Staphylococcus cohnii	O		X	+			+			STA	SCN		CONS	113963006	Staphylococcus cohnii ss cohnii	7073646	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 stc		Staphylococcus cohnii ss. cohnii	C			+			+			STA	SCN		CONS	113963006	Staphylococcus cohnii ss cohnii	7073646	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sul		Staphylococcus cohnii ss. urealyticus	C			+			+			STA	SCN			103493004	Staphylococcus cohnii ss. urealyticum	3227678	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sde		Staphylococcus delphini	C			+			+			STA	SC+		OTH	113964000	Staphylococcus delphini	3227691	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sep		Staphylococcus epidermidis	C	X		+			+			STA	SCN		CONS	60875001	Staphylococcus epidermidis	3227655	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-seq		Staphylococcus equorum	C			+			+			STA	SCN		OTH	28217008	Staphylococcus equorum	3227695	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sfe		Staphylococcus felis	C			+			+			STA	SCN		OTH	113965004	Staphylococcus felis	3227683	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sgl		Staphylococcus gallinarum	C			+			+			STA	SCN		OTH	8056006	Staphylococcus gallinarum	3227716	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-shl		Staphylococcus haemolyticus	C			+			+			STA	SCN		CONS	83452006	Staphylococcus haemolyticus	3227680	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sho		Staphylococcus hominis	O			+			+			STA	SCN		CONS	44827007	Staphylococcus hominis	3227689	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sep		Staphylococcus epidermidis	C	X	X	+			+			STA	SCN		CONS	60875001	Staphylococcus epidermidis	3227655	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+seq		Staphylococcus equorum	C		X	+			+			STA	SCN		OTH	28217008	Staphylococcus equorum	3227695	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sfe		Staphylococcus felis	C		X	+			+			STA	SCN		OTH	113965004	Staphylococcus felis	3227683	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sgl		Staphylococcus gallinarum	C		X	+			+			STA	SCN		OTH	8056006	Staphylococcus gallinarum	3227716	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+shl		Staphylococcus haemolyticus	C		X	+			+			STA	SCN		CONS	83452006	Staphylococcus haemolyticus	3227680	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sho		Staphylococcus hominis	O		X	+			+			STA	SCN		CONS	44827007	Staphylococcus hominis	3227689	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sho		Staphylococcus hominis ss. hominis	C			+			+			STA	SCN		CONS	44827007	Staphylococcus hominis	3227689	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 snb		Staphylococcus hominis ss. novobiosepticus	C			+			+			STA	SCN		CONS	44827007	Staphylococcus hominis	3227690	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 shy		Staphylococcus hyicus	C			+			+			STA	SC+		CONS	19683001	Staphylococcus hyicus	3227717	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sit		Staphylococcus intermedius	C			+			+			STA	SC+		OTH	34605002	Staphylococcus intermedius	3227666	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-skl		Staphylococcus kloosii	C			+			+			STA	SCN		OTH	53227003	Staphylococcus kloosii	3227706	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+skl		Staphylococcus kloosii	C		X	+			+			STA	SCN		OTH	53227003	Staphylococcus kloosii	3227706	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sle		Staphylococcus lentus	C			+			+			STA	SCN		OTH			3227664	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-slu		Staphylococcus lugdunensis	C			+			+			STA	SCN		CONS	103494005	Staphylococcus lugdunensis	3227663	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sms		Staphylococcus muscae	C			+			+			STA	SCN		OTH	113969005	Staphylococcus muscae	3227710	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-stt		Staphylococcus pasteuri	C			+			+			STA	SCN		OTH	103495006	Staphylococcus pasteuri	3227709	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sps		Staphylococcus piscifermentans	C			+			+			STA	SCN		OTH	113970006	Staphylococcus piscifermentans	3227672	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+slu		Staphylococcus lugdunensis	C		X	+			+			STA	SCN		CONS	103494005	Staphylococcus lugdunensis	3227663	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sms		Staphylococcus muscae	C		X	+			+			STA	SCN		OTH	113969005	Staphylococcus muscae	3227710	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+stt		Staphylococcus pasteuri	C		X	+			+			STA	SCN		OTH	103495006	Staphylococcus pasteuri	3227709	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sps		Staphylococcus piscifermentans	C		X	+			+			STA	SCN		OTH	113970006	Staphylococcus piscifermentans	3227672	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 psd		Staphylococcus pseudintermedius	C			+			+			STA	SC+		CONS	427316000	Staphylococcus pseudintermedius	3227682	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 spv		Staphylococcus pulvereri	O			+			+			STA	SCN		OTH	113971005	Staphylococcus pulvereri	7439950	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-pps		Staphylococcus saccharolyticus	C			a	X		+			STA			OTH	41103009	Staphylococcus saccharolyticus	3227667	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sap		Staphylococcus saprophyticus	O	X		+			+			STA	SCN		CONS	113973008	Staphylococcus saprophyticus ss saprophyticus	7234581	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+pps		Staphylococcus saccharolyticus	C		X	a	X		+			STA			OTH	41103009	Staphylococcus saccharolyticus	3227667	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sap		Staphylococcus saprophyticus	O	X	X	+			+			STA	SCN		CONS	113973008	Staphylococcus saprophyticus ss saprophyticus	7234581	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 ssb		Staphylococcus saprophyticus ss. bovis	C			+			+			STA	SCN		CONS	113972003	Staphylococcus saprophyticus ss bovis	3227705	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sap		Staphylococcus saprophyticus ss. saprophyticus	C	X		+			+			STA	SCN		CONS	113973008	Staphylococcus saprophyticus ss saprophyticus	7234581	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 slc		Staphylococcus schleiferi ss. coagulans	C			+			+			STA	SC+		OTH	113974002	Staphylococcus schleiferi ss coagulans	3227661	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-ssf		Staphylococcus schleiferi ss. schleiferi	C			+			+			STA	SCN		CONS	103496007	Staphylococcus schleiferi ss. schleiferi	7234580	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+ssf		Staphylococcus schleiferi ss. schleiferi	C		X	+			+			STA	SCN		CONS	103496007	Staphylococcus schleiferi ss. schleiferi	7234580	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 ssr		Staphylococcus sciuri	O			+			+			STA	SCN		CONS	70806002	Staphylococcus sciuri									
 sle		Staphylococcus sciuri ss. lentus	O			+			+			STA	SCN		OTH			3227664	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 ssr		Staphylococcus sciuri ss. sciuri	C			+			+			STA	SCN		CONS	70806002	Staphylococcus sciuri									
-ssi		Staphylococcus simulans	C			+			+			STA	SCN		CONS	52122005	Staphylococcus simulans	3227708	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+ssi		Staphylococcus simulans	C		X	+			+			STA	SCN		CONS	52122005	Staphylococcus simulans	3227708	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sta		Staphylococcus sp.	C			+			+			STA			OTH	116499001	Staphylococcus species	7945561	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 spv		Staphylococcus vitulinus	C			+			+			STA	SCN		OTH	113971005	Staphylococcus pulvereri	7439950	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-swa		Staphylococcus warneri	C			+			+			STA	SCN		CONS	63550006	Staphylococcus warneri	3227675	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-sxy		Staphylococcus xylosus	C			+			+			STA	SCN		CONS	32737005	Staphylococcus xylosus	3227711	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
-scn		Staphylococcus, coagulase negative	C	X		+			+			STA	SCN		CONS	116197008	Staphylococcus, coagulase negative				Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+swa		Staphylococcus warneri	C		X	+			+			STA	SCN		CONS	63550006	Staphylococcus warneri	3227675	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+sxy		Staphylococcus xylosus	C		X	+			+			STA	SCN		CONS	32737005	Staphylococcus xylosus	3227711	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
+scn		Staphylococcus, coagulase negative	C	X	X	+			+			STA	SCN		CONS	116197008	Staphylococcus, coagulase negative				Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 sc+		Staphylococcus, coagulase positive	C			+			+			STA	SC+		STAS	127535004	Staphylococcus, coagulase positive				Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 stl		Stemphylium sp.	C			f						STL				90824006	Stemphylium	2592424	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Stemphylium
 stu		Stenella araguata	C			f						STN				83210003	Stenella araguata	5264902	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Stenella
@@ -2629,20 +2629,20 @@ stb		Streptobacillus sp.	C			-			-			STB			OTH	419405003	Streptobacillus species
 sad		Streptococcus acidominimus	C			+			+			STR	SVI		OTH	51182006	Streptococcus acidominimus	3227056	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 saj		Streptococcus adjacens	O			+			+			GCT			OTH	113713009	Granulicatella adiacens	3227166	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella
 sgc		Streptococcus agalactiae	C			+			+			STR	BS-		LCHS	34228005	Streptococcus alactolyticus	3227057	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sly		Streptococcus alactolyticus	C			+			+			STR			OTH	34228005	Streptococcus alactolyticus	3227053	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-san		Streptococcus anginosus	C			+			+			STR	SVI		ANGU	44304009	Streptococcus anginosus	3227084	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sly		Streptococcus alactolyticus	C		X	+			+			STR			OTH	34228005	Streptococcus alactolyticus	3227053	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+san		Streptococcus anginosus	C		X	+			+			STR	SVI		ANGU	44304009	Streptococcus anginosus	3227084	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sbo		Streptococcus bovis	C			+			+			STR			VIRP	420625000	Streptococcus bovis group	3227123	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sgy		Streptococcus bovis I	O			+			+			STR			OTH	421544007	Streptococcus gallolyticus subspecies gallolyticus	7234590	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sb2		Streptococcus bovis II	C			+			+			STR				420625000	Streptococcus bovis group									
 sbv		Streptococcus bovis-variant	C			+			+			STR				420625000	Streptococcus bovis group									
 tcn		Streptococcus canis	C			+			+			STR	BS-		OTH	88231003	Streptococcus canis	3227060	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sct		Streptococcus constellatus	C			+			+			STR	SVI		ANGU	76199005	Streptococcus constellatus									
+sct		Streptococcus constellatus	C		X	+			+			STR	SVI		ANGU	76199005	Streptococcus constellatus									
 scr		Streptococcus cremoris	O			+			+			LAT			OTH	81454004	Lactococcus lactis subspecies cremoris	3227133	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus
-scc		Streptococcus criceti	C			+			+			STR	SVI			34838009	Streptococcus criceti	7562425	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+scc		Streptococcus criceti	C		X	+			+			STR	SVI			34838009	Streptococcus criceti	7562425	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 src		Streptococcus crista	O			+			+			STR	SVI		OTH	113980005	Streptococcus cristatus	7968001	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-src		Streptococcus cristatus	C			+			+			STR	SVI		OTH	113980005	Streptococcus cristatus	7968001	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+src		Streptococcus cristatus	C		X	+			+			STR	SVI		OTH	113980005	Streptococcus cristatus	7968001	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sdf		Streptococcus defectivus	O			+			+			ABI			OTH	113714003	Abiotrophia defectiva	3227009	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Abiotrophia
-sdo		Streptococcus downei	C			+			+			STR	SVI		OTH	116501009	Streptococcus species	3227065	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sdo		Streptococcus downei	C		X	+			+			STR	SVI		OTH	116501009	Streptococcus species	3227065	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 edu		Streptococcus durans	O			+			+			ENT			ENTS	46464008	Enterococcus durans	9669710	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 sdy		Streptococcus dysgalactiae	O			+			+			STR	BS-		LCHS	128338004	Streptococcus dysgalactiae subspecies dysgalactiae	3227095	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sdy		Streptococcus dysgalactiae ss. dysgalactiae	C			+			+			STR	BS-		LCHS	128338004	Streptococcus dysgalactiae subspecies dysgalactiae	3227095	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
@@ -2650,42 +2650,42 @@ sqm		Streptococcus dysgalactiae ss. equisimilis	C			+			+			STR	BS-		LCHS	113984
 squ		Streptococcus equi	O			+			+			STR	BS-		LCHS	33708000	Streptococcus equi subspecies equi	3227116	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 squ		Streptococcus equi ss. equi	C			+			+			STR	BS-		LCHS	33708000	Streptococcus equi subspecies equi	3227116	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 szo		Streptococcus equi ss. zooepidemicus	C			+			+			STR	BS-		LCHS	44106000	Streptococcus equi subspecies zooepidemicus	9684867	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sqn		Streptococcus equinus	C			+			+			STR	SVI		OTH	72646003	Streptococcus equinus	3227127	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sqn		Streptococcus equinus	C		X	+			+			STR	SVI		OTH	72646003	Streptococcus equinus	3227127	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sqm		Streptococcus equisimilis	O			+			+			STR	BS-		LCHS	113984001	Streptococcus dysgalactiae subspecies equisimilis	3227096	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 efa		Streptococcus faecalis	O	X		+			+			ENT			ENTS	78065002	Enterococcus fecalis	3227408	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 efm		Streptococcus faecium	O	X		+			+			ENT			ENTS	90272000	Enterococcus faecium	3227413	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
-sfr		Streptococcus ferus	C			+			+			STR	SVI		OTH	10049004	Streptococcus ferus	3227112	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sgy		Streptococcus gallolyticus ss. gallolyticus	C			+			+			STR			OTH	421544007	Streptococcus gallolyticus subspecies gallolyticus	7234590	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-spu		Streptococcus gallolyticus ss. pasteurianus	C			+			+			STR			OTH	421253004	Streptococcus gallolyticus subspecies pasteurianus	3227070	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sgo		Streptococcus gordonii	C			+			+			STR	SVI		OTH	113986004	Streptococcus gordonii	3227111	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sfr		Streptococcus ferus	C		X	+			+			STR	SVI		OTH	10049004	Streptococcus ferus	3227112	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sgy		Streptococcus gallolyticus ss. gallolyticus	C		X	+			+			STR			OTH	421544007	Streptococcus gallolyticus subspecies gallolyticus	7234590	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+spu		Streptococcus gallolyticus ss. pasteurianus	C		X	+			+			STR			OTH	421253004	Streptococcus gallolyticus subspecies pasteurianus	3227070	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sgo		Streptococcus gordonii	C		X	+			+			STR	SVI		OTH	113986004	Streptococcus gordonii	3227111	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 rha		Streptococcus hansenii	O			a	X		+			BLT			OTH			7617182	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Clostridia	Clostridiales		Blautia
 shf		Streptococcus hyointestinalis	C			+			+			STR	BS-		OTH	113987008	Streptococcus hyointestinalis	3227081	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sia		Streptococcus infantarius	C			+			+			STR	BS-		OTH	415603007	Streptococcus infantarius	3227099	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sia		Streptococcus infantarius	C		X	+			+			STR	BS-		OTH	415603007	Streptococcus infantarius	3227099	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sil		Streptococcus infantarius ss. coli	C			+			+			STR	BS-		OTH	415605000	Streptococcus lutetiensis	3227101	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sir		Streptococcus infantarius ss. infantarius	C			+			+			STR	BS-		OTH	415603007	Streptococcus infantarius	3227100	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sei		Streptococcus infantis	C			+			+			STR				415604001	Streptococcus infantis	11025282		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sir		Streptococcus infantarius ss. infantarius	C		X	+			+			STR	BS-		OTH	415603007	Streptococcus infantarius	3227100	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sei		Streptococcus infantis	C		X	+			+			STR				415604001	Streptococcus infantis	11025282		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 std		Streptococcus iniae	C			+			+			STR			OTH	79050007	Streptococcus iniae	3227110	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sin		Streptococcus intermedius	C			+			+			STR	SVI		ANGU	62170002	Streptococcus intermedius	8820630	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sin		Streptococcus intermedius	C		X	+			+			STR	SVI		ANGU	62170002	Streptococcus intermedius	8820630	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 lla		Streptococcus lactis	O			+			+			LAT			OTH	38518005	Lactococcus lactis subspecies lactis	7234591	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus
-lut		Streptococcus lutetiensis	C			+			+			STR	BS-		OTH	415605000	Streptococcus lutetiensis	3227087	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-smc		Streptococcus macacae	C			+			+			STR	SVI		OTH	59717000	Streptococcus macacae	3227106	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+lut		Streptococcus lutetiensis	C		X	+			+			STR	BS-		OTH	415605000	Streptococcus lutetiensis	3227087	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+smc		Streptococcus macacae	C		X	+			+			STR	SVI		OTH	59717000	Streptococcus macacae	3227106	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 smi		Streptococcus milleri	C			+			+			STR	SVI			53056008	Streptococcus milleri									
-smt		Streptococcus mitis	C			+			+			STR	SVI		VIRP	57997003	Streptococcus mitis	3227079	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+smt		Streptococcus mitis	C		X	+			+			STR	SVI		VIRP	57997003	Streptococcus mitis	3227079	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 gmo		Streptococcus morbillorum	O			a	X		+			GEM			OTH	113765006	Gemella morbillorum	5427987	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Bacillales		Gemella
-smu		Streptococcus mutans	C			+			+			STR	SVI		OTH	214001	Streptococcus mutans	3227119	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sol		Streptococcus oralis	C			+			+			STR	SVI		VIRP	19870004	Streptococcus oralis	3227086	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sgu		Streptococcus parasanguinis	C			+			+			STR	SVI		OTH			7534795	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+smu		Streptococcus mutans	C		X	+			+			STR	SVI		OTH	214001	Streptococcus mutans	3227119	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sol		Streptococcus oralis	C		X	+			+			STR	SVI		VIRP	19870004	Streptococcus oralis	3227086	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sgu		Streptococcus parasanguinis	C		X	+			+			STR	SVI		OTH			7534795	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 apv		Streptococcus parvulus	O			a	X		+			ATO			OTH	113631003	Atopobium parvulum	3223450	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Coriobacteriales	Coriobacteriaceae	Atopobium
 spu		Streptococcus pasteurianus	O			+			+			STR			OTH	421253004	Streptococcus gallolyticus subspecies pasteurianus	3227070	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 spp		Streptococcus pleomorphus	C			a	X		+			STR			OTH	32134008	Streptococcus pleomorphus	3227061	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 mpl		Streptococcus pluton	O			+			+			MLS			OTH			8110633	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus
 spn		Streptococcus pneumoniae	C	X		+			+			STR			STRP	9861002	Streptococcus pneumoniae	3227089	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sti		Streptococcus porcinus	C			+			+			STR	BS-		OTH	59512008	Streptococcus porcinus	3227108	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-pdo		Streptococcus pseudopneumoniae	C			+			+			STR			OTH	420470004	Streptococcus pseudopneumoniae	3227104	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+pdo		Streptococcus pseudopneumoniae	C		X	+			+			STR			OTH	420470004	Streptococcus pseudopneumoniae	3227104	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 spy		Streptococcus pyogenes	C			+			+			STR	BS-		LCHS	80166006	Streptococcus pyogenes	3227092	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-srt		Streptococcus ratti	C			+			+			STR	SVI			10667007	Streptococcus ratti	7994768	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-ssa		Streptococcus salivarius	C			+			+			STR	SVI		OTH	39888004	Streptococcus salivarius	3227082	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-ssn		Streptococcus sanguinis	C			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis group	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+srt		Streptococcus ratti	C		X	+			+			STR	SVI			10667007	Streptococcus ratti	7994768	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+ssa		Streptococcus salivarius	C		X	+			+			STR	SVI		OTH	39888004	Streptococcus salivarius	3227082	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+ssn		Streptococcus sanguinis	C		X	+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis group	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 ss1		Streptococcus sanguinis I	C			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis group	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 ss2		Streptococcus sanguinis II	C			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis II	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 ss3		Streptococcus sanguinis III	C			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis group	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
@@ -2693,12 +2693,12 @@ ssn		Streptococcus sanguis	O			+			+			STR	SVI		VIRP	42985004	Streptococcus sang
 ss1		Streptococcus sanguis I	O			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis group	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 ss2		Streptococcus sanguis II	O			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis II	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 ss3		Streptococcus sanguis III	O			+			+			STR	SVI		VIRP	42985004	Streptococcus sanguis group	7939327	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sso		Streptococcus sobrinus	C			+			+			STR	SVI		OTH	43777007	Streptococcus sobrinus	9743248	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sso		Streptococcus sobrinus	C		X	+			+			STR	SVI		OTH	43777007	Streptococcus sobrinus	9743248	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 str		Streptococcus sp.	C			+			+			STR			OTH	116501009	Streptococcus species	3223465	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sui		Streptococcus suis	C			+			+			STR	SVI		VIRP	7912006	Streptococcus suis	3227052	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sth		Streptococcus thoraltensis	C			+			+			STR			OTH	113997004	Streptococcus thoraltensis	3227109	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 sub		Streptococcus uberis	C			+			+			STR	SVI		OTH	13250005	Streptococcus uberis	3227044	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
-sve		Streptococcus vestibularis	C			+			+			STR	SVI		OTH	113998009	Streptococcus vestibularis	3227097	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
+sve		Streptococcus vestibularis	C		X	+			+			STR	SVI		OTH	113998009	Streptococcus vestibularis	3227097	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 svi		Streptococcus viridans, alpha-hem.	C	X		+			+			STR	SVI			418909007	Streptococcus, viridans group									
 szo		Streptococcus zooepidemicus	O			+			+			STR	BS-		LCHS	44106000	Streptococcus equi subspecies zooepidemicus	9684867	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus
 dxe		Streptococcus, Group D (non-enterococcal)	C			+			+			STR			OTH	55547008	Streptococcus, group D									
@@ -2819,10 +2819,10 @@ trt		Tricothecium sp.	C			f						TRT
 tfo		Tritrichomonas foetus	O			w						TTC						8604411	a6c6cead-b5ce-4a4e-8cf5-1542ba708dec	accepted	Protozoa	Sarcomastigophora	Zoomastigophora	Trichomonadida	Trichomonadidae	Tritrichomonas
 ttc		Tritrichomonas sp.	C			w						TTC						3208058	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Protozoa	Sarcomastigophora	Zoomastigophora	Trichomonadida	Trichomonadidae	Tritrichomonas
 tfo		Tritrichomonas suis	C			w						TTC						8604411	a6c6cead-b5ce-4a4e-8cf5-1542ba708dec	accepted	Protozoa	Sarcomastigophora	Zoomastigophora	Trichomonadida	Trichomonadidae	Tritrichomonas
-tbn		Trueperella bernardiae	C			+			+			TRL	COF		OTH	704975008	Trueperella bernardiae	7351880	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
-apy		Trueperella pyogenes	C			+			+			TRL	COF		OTH			8216478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
+tbn		Trueperella bernardiae	C		X	+			+			TRL	COF		OTH	704975008	Trueperella bernardiae	7351880	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
+apy		Trueperella pyogenes	C		X	+			+			TRL	COF		OTH			8216478	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
 apk		Trueperella pyogenes-like bacteria	C			+			+			TRL	COF		OTH											
-trl		Trueperella sp.	C			+			+			TRL	COF		OTH	704974007	Trueperella sp.	7796428	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
+trl		Trueperella sp.	C		X	+			+			TRL	COF		OTH	704974007	Trueperella sp.	7796428	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Actinomycetaceae	Trueperella
 trr		Trypanosoma brucei ss. brucei	C			w						TRP				74238009	Trypanosoma brucei ss. brucei	7353804	80b4b440-eaca-4860-aadf-d0dfdd3e856e	accepted	Animalia					Trypanosoma
 tbr		Trypanosoma brucei ss. gambiense	C			w						TRP				20027006	Trypanosoma brucei gambiense									
 trh		Trypanosoma brucei ss. rhodesiense	C			w						TRP				79513002	Trypanosoma brucei rhodesiense									
@@ -2832,10 +2832,10 @@ tye		Trypanosoma evansi	C			w						TRP				2377007	Trypanosoma evansi				Animalia
 tra		Trypanosoma rangeli	C			w						TRP				72637009	Trypanosoma rangeli	9752400	95c28982-234e-4798-9f52-fef486feb476	accepted	Protozoa	Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma
 trp		Trypanosoma sp.	C			w						TRP				372366001	Trypanosoma species	3208283	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Protozoa	Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma
 trv		Trypanosoma vivax	C			w						TRP				48117007	Trypanosoma vivax				Animalia					Trypanosoma
-tpm		Tsukamurella paurometabola	C			+			+			TSK				113510005	Tsukamurella paurometabola	8048386	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Tsukamurellaceae	Tsukamurella
-tsk		Tsukamurella sp.	C			+			+			TSK			OTH	131226009	Tsukamurella species	3224474	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Tsukamurellaceae	Tsukamurella
+tpm		Tsukamurella paurometabola	C		X	+			+			TSK				113510005	Tsukamurella paurometabola	8048386	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Tsukamurellaceae	Tsukamurella
+tsk		Tsukamurella sp.	C		X	+			+			TSK			OTH	131226009	Tsukamurella species	3224474	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Tsukamurellaceae	Tsukamurella
 tot		Turicella otitidis	C			+			+			TUR	COF		OTH	415763004	Turicella otitidis	3223542	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Turicella
-tur		Turicella sp.	C			+			+			TUR	COF		OTH	415762009	Turicella	3223541	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Turicella
+tur		Turicella sp.	C		X	+			+			TUR	COF		OTH	415762009	Turicella	3223541	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Corynebacteriaceae	Turicella
 ulo		Ulocladium sp.	C			f						ULO				65789000	Ulocladium	2616487	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Ulocladium
 unk		Unknown	C			o							XXX			89088004	Unknown living organism									
 ure		Ureaplasma sp.	C			b			+			URE			OTH	131371004	Ureaplasma species	3226071	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Tenericutes		Mycoplasmatales	Mycoplasmataceae	Ureaplasma
@@ -2874,7 +2874,7 @@ lpe		Vibrio pelagius	C			-			-			VI-			AVPV			5427679	7ddf754f-d193-4cc9-b351-99
 vi-		Vibrio sp.	C			-			-			VI-			AVPV	131373001	Vibrio species	6005951	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio
 moi		Vibrio viscosis	O			-			-			MOI			OTH	426527007	Moritella	3222656	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Moritellaceae	Moritella
 vvu		Vibrio vulnificus	C			-			-			VI-			AVPV	55905000	Vibrio vulnificus	3222430	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio
-bpn		Virgibacillus pantothenticus	C			+			+			VIR			OTH			8934918	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Virgibacillus
+bpn		Virgibacillus pantothenticus	C		X	+			+			VIR			OTH			8934918	52a423d2-0486-4e77-bcee-6350d708d6ff	accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Virgibacillus
 psi		Vogesella indigofera	C			-			-			VGS				113695005	Vogesella indigofera	3220207	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Vogesella
 vsg		Vogesella sp.	C			-			-			VGS				115156008	Vogesella	3220206	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Vogesella
 wal		Wallemia sp.	C			f						WAL				424382001	Wallemia	2512785	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Basidiomycota	Wallemiomycetes	Wallemiales	Wallemiaceae	Wallemia
@@ -2944,14 +2944,14 @@ vgs		Vagococcus salmoninarum	C			+			+			VGC				116419002	Vagococcus salmoninaru
 enu		Enterococcus thailandicus	C			+			+			ENT				449322006	Enterococcus thailandicus	7368198		accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus
 tyi		Trichophyton indotineae	C			f						TRY						12244851	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
 ask		Arcobacter skirrowii	C			-			-			ARC			OTH	14210002	Arcobacter skirrowii	3223375	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter
-aes		Aerococcus sanguinicola	C			+			+			AEC				427222006	Aerococcus sanguinicola	7664344	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
+aes		Aerococcus sanguinicola	C		X	+			+			AEC				427222006	Aerococcus sanguinicola	7664344	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus
 pso		Pseudomonas plecoglossicida	C			-			-		NFR	PS-				428109007	Pseudomonas plecoglossicida	3223132		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
 ebg		Enterobacter bugandensis	C			-			-	EBC		EN-				113611000146106	Enterobacter bugandensis	8768455		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Enterobacter
 sbs		Staphylococcus borealis	C			+			+			STA	SC+		OTH	159481000146105	Staphylococcus borealis	11888108		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus
 pcl		Pseudomonas citronellolis	C			-			-		NFR	PS-				31277003	Pseudomonas citronellolis	9094808		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
 enn		Enterobacter roggenkampii	C			-			-	EBC		EN-				1285009006	Enterobacter roggenkampii	10853238		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Enterobacter
 pnr		Pseudomonas nitroreducens	C			-			-		NFR	PS-				19428001	Pseudomonas nitroreducens	8954237		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas
-sbi		Solibacillus silvestris	C			+			+			SBC				429471007	Solibacillus silvestris	8280514		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
-sbc		Solibacillus sp.	C			+			+			SBC				699375003	Solibacillus	7455476		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
+sbi		Solibacillus silvestris	C		X	+			+			SBC				429471007	Solibacillus silvestris	8280514		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
+sbc		Solibacillus sp.	C		X	+			+			SBC				699375003	Solibacillus	7455476		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
 lrf		Lactococcus raffinolactis	C			+			+			LAT				113805003	Lactococcus raffinolactis	3227144	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus
 rok		Rothia kristinae	C			+			+			ROT	COF			113772007	Rothia kristinae	10748563	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
