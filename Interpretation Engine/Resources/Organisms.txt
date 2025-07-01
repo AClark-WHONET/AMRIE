@@ -2954,3 +2954,4 @@ pnr		Pseudomonas nitroreducens	C		-			-		NFR	PS-				19428001	Pseudomonas nitrore
 sbi		Solibacillus silvestris	C		+			+			SBC				429471007	Solibacillus silvestris	8280514		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
 sbc		Solibacillus sp.	C		+			+			SBC				699375003	Solibacillus	7455476		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
 lrf		Lactococcus raffinolactis	C		+			+			LAT				113805003	Lactococcus raffinolactis	3227144	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus
+rok		Rothia kristinae	C		+			+			ROT	COF			113772007	Rothia kristinae	10748563	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
