@@ -55,7 +55,7 @@ namespace AMR_Engine
 		/// <param name="ORDER_"></param>
 		/// <param name="FAMILY_"></param>
 		/// <param name="GENUS_"></param>
-		private Organism(string WHONET_ORG_CODE_, string ORGANISM_, string TAXONOMIC_STATUS_, bool COMMON_,
+		private Organism(string WHONET_ORG_CODE_, string ORGANISM_, string TAXONOMIC_STATUS_, bool COMMON_, bool COMMON_COMMENSAL_,
 			string ORGANISM_TYPE_, bool ANAEROBE_, string MORPHOLOGY_, string SUBKINGDOM_CODE_, string FAMILY_CODE_,
 			string GENUS_GROUP_, string GENUS_CODE_, string SPECIES_GROUP_, string SEROVAR_GROUP_, string SCT_CODE_,
 			string SCT_TEXT_, string GBIF_TAXON_ID_, string GBIF_DATASET_ID_,
@@ -65,6 +65,7 @@ namespace AMR_Engine
 			ORGANISM = ORGANISM_;
 			TAXONOMIC_STATUS = TAXONOMIC_STATUS_;
 			COMMON = COMMON_;
+			COMMON_COMMENSAL = COMMON_COMMENSAL_;
 			ORGANISM_TYPE = ORGANISM_TYPE_;
 			ANAEROBE = ANAEROBE_;
 			MORPHOLOGY = MORPHOLOGY_;
@@ -95,6 +96,7 @@ namespace AMR_Engine
 		public readonly string ORGANISM;
 		public readonly string TAXONOMIC_STATUS;
 		public readonly bool COMMON;
+		public readonly bool COMMON_COMMENSAL;
 		public readonly string ORGANISM_TYPE;
 		public readonly bool ANAEROBE;
 		public readonly string MORPHOLOGY;
@@ -164,6 +166,7 @@ namespace AMR_Engine
 							values[headerMap[nameof(ORGANISM)]],
 							taxonomicStatus,
 							values[headerMap[nameof(COMMON)]] == "X",
+							values[headerMap[nameof(COMMON_COMMENSAL)]] == "X",
 							values[headerMap[nameof(ORGANISM_TYPE)]],
 							values[headerMap[nameof(ANAEROBE)]] == "X",
 							values[headerMap[nameof(MORPHOLOGY)]],
