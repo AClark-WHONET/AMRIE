@@ -1256,7 +1256,7 @@ hph		Haemophilus parahaemolyticus	C			-			-			HA-			HAEP	89800007	Haemophilus pa
 hpi		Haemophilus parainfluenzae	C			-			-			HA-			HAEP	51593004	Haemophilus parainfluenzae	3222205	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus
 hpl		Haemophilus paraphrohaemolyticus	C			-			-			HA-			HAEP	83899007	Haemophilus paraphrohaemolyticus	3222202	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus
 hap		Haemophilus paraphrophilus	O			-			-			AGT	HAK		OTH	46143000	Haemophilus aphrophilus	3222250	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Aggregatibacter
-hpr		Haemophilus parasuis	C			-			-			HA-			HAEP	65279003	Haemophilus parasuis	3222207	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus
+hpr		Haemophilus parasuis	O			-			-			GLS			HAEP	65279003	Haemophilus parasuis	3222207	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus
 apl		Haemophilus pleuropneumoniae	O			-			-			ACB			OTH	116382001	Actinobacillus pleuropneumoniae	3222283	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Actinobacillus
 hse		Haemophilus segnis	O			-			-			AGT	HAK		OTH	6520007	Haemophilus segnis	3222253	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Aggregatibacter
 hso		Haemophilus somnus	O			-			-			HIT			OTH	433940005	Histophilus somni	3222243	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Histophilus
@@ -2955,3 +2955,5 @@ sbi		Solibacillus silvestris	C		X	+			+			SBC				429471007	Solibacillus silvestr
 sbc		Solibacillus sp.	C		X	+			+			SBC				699375003	Solibacillus	7455476		accepted	Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Solibacillus
 lrf		Lactococcus raffinolactis	C			+			+			LAT				113805003	Lactococcus raffinolactis	3227144	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus
 rok		Rothia kristinae	C			+			+			ROT	COF			113772007	Rothia kristinae	10748563	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
+hpr		Glaesserella parasuis	C			-			-			GLS			HAEP	65279003	Glaesserella parasuis	10859958		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Glaesserella
+gls		Glaesserella sp.	C			-			-			GLS				870456008	Glaesserella	10751469		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Glaesserella
