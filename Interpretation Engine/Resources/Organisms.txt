@@ -2957,3 +2957,5 @@ lrf		Lactococcus raffinolactis	C			+			+			LAT				113805003	Lactococcus raffinol
 rok		Rothia kristinae	C			+			+			ROT	COF			113772007	Rothia kristinae	10748563	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Actinobacteria		Actinomycetales	Micrococcaceae	Rothia
 hpr		Glaesserella parasuis	C			-			-			GLS			HAEP	65279003	Glaesserella parasuis	10859958		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Glaesserella
 gls		Glaesserella sp.	C			-			-			GLS				870456008	Glaesserella	10751469		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Glaesserella
+psb		Pseudoclavibacter sp.	C			+			+			PSB				440171004	Pseudoclavibacter	3225341		accepted	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Pseudoclavibacter
+pba		Pseudoclavibacter alba	C			+			+			PSB				1761000181106	Pseudoclavibacter alba	10790581		accepted	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Pseudoclavibacter
