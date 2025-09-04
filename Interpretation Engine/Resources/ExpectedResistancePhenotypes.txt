@@ -847,22 +847,22 @@ EUCAST	Enterobacterales	AER	GENUS_CODE			RIF	WHONET_ABX_CODE		2021-01-01
 EUCAST	Enterobacterales	AER	GENUS_CODE			ERY	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	AER	GENUS_CODE			CLR	WHONET_ABX_CODE		2021-01-01		
 EUCAST	Enterobacterales	AER	GENUS_CODE			AZM	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			PEN	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			CEP	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			CZO	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			CXM	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			FOX	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			CTT	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			CLI	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			DAP	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			FUS	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			VAN	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			LNZ	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			ERY	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			AZM	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			CLR	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			QDA	WHONET_ABX_CODE		2021-01-01		
-EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP			RIF	WHONET_ABX_CODE		2021-01-01		
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	PEN	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	CEP	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	CZO	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	CXM	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	FOX	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	CTT	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	CLI	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	DAP	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	FUS	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	VAN	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	LNZ	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	ERY	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	AZM	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	CLR	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	QDA	WHONET_ABX_CODE		2021-01-01	2025-09-04	
+EUCAST	Non-fermentative gram-negative bacteria	NFR	GENUS_GROUP	MO-	GENUS_CODE	RIF	WHONET_ABX_CODE		2021-01-01	2025-09-04	
 EUCAST	Other gram-negatives	hin	WHONET_ORG_CODE			J01XA	ATC_CODE		2021-01-01		
 EUCAST	Other gram-negatives	hin	WHONET_ORG_CODE			J01FF	ATC_CODE		2021-01-01		
 EUCAST	Other gram-negatives	hin	WHONET_ORG_CODE			LNZ	WHONET_ABX_CODE		2021-01-01		
