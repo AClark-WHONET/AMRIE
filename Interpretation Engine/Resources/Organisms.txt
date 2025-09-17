@@ -2959,3 +2959,19 @@ hpr		Glaesserella parasuis	C			-			-			GLS			HAEP	65279003	Glaesserella parasuis
 gls		Glaesserella sp.	C			-			-			GLS				870456008	Glaesserella	10751469		accepted	Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Glaesserella
 psb		Pseudoclavibacter sp.	C			+			+			PSB				440171004	Pseudoclavibacter	3225341		accepted	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Pseudoclavibacter
 pba		Pseudoclavibacter alba	C			+			+			PSB				1761000181106	Pseudoclavibacter alba	10790581		accepted	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Pseudoclavibacter
+svs		Sapovirus	C			v										407362002	Sapovirus	10069478		accepted	Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Caliciviridae	Sapovirus
+mpx		Mpox	C			v										59774002	Monkeypox virus	10339743		accepted	Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Orthopoxvirus
+mpx		Monkeypox	O			v										59774002	Monkeypox virus	10339743		accepted	Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Orthopoxvirus
+tym		Tropheryma sp.	C			b						TYM				417733009	Tropheryma	3224297		accepted	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Tropheryma
+tyw		Tropheryma whipplei	C			b						TYM				417060007	Tropheryma whipplei	3224298		accepted	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Tropheryma
+urp		Ureaplasma parvum	C			b			+			URE				438391000	Ureaplasma parvum	8175266		accepted	Bacteria	Tenericutes		Mycoplasmatales	Mycoplasmataceae	Ureaplasma
+fuo		Fusarium oxysporum	C			f						FUS				38836002	Fusarium oxysporum	5251961		accepted	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium
+agy		Nannizzia gypsea	O			f						ARD				27771001	Arthroderma gypseum	2596086	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Arthroderma
+pi1		Parainfluenza virus 1	C			v										407498006	Human parainfluenza viruses									
+pi2		Parainfluenza virus 2	C			v										407498006	Human parainfluenza viruses									
+pi3		Parainfluenza virus 3	C			v										407498006	Human parainfluenza viruses									
+pi4		Parainfluenza virus 4	C			v										407498006	Human parainfluenza viruses									
+scv		Scopulariopsis brevicaulis	C			f						SCO				3245004	Scopulariopsis brevicaulis	8456432		accepted	Fungi	Ascomycota	Sordariomycetes	Microascales	Microascaceae	Scopulariopsis
+tme		Trichophyton interdigitale	O			f						TRY				55766005	Trichophyton mentagrophytes	2596108	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
+tbh		Trichophyton benhamiae	C			f						TRY				84827008	Trichophyton benhamiae	10775388		accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
+mnt		Mycobacterium sp., nontuberculous mycobacteria	C			m			+			MYC									Bacteria	Actinobacteria		Actinomycetales	Mycobacteriaceae	Mycobacterium
