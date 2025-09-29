@@ -24,6 +24,12 @@
     <Content Include="Resources\Antibiotics.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\Comments.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AntibioticsForOrganisms.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\SampleUserDefinedBreakpoints.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
