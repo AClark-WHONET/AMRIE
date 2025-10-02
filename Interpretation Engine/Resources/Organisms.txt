@@ -2975,3 +2975,4 @@ scv		Scopulariopsis brevicaulis	C			f						SCO				3245004	Scopulariopsis brevica
 tme		Trichophyton interdigitale	O			f						TRY				55766005	Trichophyton mentagrophytes	2596108	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
 tbh		Trichophyton benhamiae	C			f						TRY				84827008	Trichophyton benhamiae	10775388		accepted	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton
 mnt		Mycobacterium sp., nontuberculous mycobacteria	C			m			+			MYC									Bacteria	Actinobacteria		Actinomycetales	Mycobacteriaceae	Mycobacterium
+rai		Ralstonia insidiosa	C			-			-		NFR	RAL				415235000	Ralstonia insidiosa	9046380		accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia
