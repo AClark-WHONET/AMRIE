@@ -6,24 +6,14 @@ on:
     types: [released]
 
 jobs:
-  winget:
+  komac:
     name: Publish winget package
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: Submit package to Windows Package Manager Community Repository
-        run: |
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-          $wingetPackage = "WHONET.AMRIE"
-          $gitToken = "${{ secrets.WINGET_TOKEN }}"
-
-          $github = Invoke-RestMethod -uri "https://api.github.com/repos/AClark-WHONET/AMRIE/releases" 
-
-          $targetRelease = $github | Select -First 1
-          $installerUrl = $targetRelease | Select -ExpandProperty assets -First 1 | Select -ExpandProperty browser_download_url
-
-          $ver = $targetRelease.tag_name
-          $ver = $ver.Trim("v")
-
-          # getting latest wingetcreate file
-          iwr https://aka.ms/wingetcreate/latest -OutFile wingetcreate.exe
-          .\wingetcreate.exe update $wingetPackage -s -v $ver -u "$installerUrl|neutral" -t $gitToken
+      - name: Run Komac
+        uses: michidk/run-komac@v2
+        with:
+          args: update WHONET.AMRIE --submit --token ${{ secrets.WINGET_TOKEN }}
