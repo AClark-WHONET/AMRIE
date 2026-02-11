@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>AMR_Engine</RootNamespace>
-    <Version>$(VersionPrefix)25.4.3</Version>
+    <Version>$(VersionPrefix)26.2.11</Version>
   </PropertyGroup>
 
   <ItemGroup>
