@@ -517,7 +517,7 @@ AKF						Amikacin/Fosfomycin	CLSI	X								522			Combinations		OTHER			28							
 CDZ						Cadazolid	CLSI	X								523			Quinolonyl oxazolidinones		OTHER			28														2021-01-01		
 FPT						Cefepime/Tazobactam	CLSI	X								524			Beta-lactam+Inhibitors		BL+INH			03c														2021-01-01		
 DFX						Delafloxacin	CLSI	X								525	5µg	J01MA23	Quinolones	Quinolone	QUIN	Watch		11a														2021-01-01		
-GEP						Gepotidacin	CLSI	X								526	10µg		Triazaacenaphylenes		OTHER			28														2021-01-01		
+GEP						Gepotidacin	CLSI,EUCAST	X	X							526	10µg		Triazaacenaphylenes		OTHER			28														2021-01-01		
 IMR						Imipenem/Relebactam	CLSI,EUCAST	X	X							527	10/25µg	J01DH56	Beta-lactam+Inhibitors		BL+INH			03c		X												2021-01-01		
 LMU						Lefamulin	CLSI	X								528	20µg	J01XX12	Pleuromutilins		OTHER	Reserve		28														2021-01-01		
 LND						Levonadifloxacin	CLSI	X								529	10µg	J01MA24	Quinolones	Benzoquinolizine	BQ	Watch		11c														2021-01-01		
