@@ -23125,3 +23125,9 @@ EUCAST	2026	nctc13353	Table 11	eco	Cefepime/Enmetazobactam	FPE_EM	FPE	MIC	MH	0.0
 EUCAST	2026	nctc13353	Table 11	eco	Cefepime/Enmetazobactam	FPE_ED30	FPE	Disk	MH	27	33	2025-04-02		
 CLSI	2026	atcc25923	Table 4A-1	sau	Contezolid	CZD_ND5	CZD	Disk	MH	17	23	2026-02-20		
 CLSI	2026	nctc13304	Table 4A-1	aba	Zosurabalpin	ZAB_ND5	ZAB	Disk	MH	22	28	2026-02-20		
+CLSI	2026	atcc27853	Table 4A-2	pae	Aztreonam/Nacubactam	ANC_ND10	ANC	Disk		17	23	2026-02-20		
+CLSI	2026	atcc27853	Table 4A-2	pae	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		21	29	2026-02-20		
+CLSI	2026	atcc700603	Table 4A-2	kpn	Aztreonam/Nacubactam	ANC_ND10	ANC	Disk		20	26	2026-02-20		
+CLSI	2026	atcc700603	Table 4A-2	kpn	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		24	29	2026-02-20		
+CLSI	2026	atccBAA2814	Table 4A-2	kpn	Aztreonam/Nacubactam	ANC_ND10	ANC	Disk		18	26	2026-02-20		
+CLSI	2026	atccBAA2814	Table 4A-2	kpn	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		20	27	2026-02-20		
