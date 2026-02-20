@@ -23123,3 +23123,5 @@ EUCAST	2026	atcc700603	Table 9	kpn	Aztreonam/Avibactam	AZA_EM	AZA	MIC	MH	0.06	0.
 EUCAST	2026	atcc700603	Table 9	kpn	Aztreonam/Avibactam	AZA_ED30	AZA	Disk	MH	26	32	2024-10-03		
 EUCAST	2026	nctc13353	Table 11	eco	Cefepime/Enmetazobactam	FPE_EM	FPE	MIC	MH	0.03	0.125	2025-04-02		
 EUCAST	2026	nctc13353	Table 11	eco	Cefepime/Enmetazobactam	FPE_ED30	FPE	Disk	MH	27	33	2025-04-02		
+CLSI	2026	atcc25923	Table 4A-1	sau	Contezolid	CZD_ND5	CZD	Disk	MH	17	23	2026-02-20		
+CLSI	2026	nctc13304	Table 4A-1	aba	Zosurabalpin	ZAB_ND5	ZAB	Disk	MH	22	28	2026-02-20		

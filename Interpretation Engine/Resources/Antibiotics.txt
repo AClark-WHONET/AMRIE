@@ -61,7 +61,7 @@ CIN	CIN	CIN	CINX			Cinoxacin	SRGA,NEO				X			X		191	30µg	J01MB06	Quinolones	Qui
 CIN	CIN	CIN	CINX			Cinoxacin	CLSI	X								25	100µg	J01MB06	Quinolones	Quinolone	QUIN	Watch		11a		X			Cinoxacin	18905-0	182-6	181-8				183-4	180-0	2021-01-01		
 CIP		CIP	CPFX			Ciprofloxacin	AFA,SRGA,NEO				X			X	X	192	10µg	J01MA02	Quinolones	Fluoroquinolone	FQ	Watch		11b		X			Ciprofloxa	18906-8	186-7	185-9	7002-9	20377-8	23621-6	187-5	184-2	2021-01-01		
 ARB		ARB	ABK			Arbekacin										212		J01GB12	Aminoglycosides		AG	Watch		09					Arbekacin	32373-3								2021-01-01		
-CZD	CZD	CZD				Cefazedone										222		J01DB06	Cephems		CEPH1	Access		04a														2021-01-01		
+CZE	CZD	CZD				Cefazedone										222		J01DB06	Cephems		CEPH1	Access		04a														2021-01-01		
 CIP		CIP	CPFX			Ciprofloxacin	NEO							X		346	.5µg	J01MA02	Quinolones	Fluoroquinolone	FQ	Watch		11b		X			Ciprofloxa	18906-8	186-7	185-9	7002-9	20377-8	23621-6	187-5	184-2	2021-01-01		
 CIP		CIP	CPFX			Ciprofloxacin	BSAC					X				314	1µg	J01MA02	Quinolones	Fluoroquinolone	FQ	Watch		11b		X			Ciprofloxa	18906-8	186-7	185-9	7002-9	20377-8	23621-6	187-5	184-2	2021-01-01		
 CIP		CIP	CPFX			Ciprofloxacin	CLSI,EUCAST	X	X	X		X	X			26	5µg	J01MA02	Quinolones	Fluoroquinolone	FQ	Watch		11b		X			Ciprofloxa	18906-8	186-7	185-9	7002-9	20377-8	23621-6	187-5	184-2	2021-01-01		
@@ -562,3 +562,5 @@ FTB						Cefepime/Taniborbactam	CLSI	X									30/20µg																					2024
 BPR						Ceftobiprole	CLSI	X								474	30µg	J01DI01	Cephems	Cephalosporin	CEPH			04e		X												2024-08-28		
 DUR						Durlobactam	CLSI	X																		X												2024-08-28		
 CBX						Ceftibuten/Xeruborbactam	CLSI	X																		X												2025-03-28		
+CZD						Contezolid	CLSI	X									5µg																							
+ZAB						Zosurabalpin	CLSI	X									5µg																							
