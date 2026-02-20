@@ -21691,7 +21691,7 @@ CLSI	2026	atcc29213	Table 5A-1	sau	Sulfisoxazole	SOX_NM	SOX	MIC	MH	32	128	2021-0
 CLSI	2026	atcc25922	Table 4A-1	eco	Spectinomycin	SPT_ND100	SPT	Disk	MH	21	25	2021-01-01	2021-01-01	
 CLSI	2026	atcc25922	Vet	eco	Spectinomycin	SPT_NM	SPT	MIC	MH	8	64	2021-01-01	2021-01-01	
 CLSI	2026	atcc29212	Vet	efa	Spectinomycin	SPT_NM	SPT	MIC	MH	64	256	2021-01-01	2021-01-01	
-CLSI	2026	atcc49226	Table 4B	ngo	Spectinomycin	SPT_ND100	SPT	Disk	GC	23	29	2021-01-01	2021-01-01	
+CLSI	2026	atcc49226	Table 4B	ngo	Spectinomycin	SPT_ND100	SPT	Disk	GC	24	30	2021-01-01	2026-02-20	
 CLSI	2026	atcc49226	Table 5C	ngo	Spectinomycin	SPT_NM	SPT	MIC	GC	8	32	2021-01-01	2021-01-01	
 CLSI	2026	atcc27853	Table 4A-1	pae	Spectinomycin	SPT_ND100	SPT	Disk	MH	10	14	2021-01-01	2021-01-01	
 CLSI	2026	atcc27853	Vet	pae	Spectinomycin	SPT_NM	SPT	MIC	MH	256	5000	2021-01-01	2021-01-01	
@@ -23131,3 +23131,4 @@ CLSI	2026	atcc700603	Table 4A-2	kpn	Aztreonam/Nacubactam	ANC_ND10	ANC	Disk		20	2
 CLSI	2026	atcc700603	Table 4A-2	kpn	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		24	29	2026-02-20		
 CLSI	2026	atccBAA2814	Table 4A-2	kpn	Aztreonam/Nacubactam	ANC_ND10	ANC	Disk		18	26	2026-02-20		
 CLSI	2026	atccBAA2814	Table 4A-2	kpn	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		20	27	2026-02-20		
+CLSI	2026	atcc49619	Table 4B	spn	Contezolid	CZD_ND5	CZD	Disk	MH	17	23	2026-02-20		
