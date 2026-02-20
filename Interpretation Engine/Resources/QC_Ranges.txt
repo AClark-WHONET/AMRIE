@@ -23132,3 +23132,5 @@ CLSI	2026	atcc700603	Table 4A-2	kpn	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		24	29
 CLSI	2026	atccBAA2814	Table 4A-2	kpn	Aztreonam/Nacubactam	ANC_ND10	ANC	Disk		18	26	2026-02-20		
 CLSI	2026	atccBAA2814	Table 4A-2	kpn	Cefepime/Nacubactam	FNC_ND10	FNC	Disk		20	27	2026-02-20		
 CLSI	2026	atcc49619	Table 4B	spn	Contezolid	CZD_ND5	CZD	Disk	MH	17	23	2026-02-20		
+CLSI	2026	atcc29213	Table 5A-1	sau	Contezolid	CZD_NM	CZD	MIC	MH	1	4	2026-02-20		
+CLSI	2026	atcc29212	Table 5A-1	efa	Contezolid	CZD_NM	CZD	MIC	MH	0.5	4	2026-02-20		
