@@ -23053,7 +23053,7 @@ EUCAST	2026	atcc22019	Fungus	cpa	Posaconazole	POS_EM	POS	MIC		0.015	0.064	2025-0
 EUCAST	2026	atcc22019	Fungus	cpa	Rezafungin	RZF_EM	RZF	MIC		0.12	1	2025-04-02		
 EUCAST	2026	atcc22019	Fungus	cpa	Voriconazole	VOR_EM	VOR	MIC		0.015	0.064	2025-04-02		
 EUCAST	2026	cnmclf8555	Fungus	cal	Amphotericin B	AMB_EM	AMB	MIC		0.06	0.5	2025-04-02		
-EUCAST	2026	cnmclf8555	Fungus	cal	Fluconazole	FLU_EM	FLU	MIC		32	128	2025-04-02		
+EUCAST	2026	cnmclf8555	Fungus	cal	Fluconazole	FLU_EM	FLU	MIC		16	64	2025-04-02	2026-02-25	
 EUCAST	2026	cnmclf8555	Fungus	cal	5-Fluorocytosine	FCT_EM	FCT	MIC		0.06	0.25	2025-04-02		
 EUCAST	2026	cnmclf8555	Fungus	cal	Itraconazole	ITR_EM	ITR	MIC		0.25	1	2025-04-02		
 EUCAST	2026	cnmclf8555	Fungus	cal	Posaconazole	POS_EM	POS	MIC		0.12	0.5	2025-04-02		
