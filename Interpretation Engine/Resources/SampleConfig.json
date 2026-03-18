@@ -10,7 +10,7 @@
 		"ESBL-CONFIRMED",
 		"ESBL-AMPC-PROBABLE"
 	],
-	"GuidelineYear": 2025,
+	"GuidelineYear": 2026,
 	"PrioritizedBreakpointTypes": [ "Human", "Animal", "ECOFF" ],
 	"PrioritizedSitesOfInfection": [],
 	"DisabledSitesOfInfection": [],
