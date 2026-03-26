@@ -7,7 +7,7 @@ on:
 jobs:
   komac:
     name: Publish winget package
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
