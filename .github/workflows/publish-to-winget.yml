@@ -1,19 +1,23 @@
 name: Submit WHONET.AMRIE package to Windows Package Manager Community Repository
 
 on:
-  workflow_dispatch:
   release:
     types: [released]
 
 jobs:
   komac:
     name: Publish winget package
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Run Komac
         uses: michidk/run-komac@v2
         with:
-          args: update WHONET.AMRIE --submit --token ${{ secrets.WINGET_TOKEN }}
+          args: >
+            update WHONET.AMRIE 
+            --version ${{ github.event.release.tag_name }} 
+            --urls "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/AMR_Interpretation_Engine_${{ github.event.release.tag_name }}.msi" 
+            --submit 
+            --token ${{ secrets.WINGET_TOKEN }}
