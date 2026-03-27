@@ -10,14 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
+
+      - name: Extract version without 'v'
+        id: format_version
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          # ${TAG#v} strips the 'v' from the beginning of the string
+          echo "CLEAN_VERSION=${TAG#v}" >> $GITHUB_OUTPUT
 
       - name: Run Komac
         uses: michidk/run-komac@v2
         with:
           args: >
             update WHONET.AMRIE 
-            --version ${{ github.event.release.tag_name }} 
+            --version ${{ steps.format_version.outputs.CLEAN_VERSION }} 
             --urls "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/AMR_Interpretation_Engine_${{ github.event.release.tag_name }}.msi" 
             --submit 
             --token ${{ secrets.WINGET_TOKEN }}
