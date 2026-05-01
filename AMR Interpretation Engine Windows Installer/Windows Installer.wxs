@@ -36,14 +36,6 @@
 		<WixVariable Id="WixUIDialogBmp" Value="Dialog.bmp" />
 		<WixVariable Id="WixUIBannerBmp" Value="Banner.bmp" />
 
-		<?if $(var.Platform) = x64 ?>
-		<?define Win64 = "yes" ?>
-		<?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
-		<?else?>
-		<?define Win64 = "no" ?>
-		<?define PlatformProgramFilesFolder = "ProgramFilesFolder" ?>
-		<?endif?>
-
 		<!-- Configure installation features. -->
 		<Feature Id="AMR_Engine" Title="!(loc.ApplicationTitle)" Level="1" Display="collapse" ConfigurableDirectory="INSTALLFOLDER"
 				 Description="!(loc.AMR_EngineFeatureDescription)" AllowAbsent="no">
@@ -57,7 +49,7 @@
 
 	<!-- Define AMR Engine components. -->
 	<Fragment>
-			<StandardDirectory Id="ProgramFilesFolder">
+			<StandardDirectory Id="ProgramFiles6432Folder">
 				<Directory Id="INSTALLFOLDER" Name="$(var.Title)">
 					<!-- Language folders are disabled until we have support for them. -->
 					<!-- 
