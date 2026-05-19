@@ -15757,8 +15757,8 @@ EUCAST	2019	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	132	QDA	QDA_ED15
 EUCAST	2019	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	17	-		18			2021-01-01		
 EUCAST	2019	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	18	-		19			2021-01-01		
 EUCAST	2019	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15			2021-01-01		
-EUCAST	2019	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2021-01-01		
-EUCAST	2019	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2021-01-01		
+EUCAST	2019	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2021-01-01	2026-05-19	
+EUCAST	2019	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2021-01-01	2026-05-19	
 EUCAST	2019	DISK	1 unit	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	138	PEN	PEN_ED1	17	-		18			2021-01-01		
 EUCAST	2019	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_ED5	16	-		17			2021-01-01		
 EUCAST	2019	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_ED5	18	-		19			2021-01-01		
@@ -16029,8 +16029,8 @@ EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	132	QDA	QDA_EM	8			1		
 EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	0.5			0.25			2021-01-01		
 EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4			2021-01-01		
 EUCAST	2019	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64			2021-01-01		
-EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2			0.032			2021-01-01		
-EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2			0.032			2021-01-01		
+EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2021-01-01	2026-05-19	
+EUCAST	2019	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2021-01-01	2026-05-19	
 EUCAST	2019	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	138	PEN	PEN_EM	0.5			0.25			2021-01-01		
 EUCAST	2019	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_EM	4			1			2021-01-01		
 EUCAST	2019	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_EM	2			0.5			2021-01-01		
@@ -17137,8 +17137,8 @@ EUCAST	2020	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	132	QDA	QDA_ED15
 EUCAST	2020	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	17	-		18			2021-01-01		
 EUCAST	2020	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	19	-		20			2021-01-01		
 EUCAST	2020	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15			2021-01-01		
-EUCAST	2020	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2021-01-01		
-EUCAST	2020	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2021-01-01		
+EUCAST	2020	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2021-01-01	2026-05-19	
+EUCAST	2020	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2021-01-01	2026-05-19	
 EUCAST	2020	DISK	1 unit	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	138	PEN	PEN_ED1	17	-		18			2021-01-01		
 EUCAST	2020	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_ED5	16	17-49		50			2021-01-01		
 EUCAST	2020	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_ED5	18	-		19			2021-01-01		
@@ -17404,8 +17404,8 @@ EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	132	QDA	QDA_EM	8			1		
 EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	0.5			0.25			2021-01-01		
 EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4			2021-01-01		
 EUCAST	2020	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64			2021-01-01		
-EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2			0.032			2021-01-01		
-EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2			0.032			2021-01-01		
+EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2021-01-01	2026-05-19	
+EUCAST	2020	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2021-01-01	2026-05-19	
 EUCAST	2020	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	138	PEN	PEN_EM	0.5			0.25			2021-01-01		
 EUCAST	2020	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_EM	4			0.0001			2021-01-01	2023-06-27	
 EUCAST	2020	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_EM	2			0.5			2021-01-01		
@@ -23640,14 +23640,14 @@ EUCAST	2021	DISK	300µg	ENT	GENUS_CODE	Human	Human		Enterococcus		STH	STH_ED300	
 EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus		STH	STH_EM	1024			512			2021-08-11		
 EUCAST	2021	DISK	300µg	ENT	GENUS_CODE	Human	Human		Enterococcus		STR	STR_ED300	13			14			2021-08-11		
 EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus		STR	STR_EM	1024			512			2021-08-11		
-EUCAST	2021	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2021-08-11		
-EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2			0.032			2021-08-11		
+EUCAST	2021	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2021-08-11	2026-05-19	
+EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2021-08-11	2026-05-19	
 EUCAST	2021	DISK	30µg	ENT	GENUS_CODE	Human	Human		Enterococcus	130	TEC	TEC_ED30	15	-		16			2021-08-11		
 EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	130	TEC	TEC_EM	4			2			2021-08-11		
 EUCAST	2021	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	17	-		18			2021-08-11		
 EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	0.5			0.25			2021-08-11		
-EUCAST	2021	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2021-08-11		
-EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2			0.032			2021-08-11		
+EUCAST	2021	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2021-08-11	2026-05-19	
+EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2021-08-11	2026-05-19	
 EUCAST	2021	DISK	5µg	ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_ED5	11	-		12			2021-08-11		
 EUCAST	2021	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_EM	8			4			2021-08-11		
 EUCAST	2021	MIC		Gen		Human	Human		PK/PD	370	AMC	AMC_EM	16			2			2021-08-11		
@@ -27542,8 +27542,8 @@ EUCAST	2022	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	132	QDA	QDA_ED15
 EUCAST	2022	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	17	-		18					
 EUCAST	2022	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	19	-		20					
 EUCAST	2022	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15					
-EUCAST	2022	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50					
-EUCAST	2022	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50					
+EUCAST	2022	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5								2026-05-19	
+EUCAST	2022	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2								2026-05-19	
 EUCAST	2022	DISK	1 unit	STR	GENUS_CODE	Human	Human	Non-meningitis	Strep A, B, C, G	138	PEN	PEN_ED1	17	-		18					
 EUCAST	2022	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_ED5	16	17-49		50					
 EUCAST	2022	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_ED5	18	-		19					
@@ -27805,8 +27805,8 @@ EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	132	QDA	QDA_EM	8			1
 EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	0.5			0.25					
 EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4					
 EUCAST	2022	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64					
-EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2			0.032					
-EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2			0.032					
+EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM								2026-05-19	
+EUCAST	2022	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM								2026-05-19	
 EUCAST	2022	MIC		STR	GENUS_CODE	Human	Human	Non-meningitis	Strep A, B, C, G	138	PEN	PEN_EM	0.5			0.25					
 EUCAST	2022	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_EM	4			0.0001				2023-06-27	
 EUCAST	2022	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_EM	2			0.5					
@@ -29397,8 +29397,8 @@ EUCAST	2023	DISK	5µg	ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_ED5	1
 EUCAST	2023	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	17	-		18			2023-04-05		
 EUCAST	2023	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	19	-		20			2023-04-05		
 EUCAST	2023	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15			2023-04-05		
-EUCAST	2023	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2023-04-05		
-EUCAST	2023	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2023-04-05		
+EUCAST	2023	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2023-04-05	2026-05-19	
+EUCAST	2023	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2023-04-05	2026-05-19	
 EUCAST	2023	DISK	1 unit	STR	GENUS_CODE	Human	Human	Non-meningitis	Strep A, B, C, G	138	PEN	PEN_ED1	17	-		18			2023-04-05		
 EUCAST	2023	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_ED5	16	17-49		50			2023-04-05		
 EUCAST	2023	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_ED5	18	-		19			2023-04-05		
@@ -29658,8 +29658,8 @@ EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_EM	8			4		
 EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	0.5			0.25			2023-04-05		
 EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4			2023-04-05		
 EUCAST	2023	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64			2023-04-05		
-EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2			0.032			2023-04-05		
-EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2			0.032			2023-04-05		
+EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2023-04-05	2026-05-19	
+EUCAST	2023	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2023-04-05	2026-05-19	
 EUCAST	2023	MIC		STR	GENUS_CODE	Human	Human	Non-meningitis	Strep A, B, C, G	138	PEN	PEN_EM	0.5			0.25			2023-04-05		
 EUCAST	2023	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_EM	4			0.0001			2023-04-05	2023-06-27	
 EUCAST	2023	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_EM	2			0.5			2023-04-05		
@@ -33270,8 +33270,8 @@ EUCAST	2024	DISK	5µg	ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_ED5	1
 EUCAST	2024	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	17	-		18			2023-04-05		
 EUCAST	2024	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	19	-		20			2023-04-05		
 EUCAST	2024	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15			2023-04-05		
-EUCAST	2024	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2023-04-05		
-EUCAST	2024	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2023-04-05		
+EUCAST	2024	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2023-04-05	2026-05-19	
+EUCAST	2024	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2023-04-05	2026-05-19	
 EUCAST	2024	DISK	1 unit	STR	GENUS_CODE	Human	Human	Non-meningitis	Strep A, B, C, G	138	PEN	PEN_ED1	17	-		18			2023-04-05		
 EUCAST	2024	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_ED5	16	17-49		50			2023-04-05		
 EUCAST	2024	DISK	5µg	STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_ED5	18	-		19			2023-04-05		
@@ -33529,8 +33529,8 @@ EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_EM	8			4		
 EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	0.5			0.25			2023-04-05		
 EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4			2023-04-05		
 EUCAST	2024	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64			2023-04-05		
-EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2	0.06-1		0.032			2023-04-05	2024-05-22	
-EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2	0.06-1		0.032			2023-04-05	2024-05-22	
+EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2023-04-05	2026-05-19	
+EUCAST	2024	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2023-04-05	2026-05-19	
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human	Non-meningitis	Strep A, B, C, G	138	PEN	PEN_EM	0.5			0.25			2023-04-05		
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	139	LVX	LVX_EM	4	<=2		0.0001			2023-04-05	2024-05-22	
 EUCAST	2024	MIC		STR	GENUS_CODE	Human	Human		Strep A, B, C, G	140	MFX	MFX_EM	2	1		0.5			2023-04-05	2024-05-22	
@@ -38294,8 +38294,8 @@ EUCAST	2025	DISK	5µg	ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_ED5	1
 EUCAST	2025	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	19	-		20			2023-04-05	2025-03-31	
 EUCAST	2025	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	19	-		20			2023-04-05		
 EUCAST	2025	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15			2023-04-05		
-EUCAST	2025	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2023-04-05		
-EUCAST	2025	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2023-04-05		
+EUCAST	2025	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2023-04-05	2026-05-19	
+EUCAST	2025	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2023-04-05	2026-05-19	
 EUCAST	2025	DISK	1 unit	spy	WHONET_ORG_CODE	Human	Human		Strep A, B, C, G	138	PEN	PEN_ED1	22	-		23			2026-03-12		
 EUCAST	2025	DISK	30µg	spn	WHONET_ORG_CODE	Human	Human		S. pneumoniae	165	CEC	CEC_ED30	27	28-49		50			2023-04-05		
 EUCAST	2025	DISK	5µg	spn	WHONET_ORG_CODE	Human	Human		S. pneumoniae	178	CIP	CIP_ED5							2023-04-05		
@@ -38534,8 +38534,8 @@ EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_EM	8			4		
 EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	1			0.5			2023-04-05	2025-03-31	
 EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4			2023-04-05		
 EUCAST	2025	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64			2023-04-05		
-EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2	0.06-1		0.032			2023-04-05	2024-05-22	
-EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2	0.06-1		0.032			2023-04-05	2024-05-22	
+EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2023-04-05	2026-05-19	
+EUCAST	2025	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2023-04-05	2026-05-19	
 EUCAST	2025	MIC		spy	WHONET_ORG_CODE	Human	Human		Strep A, B, C, G	138	PEN	PEN_EM	0.06			0.032			2026-03-12		
 EUCAST	2025	MIC		spn	WHONET_ORG_CODE	Human	Human	Meningitis, Endocarditis	S. pneumoniae	161	PEN	PEN_EM	0.12			0.064			2023-04-05		
 EUCAST	2025	MIC		spn	WHONET_ORG_CODE	Human	Human	Non-meningitis, Non-endocarditis	S. pneumoniae	162	PEN	PEN_EM	2	0.12-1		0.064			2023-04-05	2025-03-31	
@@ -44682,8 +44682,8 @@ EUCAST	2026	DISK	5µg	ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_ED5	1
 EUCAST	2026	DISK	15µg	ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_ED15	19	-		20			2023-04-05	2025-03-31	
 EUCAST	2026	DISK	10µg	ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_ED10	19	-		20			2023-04-05		
 EUCAST	2026	DISK	100µg	efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_ED100	14	-		15			2023-04-05		
-EUCAST	2026	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5	20	21-49		50			2023-04-05		
-EUCAST	2026	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2	20	21-49		50			2023-04-05		
+EUCAST	2026	DISK	5µg	ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_ED5							2023-04-05	2026-05-19	
+EUCAST	2026	DISK	1.25/23.75µg	ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_ED1_2							2023-04-05	2026-05-19	
 EUCAST	2026	DISK	30µg	spn	WHONET_ORG_CODE	Human	Human		S. pneumoniae	165	CEC	CEC_ED30	27	28-49		50			2023-04-05		
 EUCAST	2026	DISK	5µg	spn	WHONET_ORG_CODE	Human	Human		S. pneumoniae	178	CIP	CIP_ED5							2023-04-05		
 EUCAST	2026	DISK	5µg	spn	WHONET_ORG_CODE	Human	Human		S. pneumoniae	179	LVX	LVX_ED5	15	16-49		50			2023-04-05		
@@ -44920,8 +44920,8 @@ EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	131	VAN	VAN_EM	8			4		
 EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	133	TGC	TGC_EM	1			0.5			2023-04-05	2025-03-31	
 EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	134	LNZ	LNZ_EM	8			4			2023-04-05		
 EUCAST	2026	MIC		efa	WHONET_ORG_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	135	NIT	NIT_EM	128			64			2023-04-05		
-EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM	2	0.06-1		0.032			2023-04-05	2024-05-22	
-EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM	2	0.06-1		0.032			2023-04-05	2024-05-22	
+EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human	Uncomplicated urinary tract infection	Enterococcus	136	TMP	TMP_EM							2023-04-05	2026-05-19	
+EUCAST	2026	MIC		ENT	GENUS_CODE	Human	Human		Enterococcus	137	SXT	SXT_EM							2023-04-05	2026-05-19	
 EUCAST	2026	MIC		spn	WHONET_ORG_CODE	Human	Human	Meningitis, Endocarditis	S. pneumoniae	161	PEN	PEN_EM	0.12			0.064			2023-04-05		
 EUCAST	2026	MIC		spn	WHONET_ORG_CODE	Human	Human	Non-meningitis, Non-endocarditis	S. pneumoniae	162	PEN	PEN_EM	2	0.12-1		0.064			2023-04-05	2025-03-31	
 EUCAST	2026	MIC		spn	WHONET_ORG_CODE	Human	Human	Non-meningitis, Non-endocarditis	S. pneumoniae	163	AMP	AMP_EM	2	1		0.5			2023-04-05	2024-05-22	
