@@ -2977,3 +2977,5 @@ tbh		Trichophyton benhamiae	C			f						TRY				84827008	Trichophyton benhamiae	10
 mnt		Mycobacterium sp., nontuberculous mycobacteria	C			m			+			MYC									Bacteria	Actinobacteria		Actinomycetales	Mycobacteriaceae	Mycobacterium
 rai		Ralstonia insidiosa	C			-			-		NFR	RAL				415235000	Ralstonia insidiosa	9046380		accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia
 axy		Achromobacter xylosoxidans	O			-			-		NFR	ACH			OTH	413415000	Achromobacter xylosoxidans xylosoxidans	3219795	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter
+czy		Candidozyma sp.	C			f						CZY				1343619000	Candidozyma				Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Metschnikowiaceae	Candidozyma
+crs		Candidozyma auris	O			f						CZY			CAND	3491000146109	Candidozyma auris	3479791	61a5f178-b5fb-4484-b6d8-9b129739e59d	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Metschnikowiaceae	Candidozyma
