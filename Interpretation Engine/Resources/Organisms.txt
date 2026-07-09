@@ -552,7 +552,7 @@ bur		Campylobacter ureolyticus	C			a	X		-			CAM			OTH			7788140	7ddf754f-d193-4c
 cfn		Candida africana	C			f						CAN	CAX		CAND	735368005		3479754	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Candida
 cal		Candida albicans	C	X		f						CAN	CAX		CAND	53326005	Candida albicans	2599597	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Candida
 cax		Candida albicans complex	C			f						CAN	CAX		CAND	53326005	Candida albicans									
-crs		Candida auris	C			f						CAN			CAND	3491000000000	Candida auris	3479791	61a5f178-b5fb-4484-b6d8-9b129739e59d	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Candida
+crs		Candida auris	C	X		f						CAN			CAND	3491000000000	Candida auris	3479791	61a5f178-b5fb-4484-b6d8-9b129739e59d	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Candida
 kii		Candida blankii	C			f						CAN			CAND	721951004	Candida blankii	3479851	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Candida
 cui		Candida bracarensis	C			f						CAN	CGX		CAND	3521000000000	Candida bracarensis	3479871	7ddf754f-d193-4cc9-b351-99906754a03b	accepted	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Debaryomycetaceae	Candida
 yzh		Candida carpophila	O			f						MEY	MGX			3541000000000	Candida carpophila									
